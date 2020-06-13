@@ -45,4 +45,415 @@
 <p>代码</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    double a,b,c,d;</span><br><span class="line">    double x1,x2,x0,fx1,fx2,fx0,x,y;</span><br><span class="line"></span><br><span class="line">    scanf(<span class="string">"%lf %lf %lf %lf"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    scanf(<span class="string">"%lf %lf"</span>,&amp;x1, &amp;x2);</span><br><span class="line">    fx1=(( a * x1 + b) * x1 + c) * x1 + d;</span><br><span class="line">    fx2=(( a * x2 + b) * x2 + c) * x2 + d;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        x0 = ( x1 + x2 ) / 2;</span><br><span class="line">        fx0 = (( a * x0 + b) * x0 + c) * x0 + d;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>( (fx0 * fx1) &lt; 0 )</span><br><span class="line">        &#123;</span><br><span class="line">            x2 = x0;</span><br><span class="line">            fx2 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            x1 = x0;</span><br><span class="line">            fx1 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>( fabs( fx0 ) &gt;= 1e-7 );  //求根精度</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"%lf"</span>, x0 );</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
+  <entry>
+    <title>城市路</title>
+    <url>/2020/06/14/%E5%9F%8E%E5%B8%82%E8%B7%AF/</url>
+    <content><![CDATA[<p>描述<br>罗老师被邀请参加一个舞会，是在城市n，而罗老师当前所处的城市为1,附近还有很多城市2~n-1，有些城市之间没有直接相连的路，有些城市之间有直接相连的路，这些路都是双向的，当然也可能有多条。<br>现在给出直接相邻城市的路长度，罗老师想知道从城市1到城市n，最短多少距离。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>输入n, m，表示n个城市和m条路;<br>接下来m行，每行a b c， 表示城市a与城市b有长度为c的路。<br>输出格式<br>输出1到n的最短路。如果1到达不了n，就输出-1。<br>样例<br>输入样例<br>5 5<br>1 2 20<br>2 3 30<br>3 4 20<br>4 5 20<br>1 5 100<br>输出样例<br>90<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+int a[200][200],b[200][200],path[200][200];
+
+void floyd(int n)
+{
+    int i,j,k;
+    <span class="keyword">for</span>(i=1; i&lt;=n; i++)
+    {
+        <span class="keyword">for</span>(j=1; j&lt;=n; j++)
+        {
+            <span class="keyword">if</span>(i!=j)
+                path[i][j]=i;
+            <span class="keyword">else</span>
+                path[i][j]=-1;
+        }
+    }
+    <span class="keyword">for</span>(k=1; k&lt;=n; k++)
+    {
+        <span class="keyword">for</span>(i=1; i&lt;=n; i++)
+        {
+            <span class="keyword">for</span>(j=1; j&lt;=n; j++)
+            {
+                <span class="keyword">if</span>(a[i][j]&gt;a[i][k]+a[k][j])
+                {
+                    a[i][j]=a[i][k]+a[k][j];
+                    path[i][j]=path[k][j];
+                }
+            }
+        }
+    }
+}
+
+int main()
+{
+    int n,m,i,j;
+    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
+    <span class="keyword">for</span>(i=1; i&lt;=m; i++)
+    {
+        int x,y,z;
+        scanf(<span class="string">"%d %d"</span>,&amp;x,&amp;y);
+        <span class="keyword">if</span>(b[x][y]==0)
+            scanf(<span class="string">" %d"</span>,&amp;a[x][y]);
+        <span class="keyword">else</span>
+        {
+            scanf(<span class="string">" %d"</span>,&amp;z);
+            <span class="keyword">if</span>(z&lt;a[x][y])
+                a[x][y]==z;
+        }
+        b[x][y]=1;
+    }
+    <span class="keyword">for</span>(i=1;i&lt;=m;i++)
+    {
+        <span class="keyword">for</span>(j=1;j&lt;=m;j++)
+        {
+            <span class="keyword">if</span>(a[i][j]==0)
+            a[i][j]=999;
+        }
+    }
+    floyd(n);
+    <span class="keyword">if</span>(a[1][n]==999)
+        <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+    <span class="keyword">else</span>
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,a[1][n]);
+    <span class="built_in">return</span> 0;
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：最优布线问题</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9C%80%E4%BC%98%E5%B8%83%E7%BA%BF%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>描述<br>学校有n台计算机，为了方便数据传输，现要将它们用数据线连接起来。两台计算机被连接是指它们有数据线连接。由于计算机所处的位置不同，因此不同的两台计算机的连接费用往往是不同的。<br>当然，如果将任意两台计算机都用数据线连接，费用将是相当庞大的。为了节省费用，我们采用数据的间接传输手段，即一台计算机可以间接的通过若干台计算机（作为中转）来实现与另一台计算机的连接。<br>现在由你负责连接这些计算机，任务是使任意两台计算机都连通（不管是直接的或间接的）。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>第一行为整数n（2≤n≤30），表示计算机的数目。此后的n行，每行n个整数。第x+1行y列的整数表示直接连接第x台计算机和第y台计算机的费用。<br>输出格式<br>一个整数，表示最小的连接费用。<br>样例<br>输入样例<br>3<br>0 1 2<br>1 0 1<br>2 1 0<br>输出样例<br>2<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+int n, s, pnt[105], a[105][105], vs[105], as = 0;
+int main()
+{
+
+    int i, j, x, q;
+    scanf(<span class="string">"%d"</span>, &amp;n);
+    <span class="keyword">for</span> (i = 1; i &lt;= n; i++)
+
+
+        <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
+
+            scanf(<span class="string">"%d"</span>, &amp;a[i][j]);
+
+    pnt[++s] = vs[1] = 1;
+
+    <span class="keyword">for</span> (; s &lt; n;)
+
+    {
+
+        x = 2147483640;
+
+        <span class="keyword">for</span> (i = 1; i &lt;= s; i++)
+
+            <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
+
+                <span class="keyword">if</span> (x &gt; a[pnt[i]][j] &amp;&amp; !vs[j])
+                {
+
+                    x = a[pnt[i]][j];
+
+                    q = j;
+
+                }
+
+        as += x;
+
+        pnt[++s] = q;
+
+        vs[q] = 1;
+
+    }
+
+    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, as);
+
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title> 查找二叉树</title>
+    <url>/2020/06/14/%E6%9F%A5%E6%89%BE%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<p>已知一棵二叉树用邻接表结构存储，中序查找二叉树中值为x的结点，并指出是第几个结点。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>第一行n为二叉树的结点个树，n≤100；第二行x表示要查找的结点的值；以下第一列数据是各结点的值，第二列数据是左儿子结点编号，第三列数据是右儿子结点编号。<br>输出格式<br>一个数即查找的结点编号。<br>样例<br>输入样例<br>7<br>15<br>5 2 3<br>12 4 5<br>10 0 0<br>29 0 0<br>15 6 7<br>8 0 0<br>23 0 0<br>输出样例<br>4<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+
+struct node
+
+{
+
+    int n;
+
+    int l;
+
+    int r;
+
+}a[300];
+
+int n,m,flag,key;
+
+void find(int k)
+
+{
+
+    <span class="keyword">if</span>(a[k].l)
+
+        find(a[k].l);
+
+    <span class="keyword">if</span>(a[k].n==m&amp;&amp;key==0)
+
+    {
+
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,++flag);
+
+        key=1;
+
+        <span class="built_in">return</span>;
+
+    }
+
+    flag++;
+
+    <span class="keyword">if</span>(a[k].r)
+
+        find(a[k].r);
+
+}
+
+int main()
+
+{
+
+    int i;
+
+    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
+
+    <span class="keyword">for</span>(i=1;i&lt;=n;i++)
+
+    {
+
+        scanf(<span class="string">"%d %d %d"</span>,&amp;a[i].n,&amp;a[i].l,&amp;a[i].r);
+
+    }
+
+    find(1);
+
+    <span class="built_in">return</span> 0;
+
+}
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title> 查找二叉树</title>
+    <url>/2020/06/14/%E9%81%8D%E5%8E%86%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<p>格式<br>输入格式<br>第一行一个整数n，表示这棵完全二叉树的元素数目；第二行是n个整数，分别表示这棵二叉树上的元素值。<br>输出格式<br>输出为三行，第一行是先序遍历序列，第二行是中序遍历序列，第三行是后序遍历序列。数值之间用空格分隔<br>样例<br>输入样例<br>8<br>246 53 520 879 865 388 745 477<br>输出样例<br>246 53 879 477 865 520 388 745<br>477 879 53 865 246 388 520 745<br>477 879 865 53 388 745 520 246<br>限制<br>时间限制：300 ms<br>内存限制：16384 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">##include&lt;stdio.h&gt;</span>
+<span class="comment">#include&lt;stdlib.h&gt;</span>
+
+typedef struct bitree
+{
+    int data;
+    struct bitree *lchild,*rchild;
+} BiTNode;
+
+BiTNode* CreateBiTree(int *,int);
+void PreOderTraverse(BiTNode *);
+void PreOderTraverse_hou(BiTNode *);
+void PreOderTraverse_zhong(BiTNode *);
+
+int main()
+{
+    BiTNode *t;
+    int n,i;
+    scanf(<span class="string">"%d"</span>,&amp;n);
+    int a[1001];
+    <span class="keyword">for</span>(i=0; i&lt;n; i++)
+    {
+        scanf(<span class="string">"%d"</span>,&amp;a[i]);
+    }
+    //int a[10] = {1,2,3,4,5,6,7,8,9};                 //树中结点的数据
+
+    t = CreateBiTree(a,n);
+
+    PreOderTraverse(t);
+    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+    PreOderTraverse_zhong(t);
+    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+    PreOderTraverse_hou(t);
+
+    <span class="built_in">return</span> 0;
+}
+
+//创建二叉树
+BiTNode* CreateBiTree(int *a,int n)
+{
+    BiTNode *root,*p;
+    BiTNode *bitQueue[n];                        //定义一个队列用来存放完全二叉树
+    int front=1,rear=1;                          //初始化队列
+//生成结点并入队
+    int i;
+    <span class="keyword">for</span>(i=0; i&lt;n; i++)
+    {
+        <span class="keyword">if</span>(*(a+i) == 0)
+            p = NULL;
+        <span class="keyword">else</span>
+        {
+            p = (BiTNode *)malloc(sizeof(BiTNode));
+            p-&gt;data = *(a+i);
+            p-&gt;lchild = p-&gt;rchild = NULL;
+        }
+        bitQueue[rear++] = p;                    //p结点入队,队尾指针加 1
+        <span class="keyword">if</span>(i==0) root = p;                       //初始化根节点
+    }
+//找出结点间的父子关系
+    <span class="keyword">while</span>(front != rear)                         //如果队列不为空
+    {
+        p = bitQueue[front];                    //当前要找关系的结点
+        <span class="keyword">if</span>(p != NULL)
+        {
+            <span class="keyword">if</span>(2*front &lt;= n)    p-&gt;lchild = bitQueue[2*front];
+            <span class="keyword">if</span>(2*front+1 &lt;= n)  p-&gt;rchild = bitQueue[2*front+1];
+        }
+        front++;                               //队头指针加 1，指向下一个结点
+    }
+
+    <span class="built_in">return</span> root;
+}
+
+//前序遍历
+void PreOderTraverse(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+        PreOderTraverse(t-&gt;lchild);
+        PreOderTraverse(t-&gt;rchild);
+    }
+}
+//中序遍历
+void PreOderTraverse_zhong(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        PreOderTraverse_zhong(t-&gt;lchild);
+        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+        PreOderTraverse_zhong(t-&gt;rchild);
+    }
+}
+//后序遍历
+void PreOderTraverse_hou(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        PreOderTraverse_hou(t-&gt;lchild);
+
+        PreOderTraverse_hou(t-&gt;rchild);
+         <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+    }
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>求后序遍历</title>
+    <url>/2020/06/14/%E6%B1%82%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86/</url>
+    <content><![CDATA[<p>描述<br>输入一棵二叉树的先序和中序遍历序列，输出其后序遍历序列。</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>共两行，第一行一个字符串，表示树的先序遍历，第二行一个字符串，表示树的中序遍历。<br>输出格式<br>一行，表示树的后序遍历序列。<br>样例<br>输入样例<br>abdec<br>dbeac<br>输出样例<br>debca<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;string.h&gt;</span>
+
+<span class="comment">#include&lt;stdio.h&gt;</span>
+
+char s1[20], s2[20], ans[20];//s1[N],s2[N]分别为先序和中序遍历序列
+
+void build(int n, char* s1, char* s2, char* s)
+
+{
+
+    <span class="keyword">if</span>(n &lt;= 0) <span class="built_in">return</span>;    int p = strchr(s2, s1[0]) - s2;//找到根结点的位置
+
+    build(p, s1+1, s2, s);//递归构造左子树的后序遍历
+
+    build(n-p-1, s1+p+1, s2+p+1, s+p);//递归构造右子树的后序遍历
+
+    s[n-1] = s1[0];//把根结点添加到最后
+
+}
+
+int main()
+
+{
+
+    <span class="keyword">while</span>(scanf(<span class="string">"%s%s"</span>,s1, s2) == 2)
+
+    {
+
+        int n= strlen(s1);
+
+        build(n, s1,s2, ans);
+
+        ans[n] = <span class="string">'\0'</span>;
+
+        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>,ans);
+
+        <span class="built_in">return</span> 0;
+
+    }
+
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
 </search>

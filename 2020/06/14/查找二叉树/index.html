@@ -5,12 +5,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Archive</title>
+    <title> 查找二叉树 - Kif Room</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="kif,"> 
-    <meta name="description" content="Never Give Up,"> 
+    <meta name="description" content="Never Give Up,已知一棵二叉树用邻接表结构存储，中序查找二叉树中值为x的结点，并指出是第几个结点。
+
+
+格式输入格式第一行n为二叉树的结点个树，n≤100；第二行x表示要查找的结点的值；以下第一列数据是各结点的值，,"> 
     <meta name="author" content="kif"> 
     <link rel="alternative" href="atom.xml" title="Kif Room" type="application/atom+xml"> 
     <link rel="icon" href="/https:/cdn.jsdelivr.net/gh/wkif/CDN/img/favicon.png"> 
@@ -35,72 +38,142 @@
 <body class="loading">
     <span id="config-title" style="display:none">Kif Room</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://kifroom.icu"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle"> 查找二叉树</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
     </div>
+    <div class="scrollbar"></div>
+</div>
+
     <div class="section">
         <div class="article">
-            <div class="main">
-                <div class="content">
-                    <div class="timeline">
-                      <h2 class="timeline-title">归档: 8篇</h2><hr>
-                      
-                      
-                        
-                          <h3 class="timeline-subtitle">2020</h3>
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-14</time>
-                          <a target="_self" href="/2020/06/14/%E6%9F%A5%E6%89%BE%E4%BA%8C%E5%8F%89%E6%A0%91/"> 查找二叉树</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-14</time>
-                          <a target="_self" href="/2020/06/14/%E9%81%8D%E5%8E%86%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/"> 查找二叉树</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-14</time>
-                          <a target="_self" href="/2020/06/14/%E6%B1%82%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86/">求后序遍历</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-14</time>
-                          <a target="_self" href="/2020/06/14/%E5%9F%8E%E5%B8%82%E8%B7%AF/">城市路</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-14</time>
-                          <a target="_self" href="/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9C%80%E4%BC%98%E5%B8%83%E7%BA%BF%E9%97%AE%E9%A2%98/">数据结构习题：最优布线问题</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-13</time>
-                          <a target="_self" href="/2020/06/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E8%A7%A3%E4%B8%80%E5%85%83%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B/">数据结构习题：求解一元三次方程</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-13</time>
-                          <a target="_self" href="/2020/06/13/win%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/">win桌面美化教程</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-06-13</time>
-                          <a target="_self" href="/2020/06/13/hello-world/">Hello World</a>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
+    <div class='main'>
+        <h1 class="title"> 查找二叉树</h1>
+        <div class="stuff">
+            <span>六月 14, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E4%B9%A0%E9%A2%98/" rel="tag">习题</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li></ul>
+
+
         </div>
+        <div class="content markdown">
+            <p>已知一棵二叉树用邻接表结构存储，中序查找二叉树中值为x的结点，并指出是第几个结点。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>第一行n为二叉树的结点个树，n≤100；第二行x表示要查找的结点的值；以下第一列数据是各结点的值，第二列数据是左儿子结点编号，第三列数据是右儿子结点编号。<br>输出格式<br>一个数即查找的结点编号。<br>样例<br>输入样例<br>7<br>15<br>5 2 3<br>12 4 5<br>10 0 0<br>29 0 0<br>15 6 7<br>8 0 0<br>23 0 0<br>输出样例<br>4<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+
+struct node
+
+{
+
+    int n;
+
+    int l;
+
+    int r;
+
+}a[300];
+
+int n,m,flag,key;
+
+void find(int k)
+
+{
+
+    <span class="keyword">if</span>(a[k].l)
+
+        find(a[k].l);
+
+    <span class="keyword">if</span>(a[k].n==m&amp;&amp;key==0)
+
+    {
+
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,++flag);
+
+        key=1;
+
+        <span class="built_in">return</span>;
+
+    }
+
+    flag++;
+
+    <span class="keyword">if</span>(a[k].r)
+
+        find(a[k].r);
+
+}
+
+int main()
+
+{
+
+    int i;
+
+    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
+
+    <span class="keyword">for</span>(i=1;i&lt;=n;i++)
+
+    {
+
+        scanf(<span class="string">"%d %d %d"</span>,&amp;a[i].n,&amp;a[i].l,&amp;a[i].r);
+
+    }
+
+    find(1);
+
+    <span class="built_in">return</span> 0;
+
+}
+</code></pre>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/cold eye - fascinating.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae=''
+        data-ci=''
+        data-cs=''
+        data-r='CDN'
+        data-o='wkif,'
+        data-a='wkif'
+        data-d=''
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+				
+        </div>
+    
+</div>
+
+
     </div>
 </div>
 
