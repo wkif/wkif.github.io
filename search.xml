@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>win桌面美化教程</title>
+    <url>/2020/06/13/win%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>win桌面美化教程<br>Win桌面美化教程<br>在这记录下个人win 美化入坑的一些经验，主要是怕自己以后忘了怎么搞的<br> <img src="https://s1.ax1x.com/2020/06/13/txSFTf.png" alt="enter image description here"></p>
+<a id="more"></a> [more](https://hexo.io/docs/writing.html)
+
+<p>先上一波成品图</p>
+<p><img src="https://s1.ax1x.com/2020/06/13/tvz7O1.gif" alt="enter image description here"></p>
+<p>目录</p>
+<p>1.文件<br>rainmeter :<br>链接：<a href="https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA" target="_blank" rel="noopener">https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA</a> 提取码：3527<br>2.配置<br>美化主要需要 win主题，rainmeter， 透明状态栏等等东西<br>2.1 注意事项<br>为避免造成错误，一般最好先关闭各种安全软件，创建系统还原点<br>右击“我的电脑” 点击“属性”</p>
+<p>点击“系统保护” 点击“创建”</p>
+<p>随便输入，点击创建，等待一会就创建好了</p>
+<p>创建系统还原点的目的是备份下之前的设置，以便以后想恢复的时候恢复</p>
+<p>2.2 rainmeter 安装与使用<br>Rainmeter是一款美化桌面的软件，可以加载各种桌面摆件：天气，时间，快捷方式，RSS，播放器，系统信息监控等<br>安装并运行 Rainmeter 程序，即可双击雨滴皮肤运行，部分雨滴皮肤是文件夹式的，复制到C:\Users\用户名\Documents\Rainmeter\Skins内，在任务栏托盘处找到白色小水滴的图标，双击打开配置面板，在左侧选择.ini文件，选择加载。<br>比较占用系统资源，老爷机谨慎安装；新手在安装时不要选择便携模式，否则无法正常安装皮肤。<br>下面是我收集到的一些插件包（资源来自网络，侵删）<br>使用方法：解压到C:\Users\用户名\Documents\Rainmeter\Skins目录下，在rainmeter 管理器里安装就好了，桌面上课一拖到任意位置</p>
+<p>时钟插件 链接：<a href="https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ</a> 提取码：1tpe<br>频谱和时间 链接：<a href="https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A" target="_blank" rel="noopener">https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A</a> 提取码：9kb9<br>布卡娘 链接：<a href="https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A" target="_blank" rel="noopener">https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A</a> 提取码：iyko<br>侧边栏 链接：<a href="https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw" target="_blank" rel="noopener">https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw</a> 提取码：egia<br>皮肤 链接：<a href="https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A" target="_blank" rel="noopener">https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A</a> 提取码：zaa8<br>2.3 透明化状态栏<br>这个就是一个软件达到的效果<br>软件名： TranslucentTB<br>下载：<br>链接：<a href="https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA" target="_blank" rel="noopener">https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA</a> 提取码：axer<br>2.4 然后就是一些好康的壁纸了！！<br>链接：<a href="https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg" target="_blank" rel="noopener">https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg</a> 提取码：m731<br>魔法阵 链接：<a href="https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ</a> 提取码：6dkd</p>
+<p>2.5 仿mac状态栏<br>就是动图中那个东西，也只是一个软件达到的效果<br>软件名:mydock<br>链接：<a href="https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg" target="_blank" rel="noopener">https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg</a> 提取码：xljl<br>—————————————–END——————————<br>有时间的话在写一下自定义磁贴的<br><img src="https://s1.ax1x.com/2020/06/13/tvzvfe.png" alt="enter image description here"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据结构习题：求解一元三次方程</title>
+    <url>/2020/06/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E8%A7%A3%E4%B8%80%E5%85%83%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<p>求解一元三次方程<br>描述<br>形如： ax^3+bx^2+cx+d=0 这样的三次方程，给出该方程中各项的系数(a，b，c，d均为实数)，请求出该方程在指定范围内的一个根。<br>例如方程：2x^3+3x^2+4x+5=0，在[-10,10]范围内有一个根为-1.371134。<br>测试集给定的范围保证刚好有一个根。</p>
+<a id="more"></a>
+<p>比如输入：<br>1.2 -1.0 3.4 4.4<br>-3 0<br>则根为：-0.856541<br>又比如输入：<br>-1.2 2.3 4.4 -3<br>-3 0<br>则根为：-1.534508<br>格式<br>输入格式<br>两行实数，第一行为4个实数，分别代表a,b,c,d。第二行两个实数，表示左右区间。<br>输出格式<br>一个实数，表示方程的解，精确到小数点后6位。<br>样例<br>输入样例<br>2.3 4.2 -1.7 -3<br>-10 10<br>输出样例<br>0.849809<br>限制<br>时间限制：100 ms<br>内存限制：16384 KB<br>提示<br>注意题目对精度和速度的要求</p>
+<p>代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    double a,b,c,d;</span><br><span class="line">    double x1,x2,x0,fx1,fx2,fx0,x,y;</span><br><span class="line"></span><br><span class="line">    scanf(<span class="string">"%lf %lf %lf %lf"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    scanf(<span class="string">"%lf %lf"</span>,&amp;x1, &amp;x2);</span><br><span class="line">    fx1=(( a * x1 + b) * x1 + c) * x1 + d;</span><br><span class="line">    fx2=(( a * x2 + b) * x2 + c) * x2 + d;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        x0 = ( x1 + x2 ) / 2;</span><br><span class="line">        fx0 = (( a * x0 + b) * x0 + c) * x0 + d;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>( (fx0 * fx1) &lt; 0 )</span><br><span class="line">        &#123;</span><br><span class="line">            x2 = x0;</span><br><span class="line">            fx2 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            x1 = x0;</span><br><span class="line">            fx1 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>( fabs( fx0 ) &gt;= 1e-7 );  //求根精度</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"%lf"</span>, x0 );</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+</search>
