@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="zh_CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>数据结构习题：按字典规则比较字符大小 - Kif Room</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="kif,"> 
+    <meta name="description" content="Never Give Up,描述按照字典规则比较两个英文字符串的大小，基本规则如下：（1）字符串左对齐比较（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’（3）字母有大小写对应关系时，大写小于小写,"> 
+    <meta name="author" content="kif"> 
+    <link rel="alternative" href="atom.xml" title="Kif Room" type="application/atom+xml"> 
+    <link rel="icon" href="/https:/cdn.jsdelivr.net/gh/wkif/CDN/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Kif Room</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://kifroom.icu"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">数据结构习题：按字典规则比较字符大小</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">数据结构习题：按字典规则比较字符大小</h1>
+        <div class="stuff">
+            <span>六月 14, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E4%B9%A0%E9%A2%98/" rel="tag">习题</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>描述<br>按照字典规则比较两个英文字符串的大小，基本规则如下：<br>（1）字符串左对齐比较<br>（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’<br>（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’<br>（4）字符串中只有大小写字母和空格，空格小于任何字母<br>例如：”aBc”&lt;”abc”,”abcdef”&lt;”abD”，”Abcd”&lt;”abc”</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>输入是两行，每行一个字符串，长度均小于1000<br>输出格式<br>输出一个整数，表示这两个字符串比较大小的结果。如果第一个小于第二个，输出-1；<br>如果第一个大于第二个，输出1；相等则输出0。<br>样例<br>输入样例<br>your<br>you<br>输出样例<br>1<br>限制<br>时间限制：100 ms<br>内存限制：8192 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+<span class="comment">#include&lt;string.h&gt;</span>
+int main()
+{
+    int i, len_a, len_b, max;
+    char a[1000], b[1000];
+    gets(a);
+    gets(b);
+    len_a = strlen(a);
+    len_b = strlen(b);
+    <span class="keyword">if</span> (len_a &gt; len_b)
+    {
+        max = len_a;
+    }
+    <span class="keyword">else</span>
+    {
+        max = len_b;
+    }
+    //<span class="built_in">printf</span>(<span class="string">"%c1\n"</span>,a[5]);
+    //<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,max);
+    int flag = 0;
+    <span class="keyword">for</span> (i = 0; i &lt; max; i++)
+    {
+
+        <span class="keyword">if</span> (a[i] == b[i])
+        {
+            <span class="keyword">if</span> (i == max - 1)
+            {
+                flag = 1;
+            }
+            <span class="built_in">continue</span>;
+
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] == <span class="string">' '</span> &amp;&amp; b[i] != <span class="string">' '</span>) {
+            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] != <span class="string">' '</span> &amp;&amp; b[i] == <span class="string">' '</span>) {
+            <span class="built_in">printf</span>(<span class="string">"1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &lt; b[i]) {
+            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; b[i]) {
+            <span class="built_in">printf</span>(<span class="string">"1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span>
+            <span class="built_in">printf</span>(<span class="string">"0"</span>);
+
+    }
+    <span class="keyword">if</span> (flag == 1)
+    {
+        <span class="built_in">printf</span>(<span class="string">"0"</span>);
+    }
+
+    <span class="built_in">return</span> 0;
+}</code></pre>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/cold eye - fascinating.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/♡B l u e ℉ （蓝色） - bbbluelee.mp3'></li>
+                        
+                    
+                        
+                            <li title='2' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/悲 喜 自 渡 不 求 不 妄 。 - Ysoul杨梳媛.mp3'></li>
+                        
+                    
+                        
+                            <li title='3' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/东大街 - 张超洋.mp3'></li>
+                        
+                    
+                        
+                            <li title='4' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/独居男子 - 沈以诚.mp3'></li>
+                        
+                    
+                        
+                            <li title='5' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/如何 - 福禄寿FloruitShow.mp3'></li>
+                        
+                    
+                        
+                            <li title='6' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/失眠飞行 - 接个吻，开一枪&沈以诚&薛明媛.mp3'></li>
+                        
+                    
+                        
+                            <li title='7' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/最远的旅行 - 袁小葳.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci='b4bebd289ed2b7b260a0'
+        data-cs='fe0d71f71129078cba0b4ee02cfeaf51ec64cadc'
+        data-r='commit'
+        data-o='wkif'
+        data-a='wkif'
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+				
+        </div>
+    
+</div>
+
+
+    </div>
+
+</div>
+{% elseif theme.gitalk.enable %}
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk-container"></div>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: 'b4bebd289ed2b7b260a0',
+        clientSecret: 'fe0d71f71129078cba0b4ee02cfeaf51ec64cadc',
+        id: window.location.pathname,
+        repo: 'commit',
+        owner: 'wkif',
+        admin: 'wkif'
+    })
+    gitalk.render('gitalk-container')
+</script>
+{% endif %}
+
+<!-- 《页面点击小红心 -->
+
+    <script type="text/javascript" src="/js/love.js"></script>
+
+<!-- 页面点击小红心》 -->
+
+<!-- 雪花特效3 -->
+
+  <script type="text/javascript" src="/js/snow3.js"></script>
+
+ 
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":350},"mobile":{"show":true},"log":false});</script></body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+
+
+</html>
