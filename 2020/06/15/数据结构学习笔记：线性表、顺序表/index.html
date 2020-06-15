@@ -5,12 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Kif Room</title>
+    <title>数据结构学习笔记：线性表、顺序表 - Kif Room</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="kif,"> 
-    <meta name="description" content="Never Give Up,"> 
+    <meta name="description" content="Never Give Up,
+
+1.线性结构的特点:存在唯一–一个被称为“第一一个”的数据元素;存在唯一一个被称为“最后一个”的数据元素;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元,"> 
     <meta name="author" content="kif"> 
     <link rel="alternative" href="atom.xml" title="Kif Room" type="application/atom+xml"> 
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/wkif/CDN/img/favicon.png"> 
@@ -35,27 +37,147 @@
 <body class="loading">
     <span id="config-title" style="display:none">Kif Room</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                
-                    <div class="set">		
-  <h2>标签</h2>
-  <a href="/tags/Markdown/" style="font-size: 14px; color: #9e9e9e">Markdown</a> <a href="/tags/%E4%B9%A0%E9%A2%98/" style="font-size: 28.67px; color: #8a8a8a">习题</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 21.33px; color: #949494">学习笔记</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 36px; color: #808080">数据结构</a>
-</div>
-
-                
-                </div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://kifroom.icu"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">数据结构学习笔记：线性表、顺序表</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
             </div>
+            <div id="qr"></div>
         </div>
     </div>
+    <div class="scrollbar"></div>
 </div>
 
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">数据结构学习笔记：线性表、顺序表</h1>
+        <div class="stuff">
+            <span>六月 15, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <pre><code class="bash">
+</code></pre>
+<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
+<a id="more"></a>
+<p>2.线性表：</p>
+<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
+<pre><code class="bash">
+// 初始化线性表 
+Status InitList(SqList* L);
+// 插入数值 
+Status ListInsert(SqList* L, int i, ElemType e);
+// 显示当前线性表 
+void showList(SqList L);
+// 返回某个位置的数值
+Status GetElem(SqList L, int i, ElemType* e);
+// 在线性表中查找与 e 值相等的元素，并返回序号
+Status LocateElem(SqList L, int e);
+// 删除元素
+Status ListDelete(SqList* L, int i, int* e);
+// 返回元素个数
+Status ListLength(SqList L);</code></pre>
+<p>定义</p>
+<pre><code class="bash">
+<span class="comment">#define MAXSIZE 20</span>
+typedef int Status;
+typedef int ElemType;
+typedef struct
+{
+    // 元素值
+    ElemType data[MAXSIZE];
+    // 线性表当前长度
+    int length;
+    // 线性表最大长度
+    int maxlength;
+}SqList;</code></pre>
+<p>3.初始化</p>
+<pre><code class="bash">
+Status Initlist(SqList *L)
+{
+    L-&gt;Lenth=1;
+    L-&gt;maxLenth=Maxsize;
+}
+4.遍历
+int showList(SqList L)
+{
+ <span class="keyword">if</span>(L-&gt;Lenth==1) 
+ {
+     <span class="built_in">return</span> 0；
+ }
+   int i;
+    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
+    {
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
+    }
+}</code></pre>
+<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='https://cdn.jsdelivr.net/gh/wkif/CDN/music/cold eye - fascinating.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='true'
+        data-ci='b4bebd289ed2b7b260a0'
+        data-cs='fe0d71f71129078cba0b4ee02cfeaf51ec64cadc'
+        data-r='commit'
+        data-o='wkif'
+        data-a='wkif'
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+				
+        </div>
+    
+</div>
+
+
+    </div>
+
+</div>
+{% elseif theme.gitalk.enable %}
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk-container"></div>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: 'b4bebd289ed2b7b260a0',
+        clientSecret: 'fe0d71f71129078cba0b4ee02cfeaf51ec64cadc',
+        id: window.location.pathname,
+        repo: 'commit',
+        owner: 'wkif',
+        admin: 'wkif'
+    })
+    gitalk.render('gitalk-container')
+</script>
+{% endif %}
 
 <!-- 《页面点击小红心 -->
 

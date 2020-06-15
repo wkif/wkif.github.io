@@ -1035,4 +1035,94 @@ int func(int n)
         <tag>学习笔记</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Markdown语法</title>
+    <url>/2020/06/15/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">相比WYSIWYG编辑器</span><br><span class="line"></span><br><span class="line">优点：</span><br><span class="line">1、因为是纯文本，所以只要支持Markdown的地方都能获得一样的编辑效果，可以让作者摆脱排版的困扰，专心写作。</span><br><span class="line">2、操作简单。比如:WYSIWYG编辑时标记个标题，先选中内容，再点击导航栏的标题按钮，选择几级标题。要三个步骤。而Markdown只需要在标题内容前加<span class="comment">#即可</span></span><br><span class="line"></span><br><span class="line">缺点：</span><br><span class="line">1、需要记一些语法（当然，是很简单。五分钟学会）。</span><br><span class="line">2、有些平台不支持Markdown编辑模式。</span><br><span class="line"></span><br><span class="line">还好，简书是支持Markdown编辑模式的。</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">开启方式：设置-&gt;默认编辑器-&gt;Markdown编辑器</span><br><span class="line">``` </span><br><span class="line"><span class="comment">##标题</span></span><br><span class="line">在想要设置为标题的文字前面加<span class="comment">#来表示</span></span><br><span class="line">一个<span class="comment">#是一级标题，二个#是二级标题，以此类推。支持六级标题。</span></span><br><span class="line"></span><br><span class="line">注：标准语法一般在<span class="comment">#后跟个空格再写文字，貌似简书不加空格也行。</span></span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br><span class="line">``` </span><br><span class="line">效果如下：</span><br><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##字体</span></span><br><span class="line">加粗</span><br><span class="line">要加粗的文字左右分别用两个*号包起来</span><br><span class="line"></span><br><span class="line">斜体</span><br><span class="line">要倾斜的文字左右分别用一个*号包起来</span><br><span class="line"></span><br><span class="line">斜体加粗</span><br><span class="line">要倾斜和加粗的文字左右分别用三个*号包起来</span><br><span class="line"></span><br><span class="line">删除线</span><br><span class="line">要加删除线的文字左右分别用两个~~号包起来</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果如下：</span><br><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line"></span><br><span class="line"><span class="comment">##引用</span></span><br><span class="line">在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;</span><br><span class="line">n个...</span><br><span class="line">貌似可以一直加下去，但没神马卵用</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br><span class="line"><span class="comment">##分割线</span></span><br><span class="line">三个或者三个以上的 - 或者 * 都可以。</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">*****</span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line"><span class="comment">##图片</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">上传本地图片直接点击导航栏的图片标志，选择图片即可</span><br><span class="line"></span><br><span class="line">markdown格式追求的是简单、多平台统一。那么图片的存储就是一个问题，需要用图床，提供统一的外链，这样就不用在不同的平台去处理图片的问题了。才能做到书写一次，各处使用。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##超链接</span></span><br><span class="line">语法</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">[超链接名](超链接地址 <span class="string">"超链接title"</span>)</span><br><span class="line">title可加可不加</span><br><span class="line">``` </span><br><span class="line">例如：</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">[简书](http://jianshu.com)</span><br><span class="line">[百度](http://baidu.com)</span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">[简书](http://jianshu.com)</span><br><span class="line">[百度](http://baidu.com)</span><br><span class="line">注：Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">&lt;a href=<span class="string">"超链接地址"</span> target=<span class="string">"_blank"</span>&gt;超链接名&lt;/a&gt;</span><br><span class="line"></span><br><span class="line">示例</span><br><span class="line">&lt;a href=<span class="string">"https://www.jianshu.com/u/1f5ac0cf6a8b"</span> target=<span class="string">"_blank"</span>&gt;简书&lt;/a&gt;</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##列表</span></span><br><span class="line"></span><br><span class="line">无序列表</span><br><span class="line">语法：</span><br><span class="line">无序列表用 - + * 任何一种都可以</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line">注意：- + * 跟内容之间都要有一个空格</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">有序列表</span><br><span class="line">语法：</span><br><span class="line">数字加点</span><br><span class="line">``` bash</span><br><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">列表嵌套</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br><span class="line"></span><br><span class="line">- 列表内容</span><br><span class="line">-    1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">+ 列表内容</span><br><span class="line">+ 1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##表格</span></span><br><span class="line">语法：</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中</span><br><span class="line">-右边加：表示文字居右</span><br><span class="line">注：原生的语法两边都要用 | 包起来。此处省略</span><br><span class="line">``` </span><br><span class="line">实例：</span><br><span class="line">``` bash</span><br><span class="line">姓名|技能|排行</span><br><span class="line">--|:--:|--:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br><span class="line">``` </span><br><span class="line">姓名|技能|排行</span><br><span class="line">--|:--:|--:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br><span class="line"></span><br><span class="line"><span class="comment">##代码</span></span><br><span class="line"></span><br><span class="line">语法：</span><br><span class="line">单行代码：代码之间分别用一个反引号包起来</span><br><span class="line">``` bash</span><br><span class="line">    `代码内容`</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</span><br><span class="line">``` bash</span><br><span class="line">(```)</span><br><span class="line">  代码...</span><br><span class="line">  代码...</span><br><span class="line">  代码...</span><br><span class="line">(```)</span><br><span class="line">``` </span><br><span class="line">注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</span><br><span class="line"></span><br><span class="line"><span class="comment">##流程图</span></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">&amp;</span><br></pre></td></tr></table></figure>
+<pre><code>
+
+
+
+转自：
+作者：高鸿祥
+链接：https://www.jianshu.com/p/191d1e21f7ed
+来源：简书</code></pre>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构学习笔记：线性表、顺序表</title>
+    <url>/2020/06/15/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%BA%BF%E6%80%A7%E8%A1%A8%E3%80%81%E9%A1%BA%E5%BA%8F%E8%A1%A8/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
+<a id="more"></a>
+<p>2.线性表：</p>
+<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
+<pre><code class="bash">
+// 初始化线性表 
+Status InitList(SqList* L);
+// 插入数值 
+Status ListInsert(SqList* L, int i, ElemType e);
+// 显示当前线性表 
+void showList(SqList L);
+// 返回某个位置的数值
+Status GetElem(SqList L, int i, ElemType* e);
+// 在线性表中查找与 e 值相等的元素，并返回序号
+Status LocateElem(SqList L, int e);
+// 删除元素
+Status ListDelete(SqList* L, int i, int* e);
+// 返回元素个数
+Status ListLength(SqList L);</code></pre>
+<p>定义</p>
+<pre><code class="bash">
+<span class="comment">#define MAXSIZE 20</span>
+typedef int Status;
+typedef int ElemType;
+typedef struct
+{
+    // 元素值
+    ElemType data[MAXSIZE];
+    // 线性表当前长度
+    int length;
+    // 线性表最大长度
+    int maxlength;
+}SqList;</code></pre>
+<p>3.初始化</p>
+<pre><code class="bash">
+Status Initlist(SqList *L)
+{
+    L-&gt;Lenth=1;
+    L-&gt;maxLenth=Maxsize;
+}
+4.遍历
+int showList(SqList L)
+{
+ <span class="keyword">if</span>(L-&gt;Lenth==1) 
+ {
+     <span class="built_in">return</span> 0；
+ }
+   int i;
+    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
+    {
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
+    }
+}</code></pre>
+<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
 </search>
