@@ -1044,15 +1044,195 @@ int func(int n)
 <p>优点：<br>1、因为是纯文本，所以只要支持Markdown的地方都能获得一样的编辑效果，可以让作者摆脱排版的困扰，专心写作。<br>2、操作简单。比如:WYSIWYG编辑时标记个标题，先选中内容，再点击导航栏的标题按钮，选择几级标题。要三个步骤。而Markdown只需要在标题内容前加#即可</p>
 <p>缺点：<br>1、需要记一些语法（当然，是很简单。五分钟学会）。<br>2、有些平台不支持Markdown编辑模式。</p>
 <p>还好，简书是支持Markdown编辑模式的。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">开启方式：设置-&gt;默认编辑器-&gt;Markdown编辑器</span><br><span class="line">``` </span><br><span class="line"><span class="comment">##标题</span></span><br><span class="line">在想要设置为标题的文字前面加<span class="comment">#来表示</span></span><br><span class="line">一个<span class="comment">#是一级标题，二个#是二级标题，以此类推。支持六级标题。</span></span><br><span class="line"></span><br><span class="line">注：标准语法一般在<span class="comment">#后跟个空格再写文字，貌似简书不加空格也行。</span></span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br><span class="line">``` </span><br><span class="line">效果如下：</span><br><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##字体</span></span><br><span class="line">加粗</span><br><span class="line">要加粗的文字左右分别用两个*号包起来</span><br><span class="line"></span><br><span class="line">斜体</span><br><span class="line">要倾斜的文字左右分别用一个*号包起来</span><br><span class="line"></span><br><span class="line">斜体加粗</span><br><span class="line">要倾斜和加粗的文字左右分别用三个*号包起来</span><br><span class="line"></span><br><span class="line">删除线</span><br><span class="line">要加删除线的文字左右分别用两个~~号包起来</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果如下：</span><br><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line"></span><br><span class="line"><span class="comment">##引用</span></span><br><span class="line">在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;</span><br><span class="line">n个...</span><br><span class="line">貌似可以一直加下去，但没神马卵用</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br><span class="line"><span class="comment">##分割线</span></span><br><span class="line">三个或者三个以上的 - 或者 * 都可以。</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">*****</span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line"><span class="comment">##图片</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">上传本地图片直接点击导航栏的图片标志，选择图片即可</span><br><span class="line"></span><br><span class="line">markdown格式追求的是简单、多平台统一。那么图片的存储就是一个问题，需要用图床，提供统一的外链，这样就不用在不同的平台去处理图片的问题了。才能做到书写一次，各处使用。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##超链接</span></span><br><span class="line">语法</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">[超链接名](超链接地址 <span class="string">"超链接title"</span>)</span><br><span class="line">title可加可不加</span><br><span class="line">``` </span><br><span class="line">例如：</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">[简书](http://jianshu.com)</span><br><span class="line">[百度](http://baidu.com)</span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">[简书](http://jianshu.com)</span><br><span class="line">[百度](http://baidu.com)</span><br><span class="line">注：Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">&lt;a href=<span class="string">"超链接地址"</span> target=<span class="string">"_blank"</span>&gt;超链接名&lt;/a&gt;</span><br><span class="line"></span><br><span class="line">示例</span><br><span class="line">&lt;a href=<span class="string">"https://www.jianshu.com/u/1f5ac0cf6a8b"</span> target=<span class="string">"_blank"</span>&gt;简书&lt;/a&gt;</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##列表</span></span><br><span class="line"></span><br><span class="line">无序列表</span><br><span class="line">语法：</span><br><span class="line">无序列表用 - + * 任何一种都可以</span><br><span class="line">``` bash</span><br><span class="line"></span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line">注意：- + * 跟内容之间都要有一个空格</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">有序列表</span><br><span class="line">语法：</span><br><span class="line">数字加点</span><br><span class="line">``` bash</span><br><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">列表嵌套</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br><span class="line"></span><br><span class="line">- 列表内容</span><br><span class="line">-    1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">+ 列表内容</span><br><span class="line">+ 1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##表格</span></span><br><span class="line">语法：</span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中</span><br><span class="line">-右边加：表示文字居右</span><br><span class="line">注：原生的语法两边都要用 | 包起来。此处省略</span><br><span class="line">``` </span><br><span class="line">实例：</span><br><span class="line">``` bash</span><br><span class="line">姓名|技能|排行</span><br><span class="line">--|:--:|--:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br><span class="line">``` </span><br><span class="line">姓名|技能|排行</span><br><span class="line">--|:--:|--:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br><span class="line"></span><br><span class="line"><span class="comment">##代码</span></span><br><span class="line"></span><br><span class="line">语法：</span><br><span class="line">单行代码：代码之间分别用一个反引号包起来</span><br><span class="line">``` bash</span><br><span class="line">    `代码内容`</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</span><br><span class="line">``` bash</span><br><span class="line">(```)</span><br><span class="line">  代码...</span><br><span class="line">  代码...</span><br><span class="line">  代码...</span><br><span class="line">(```)</span><br><span class="line">``` </span><br><span class="line">注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</span><br><span class="line"></span><br><span class="line"><span class="comment">##流程图</span></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">&amp;</span><br></pre></td></tr></table></figure>
-<pre><code>
+<pre><code class="bash">
+开启方式：设置-&gt;默认编辑器-&gt;Markdown编辑器</code></pre>
+<p>##标题<br>在想要设置为标题的文字前面加#来表示<br>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
+<p>注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。</p>
+<p>示例：</p>
+<pre><code class="bash"><span class="comment"># 这是一级标题</span>
+<span class="comment">## 这是二级标题</span>
+<span class="comment">### 这是三级标题</span>
+<span class="comment">#### 这是四级标题</span>
+<span class="comment">##### 这是五级标题</span>
+<span class="comment">###### 这是六级标题</span></code></pre>
+<p>效果如下：</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>##字体<br>加粗<br>要加粗的文字左右分别用两个*号包起来</p>
+<p>斜体<br>要倾斜的文字左右分别用一个*号包起来</p>
+<p>斜体加粗<br>要倾斜和加粗的文字左右分别用三个*号包起来</p>
+<p>删除线<br>要加删除线的文字左右分别用两个~~号包起来</p>
+<p>示例：</p>
+<pre><code class="bash">**这是加粗的文字**
+*这是倾斜的文字*
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~
+</code></pre>
+<p>效果如下：<br><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
+<p>##引用<br>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…<br>貌似可以一直加下去，但没神马卵用</p>
+<p>示例：</p>
+<pre><code class="bash">
+&gt;这是引用的内容
+&gt;&gt;这是引用的内容
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</code></pre>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是引用的内容<br>##分割线<br>三个或者三个以上的 - 或者 * 都可以。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>示例：</p>
+<pre><code class="bash">
+---
+----
+***
+*****</code></pre>
+<p>效果：</p>
+<hr>
+<hr>
+<hr>
+<p>##图片</p>
+<p>上传本地图片直接点击导航栏的图片标志，选择图片即可</p>
+<p>markdown格式追求的是简单、多平台统一。那么图片的存储就是一个问题，需要用图床，提供统一的外链，这样就不用在不同的平台去处理图片的问题了。才能做到书写一次，各处使用。</p>
+<p>##超链接<br>语法</p>
+<pre><code class="bash">[超链接名](超链接地址 <span class="string">"超链接title"</span>)
+title可加可不加</code></pre>
+<p>例如：</p>
+<pre><code class="bash">[简书](http://jianshu.com)
+[百度](http://baidu.com)</code></pre>
+<p>效果：</p>
+<p><a href="http://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a><br>注：Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</p>
+<pre><code class="bash">&lt;a href=<span class="string">"超链接地址"</span> target=<span class="string">"_blank"</span>&gt;超链接名&lt;/a&gt;
 
+示例
+&lt;a href=<span class="string">"https://www.jianshu.com/u/1f5ac0cf6a8b"</span> target=<span class="string">"_blank"</span>&gt;简书&lt;/a&gt;</code></pre>
+<p>##列表</p>
+<p>无序列表<br>语法：<br>无序列表用 - + * 任何一种都可以</p>
+<pre><code class="bash">
+- 列表内容
++ 列表内容
+* 列表内容
 
+注意：- + * 跟内容之间都要有一个空格
+</code></pre>
+<p>效果：</p>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<p>有序列表<br>语法：<br>数字加点</p>
+<pre><code class="bash">1. 列表内容
+2. 列表内容
+3. 列表内容
 
-转自：
-作者：高鸿祥
-链接：https://www.jianshu.com/p/191d1e21f7ed
-来源：简书</code></pre>]]></content>
+注意：序号跟内容之间要有空格
+</code></pre>
+<p>效果：</p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<p>列表嵌套<br>上一级和下一级之间敲三个空格即可</p>
+<ul>
+<li>列表内容</li>
+<li><ol>
+<li>列表内容</li>
+</ol>
+</li>
+</ul>
+<ol start="2">
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<ul>
+<li>列表内容</li>
+<li><ol>
+<li>列表内容</li>
+</ol>
+</li>
+</ul>
+<ol start="2">
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<ul>
+<li>列表内容</li>
+</ul>
+<p>##表格<br>语法：</p>
+<pre><code class="bash">表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+
+第二行分割表头和内容。
+- 有一个就行，为了对齐，多加了几个
+文字默认居左
+-两边加：表示文字居中
+-右边加：表示文字居右
+注：原生的语法两边都要用 | 包起来。此处省略</code></pre>
+<p>实例：</p>
+<pre><code class="bash">姓名|技能|排行
+--|:--:|--:
+刘备|哭|大哥
+关羽|打|二哥
+张飞|骂|三弟</code></pre>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">技能</th>
+<th align="right">排行</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>刘备</td>
+<td align="center">哭</td>
+<td align="right">大哥</td>
+</tr>
+<tr>
+<td>关羽</td>
+<td align="center">打</td>
+<td align="right">二哥</td>
+</tr>
+<tr>
+<td>张飞</td>
+<td align="center">骂</td>
+<td align="right">三弟</td>
+</tr>
+</tbody></table>
+<p>##代码</p>
+<p>语法：<br>单行代码：代码之间分别用一个反引号包起来</p>
+<pre><code class="bash">`代码内容`</code></pre>
+<p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
+<pre><code class="bash">(```)
+  代码...
+  代码...
+  代码...
+(```)</code></pre>
+<p>注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</p>
+<p>转自：<br>作者：高鸿祥<br>链接：<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">https://www.jianshu.com/p/191d1e21f7ed</a><br>来源：简书</p>
+]]></content>
       <categories>
         <category>教程</category>
         <category>学习</category>
