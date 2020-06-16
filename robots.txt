@@ -1,0 +1,25 @@
+# 允许所有用户代理的浏览器爬虫进行访问（爬取数据）
+User-agent: *
+
+# 不允许访问的内容
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js
+Disallow: /*.css
+
+Sitemap: http://wkif.github.io/sitemap.xml
+Sitemap: http://wkif.github.io/baidusitemap.xml
+Sitemap: http://wkif.gitee.io/sitemap.xml
+Sitemap: http://wkif.gitee.io/baidusitemap.xml
+Sitemap: http://wkif.now.sh/sitemap.xml
+Sitemap: http://wkif.now.sh/baidusitemap.xml
+
+
+Sitemap: https://wkif.github.io/sitemap.xml
+Sitemap: https://wkif.github.io/baidusitemap.xml
+Sitemap: https://wkif.gitee.io/sitemap.xml
+Sitemap: https://wkif.gitee.io/baidusitemap.xml
+Sitemap: https://wkif.now.sh/sitemap.xml
+Sitemap: https://wkif.now.sh/baidusitemap.xml
