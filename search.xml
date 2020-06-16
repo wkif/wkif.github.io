@@ -1313,17 +1313,19 @@ int showList(SqList L)
     <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%88%B7%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9rec-%E4%B8%8Emagisk%E3%80%81Edx%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>本文介绍手机第三方rec刷入和magisk、Edxp的安装</p>
+<p>本文介绍手机第三方rec刷入和magisk、Edxp的安装<br>有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
 <a id="more"></a>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="什么是第三方rec？"><a href="#什么是第三方rec？" class="headerlink" title="什么是第三方rec？"></a>什么是第三方rec？</h2><p>Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式（类似于windows PE或DOS）。在这个模式下我们可以刷入新的安卓系统，或者对已有的系统进行备份或升级，也可以在此恢复出厂设置，按类型分为官方的rec和第三方rec（CWM REC和TWRP REC。REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。官方Recovery只能用来刷入官方的系统，如小米rec<br><img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh=600,800/sign=00603032040828386858d41288a98539/1ad5ad6eddc451daa6d497c6b5fd5266d01632f8.jpg" alt="图源：百度百科"></p>
 <p>如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
 <p>TWRP<br>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。<a href="https://twrp.me/" target="_blank" rel="noopener">twrp官网</a></p>
 <p>此教程是线刷rec教程</p>
-<h2 id="什么是magisk？"><a href="#什么是magisk？" class="headerlink" title="什么是magisk？"></a>什么是magisk？</h2><p><img src="https://cdn.sspai.com/2019/02/25/f9ba127eb6c341faadf8fbb3df725572.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="图源：Android 派小队"><br>Magisk 是出自一位台湾学生<a href="https://forum.xda-developers.com/member.php?u=4470081" target="_blank" rel="noopener"> @topjohnwu </a>开发的 Android 框架，是一个通用的第三方 systemless 接口，通过这样的方式实现一些较强大的功能。<br>看似很简单的一个框架，甚至与大名鼎鼎的 Xposed 框架在功能性上有点重复。很多人批评 Magisk的模块太少了，想替代 Xposed 根本不可能（在那个 Xposed Framework for Android 7.0 难产的时代，很多人将 Magisk 看是做是 Xposed 的替代品）。这是不正确的，因为 Magisk 从来没有想过要代替 Xposed ，Magisk 与 Xposed 是可以互相兼容的，你甚至可以通过 Magisk 来安装 Xposed（安装 Xposed 后就不能绕过 SafetyNet 了）。</p>
+<h2 id="什么是magisk？"><a href="#什么是magisk？" class="headerlink" title="什么是magisk？"></a>什么是magisk？</h2><p>官网：<a href="https://magiskmanager.com/" target="_blank" rel="noopener">https://magiskmanager.com/</a></p>
+<p><img src="https://cdn.sspai.com/2019/02/25/f9ba127eb6c341faadf8fbb3df725572.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="图源：Android 派小队"><br>Magisk 是出自一位台湾学生<a href="https://forum.xda-developers.com/member.php?u=4470081" target="_blank" rel="noopener"> @topjohnwu </a>开发的 Android 框架，是一个通用的第三方 systemless 接口，通过这样的方式实现一些较强大的功能。<br>看似很简单的一个框架，甚至与大名鼎鼎的 Xposed 框架在功能性上有点重复。很多人批评 Magisk的模块太少了，想替代 Xposed 根本不可能（在那个 Xposed Framework for Android 7.0 难产的时代，很多人将 Magisk 看是做是 Xposed 的替代品）。这是不正确的，因为 Magisk 从来没有想过要代替 Xposed ，Magisk 与 Xposed 是可以互相兼容的，你甚至可以通过 Magisk 来安装 Xposed（安装 Xposed 后就不能绕过 SafetyNet 了）。</p>
 <p>Magisk 的厉害之处在于它实现了一种绕过 SafetyNet 使用 root 的方法。</p>
 <p>实现原理：由于它是通过启动时在 boot 中创建钩子，把 /data/magisk.img 挂载到 /magisk，构建出一个在 system 基础上能够自定义替换，增加以及删除的文件系统，所有操作都在启动的时候完成，实际上并没有对 /system 分区进行修改（即 systemless 接口，以不触动 /system 的方式修改 /system）。</p>
 <p>转自：<br>作者：Mogeko丶<br>链接：<a href="https://www.jianshu.com/p/393f5e51716e" target="_blank" rel="noopener">https://www.jianshu.com/p/393f5e51716e</a><br>来源：简书</p>
-<h2 id="3-什么是Edxp"><a href="#3-什么是Edxp" class="headerlink" title="3.什么是Edxp?"></a>3.什么是Edxp?</h2><p>   Edxposed全称 Elder driver Xposed Framework，简称edxp.<br>大名鼎鼎的xposed框架可以实现QQ抢红包，微信抢红包，防止消息撤回等功能。xposed也是所有android系统获取root后必装的东西。但可惜，自从android 7.0之后xposed的开发者rovo89基本就不维护了，针对android 8.0的版本草草发布了一个测试版本撒手不管了。现在越来越多的新机型出厂就是android 9.0系统，那么怎么才能继续使用xposed框架，如何才能继续快乐的抢红包呢？其实有办法！xposed虽然死了，但它却不再是唯一。比如今天我要提到的Edxposed框架，Edxposed全称 Elder driver Xposed Framework，简称edxp，Edxposed框架现在支持android 8.0 -android 9.0 ，如果是android 7.0或更早的版本，推荐使用xposed框架。针对框架的安装问题，官方推出了Magisk模块的安装方式，也就是提供了一个zip压缩包，在Magisk中安装重启即可。在安装edxposed的magisk模块之前，你需要先安装riru的magisk模块。<br>本文主要是Magisk安装Edx。</p>
+<h2 id="3-什么是Edxp"><a href="#3-什么是Edxp" class="headerlink" title="3.什么是Edxp?"></a>3.什么是Edxp?</h2><p>官网：<a href="https://github.com/ElderDrivers/EdXposed/releases/" target="_blank" rel="noopener">https://github.com/ElderDrivers/EdXposed/releases/</a></p>
+<p>   Edxposed全称 Elder driver Xposed Framework，简称edxp.<br>大名鼎鼎的xposed框架可以实现QQ抢红包，微信抢红包，防止消息撤回等功能。xposed也是所有android系统获取root后必装的东西。但可惜，自从android 7.0之后xposed的开发者rovo89基本就不维护了，针对android 8.0的版本草草发布了一个测试版本撒手不管了。现在越来越多的新机型出厂就是android 9.0系统，那么怎么才能继续使用xposed框架，如何才能继续快乐的抢红包呢？其实有办法！xposed虽然死了，但它却不再是唯一。比如今天我要提到的Edxposed框架，Edxposed全称 Elder driver Xposed Framework，简称edxp，Edxposed框架现在支持android 8.0 -android 9.0 ，如果是android 7.0或更早的版本，推荐使用xposed框架。针对框架的安装问题，官方推出了Magisk模块的安装方式，也就是提供了一个zip压缩包，在Magisk中安装重启即可。在安装edxposed的magisk模块之前，你需要先安装riru的magisk模块。<br>本文主要是Magisk安装Edx。</p>
 <p>参考：<br>作者：coderstory<br>《后Xposed时代: 一篇文章看懂如何安装和使用Edxposed》<br><a href="https://blog.coderstory.cn/guide-install-edxposed/" target="_blank" rel="noopener">https://blog.coderstory.cn/guide-install-edxposed/</a></p>
 <h1 id="刷入第三方rec"><a href="#刷入第三方rec" class="headerlink" title="刷入第三方rec"></a>刷入第三方rec</h1><h2 id="下载准备"><a href="#下载准备" class="headerlink" title="下载准备"></a>下载准备</h2><p>准备：电脑 数据线 手机 </p>
 <p>所需工具来自 rom乐园 参考教程：<a href="http://www.romleyuan.com/lec/read?id=201" target="_blank" rel="noopener">http://www.romleyuan.com/lec/read?id=201</a></p>
@@ -1377,7 +1379,7 @@ int showList(SqList L)
     <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E8%A7%A3%E9%94%81%E4%B8%8E%E5%88%B7%E5%BC%80%E5%8F%91%E7%89%88/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>本文记录我几年的玩机记录和经验，以小米手机的玩机经验为主</p>
+<p>本文记录我几年的玩机记录和经验，以小米手机的玩机经验为主<br>有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
 <a id="more"></a>
 <h1 id="手机解锁"><a href="#手机解锁" class="headerlink" title="手机解锁"></a>手机解锁</h1><p>前言：<br>手机解锁每个品牌都有不同的方法，华为的以前可以申请解锁码解锁，但之后直接关闭了解锁通道，所以华为手机可玩性不高。ov系一直没有开通root权限，oppo旗下子品牌realme（本人目前的手机）到有可以解锁的。魅族也有官方的解锁通道。本文以小米解锁为例。</p>
 <p>解锁即解bl锁，解除bl锁后我们就可以自由的刷机与刷入rec了，而如果我们不解锁，我们就只能通过有限的刷机方式来刷机，譬如通过官方rec进行更新，但是官方rec只能刷官方指定的刷机包，而如果想要刷入第三方刷机包都需要解除bl锁。</p>
@@ -1447,6 +1449,66 @@ int showList(SqList L)
 <p>最常见的ROOT包有两种：supersu和Magisk。</p>
 <p>如果想卸载，直接卡刷卸载包</p>
 <p>刷入第三方系统：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把系统ROM包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面，安装下载的系统ROM。</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+        <category>玩机</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>玩机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
+    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9Amagisk%E6%A8%A1%E5%9D%97%E5%92%8CEdxp%E6%A8%A1%E5%9D%97%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<p>本文介绍magisk模块和Edxp模块分享，均为网络资源<br>为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页<br>在此对各个大佬表示感谢，如有问题，请联系我删除。</p>
+<a id="more"></a>
+
+<p>前排提示：每个模块对每个手机兼容性无法保证，模块之间也有可能会有冲突，有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
+<h1 id="magisk-模块"><a href="#magisk-模块" class="headerlink" title="magisk 模块"></a>magisk 模块</h1><p>##MM管理器-2018.09.16 汉化<br>作者：<br>链接：<a href="https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg" target="_blank" rel="noopener">https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg</a><br>提取码：27wk<br>功能：可在rec模式卸载已安装模块，可用来救砖。（高版本的第三方rec已具备此功能）</p>
+<p>##小米 mixAlpha 机型模块<br>作者：酷安 坏叔叔_hi<br>网址（作者原分享网址）：<a href="https://www.lanzous.com/i9yvlkf?t" target="_blank" rel="noopener">https://www.lanzous.com/i9yvlkf?t</a><br>功能：将手机型号修改为 MixAlpha<br><img src="https://s1.ax1x.com/2020/06/16/Nkixdf.jpg" alt="图源：酷安 坏叔叔_hi"></p>
+<p>更多机型模块可以在酷安<a href="http://www.coolapk.com/u/1010322" target="_blank" rel="noopener">侯旭Hxv</a>主页寻找</p>
+<h2 id="AD-影视-Hosts1-2"><a href="#AD-影视-Hosts1-2" class="headerlink" title="AD 影视 Hosts1.2"></a>AD 影视 Hosts1.2</h2><p>作者：依然的爱<br>网址：链接：<a href="https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg" target="_blank" rel="noopener">https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg</a><br>提取码：zr37<br>功能：屏蔽各类广告包括(各大视频网站,运营商劫持广告，大部分APP广告),hosts规则均来自于网络搜索,github,人工抓取及酷友提供，使用时请关闭其他hosts模块,请关闭systemless hosts模块(如果有)。</p>
+<h2 id="Magisk-超级快充2-0"><a href="#Magisk-超级快充2-0" class="headerlink" title="Magisk-超级快充2.0"></a>Magisk-超级快充2.0</h2><p>作者：<br>链接：链接：<a href="https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA" target="_blank" rel="noopener">https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA</a><br>提取码：p7m4<br>功能：快充</p>
+<h2 id="Magisk-毒液-完整版（适合开机慢）"><a href="#Magisk-毒液-完整版（适合开机慢）" class="headerlink" title="Magisk-毒液 完整版（适合开机慢）"></a>Magisk-毒液 完整版（适合开机慢）</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg" target="_blank" rel="noopener">https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg</a><br>提取码：a6nd<br>功能：改变开机动画</p>
+<h2 id="Magisk-黑域启动插件"><a href="#Magisk-黑域启动插件" class="headerlink" title="Magisk-黑域启动插件"></a>Magisk-黑域启动插件</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ</a><br>提取码：2spa</p>
+<h2 id="Magisk-浪漫雅圆-Sleek-Google-综合字体"><a href="#Magisk-浪漫雅圆-Sleek-Google-综合字体" class="headerlink" title="Magisk_浪漫雅圆+Sleek+Google(综合字体)"></a>Magisk_浪漫雅圆+Sleek+Google(综合字体)</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q</a><br>提取码：hq66<br>功能：修改系统字体</p>
+<h2 id="充电90％自动暂停"><a href="#充电90％自动暂停" class="headerlink" title="充电90％自动暂停"></a>充电90％自动暂停</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q</a><br>提取码：jrtk<br>功能：充电90％自动暂停</p>
+<h2 id="其他个人收集模块"><a href="#其他个人收集模块" class="headerlink" title="其他个人收集模块"></a>其他个人收集模块</h2><p>链接：<a href="https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg" target="_blank" rel="noopener">https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg</a><br>提取码：r87o</p>
+<p>链接：<a href="https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg" target="_blank" rel="noopener">https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg</a><br>提取码：53tv</p>
+<p>！！玩机有风险，搞机需谨慎。！！</p>
+<h1 id="Edxp模块"><a href="#Edxp模块" class="headerlink" title="Edxp模块"></a>Edxp模块</h1><p>edxp 上有模块下载，也可以去edxp上下载</p>
+<p><img src="https://s1.ax1x.com/2020/06/16/NkV97q.jpg" alt="enter image description here"></p>
+<p><img src="https://s1.ax1x.com/2020/06/16/NkEvcQ.jpg" alt="enter image description here"></p>
+<p>##哔哩漫游<br>作者：iAcn/djytw/yujincheng08<br>哔哩漫游 (BiliRoaming) - <a href="http://repo.xposed.info/module/me.iacn.biliroaming" target="_blank" rel="noopener">http://repo.xposed.info/module/me.iacn.biliroaming</a><br>功能：<br>解除B站番剧区域限制<br>港澳台CDN加速<br>缓存番剧<br>支持国际版和概念版<br>自定义主题色<br>关闭青少年模式弹窗<br>显示评论区楼层<br>概念版添加直播入口<br>不以小程序形式分享</p>
+<h2 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h2><p>作者：Specher<br>网易云音乐插件 - <a href="http://repo.xposed.info/module/com.specher.music163" target="_blank" rel="noopener">http://repo.xposed.info/module/com.specher.music163</a><br>功能：一个网易云音乐的Xposed插件。<br>目前功能：自动签到、跳过启动广告、本地数据修改、美化功能。<br>最佳适配4.3.X，理论任意版本通用</p>
+<p>##云村清洁工<br>作者：xmodule.org<br>云村清洁工app是一款非常好用的网易云插件，需要XP框架，搭配食用非常舒服，避免提示应用升级<br>重要：使用的是七牛云镜像下载，请勿在xposed install内下载！！！！<br>请直接用浏览器访问： <a href="https://repo.xposed.info/module/me.zjns.lovecloudmusic下载" target="_blank" rel="noopener">https://repo.xposed.info/module/me.zjns.lovecloudmusic下载</a></p>
+<p>1、禁止签到跳转商城；<br>2、去除启动页，评论区等位置广告；<br>3、伪装成谷歌版，避免提示升级。、</p>
+<p>涉及到各种CD问题，不再更新。你可以关注微信公众号: xmodule 回复: 云村清洁工 下载我最新编译的版本</p>
+<p>##WeXposed （微X模块）<br>作者：fkzhang</p>
+<ul>
+<li><a href="http://repo.xposed.info/module/com.fkzhang.wechatxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.wechatxposed</a><br>功能：-防止微信撤回消息</li>
+<li>转发微信聊天里的图片和小视频到朋友圈</li>
+<li>转发聊天里的多张图片（最多9张）到朋友圈</li>
+<li>转发语音给朋友</li>
+<li>转发收藏内容</li>
+<li>转发朋友圈里的内容到自己的朋友圈</li>
+<li>分享图片和小视频</li>
+<li>屏蔽群聊成员</li>
+<li>自动查找僵尸粉</li>
+<li>批量删除好友</li>
+<li>批量删除僵尸粉</li>
+<li>自动回复</li>
+<li>自定义表情最高限额</li>
+<li>自动领取红包、转账</li>
+<li>等等。。。</li>
+</ul>
+<p>请谨慎使用自动领取红包功能！</p>
+<p>##QXposed （QX模块）<br>作者：fkzhang<br> <a href="http://repo.xposed.info/module/com.fkzhang.qqxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.qqxposed</a><br>功能：-防止QQ撤回消息<br>-自动领取红包<br>-控制骰子<br>-支持TIM<br>##chimi<br>作者：yonhhen<br>链接：<a href="https://github.com/yonghen/chimi-/releases" target="_blank" rel="noopener">https://github.com/yonghen/chimi-/releases</a><br>功能：MIUI主题破解</p>
+<h2 id="MIUI主题防恢复"><a href="#MIUI主题防恢复" class="headerlink" title="MIUI主题防恢复"></a>MIUI主题防恢复</h2><p>作者：夢月時歌<br>链接<a href="https://www.wenshushu.cn/f/2s1mm0vm3bx" target="_blank" rel="noopener">https://www.wenshushu.cn/f/2s1mm0vm3bx</a><br>功能：启MIUI主题破解模块，有效防止主题自动恢复默认。可用第三方主题，免费使用付费字体。</p>
 ]]></content>
       <categories>
         <category>转载</category>

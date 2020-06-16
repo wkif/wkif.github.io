@@ -12,9 +12,9 @@
     <meta name="keywords" content="kif,"> 
     <meta name="description" content="Never Give Up,
 
-本文介绍手机第三方rec刷入和magisk、Edxp的安装
+本文介绍手机第三方rec刷入和magisk、Edxp的安装有变砖风险。玩机有风险，搞机需谨慎。
 
-前言什么是第三方rec？Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式（类似于windows PE或DOS,"> 
+前言什么是第三方rec？Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式,"> 
     <meta name="author" content="kif"> 
     <link rel="alternative" href="atom.xml" title="Kif Room" type="application/atom+xml"> 
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/wkif/CDN/img/favicon.png"> 
@@ -70,17 +70,19 @@
         <div class="content markdown">
             <pre><code class="bash">
 </code></pre>
-<p>本文介绍手机第三方rec刷入和magisk、Edxp的安装</p>
+<p>本文介绍手机第三方rec刷入和magisk、Edxp的安装<br>有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
 <a id="more"></a>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="什么是第三方rec？"><a href="#什么是第三方rec？" class="headerlink" title="什么是第三方rec？"></a>什么是第三方rec？</h2><p>Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式（类似于windows PE或DOS）。在这个模式下我们可以刷入新的安卓系统，或者对已有的系统进行备份或升级，也可以在此恢复出厂设置，按类型分为官方的rec和第三方rec（CWM REC和TWRP REC。REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。官方Recovery只能用来刷入官方的系统，如小米rec<br><img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh=600,800/sign=00603032040828386858d41288a98539/1ad5ad6eddc451daa6d497c6b5fd5266d01632f8.jpg" alt="图源：百度百科"></p>
 <p>如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
 <p>TWRP<br>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。<a href="https://twrp.me/" target="_blank" rel="noopener">twrp官网</a></p>
 <p>此教程是线刷rec教程</p>
-<h2 id="什么是magisk？"><a href="#什么是magisk？" class="headerlink" title="什么是magisk？"></a>什么是magisk？</h2><p><img src="https://cdn.sspai.com/2019/02/25/f9ba127eb6c341faadf8fbb3df725572.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="图源：Android 派小队"><br>Magisk 是出自一位台湾学生<a href="https://forum.xda-developers.com/member.php?u=4470081" target="_blank" rel="noopener"> @topjohnwu </a>开发的 Android 框架，是一个通用的第三方 systemless 接口，通过这样的方式实现一些较强大的功能。<br>看似很简单的一个框架，甚至与大名鼎鼎的 Xposed 框架在功能性上有点重复。很多人批评 Magisk的模块太少了，想替代 Xposed 根本不可能（在那个 Xposed Framework for Android 7.0 难产的时代，很多人将 Magisk 看是做是 Xposed 的替代品）。这是不正确的，因为 Magisk 从来没有想过要代替 Xposed ，Magisk 与 Xposed 是可以互相兼容的，你甚至可以通过 Magisk 来安装 Xposed（安装 Xposed 后就不能绕过 SafetyNet 了）。</p>
+<h2 id="什么是magisk？"><a href="#什么是magisk？" class="headerlink" title="什么是magisk？"></a>什么是magisk？</h2><p>官网：<a href="https://magiskmanager.com/" target="_blank" rel="noopener">https://magiskmanager.com/</a></p>
+<p><img src="https://cdn.sspai.com/2019/02/25/f9ba127eb6c341faadf8fbb3df725572.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="图源：Android 派小队"><br>Magisk 是出自一位台湾学生<a href="https://forum.xda-developers.com/member.php?u=4470081" target="_blank" rel="noopener"> @topjohnwu </a>开发的 Android 框架，是一个通用的第三方 systemless 接口，通过这样的方式实现一些较强大的功能。<br>看似很简单的一个框架，甚至与大名鼎鼎的 Xposed 框架在功能性上有点重复。很多人批评 Magisk的模块太少了，想替代 Xposed 根本不可能（在那个 Xposed Framework for Android 7.0 难产的时代，很多人将 Magisk 看是做是 Xposed 的替代品）。这是不正确的，因为 Magisk 从来没有想过要代替 Xposed ，Magisk 与 Xposed 是可以互相兼容的，你甚至可以通过 Magisk 来安装 Xposed（安装 Xposed 后就不能绕过 SafetyNet 了）。</p>
 <p>Magisk 的厉害之处在于它实现了一种绕过 SafetyNet 使用 root 的方法。</p>
 <p>实现原理：由于它是通过启动时在 boot 中创建钩子，把 /data/magisk.img 挂载到 /magisk，构建出一个在 system 基础上能够自定义替换，增加以及删除的文件系统，所有操作都在启动的时候完成，实际上并没有对 /system 分区进行修改（即 systemless 接口，以不触动 /system 的方式修改 /system）。</p>
 <p>转自：<br>作者：Mogeko丶<br>链接：<a href="https://www.jianshu.com/p/393f5e51716e" target="_blank" rel="noopener">https://www.jianshu.com/p/393f5e51716e</a><br>来源：简书</p>
-<h2 id="3-什么是Edxp"><a href="#3-什么是Edxp" class="headerlink" title="3.什么是Edxp?"></a>3.什么是Edxp?</h2><p>   Edxposed全称 Elder driver Xposed Framework，简称edxp.<br>大名鼎鼎的xposed框架可以实现QQ抢红包，微信抢红包，防止消息撤回等功能。xposed也是所有android系统获取root后必装的东西。但可惜，自从android 7.0之后xposed的开发者rovo89基本就不维护了，针对android 8.0的版本草草发布了一个测试版本撒手不管了。现在越来越多的新机型出厂就是android 9.0系统，那么怎么才能继续使用xposed框架，如何才能继续快乐的抢红包呢？其实有办法！xposed虽然死了，但它却不再是唯一。比如今天我要提到的Edxposed框架，Edxposed全称 Elder driver Xposed Framework，简称edxp，Edxposed框架现在支持android 8.0 -android 9.0 ，如果是android 7.0或更早的版本，推荐使用xposed框架。针对框架的安装问题，官方推出了Magisk模块的安装方式，也就是提供了一个zip压缩包，在Magisk中安装重启即可。在安装edxposed的magisk模块之前，你需要先安装riru的magisk模块。<br>本文主要是Magisk安装Edx。</p>
+<h2 id="3-什么是Edxp"><a href="#3-什么是Edxp" class="headerlink" title="3.什么是Edxp?"></a>3.什么是Edxp?</h2><p>官网：<a href="https://github.com/ElderDrivers/EdXposed/releases/" target="_blank" rel="noopener">https://github.com/ElderDrivers/EdXposed/releases/</a></p>
+<p>   Edxposed全称 Elder driver Xposed Framework，简称edxp.<br>大名鼎鼎的xposed框架可以实现QQ抢红包，微信抢红包，防止消息撤回等功能。xposed也是所有android系统获取root后必装的东西。但可惜，自从android 7.0之后xposed的开发者rovo89基本就不维护了，针对android 8.0的版本草草发布了一个测试版本撒手不管了。现在越来越多的新机型出厂就是android 9.0系统，那么怎么才能继续使用xposed框架，如何才能继续快乐的抢红包呢？其实有办法！xposed虽然死了，但它却不再是唯一。比如今天我要提到的Edxposed框架，Edxposed全称 Elder driver Xposed Framework，简称edxp，Edxposed框架现在支持android 8.0 -android 9.0 ，如果是android 7.0或更早的版本，推荐使用xposed框架。针对框架的安装问题，官方推出了Magisk模块的安装方式，也就是提供了一个zip压缩包，在Magisk中安装重启即可。在安装edxposed的magisk模块之前，你需要先安装riru的magisk模块。<br>本文主要是Magisk安装Edx。</p>
 <p>参考：<br>作者：coderstory<br>《后Xposed时代: 一篇文章看懂如何安装和使用Edxposed》<br><a href="https://blog.coderstory.cn/guide-install-edxposed/" target="_blank" rel="noopener">https://blog.coderstory.cn/guide-install-edxposed/</a></p>
 <h1 id="刷入第三方rec"><a href="#刷入第三方rec" class="headerlink" title="刷入第三方rec"></a>刷入第三方rec</h1><h2 id="下载准备"><a href="#下载准备" class="headerlink" title="下载准备"></a>下载准备</h2><p>准备：电脑 数据线 手机 </p>
 <p>所需工具来自 rom乐园 参考教程：<a href="http://www.romleyuan.com/lec/read?id=201" target="_blank" rel="noopener">http://www.romleyuan.com/lec/read?id=201</a></p>
