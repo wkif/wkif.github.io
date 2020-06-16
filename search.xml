@@ -1308,4 +1308,116 @@ int showList(SqList L)
         <tag>学习笔记</tag>
       </tags>
   </entry>
+  <entry>
+    <title>玩机汇总（二）：刷入第三方rec 与magisk、Edx安装</title>
+    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%88%B7%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9rec-%E4%B8%8Emagisk%E3%80%81Edx%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<p>本文介绍手机第三方rec刷入和magisk、Edxp的安装</p>
+<a id="more"></a>
+<h1 id="一-前言"><a href="#一-前言" class="headerlink" title="一.前言"></a>一.前言</h1><h2 id="1-什么是第三方rec？"><a href="#1-什么是第三方rec？" class="headerlink" title="1.什么是第三方rec？"></a>1.什么是第三方rec？</h2><p>Recovery模式指的是一bai种可以对安卓机内部du的数据或系统进行修改的模式（类似于windows PE或DOS）。在这个模式下我们可以刷入新的安卓系统，或者对已有的系统进行备份或升级，也可以在此恢复出厂设置，按类型分为官方的rec和第三方rec（CWM REC和TWRP REC。REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。官方Recovery只能用来刷入官方的系统，如小米rec<br><img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh=600,800/sign=00603032040828386858d41288a98539/1ad5ad6eddc451daa6d497c6b5fd5266d01632f8.jpg" alt="图源：百度百科"></p>
+<p>如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
+<p>TWRP<br>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。<a href="https://twrp.me/" target="_blank" rel="noopener">twrp官网</a></p>
+<p>此教程是线刷rec教程</p>
+<h2 id="2-什么是magisk？"><a href="#2-什么是magisk？" class="headerlink" title="2.什么是magisk？"></a>2.什么是magisk？</h2><p><img src="https://cdn.sspai.com/2019/02/25/f9ba127eb6c341faadf8fbb3df725572.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="图源：Android 派小队"><br>Magisk 是出自一位台湾学生<a href="https://forum.xda-developers.com/member.php?u=4470081" target="_blank" rel="noopener"> @topjohnwu </a>开发的 Android 框架，是一个通用的第三方 systemless 接口，通过这样的方式实现一些较强大的功能。<br>看似很简单的一个框架，甚至与大名鼎鼎的 Xposed 框架在功能性上有点重复。很多人批评 Magisk的模块太少了，想替代 Xposed 根本不可能（在那个 Xposed Framework for Android 7.0 难产的时代，很多人将 Magisk 看是做是 Xposed 的替代品）。这是不正确的，因为 Magisk 从来没有想过要代替 Xposed ，Magisk 与 Xposed 是可以互相兼容的，你甚至可以通过 Magisk 来安装 Xposed（安装 Xposed 后就不能绕过 SafetyNet 了）。</p>
+<p>Magisk 的厉害之处在于它实现了一种绕过 SafetyNet 使用 root 的方法。</p>
+<p>实现原理：由于它是通过启动时在 boot 中创建钩子，把 /data/magisk.img 挂载到 /magisk，构建出一个在 system 基础上能够自定义替换，增加以及删除的文件系统，所有操作都在启动的时候完成，实际上并没有对 /system 分区进行修改（即 systemless 接口，以不触动 /system 的方式修改 /system）。</p>
+<p>转自：<br>作者：Mogeko丶<br>链接：<a href="https://www.jianshu.com/p/393f5e51716e" target="_blank" rel="noopener">https://www.jianshu.com/p/393f5e51716e</a><br>来源：简书</p>
+<h2 id="3-什么是Edxp"><a href="#3-什么是Edxp" class="headerlink" title="3.什么是Edxp?"></a>3.什么是Edxp?</h2><p>   Edxposed全称 Elder driver Xposed Framework，简称edxp.<br>大名鼎鼎的xposed框架可以实现QQ抢红包，微信抢红包，防止消息撤回等功能。xposed也是所有android系统获取root后必装的东西。但可惜，自从android 7.0之后xposed的开发者rovo89基本就不维护了，针对android 8.0的版本草草发布了一个测试版本撒手不管了。现在越来越多的新机型出厂就是android 9.0系统，那么怎么才能继续使用xposed框架，如何才能继续快乐的抢红包呢？其实有办法！xposed虽然死了，但它却不再是唯一。比如今天我要提到的Edxposed框架，Edxposed全称 Elder driver Xposed Framework，简称edxp，Edxposed框架现在支持android 8.0 -android 9.0 ，如果是android 7.0或更早的版本，推荐使用xposed框架。针对框架的安装问题，官方推出了Magisk模块的安装方式，也就是提供了一个zip压缩包，在Magisk中安装重启即可。在安装edxposed的magisk模块之前，你需要先安装riru的magisk模块。<br>本文主要是Magisk安装Edx。</p>
+<p>参考：<br>作者：coderstory<br>《后Xposed时代: 一篇文章看懂如何安装和使用Edxposed》<br><a href="https://blog.coderstory.cn/guide-install-edxposed/" target="_blank" rel="noopener">https://blog.coderstory.cn/guide-install-edxposed/</a></p>
+<h1 id="二-刷入第三方rec"><a href="#二-刷入第三方rec" class="headerlink" title="二.刷入第三方rec"></a>二.刷入第三方rec</h1><h2 id="1-下载准备"><a href="#1-下载准备" class="headerlink" title="1.下载准备"></a>1.下载准备</h2><p>准备：电脑 数据线 手机 </p>
+<p>所需工具来自 rom乐园 参考教程：<a href="http://www.romleyuan.com/lec/read?id=201" target="_blank" rel="noopener">http://www.romleyuan.com/lec/read?id=201</a></p>
+<p>小米全机型TWRP一键刷机工具：</p>
+<p>百度网盘下载：<a href="https://pan.baidu.com/s/1K0VuCxwwKT9OI3yCouV3Gg" target="_blank" rel="noopener">https://pan.baidu.com/s/1K0VuCxwwKT9OI3yCouV3Gg</a><br>高速下载，请关注微信公众号：ROM乐园 回复关键字：全机型recovery下载</p>
+<p>twrp机型下载地址汇总<br>链接：<a href="https://pan.baidu.com/s/1zIZ9ObMiKwjlW3LvpOixMw" target="_blank" rel="noopener">https://pan.baidu.com/s/1zIZ9ObMiKwjlW3LvpOixMw</a><br>提取码：9kam</p>
+<h2 id="2-刷入"><a href="#2-刷入" class="headerlink" title="2.刷入"></a>2.刷入</h2><p>解压刷入RECOVERY工具并打开</p>
+<p><img src="http://www.romleyuan.com:9001/attach/photo/910fe8164e8549328f7f9ca5e8377841.jpg" alt="图源：rom乐园"></p>
+<p>彻底关闭手机，音量下和开机按键进入fastboot模式<br>双击运行一键刷入RECOVERY.bat脚本</p>
+<p><img src="http://www.romleyuan.com:9001/attach/photo/53b675e71b7a4aa6980a0572a15cac6b.jpg" alt="图源：rom乐园"></p>
+<p>提示连接成功后，根据提示一步步刷完RECOVERY<br><img src="http://www.romleyuan.com:9001/attach/photo/7ae894fdf6fe46c597d7cdbf9fffe6ac.jpg" alt="图源：rom乐园"><br>刷机完成后，会自动进入RECOVERY，或者提示进入RECOVERY方法</p>
+<h2 id="3-小米手机进入TWRP-Recovery教程："><a href="#3-小米手机进入TWRP-Recovery教程：" class="headerlink" title="3.小米手机进入TWRP_Recovery教程："></a>3.小米手机进入TWRP_Recovery教程：</h2><p>开机状态下，选择重启手机，按住音量山不松手，即可进入TWRP_Recovery</p>
+<p>关机状态下，长开机键和音量上不松手，震动后松开开机按键，保持音量上</p>
+<p>不松手，等待手机自带进入twrp界面</p>
+<h1 id="三-刷入magisk"><a href="#三-刷入magisk" class="headerlink" title="三.刷入magisk"></a>三.刷入magisk</h1><p>安装 Magisk 需要解锁 Bootloader 并刷入第三方 Recovery。所以每个品牌的手机都或多或少的有点不一样，这里只介绍一个标准的流程，</p>
+<h2 id="1-下载准备-1"><a href="#1-下载准备-1" class="headerlink" title="1.下载准备"></a>1.下载准备</h2><p>网站下载<a href="https://forum.xda-developers.com/apps/magisk" target="_blank" rel="noopener">magisk</a>包；</p>
+<p>下面提供个人云盘的下载：<br>magisk app:<br>链接：<a href="https://pan.baidu.com/s/1YXTdIAbbp0xMoBT0UWFboA" target="_blank" rel="noopener">https://pan.baidu.com/s/1YXTdIAbbp0xMoBT0UWFboA</a><br>提取码：p15w</p>
+<p>magisk v20.4<br>链接：<a href="https://pan.baidu.com/s/1q6kBqFDuAVIQeQ2KRji0sw" target="_blank" rel="noopener">https://pan.baidu.com/s/1q6kBqFDuAVIQeQ2KRji0sw</a><br>提取码：mzd5 </p>
+<p>magisk卸载包 链接：<a href="https://pan.baidu.com/s/1UjigsfnuHwFpC1YkjNLrQQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1UjigsfnuHwFpC1YkjNLrQQ</a><br>提取码：6lg7</p>
+<p>下载 APP 和magisk v20.4 就好了</p>
+<h2 id="2-方法"><a href="#2-方法" class="headerlink" title="2.方法"></a>2.方法</h2><p>首先将下好的magisk v20.4 包放入手机中</p>
+<p>进入第三方 Recovery（以 twrp 为例）</p>
+<p><img src="https://img-blog.csdnimg.cn/20190524124806103.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3Mjc3OTQ0,size_16,color_FFFFFF,t_70" alt="图源：CSDN unique-R"></p>
+<p>安装刷机包  找到我让你放在硬盘中的那个包（后缀为 .zip）</p>
+<p><img src="https://img-blog.csdnimg.cn/2019052412515435.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3Mjc3OTQ0,size_16,color_FFFFFF,t_70" alt="图源：CSDN unique-R"></p>
+<p>滑动滑块，开始刷机 </p>
+<p><img src="https://img-blog.csdnimg.cn/2019052412540624.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3Mjc3OTQ0,size_16,color_FFFFFF,t_70" alt="图源：CSDN unique-R"></p>
+<p>刷好后立即重启。</p>
+<p><img src="https://i.loli.net/2018/11/15/5bed4ed4966d5.jpg" alt="图源：CSDN 苦瓜亦叫半生瓜"></p>
+<p>至此，magisk安装完毕。</p>
+<h2 id="3-模块"><a href="#3-模块" class="headerlink" title="3.模块"></a>3.模块</h2><p>  magisk安装之后可以安装很多模块实现对手机的功能扩展。具体的模块分享会专门出一个板块。</p>
+<h1 id="四-刷入-Edx"><a href="#四-刷入-Edx" class="headerlink" title="四.刷入 Edx"></a>四.刷入 Edx</h1><h2 id="1-下载准备："><a href="#1-下载准备：" class="headerlink" title="1.下载准备："></a>1.下载准备：</h2><p>有了magisk之后安装Edxp相对比较简单，Edxp作为一个Magisk模块被刷入。<br>以前需要刷入 Riru Core和Edx两个模块，但之后有大佬对模块进行了整合，这里分享的就是整合后的模块，用magisk输入后就可以了。</p>
+<p>Magisk模块-EdXposed完整框架v2.7Y版<br>链接：<a href="https://pan.baidu.com/s/1oxvrpwnWLQWzoQJKYroOUw" target="_blank" rel="noopener">https://pan.baidu.com/s/1oxvrpwnWLQWzoQJKYroOUw</a><br>提取码：a9dk</p>
+<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2.安装"></a>2.安装</h2><p>下载之后进入第三方rec ，找到模块安装<br>重启之后一般就会出现 Edx的图标</p>
+<p>至此，Edxp安装完毕。</p>
+<h2 id="3-模块-1"><a href="#3-模块-1" class="headerlink" title="3.模块"></a>3.模块</h2><p>Edxp  也有很多模块，模块分享会和Magisk模块一起发出。</p>
+<h1 id="五-后话"><a href="#五-后话" class="headerlink" title="五.后话"></a>五.后话</h1><p>magisk 和Edxp是我个人用的比较多的，当然市面上还有太极之类的玩机软件也不错，有想法的可以去试试。</p>
+<p>此次教程参考转载了很多大佬的文章，主要在于自己表达水平不行，在此对这些大佬表示感谢。如有侵权，请联系我删除。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>玩机</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>玩机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩机汇总（一）：小米手机解锁与刷开发版</title>
+    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E8%A7%A3%E9%94%81%E4%B8%8E%E5%88%B7%E5%BC%80%E5%8F%91%E7%89%88/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<p>本文记录我几年的玩机记录和经验，以小米手机的玩机经验为主</p>
+<a id="more"></a>
+<h1 id="一-手机解锁"><a href="#一-手机解锁" class="headerlink" title="一.手机解锁"></a>一.手机解锁</h1><p>前言：<br>手机解锁每个品牌都有不同的方法，华为的以前可以申请解锁码解锁，但之后直接关闭了解锁通道，所以华为手机可玩性不高。ov系一直没有开通root权限，oppo旗下子品牌realme（本人目前的手机）到有可以解锁的。魅族也有官方的解锁通道。本文以小米解锁为例。</p>
+<p>解锁即解bl锁，解除bl锁后我们就可以自由的刷机与刷入rec了，而如果我们不解锁，我们就只能通过有限的刷机方式来刷机，譬如通过官方rec进行更新，但是官方rec只能刷官方指定的刷机包，而如果想要刷入第三方刷机包都需要解除bl锁。</p>
+<p> 解除bl锁的教程：</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p> 你必须要有小米账号，且小米账号在你的小米手机上登录了超过24个小时</p>
+<p>你需要一台电脑，一个usb数据线，原装的最好。</p>
+<p>如果你只是想刷开发版，可以下滑到刷开发版的教程，刷入开发版不需要解锁bl锁！</p>
+<p>解锁需要申请解锁码，申请后需要等待一到三个工作日，所以无法立即解锁。</p>
+<p>解锁后会清除数据，请先备份数据！<br>解锁后会清除数据，请先备份数据！<br>解锁后会清除数据，请先备份数据！<br>解锁后会清除数据，请先备份数据！<br>解锁后会清除数据，请先备份数据！</p>
+<h2 id="1-下载解锁工具"><a href="#1-下载解锁工具" class="headerlink" title="1.下载解锁工具"></a>1.下载解锁工具</h2><p>进入MIUI论坛，网址： <a href="https://www.miui.com/unlock/index.html" target="_blank" rel="noopener">小米解锁地址</a><br><img src="https://s1.ax1x.com/2020/06/16/Niq5GT.png" alt="enter image description here"></p>
+<p>点击立即解锁</p>
+<p>下载解锁工具到电脑，解压<br><img src="https://s1.ax1x.com/2020/06/16/NiqLZR.png" alt="enter image description here"></p>
+<p><img src="https://s1.ax1x.com/2020/06/16/NiqzRO.png" alt="enter image description here"></p>
+<p>miflash_unlock.exe 就是解锁程序。</p>
+<h2 id="2-开启开发者模式"><a href="#2-开启开发者模式" class="headerlink" title="2.开启开发者模式"></a>2.开启开发者模式</h2><p>打开手机，进入设置–我的设备–全部参数<br><img src="https://s1.ax1x.com/2020/06/16/NiLYWT.jpg" alt="enter image description here"></p>
+<p>多次点击MIUI版本，知道弹窗显示“已进入开发者模式”<br><img src="https://s1.ax1x.com/2020/06/16/NiL6fK.jpg" alt="enter image description here"></p>
+<p>回退到设置主界面 点开“更多设置”</p>
+<p>点击开发者选项<br>（这里前面没有多次点击MIUI开启的话是没有这个选项的）<br><img src="https://s1.ax1x.com/2020/06/16/NiLq1S.jpg" alt="enter image description here"></p>
+<p>开启开发者选项和USB调试<br><img src="https://s1.ax1x.com/2020/06/16/NiOJHA.jpg" alt="enter image description here"></p>
+<p>这里插一句,这里有个设备解锁状态是可以看是否账号与手机绑定的，如果没有绑定，绑定后要24h后才能解锁</p>
+<h2 id="3-连接手机解锁"><a href="#3-连接手机解锁" class="headerlink" title="3.连接手机解锁"></a>3.连接手机解锁</h2><p>把手机关机，同时按住开机键和音量下键（音量减键）；</p>
+<p>按住7s后，手机会亮屏，如果屏幕是这个内容<br><img src="https://pic2.zhimg.com/v2-1e8fa0413a87211434434f2b35b99709_r.jpg" alt="图源：知乎 八重樱"></p>
+<p>说明你已经进入Bootloader模式了。</p>
+<p>这时候，把手机用usb数据线连接到电脑上。</p>
+<p>打开解压工具，找到miflash_unlock，双击运行<br> 同意免责条款后登陆小米账号 之后会验证是否支持解锁<br> <img src="https://s1.ax1x.com/2020/06/16/NiXCVA.png" alt="enter image description here"></p>
+<p>之后点击解锁就好了</p>
+<p><img src="https://pic4.zhimg.com/v2-bb6e72f8f40d5b485658989af1f428e7_r.jpg" alt="图源：知乎 八重樱"></p>
+<h1 id="二-刷入开发版miui"><a href="#二-刷入开发版miui" class="headerlink" title="二.刷入开发版miui"></a>二.刷入开发版miui</h1><h2 id="1-下载刷机包"><a href="#1-下载刷机包" class="headerlink" title="1.下载刷机包"></a>1.下载刷机包</h2><p>下载地址：<a href="http://www.miui.com/download.html" target="_blank" rel="noopener">MIUI下载</a><br><img src="https://s1.ax1x.com/2020/06/16/Nijbp6.png" alt="enter image description here"></p>
+<p>选择对应手机版本（以小米6为例）<br><img src="https://s1.ax1x.com/2020/06/16/NFCj2R.png" alt="enter image description here"><br>下载开发版安装包<br>将手机连接电脑，划出状态栏，选择正在通过USB充电（如果在这之前你更改过设置，也有可能会是正在通过USB传输照片/传输文件）<br><img src="https://pic1.zhimg.com/v2-0e0f8cd1604f7623245bed2053517978_r.jpg" alt="图源：知乎 八重樱"><br>打开此电脑，选择你的手机 找到downloaded_rom文件夹，并打开<br>把你下载的开发版刷机包复制到downloaded_rom文件夹里，断开手机与电脑的连接。</p>
+<p>并保证手机有50%以上的电量。<br>打开设置–我的设备  选择MIUI版本，在MIUI版本界面点击右上角</p>
+<p>选择手动选择刷机包，找到downloaded_rom，选择你的ROM，刷机即可。<br><img src="https://pic4.zhimg.com/v2-f0c65ebae6a2ae4adddabdc6cbf3637b_r.jpg" alt="enter image description here"></p>
+<p>参考：<br>小米手机解锁与刷开发版教程 - 八重樱的文章 - 知乎<br><a href="https://zhuanlan.zhihu.com/p/62107666" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/62107666</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>玩机</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>玩机</tag>
+      </tags>
+  </entry>
 </search>
