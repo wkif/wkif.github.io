@@ -1,6 +1,1041 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/06/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>win桌面美化教程</title>
+    <url>/2020/06/13/win%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>win桌面美化教程<br>Win桌面美化教程<br>在这记录下个人win 美化入坑的一些经验，主要是怕自己以后忘了怎么搞的<br> <img src="https://s1.ax1x.com/2020/06/13/txSFTf.png" alt="enter image description here"></p>
+<a id="more"></a> [more](https://hexo.io/docs/writing.html)
+
+<p>先上一波成品图</p>
+<p><img src="https://s1.ax1x.com/2020/06/13/tvz7O1.gif" alt="enter image description here"></p>
+<p>目录</p>
+<p>1.文件<br>rainmeter :<br>链接：<a href="https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA" target="_blank" rel="noopener">https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA</a> 提取码：3527<br>2.配置<br>美化主要需要 win主题，rainmeter， 透明状态栏等等东西<br>2.1 注意事项<br>为避免造成错误，一般最好先关闭各种安全软件，创建系统还原点<br>右击“我的电脑” 点击“属性”</p>
+<p>点击“系统保护” 点击“创建”</p>
+<p>随便输入，点击创建，等待一会就创建好了</p>
+<p>创建系统还原点的目的是备份下之前的设置，以便以后想恢复的时候恢复</p>
+<p>2.2 rainmeter 安装与使用<br>Rainmeter是一款美化桌面的软件，可以加载各种桌面摆件：天气，时间，快捷方式，RSS，播放器，系统信息监控等<br>安装并运行 Rainmeter 程序，即可双击雨滴皮肤运行，部分雨滴皮肤是文件夹式的，复制到C:\Users\用户名\Documents\Rainmeter\Skins内，在任务栏托盘处找到白色小水滴的图标，双击打开配置面板，在左侧选择.ini文件，选择加载。<br>比较占用系统资源，老爷机谨慎安装；新手在安装时不要选择便携模式，否则无法正常安装皮肤。<br>下面是我收集到的一些插件包（资源来自网络，侵删）<br>使用方法：解压到C:\Users\用户名\Documents\Rainmeter\Skins目录下，在rainmeter 管理器里安装就好了，桌面上课一拖到任意位置</p>
+<p>时钟插件 链接：<a href="https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ</a> 提取码：1tpe<br>频谱和时间 链接：<a href="https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A" target="_blank" rel="noopener">https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A</a> 提取码：9kb9<br>布卡娘 链接：<a href="https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A" target="_blank" rel="noopener">https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A</a> 提取码：iyko<br>侧边栏 链接：<a href="https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw" target="_blank" rel="noopener">https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw</a> 提取码：egia<br>皮肤 链接：<a href="https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A" target="_blank" rel="noopener">https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A</a> 提取码：zaa8<br>2.3 透明化状态栏<br>这个就是一个软件达到的效果<br>软件名： TranslucentTB<br>下载：<br>链接：<a href="https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA" target="_blank" rel="noopener">https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA</a> 提取码：axer<br>2.4 然后就是一些好康的壁纸了！！<br>链接：<a href="https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg" target="_blank" rel="noopener">https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg</a> 提取码：m731<br>魔法阵 链接：<a href="https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ</a> 提取码：6dkd</p>
+<p>2.5 仿mac状态栏<br>就是动图中那个东西，也只是一个软件达到的效果<br>软件名:mydock<br>链接：<a href="https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg" target="_blank" rel="noopener">https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg</a> 提取码：xljl<br>—————————————–END——————————<br>有时间的话在写一下自定义磁贴的<br><img src="https://s1.ax1x.com/2020/06/13/tvzvfe.png" alt="enter image description here"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据结构习题：求解一元三次方程</title>
+    <url>/2020/06/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E8%A7%A3%E4%B8%80%E5%85%83%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<p>求解一元三次方程<br>描述<br>形如： ax^3+bx^2+cx+d=0 这样的三次方程，给出该方程中各项的系数(a，b，c，d均为实数)，请求出该方程在指定范围内的一个根。<br>例如方程：2x^3+3x^2+4x+5=0，在[-10,10]范围内有一个根为-1.371134。<br>测试集给定的范围保证刚好有一个根。</p>
+<a id="more"></a>
+<p>比如输入：<br>1.2 -1.0 3.4 4.4<br>-3 0<br>则根为：-0.856541<br>又比如输入：<br>-1.2 2.3 4.4 -3<br>-3 0<br>则根为：-1.534508<br>格式<br>输入格式<br>两行实数，第一行为4个实数，分别代表a,b,c,d。第二行两个实数，表示左右区间。<br>输出格式<br>一个实数，表示方程的解，精确到小数点后6位。<br>样例<br>输入样例<br>2.3 4.2 -1.7 -3<br>-10 10<br>输出样例<br>0.849809<br>限制<br>时间限制：100 ms<br>内存限制：16384 KB<br>提示<br>注意题目对精度和速度的要求</p>
+<p>代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    double a,b,c,d;</span><br><span class="line">    double x1,x2,x0,fx1,fx2,fx0,x,y;</span><br><span class="line"></span><br><span class="line">    scanf(<span class="string">"%lf %lf %lf %lf"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    scanf(<span class="string">"%lf %lf"</span>,&amp;x1, &amp;x2);</span><br><span class="line">    fx1=(( a * x1 + b) * x1 + c) * x1 + d;</span><br><span class="line">    fx2=(( a * x2 + b) * x2 + c) * x2 + d;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        x0 = ( x1 + x2 ) / 2;</span><br><span class="line">        fx0 = (( a * x0 + b) * x0 + c) * x0 + d;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>( (fx0 * fx1) &lt; 0 )</span><br><span class="line">        &#123;</span><br><span class="line">            x2 = x0;</span><br><span class="line">            fx2 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            x1 = x0;</span><br><span class="line">            fx1 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>( fabs( fx0 ) &gt;= 1e-7 );  //求根精度</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"%lf"</span>, x0 );</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>数据结构习题：最优布线问题</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9C%80%E4%BC%98%E5%B8%83%E7%BA%BF%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>描述<br>学校有n台计算机，为了方便数据传输，现要将它们用数据线连接起来。两台计算机被连接是指它们有数据线连接。由于计算机所处的位置不同，因此不同的两台计算机的连接费用往往是不同的。<br>当然，如果将任意两台计算机都用数据线连接，费用将是相当庞大的。为了节省费用，我们采用数据的间接传输手段，即一台计算机可以间接的通过若干台计算机（作为中转）来实现与另一台计算机的连接。<br>现在由你负责连接这些计算机，任务是使任意两台计算机都连通（不管是直接的或间接的）。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>第一行为整数n（2≤n≤30），表示计算机的数目。此后的n行，每行n个整数。第x+1行y列的整数表示直接连接第x台计算机和第y台计算机的费用。<br>输出格式<br>一个整数，表示最小的连接费用。<br>样例<br>输入样例<br>3<br>0 1 2<br>1 0 1<br>2 1 0<br>输出样例<br>2<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+int n, s, pnt[105], a[105][105], vs[105], as = 0;
+int main()
+{
+
+    int i, j, x, q;
+    scanf(<span class="string">"%d"</span>, &amp;n);
+    <span class="keyword">for</span> (i = 1; i &lt;= n; i++)
+
+
+        <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
+
+            scanf(<span class="string">"%d"</span>, &amp;a[i][j]);
+
+    pnt[++s] = vs[1] = 1;
+
+    <span class="keyword">for</span> (; s &lt; n;)
+
+    {
+
+        x = 2147483640;
+
+        <span class="keyword">for</span> (i = 1; i &lt;= s; i++)
+
+            <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
+
+                <span class="keyword">if</span> (x &gt; a[pnt[i]][j] &amp;&amp; !vs[j])
+                {
+
+                    x = a[pnt[i]][j];
+
+                    q = j;
+
+                }
+
+        as += x;
+
+        pnt[++s] = q;
+
+        vs[q] = 1;
+
+    }
+
+    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, as);
+
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：图像模糊处理</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E5%9B%BE%E5%83%8F%E6%A8%A1%E7%B3%8A%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>描述<br>给定m行n列的图像各像素点的灰度值，要求用如下方法对其进行模糊化处理：<br>1.四周最外侧的像素点灰度值不变；<br>2.中间各像素点新灰度值为该像素点及其上下左右相邻四个像素点原灰度值的平均(舍入到最接近的整数)。</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>第一行包含两个整数n和m，表示图像包含像素点的行数和列数。1≤n≤100，1≤m≤100。<br>接下来n行，每行m个整数，表示图像的每个像素点灰度。相邻两个整数之间用单个空格隔开，每个元素均在0~255之间。<br>输出格式<br>m行，每行n个整数，为模糊处理后的图像。相邻两个整数之间用单个空格隔开。<br>样例<br>输入样例<br>4 5<br>100 0 100 0 50<br>50 100 200 0 0<br>50 50 100 100 200<br>100 100 50 50 100<br>输出样例<br>100 0 100 0 50<br>50 80 100 60 0<br>50 80 100 90 200<br>100 100 50 50 100<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>注意点<br>“舍入到最接近的整数” 所以考虑小数时要四舍五入；即：<br>int change(double t)<br>{<br>    double NewNum = floor(t);//浮点取整<br>    return ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;<br>}<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+<span class="comment">#include &lt;math.h&gt;</span>
+int change(double t)
+{
+    double NewNum = floor(t);//浮点取整
+    <span class="built_in">return</span> ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;
+}
+
+int main()
+{
+    int m, n;
+    int p, q;
+    int cur[100][100], ans[100][100];
+    scanf(<span class="string">"%d %d"</span>, &amp;m, &amp;n);
+    int i, j;
+    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
+    {
+        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
+        {
+            scanf(<span class="string">"%d"</span>, &amp;cur[i][j]);
+        }
+    }
+    //<span class="built_in">printf</span>(<span class="string">"-------------------------\n"</span>);
+    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
+    {
+        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
+        {
+            ans[i][j] = cur[i][j];
+        }
+    }
+
+    int x, y;
+    <span class="keyword">for</span> (x = 1; x &lt; m - 1; x++)
+    {
+        <span class="keyword">for</span> (y = 1; y &lt; n - 1; y++)
+        {
+
+            double t = (cur[x][y] + cur[x - 1][y] + cur[x + 1][y] + cur[x][y - 1] + cur[x][y + 1]) / 5.0;
+            int w = change(t);
+            ans[x][y] = w;
+        }
+    }
+    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
+    {
+        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
+        {
+            <span class="built_in">printf</span>(<span class="string">"%d "</span>, ans[i][j]);
+            <span class="keyword">if</span> (j == n - 1)
+            {
+                <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+            }
+        }
+    }
+
+
+
+    <span class="built_in">return</span> 0;
+}
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：城市路</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E5%9F%8E%E5%B8%82%E8%B7%AF/</url>
+    <content><![CDATA[<p>描述<br>罗老师被邀请参加一个舞会，是在城市n，而罗老师当前所处的城市为1,附近还有很多城市2~n-1，有些城市之间没有直接相连的路，有些城市之间有直接相连的路，这些路都是双向的，当然也可能有多条。<br>现在给出直接相邻城市的路长度，罗老师想知道从城市1到城市n，最短多少距离。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>输入n, m，表示n个城市和m条路;<br>接下来m行，每行a b c， 表示城市a与城市b有长度为c的路。<br>输出格式<br>输出1到n的最短路。如果1到达不了n，就输出-1。<br>样例<br>输入样例<br>5 5<br>1 2 20<br>2 3 30<br>3 4 20<br>4 5 20<br>1 5 100<br>输出样例<br>90<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+int a[200][200],b[200][200],path[200][200];
+
+void floyd(int n)
+{
+    int i,j,k;
+    <span class="keyword">for</span>(i=1; i&lt;=n; i++)
+    {
+        <span class="keyword">for</span>(j=1; j&lt;=n; j++)
+        {
+            <span class="keyword">if</span>(i!=j)
+                path[i][j]=i;
+            <span class="keyword">else</span>
+                path[i][j]=-1;
+        }
+    }
+    <span class="keyword">for</span>(k=1; k&lt;=n; k++)
+    {
+        <span class="keyword">for</span>(i=1; i&lt;=n; i++)
+        {
+            <span class="keyword">for</span>(j=1; j&lt;=n; j++)
+            {
+                <span class="keyword">if</span>(a[i][j]&gt;a[i][k]+a[k][j])
+                {
+                    a[i][j]=a[i][k]+a[k][j];
+                    path[i][j]=path[k][j];
+                }
+            }
+        }
+    }
+}
+
+int main()
+{
+    int n,m,i,j;
+    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
+    <span class="keyword">for</span>(i=1; i&lt;=m; i++)
+    {
+        int x,y,z;
+        scanf(<span class="string">"%d %d"</span>,&amp;x,&amp;y);
+        <span class="keyword">if</span>(b[x][y]==0)
+            scanf(<span class="string">" %d"</span>,&amp;a[x][y]);
+        <span class="keyword">else</span>
+        {
+            scanf(<span class="string">" %d"</span>,&amp;z);
+            <span class="keyword">if</span>(z&lt;a[x][y])
+                a[x][y]==z;
+        }
+        b[x][y]=1;
+    }
+    <span class="keyword">for</span>(i=1;i&lt;=m;i++)
+    {
+        <span class="keyword">for</span>(j=1;j&lt;=m;j++)
+        {
+            <span class="keyword">if</span>(a[i][j]==0)
+            a[i][j]=999;
+        }
+    }
+    floyd(n);
+    <span class="keyword">if</span>(a[1][n]==999)
+        <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+    <span class="keyword">else</span>
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,a[1][n]);
+    <span class="built_in">return</span> 0;
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title> 数据结构习题：查找二叉树</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9F%A5%E6%89%BE%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<p>已知一棵二叉树用邻接表结构存储，中序查找二叉树中值为x的结点，并指出是第几个结点。</p>
+<a id="more"></a>
+
+<p>格式<br>输入格式<br>第一行n为二叉树的结点个树，n≤100；第二行x表示要查找的结点的值；以下第一列数据是各结点的值，第二列数据是左儿子结点编号，第三列数据是右儿子结点编号。<br>输出格式<br>一个数即查找的结点编号。<br>样例<br>输入样例<br>7<br>15<br>5 2 3<br>12 4 5<br>10 0 0<br>29 0 0<br>15 6 7<br>8 0 0<br>23 0 0<br>输出样例<br>4<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+
+struct node
+
+{
+
+    int n;
+
+    int l;
+
+    int r;
+
+}a[300];
+
+int n,m,flag,key;
+
+void find(int k)
+
+{
+
+    <span class="keyword">if</span>(a[k].l)
+
+        find(a[k].l);
+
+    <span class="keyword">if</span>(a[k].n==m&amp;&amp;key==0)
+
+    {
+
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,++flag);
+
+        key=1;
+
+        <span class="built_in">return</span>;
+
+    }
+
+    flag++;
+
+    <span class="keyword">if</span>(a[k].r)
+
+        find(a[k].r);
+
+}
+
+int main()
+
+{
+
+    int i;
+
+    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
+
+    <span class="keyword">for</span>(i=1;i&lt;=n;i++)
+
+    {
+
+        scanf(<span class="string">"%d %d %d"</span>,&amp;a[i].n,&amp;a[i].l,&amp;a[i].r);
+
+    }
+
+    find(1);
+
+    <span class="built_in">return</span> 0;
+
+}
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：求f（x,n）</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82f%EF%BC%88x-n%EF%BC%89/</url>
+    <content><![CDATA[<p>描述<br><img src="https://cdn.nlark.com/yuque/0/2020/jpeg/1188793/1585885913457-6bfbccd8-7197-4869-b873-9a13bea6f610.jpeg" alt="enter image description here"></p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>第一数是x的值，第二个数是n的值。<br>输出格式<br>函数值，保留两位小数。<br>样例<br>输入样例<br>1 2<br>输出样例<br>0.40<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+<span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b);
+int main()
+{
+    double x, n;
+    scanf(<span class="string">"%lf%lf"</span>, &amp;x, &amp;n);
+    <span class="built_in">float</span> e;
+    e = f(x, n);
+    <span class="built_in">printf</span>(<span class="string">"%.2f\n"</span>, e);
+    <span class="built_in">return</span> 0;
+}
+<span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b)
+{
+    <span class="built_in">float</span> k;
+    <span class="keyword">if</span> (b == 1)
+    {
+        k = a * 1.00 / (a + 1) * 1.00;
+        <span class="built_in">return</span> k;
+    }
+    <span class="keyword">else</span>
+    {
+        k = a * 1.00 / (b + f(a, b - 1)) * 1.00;
+
+    }   <span class="built_in">return</span> k;
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：计算鞍点</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E8%AE%A1%E7%AE%97%E9%9E%8D%E7%82%B9/</url>
+    <content><![CDATA[<p>描述<br>给定一个5*5的矩阵，每行只有一个最大值，每列只有一个最小值，寻找这个矩阵的鞍点。鞍点指的是矩阵中的一个元素，它是所在行的最大值，并且是所在列的最小值。<br>  例如：在下面的例子中（第4行第1列的元素就是鞍点，值为8 ）。<br>   11 3 5 6 9<br>   12 4 7 8 10<br>   10 5 6 9 11<br>   8 6 4 7 2<br>   15 10 11 20 25。</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>第一行包含两个整数n和m，表示图像包含像素点的行数和列数。1≤n≤100，1≤m≤100。<br>接下来n行，每行m个整数，表示图像的每个像素点灰度。相邻两个整数之间用单个空格隔开，每个元素均在0~255之间。<br>输出格式<br>m行，每行n个整数，为模糊处理后的图像。相邻两个整数之间用单个空格隔开。<br>样例<br>输入样例<br>4 5<br>100 0 100 0 50<br>50 100 200 0 0<br>50 50 100 100 200<br>100 100 50 50 100<br>输出样例<br>100 0 100 0 50<br>50 80 100 60 0<br>50 80 100 90 200<br>100 100 50 50 100<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>注意点<br>“舍入到最接近的整数” 所以考虑小数时要四舍五入；即：<br>int change(double t)<br>{<br>double NewNum = floor(t);//浮点取整<br>return ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;<br>}<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+int main()
+{
+    int cur[5][5];
+    int ans;
+    int i,j,f,m,n,y,h,l;
+    int flag;
+    <span class="keyword">for</span> (i = 0; i &lt; 5; i++)
+    {
+        <span class="keyword">for</span> (j = 0; j &lt; 5; j++)
+        {
+            scanf(<span class="string">"%d"</span>, &amp;cur[i][j]);
+        }
+    }
+    /*int a, b;
+    <span class="keyword">for</span> (a = 0; a &lt; 5; a++)
+    {
+        <span class="keyword">for</span> (b = 0; b &lt; 5; b++)
+        {
+
+            <span class="built_in">printf</span>(<span class="string">"%d "</span>,cur[a][b]);
+            <span class="keyword">if</span> (b == 4)
+            {
+                <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+            }
+        }
+    }
+    */
+
+    int max_x,min_y;
+    <span class="keyword">for</span> (m = 0; m &lt; 5; m++)
+    {
+        flag = 0;
+        max_x = cur[m][0];
+        y = 0;
+        <span class="keyword">for</span> (n = 0; n &lt; 5; n++)
+        {
+
+            <span class="keyword">if</span> (cur[m][n] &gt;max_x)
+            {
+                max_x = cur[m][n];
+                y = n;
+            }
+        }
+        int t;
+        min_y = max_x;
+        <span class="keyword">for</span> (t = 0; t &lt; 5; t++)
+        {
+
+            <span class="keyword">if</span> (cur[t][y] &lt;min_y)
+            {
+                //min_y = cur[t][y];
+                goto a;
+
+            }
+        }
+        h = m+1; l = y+1;
+        ans = min_y;
+        goto b;
+    a:
+        flag = 1;
+
+
+    }
+    <span class="keyword">if</span> (flag == 1)
+    {
+        <span class="built_in">printf</span>(<span class="string">"not found\n"</span>);
+        <span class="built_in">return</span> 0;
+    }
+    b:
+
+        <span class="built_in">printf</span>(<span class="string">"%d %d %d\n"</span>,h,l,ans);
+
+    <span class="built_in">return</span> 0;
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题： 查找二叉树</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E9%81%8D%E5%8E%86%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<p>格式<br>输入格式<br>第一行一个整数n，表示这棵完全二叉树的元素数目；第二行是n个整数，分别表示这棵二叉树上的元素值。<br>输出格式<br>输出为三行，第一行是先序遍历序列，第二行是中序遍历序列，第三行是后序遍历序列。数值之间用空格分隔<br>样例<br>输入样例<br>8<br>246 53 520 879 865 388 745 477<br>输出样例<br>246 53 879 477 865 520 388 745<br>477 879 53 865 246 388 520 745<br>477 879 865 53 388 745 520 246<br>限制<br>时间限制：300 ms<br>内存限制：16384 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">##include&lt;stdio.h&gt;</span>
+<span class="comment">#include&lt;stdlib.h&gt;</span>
+
+typedef struct bitree
+{
+    int data;
+    struct bitree *lchild,*rchild;
+} BiTNode;
+
+BiTNode* CreateBiTree(int *,int);
+void PreOderTraverse(BiTNode *);
+void PreOderTraverse_hou(BiTNode *);
+void PreOderTraverse_zhong(BiTNode *);
+
+int main()
+{
+    BiTNode *t;
+    int n,i;
+    scanf(<span class="string">"%d"</span>,&amp;n);
+    int a[1001];
+    <span class="keyword">for</span>(i=0; i&lt;n; i++)
+    {
+        scanf(<span class="string">"%d"</span>,&amp;a[i]);
+    }
+    //int a[10] = {1,2,3,4,5,6,7,8,9};                 //树中结点的数据
+
+    t = CreateBiTree(a,n);
+
+    PreOderTraverse(t);
+    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+    PreOderTraverse_zhong(t);
+    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
+    PreOderTraverse_hou(t);
+
+    <span class="built_in">return</span> 0;
+}
+
+//创建二叉树
+BiTNode* CreateBiTree(int *a,int n)
+{
+    BiTNode *root,*p;
+    BiTNode *bitQueue[n];                        //定义一个队列用来存放完全二叉树
+    int front=1,rear=1;                          //初始化队列
+//生成结点并入队
+    int i;
+    <span class="keyword">for</span>(i=0; i&lt;n; i++)
+    {
+        <span class="keyword">if</span>(*(a+i) == 0)
+            p = NULL;
+        <span class="keyword">else</span>
+        {
+            p = (BiTNode *)malloc(sizeof(BiTNode));
+            p-&gt;data = *(a+i);
+            p-&gt;lchild = p-&gt;rchild = NULL;
+        }
+        bitQueue[rear++] = p;                    //p结点入队,队尾指针加 1
+        <span class="keyword">if</span>(i==0) root = p;                       //初始化根节点
+    }
+//找出结点间的父子关系
+    <span class="keyword">while</span>(front != rear)                         //如果队列不为空
+    {
+        p = bitQueue[front];                    //当前要找关系的结点
+        <span class="keyword">if</span>(p != NULL)
+        {
+            <span class="keyword">if</span>(2*front &lt;= n)    p-&gt;lchild = bitQueue[2*front];
+            <span class="keyword">if</span>(2*front+1 &lt;= n)  p-&gt;rchild = bitQueue[2*front+1];
+        }
+        front++;                               //队头指针加 1，指向下一个结点
+    }
+
+    <span class="built_in">return</span> root;
+}
+
+//前序遍历
+void PreOderTraverse(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+        PreOderTraverse(t-&gt;lchild);
+        PreOderTraverse(t-&gt;rchild);
+    }
+}
+//中序遍历
+void PreOderTraverse_zhong(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        PreOderTraverse_zhong(t-&gt;lchild);
+        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+        PreOderTraverse_zhong(t-&gt;rchild);
+    }
+}
+//后序遍历
+void PreOderTraverse_hou(BiTNode *t)
+{
+    <span class="keyword">if</span>(t)                   //如果树不为空
+    {
+        PreOderTraverse_hou(t-&gt;lchild);
+
+        PreOderTraverse_hou(t-&gt;rchild);
+         <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
+    }
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：求后序遍历</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86/</url>
+    <content><![CDATA[<p>描述<br>输入一棵二叉树的先序和中序遍历序列，输出其后序遍历序列。</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>共两行，第一行一个字符串，表示树的先序遍历，第二行一个字符串，表示树的中序遍历。<br>输出格式<br>一行，表示树的后序遍历序列。<br>样例<br>输入样例<br>abdec<br>dbeac<br>输出样例<br>debca<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;string.h&gt;</span>
+
+<span class="comment">#include&lt;stdio.h&gt;</span>
+
+char s1[20], s2[20], ans[20];//s1[N],s2[N]分别为先序和中序遍历序列
+
+void build(int n, char* s1, char* s2, char* s)
+
+{
+
+    <span class="keyword">if</span>(n &lt;= 0) <span class="built_in">return</span>;    int p = strchr(s2, s1[0]) - s2;//找到根结点的位置
+
+    build(p, s1+1, s2, s);//递归构造左子树的后序遍历
+
+    build(n-p-1, s1+p+1, s2+p+1, s+p);//递归构造右子树的后序遍历
+
+    s[n-1] = s1[0];//把根结点添加到最后
+
+}
+
+int main()
+
+{
+
+    <span class="keyword">while</span>(scanf(<span class="string">"%s%s"</span>,s1, s2) == 2)
+
+    {
+
+        int n= strlen(s1);
+
+        build(n, s1,s2, ans);
+
+        ans[n] = <span class="string">'\0'</span>;
+
+        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>,ans);
+
+        <span class="built_in">return</span> 0;
+
+    }
+
+}
+
+</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：阿克曼函数</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E9%98%BF%E5%85%8B%E6%9B%BC%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<p>描述<br>阿克曼(Ackmann)函数A(m，n)中，m，n定义域是非负整数(m≤3,n≤10)，函数值定义为：<br>   akm(m,n) = n+1;         (m=0时)<br>   akm(m,n) = akm(m-1,1);  (m&gt;0,n=0时)<br>   akm(m,n) = akm(m-1,akm(m, n-1)); （m,n&gt;0时)</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>输入m和n。<br>输出格式<br>函数值<br>样例<br>输入样例<br>2 3<br>输出样例<br>9<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+
+int akm(int m,int n)
+{
+    <span class="keyword">if</span> (m == 0)
+    {
+        <span class="built_in">return</span> n + 1;
+    }
+    <span class="keyword">else</span> <span class="keyword">if</span> (m &gt; 0 &amp;&amp; n == 0)
+    {
+        <span class="built_in">return</span> akm(m - 1,1);
+    }
+    <span class="keyword">else</span>
+    {
+        <span class="built_in">return</span> akm(m - 1, akm(m, n - 1));
+    }
+
+
+}
+int main()
+{
+    int m, n;
+    scanf(<span class="string">"%d%d"</span>, &amp;m, &amp;n);
+    <span class="keyword">if</span> (m &lt;= 3 &amp;&amp; m &gt;= 0 &amp;&amp; n &lt;= 10 &amp;&amp; n &gt;= 0)
+    {
+        int ans;
+        ans=akm(m, n);
+        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans);
+    }
+
+
+    <span class="built_in">return</span> 0;
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：汉罗塔问题</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%89%E7%BD%97%E5%A1%94%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>描述<br>约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。<br>这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615<br>这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。<br>假定圆盘从小到大编号为1, 2, …</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>输入为一个整数(小于20）后面跟三个单字符字符串<br>。整数为盘子的数目，后三个字符表示三个杆子的编号。<br>输出格式<br>输出每一步移动盘子的记录。一次移动一行。每次移动的记录为例如 a-&gt;3-&gt;b 的形式，即把编号为3的盘子从a杆移至b杆。<br>样例<br>输入样例<br>2 a b c<br>输出样例<br>a-&gt;1-&gt;c<br>a-&gt;2-&gt;b<br>c-&gt;1-&gt;b<br>限制<br>时间限制：10000 ms<br>内存限制：65536 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>
+//将n个圆盘从x柱子上借助y柱子移动到z柱子上
+void move(int n, char x, char y, char z)
+{
+    //<span class="built_in">printf</span>(<span class="string">"B: %d %c %c %c \n"</span>, n, x, y, z);
+    <span class="keyword">if</span> (n == 1)
+    {
+        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);
+    }
+    <span class="keyword">else</span>
+    {
+        move(n - 1, x, z, y); //将n-1个圆盘从x柱子上借助z柱子移动到y柱子上
+        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);//将第n个盘子从x移到z上
+        move(n - 1, y, x, z);//将n-1个圆盘从y柱子上借助x柱子移动到z柱子上
+    }
+
+}
+
+
+int main()
+{
+    //分别代表三个柱子
+    char ch1,ch2,ch3;
+    int n;   //n代表圆盘的个数
+    scanf(<span class="string">"%d %c %c %c"</span>, &amp;n ,&amp; ch1, &amp;ch2, &amp;ch3);
+  //  <span class="built_in">printf</span>(<span class="string">"A: %d %c %c %c \n"</span>, n, ch1, ch2, ch3);
+    move(n, ch1, ch3, ch2);
+    <span class="built_in">return</span> 0;
+
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：身份证号码验证</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E7%A0%81%E9%AA%8C%E8%AF%81/</url>
+    <content><![CDATA[<p>描述<br>居民身份证是18位字符的编码，每个人的编码都是唯一的，校验规则如下：<br>∑（ai*wi）mod 11 = 1<br>i表示号码字符从左至右包括校验码字符在内的位置序号；ai表示第i位置上的号码字符值；Wi表示第i位置上的加权因子。即将各位上的数值乘上位权之和对11取余，余数为1则表示该编码正确。注意：如果最后一位校验码是“X”或“x”，则代表该校验码的数值为10。<br>各位的权值依次是：7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2，1<br>例如某身份证号码为：370683198901117657，这是正确的编码。<br>又如某号码为：470683198902117657，这是错误的编码。</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>第一行是一个数字n，表示后面有n行待判断的号码<br>从第二行起，每行一个18位的字符串，表示要判断的身份证号码<br>输出格式<br>输出一个数值，表示正确的身份证号码的个数<br>样例<br>输入样例<br>4<br>430321200506200105<br>430321200505070050<br>430302200512290036<br>43038120050824012X<br>输出样例<br>3<br>限制<br>时间限制：1000 ms<br>内存限制：65535 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>
+int main() 
+{
+    int n = 0, i = 0, sum = 0,j = 0;
+    char id[20];
+    int quan[] = { 7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2,1};
+    scanf(<span class="string">"%d"</span>, &amp;n);
+    int flag = 0;
+    <span class="keyword">for</span> (i =1; i &lt;=n; i++) 
+    {
+        scanf(<span class="string">"%s"</span>, id);
+        sum = 0;
+        int t = 0, x = 18;
+        <span class="keyword">if</span> (id[17] == <span class="string">'X'</span> || id[17] == <span class="string">'x'</span>)
+        {
+
+            x--;
+            t++;
+        }
+
+        <span class="keyword">for</span> (j = 0; j &lt; x; j++)
+        {
+            sum = sum + (id[j]-<span class="string">'0'</span>)*(quan[j]);
+
+        }
+        <span class="keyword">if</span> (t == 1)
+        {
+            sum = sum + 10;
+        }
+
+        <span class="keyword">if</span> (sum % 11 == 1)
+        {
+            flag++;
+        }
+
+    }
+    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, flag);
+
+
+    <span class="built_in">return</span> 0;
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构学习笔记：基本概念和术语</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E6%9C%AF%E8%AF%AD/</url>
+    <content><![CDATA[<p>一、知识点<br>1.数据<br>数据是信息的载体，是描述客观事物的数、字符、以及所有能输入到计算机中被计算机识别和处理的符号的集合。</p>
+<a id="more"></a>
+<p>2.数据元素<br>是数据中的一个个体，是数据的基本单位。在一些情况下数据元素也称为元素、结点、顶点、记录等。数据元素用于完整地描述一个对象。<br>3.数据项(Data Item)<br>是组成数据元素的有特定意义的补课分割的最小单位。如构成一个数据元素的字段、域、属性等都可称之为数据项。数据元素是数据项的集合。如:学生信息表中的学号、姓名、性别、专业等。<br>4.数据对象(Data Object)<br>是具有相同性质的数据元素的集合，是数据的一个子集。如:<br>计算机专业全体学生,<br>整数集合N={0, +1, +2,…},<br>小写字符集合C={‘a’，’b’,.，’z’},<br>5.数据结构<br>通过抽象的方法研究一组有特定关系的数据的存储与处理，数据结构主要研究三个方面的内容。<br>(1)数据的逻辑结构;<br>(2)存储结构;<br>(3)运算实现。<br><img src="https://s1.ax1x.com/2020/06/14/NSZDlq.png" alt="enter image description here"><br>6.数据逻辑结构<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591517817083-afa193ec-13c7-40c4-8596-22f27c4e64dc.png" alt="enter image description here"><br>7.数据的存储结构<br>1.顺序存储结构：借助元素在存储器中的相对位置表示数据之间的相对关系，通常用数组实现。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518276747-2f12dc36-5c2c-43e5-89b9-daf785f02af2.png" alt="enter image description here"><br>2.链式存储结构：借助表示元素存储地址的指针显式地指出元素之间的逻辑关系。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518244536-2157c0eb-91ea-43a4-9a50-63105ef7c623.png" alt="enter image description here"><br>3.哈希(散列)存储方式:是专用于集合结构的数据存放方式。用一个哈希函数将数据元素按关键字和一个唯一的存储位置关联起来。<br>4.索引存储方式:数据元素被排成一个序列:d1, d2, .，dn,每个结点di在序列里都有对应的位序i，位序可以作为结点的索引存储在索引表中。检索时利用结点的顺序号i来确定结点的存储地址。<br>8.抽象数据类型<br>为了形象直观的描述数据结构，引入抽象数据类型(Abstract Data Type,简称ADT)“抽象”的意义在于数据类型的数学抽象特性在定义抽象数据类型时,就是定义其数据的逻辑结构和操作说明，而不必考虑数据的存储结构和操作的具体实现<br>二、例题<br>1.数据结构中数据元素之间的逻辑关系被称为()。<br>A.数据的存储结构<br>B.数据的基本操作<br>C.程序的算法<br>D.数据的逻辑结构<br>北京理工大学2005十-.1(1分)]<br>[参考答案] D<br>2.在数据结构中，从逻辑上可以将之分为( )。<br>A.动态结构和静态结构<br>B.紧凑结构和非紧凑结构<br>C.内部结构和外部结构<br>D.线性结构和非线性结构<br>[中南大学2005-.1(2分)]<br>[参考答案] D<br>3.以下数据结构中，()是非线性数据结构<br>A.树<br>B.字符串<br>C.队<br>D.栈<br>[中山大学1999- .4]<br>[参考答案] A<br>4.以下属于逻辑结构的是()<br>A.顺序表<br>B.哈希表<br>C.有序表<br>D.单链表<br>[西安电子科技大学应用2001-.1]<br>[参考答案] C  其中顺序表是顺序存储结构，哈希表是哈希存储方式，单链表是链式存储结构。<br>5.己知表头元素为c的单链表在内存中的存储状态如下表所示。现将f放于1014H处并插入到单链表中，若f在逻   辑上位a和e之间，则a, e, f的链接地址”依次是( )。<br>A.1010H, 1014H, 1004H<br>B.11010H, 1004H, 1014H<br>C.1014H, 1010H, 1004H<br>D. | 1014H, 1004H, 1010H<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] D.<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518971491-3204bc4e-cab8-45fc-b846-34a8a1b1b947.png" alt="enter image description here"></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构习题：按字典规则比较字符大小</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%8C%89%E5%AD%97%E5%85%B8%E8%A7%84%E5%88%99%E6%AF%94%E8%BE%83%E5%AD%97%E7%AC%A6%E5%A4%A7%E5%B0%8F/</url>
+    <content><![CDATA[<p>描述<br>按照字典规则比较两个英文字符串的大小，基本规则如下：<br>（1）字符串左对齐比较<br>（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’<br>（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’<br>（4）字符串中只有大小写字母和空格，空格小于任何字母<br>例如：”aBc”&lt;”abc”,”abcdef”&lt;”abD”，”Abcd”&lt;”abc”</p>
+<a id="more"></a>
+<p>格式<br>输入格式<br>输入是两行，每行一个字符串，长度均小于1000<br>输出格式<br>输出一个整数，表示这两个字符串比较大小的结果。如果第一个小于第二个，输出-1；<br>如果第一个大于第二个，输出1；相等则输出0。<br>样例<br>输入样例<br>your<br>you<br>输出样例<br>1<br>限制<br>时间限制：100 ms<br>内存限制：8192 KB<br>代码</p>
+<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
+<span class="comment">#include&lt;string.h&gt;</span>
+int main()
+{
+    int i, len_a, len_b, max;
+    char a[1000], b[1000];
+    gets(a);
+    gets(b);
+    len_a = strlen(a);
+    len_b = strlen(b);
+    <span class="keyword">if</span> (len_a &gt; len_b)
+    {
+        max = len_a;
+    }
+    <span class="keyword">else</span>
+    {
+        max = len_b;
+    }
+    //<span class="built_in">printf</span>(<span class="string">"%c1\n"</span>,a[5]);
+    //<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,max);
+    int flag = 0;
+    <span class="keyword">for</span> (i = 0; i &lt; max; i++)
+    {
+
+        <span class="keyword">if</span> (a[i] == b[i])
+        {
+            <span class="keyword">if</span> (i == max - 1)
+            {
+                flag = 1;
+            }
+            <span class="built_in">continue</span>;
+
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] == <span class="string">' '</span> &amp;&amp; b[i] != <span class="string">' '</span>) {
+            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] != <span class="string">' '</span> &amp;&amp; b[i] == <span class="string">' '</span>) {
+            <span class="built_in">printf</span>(<span class="string">"1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &lt; b[i]) {
+            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; b[i]) {
+            <span class="built_in">printf</span>(<span class="string">"1"</span>);
+            <span class="built_in">break</span>;
+        }
+        <span class="keyword">else</span>
+            <span class="built_in">printf</span>(<span class="string">"0"</span>);
+
+    }
+    <span class="keyword">if</span> (flag == 1)
+    {
+        <span class="built_in">printf</span>(<span class="string">"0"</span>);
+    }
+
+    <span class="built_in">return</span> 0;
+}</code></pre>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构学习笔记：算法和算法分析</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AE%97%E6%B3%95%E5%92%8C%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<p>一、知识点<br>1.算法:是指令的有限序列，是对特定问题求解步骤的描述。<br>算法具有下列5个重要特性:<br>1.有穷性:步骤有限，执行时间有限。<br>2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径<br>3.可行性:可以通过已经实现的基本运算执行有限次来实现的;<br>4.输入:算法具有零个或多个输入。<br>5.输出:算法具有一个或多个输出。</p>
+<a id="more"></a>
+<p>2.算法和程序的区别:<br>(1)在执行时间上，算法所描述的步骤一定是有限的，而程序可以无限地执行下去。因此程序并不需要满足上 述的第一个条件(有穷性)。例如操作系统程序，是一个在无限循环中执行的程序，因而不是一个算法。<br>(2)在语言描述上，程序必须采用规定的程序设计语言来书写,而算法没有这种限制。:<br>3.设计一个好的算法通常要考虑达到以下目标:<br>1.正确性:算法应能正确地实现预定的功能;<br>2.易读性:算法应易于阅读和理解，以便于调试、修改和扩充;<br>3.健壮性:当环境发生变化(如遇到非法输入)时，算法能适当地做出反应或进行处理，不会产生不正确的运算结果;<br>4.高效率:具有较高的时间和空间性能。<br>4.算法的评价方法常分两类<br>1.事前分析估计<br>2.事后统计<br>5.算法的时间复杂度(TimeComplexity):<br>T(N)是该算法的时间耗费,是其所求解问题规模N的函数。当问题规模N趋向无穷大时，不考虑具体的运行时间函数，只考虑运行时间函数的数量级(阶) 这称为算法的渐进时间复杂度(Asymptotic Time Complexity)。对渐进表示法的常用记法如下:<br>大0表示法T(N)=O(f(N))<br>说明:如果存在常量c&gt;0和正整数No&gt;=1，当N&gt;=No时有T(N)&lt;=cf(N)。即给出了时间复杂度的上界，不可能比cf(N)更大。<br>例1:假定有两个算法A和B求解同一个问题，它们的时间函数分别是TA(n)=100n^2,TB(n)=5n^3。它们的时间复杂度分别记为0(n 2)和O(n 3),那么算法A一定比算法B慢吗?<br>分析:<br>(1)_ 当输入量较小如n&lt; 20时，有TA(n)&gt; TB(n)， 算法B比算法A花费的时间少;<br>(2)-随着问题规模n的增大,两个算法的时间开销之比5n^3 /(100n^2) = n/20也随着增大。也就是说当问题规模较大时，算法A比算法B要有效地多。<br>6.语句的频度(frequency count) :<br>指的是该语句重复执行的次数。常通过计算基本操作的语句频度，求解时间复杂度。<br>[例2]分析下述程序段的时间复杂度。.<br>{ ++x; s=0; }<br>选取“++x;,”为基本操作，语句频度为1,则时间复杂度为0(1),即常量阶。<br>[例3]分析下述程序段的时间复杂度。</p>
+<pre><code class="bash"><span class="keyword">for</span>[j=1; j&lt;=10000; ++j)
+    {
+    ++X; S+=X;
+    }
+</code></pre>
+<p>选取“++x;”为基本操作，语句频度为10000，则时间复杂度为0(1),即常量阶。<br>[例4]分析下述程序段的时间复杂度。</p>
+<pre><code class="bash">
+s=0; .
+<span class="keyword">for</span>(j=1;j&lt;=n;j*=2)
+++X;</code></pre>
+<p>2^m=n;则m=log2’n<br>选取“++x;”为基本操作,<br>语句频度为log2”n,则时间复杂度为O(log2”n),即对数阶。<br>[例5]分析下述程序段的时间复杂度。</p>
+<pre><code class="bash">
+<span class="keyword">for</span>(i=1; i&lt;=2*n; ++i) 
+{
+++X; S+=X;
+}</code></pre>
+<p>选取“++x;”为基本操作，语句频度为2xn,则时间复杂度为O(n),即线性阶。<br>[例6]分析下述程序段的时间复杂度。</p>
+<pre><code class="bash"><span class="keyword">for</span>(j=1;j&lt;=n; ++j)
+{
+     <span class="keyword">for</span>(k=1;k&lt;=n/4; ++k)
+     {
+          ++X; S+=X;
+     }
+}
+</code></pre>
+<p>选取“++x;”为基本操作，语句频度为nxn/4, 则时间复杂度为O(n^2),即平方阶。.<br>并非所有的双重循环的时间复杂度都是0(n2)的，下面举例说明。<br>[例8]分析下述程序段的时间复杂度。</p>
+<pre><code class="bash">
+<span class="keyword">for</span>(j=1; j&lt;n; j*=2)
+    {
+        <span class="keyword">for</span>(k=1;k&lt;=n; ++k) 
+        {
+            ++X; S+=X;
+        }
+    }</code></pre>
+<p>时间复杂度为O(n log2”n),即线性对数阶<br>[例10]矩阵相乘。</p>
+<pre><code class="bash">
+<span class="keyword">for</span>(i= 1;i &lt;= n; i++)
+{
+    <span class="keyword">for</span>(j= 1;j&lt;=n; j++)
+    {
+        c[il][j]= 0;
+        <span class="keyword">for</span>(k= 1;k &lt;=n; k++)
+        {
+            c[i][j]= c[i][j] + a[i][k]* b[k][j];
+        }
+    }
+}</code></pre>
+<p>选取第3层循环中的循环体“c[i][j] = c[i][j] + a[i][k]*b[k][j];”为基本操作，语句频度为n3,所以该算法的时间复杂度是O(n3)，即立方阶。<br>二、例题<br>计算算法的时间复杂度是属于一种( )。<br>A.事前统计的方法<br>B.事前分析估算的方法<br>C.事后统计的方法<br>D.事后分析估算的方法<br>(北京理工大学2005十一.4(1分)|<br>[参考答案]<br>B<br>设n是描述问题规模的非负整数，下面程序片段的时间复杂度是</p>
+<pre><code class="bash">
+X=2;
+<span class="keyword">while</span>(x&lt;n/2)
+{
+    x=2*x;
+}</code></pre>
+<p>A. O(log2n)<br>B.0(n)<br>C. O(nlog2n)<br>D. O(n2)<br>[2011年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>A</p>
+<p>求整数n(n&gt;=0)阶乘的算法如下，其时间复杂度是( )。</p>
+<pre><code class="bash">
+int fact(int n)
+{
+    <span class="keyword">if</span> (n&lt;=1)
+        <span class="built_in">return</span> 1 ;
+    <span class="built_in">return</span> n*fact(n-1) ;
+}</code></pre>
+<p>A. Ollog2n)<br>B. O(n)<br>C.0(nlog2n)<br>D. O(n2)<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>B<br>下列程序段的时间复杂度()。</p>
+<pre><code class="bash">
+count=O;
+<span class="keyword">for</span>(k=1;k&lt;=n;k*=2)
+    <span class="keyword">for</span>(j=1;j&lt;=n; j+=1)
+        count++;</code></pre>
+<p>A. O(log2n)<br>B. O(n)<br>C. O(nlog2n)<br>D.O(n2)<br>[2014年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>C<br>下列函数的时间复杂度( t )。</p>
+<pre><code class="bash">
+int func(int n)
+{
+    int i=O,sum=0;
+    <span class="keyword">while</span>( sum&lt;n )
+        sum += ++i;
+    <span class="built_in">return</span> i;，
+}</code></pre>
+<p>A. Ollog2n)<br>B.O(n^1/2)<br>C. O(n)<br>D. O(nlog2n)<br>[2017年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] B</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构学习笔记：预备知识</title>
+    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<p>预备知识<br>关于考试<br>考研 ：<br>全国统考：单项选择 综合应用 算法设计<br>自主命题： 观察前几年考题</p>
+<a id="more"></a>
+<p>C与C++<br>1.输入输出<br>c: scanf printf<br>c++:cin cout （in out 分别表示输入输出）<br>eg1</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a,</span><br><span class="line">    double b,c;</span><br><span class="line">    scanf(<span class="string">"%d"</span>,&amp;a);</span><br><span class="line">    c=a+b;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,c);</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br><span class="line">``` </span><br><span class="line">```bash</span><br><span class="line">include&lt;iostream&gt;  //头文件</span><br><span class="line">using namespace std;//从 std 中找头文件</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    double b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b;//输入ab</span><br><span class="line">    c=a+b;</span><br><span class="line">    cout&lt;&lt;<span class="string">"c="</span>&lt;&lt;c&lt;&lt;endl;//endl相当于“\n”，回车换行</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.申请空间<br>c:   malloc  free<br>c++:  new delete<br>eg</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">include&lt;stdlib.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=(int *)malloc(sizeof(int));//申请空间，本来返回*void类型，但p是int*，所以有强制转换（int*)</span><br><span class="line">    scanf(<span class="string">"%d"</span>,p);//p已经是地址，所以不用&amp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,*p);</span><br><span class="line">    free(p);</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">includ&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=new int(3);//申请一个变量 初值为3；若int[10]则为长度为10 的数组</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    cin&gt;&gt;*p;</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    delete p;</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>模板</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//1.假如设计一个求两参数最大值的函数，在实践中我们可能需要定义3个函数</span><br><span class="line"></span><br><span class="line">int Max (inta, intb)&#123; <span class="built_in">return</span>( a&gt;b) ? a:b;&#125;</span><br><span class="line"></span><br><span class="line">double Max ( doublea，double b)&#123; <span class="built_in">return</span>( a &gt;b)? a:b;&#125;</span><br><span class="line">char Max( char a，charb) &#123;<span class="built_in">return</span>(a&gt; b)? a: b;&#125;</span><br><span class="line">//2.这些函数几乎相同，唯一的区别就是形参类型不同</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">template&lt;class T&gt;</span><br><span class="line">T Max(T a,T b)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">return</span> a&gt;b?a:b;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3, 5) is "</span>&lt;&lt;Max(3,5) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3.0,5.0) is "</span>&lt;&lt; Max(3.0,5.0) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max('3';,5')is"</span>&lt;&lt; Maxl<span class="string">'3;5'</span>) &lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown语法</title>
     <url>/2020/06/15/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
@@ -205,162 +1240,72 @@ title可加可不加</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>无题</title>
-    <url>/2020/06/20/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">每个人都应该学会自我消化消极情绪</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="c8cfc122f07f068cfa74bb291c3d04c4123d46391af8d47993690f7516bcc439">5f0a6b8dcdae0acf872ba08a8d9a00ab79707ddc6f6f9657e82449a3c5aa93cc77564cd1e763eb6e3c096a59656c4889d4c6d98f95768b66831eefd3f77d26749fe15ab5ec6b696db94a547ac64705515c248697e4a5990d5c5778b30483c9d0a40aa0abad895c99331849afb2d4cdb609e0e5890d06a1368a9509133033045dcea1539ba4fe6a849a84cbc809d1adee69a47474552a7e266e0ec1203eb77dd98384ffd7c3b08baf9cda398dff4e2b4c57eb653cdeb627db8dfcde059d2a8a0952c6b0188a57de3ded6f125858f794e63470540073f59037d98f8c26f806b31b516339998a1be0adedab17ead05f52cef496ce8d797d114aca4228c693844069ae64f88e071dd93e2502174e35ec26eeb868cc2a7546a1b0d0cb6d489d293b1cfbce45eb6dd03529a75afabb6b19d0206f7509131c92c9df3a3ec002a2d1795f6dc6a87346249e438cd81da142d300558f38753239a5469e972a0f6f7742e1a214a391460fe09b39a2709bccee8d7504c0a9b43132bb9772018a9c3dbeb613b58e6c3c9b76672ed53215010e301501e09860e77038916a473c3046db0589c841a17f30be58535c615f64b8b1a092956afb2a3c2ca0bff9163adf963847ff885425f47b149ac2bcc462d46082f628ac986871dab7d2b4a811a9e5bde3fef9702f131c64318e8d0a076a5d8de1b3c9e702</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>情绪</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Win 上安装Git</title>
-    <url>/2020/06/18/Win-%E4%B8%8A%E5%AE%89%E8%A3%85Git/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>个人博客搭建（1）：Hexo搭建个人博客部署到Github</title>
-    <url>/2020/06/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Github/</url>
+    <title>数据结构学习笔记：线性表、顺序表</title>
+    <url>/2020/06/15/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%BA%BF%E6%80%A7%E8%A1%A8%E3%80%81%E9%A1%BA%E5%BA%8F%E8%A1%A8/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>本文介绍Hexo搭建个人博客部署到Github</p>
+<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
 <a id="more"></a>
-
+<p>2.线性表：</p>
+<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
+<pre><code class="bash">
+// 初始化线性表 
+Status InitList(SqList* L);
+// 插入数值 
+Status ListInsert(SqList* L, int i, ElemType e);
+// 显示当前线性表 
+void showList(SqList L);
+// 返回某个位置的数值
+Status GetElem(SqList L, int i, ElemType* e);
+// 在线性表中查找与 e 值相等的元素，并返回序号
+Status LocateElem(SqList L, int e);
+// 删除元素
+Status ListDelete(SqList* L, int i, int* e);
+// 返回元素个数
+Status ListLength(SqList L);</code></pre>
+<p>定义</p>
+<pre><code class="bash">
+<span class="comment">#define MAXSIZE 20</span>
+typedef int Status;
+typedef int ElemType;
+typedef struct
+{
+    // 元素值
+    ElemType data[MAXSIZE];
+    // 线性表当前长度
+    int length;
+    // 线性表最大长度
+    int maxlength;
+}SqList;</code></pre>
+<p>3.初始化</p>
+<pre><code class="bash">
+Status Initlist(SqList *L)
+{
+    L-&gt;Lenth=1;
+    L-&gt;maxLenth=Maxsize;
+}
+4.遍历
+int showList(SqList L)
+{
+ <span class="keyword">if</span>(L-&gt;Lenth==1) 
+ {
+     <span class="built_in">return</span> 0；
+ }
+   int i;
+    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
+    {
+        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
+    }
+}</code></pre>
+<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
 ]]></content>
       <categories>
-        <category>博客</category>
-        <category>搭建</category>
+        <category>教程</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>Win</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
-    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9Amagisk%E6%A8%A1%E5%9D%97%E5%92%8CEdxp%E6%A8%A1%E5%9D%97%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<pre><code class="bash">
-</code></pre>
-<p>本文介绍magisk模块和Edxp模块分享，均为网络资源<br>为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页<br>在此对各个大佬表示感谢，如有问题，请联系我删除。</p>
-<a id="more"></a>
-
-<p>前排提示：每个模块对每个手机兼容性无法保证，模块之间也有可能会有冲突，有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
-<h1 id="magisk-模块"><a href="#magisk-模块" class="headerlink" title="magisk 模块"></a>magisk 模块</h1><h2 id="MM管理器-2018-09-16-汉化"><a href="#MM管理器-2018-09-16-汉化" class="headerlink" title="MM管理器-2018.09.16 汉化"></a>MM管理器-2018.09.16 汉化</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg" target="_blank" rel="noopener">https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg</a><br>提取码：27wk<br>功能：可在rec模式卸载已安装模块，可用来救砖。（高版本的第三方rec已具备此功能）</p>
-<h2 id="小米-mixAlpha-机型模块"><a href="#小米-mixAlpha-机型模块" class="headerlink" title="小米 mixAlpha 机型模块"></a>小米 mixAlpha 机型模块</h2><p>作者：酷安 坏叔叔_hi<br>网址（作者原分享网址）：<a href="https://www.lanzous.com/i9yvlkf?t" target="_blank" rel="noopener">https://www.lanzous.com/i9yvlkf?t</a><br>功能：将手机型号修改为 MixAlpha<br><img src="https://s1.ax1x.com/2020/06/16/Nkixdf.jpg" alt="图源：酷安 坏叔叔_hi"></p>
-<p>更多机型模块可以在酷安<a href="http://www.coolapk.com/u/1010322" target="_blank" rel="noopener">侯旭Hxv</a>主页寻找</p>
-<h2 id="AD-影视-Hosts1-2"><a href="#AD-影视-Hosts1-2" class="headerlink" title="AD 影视 Hosts1.2"></a>AD 影视 Hosts1.2</h2><p>作者：依然的爱<br>网址：链接：<a href="https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg" target="_blank" rel="noopener">https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg</a><br>提取码：zr37<br>功能：屏蔽各类广告包括(各大视频网站,运营商劫持广告，大部分APP广告),hosts规则均来自于网络搜索,github,人工抓取及酷友提供，使用时请关闭其他hosts模块,请关闭systemless hosts模块(如果有)。</p>
-<h2 id="Magisk-超级快充2-0"><a href="#Magisk-超级快充2-0" class="headerlink" title="Magisk-超级快充2.0"></a>Magisk-超级快充2.0</h2><p>作者：<br>链接：链接：<a href="https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA" target="_blank" rel="noopener">https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA</a><br>提取码：p7m4<br>功能：快充</p>
-<h2 id="Magisk-毒液-完整版（适合开机慢）"><a href="#Magisk-毒液-完整版（适合开机慢）" class="headerlink" title="Magisk-毒液 完整版（适合开机慢）"></a>Magisk-毒液 完整版（适合开机慢）</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg" target="_blank" rel="noopener">https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg</a><br>提取码：a6nd<br>功能：改变开机动画</p>
-<h2 id="Magisk-黑域启动插件"><a href="#Magisk-黑域启动插件" class="headerlink" title="Magisk-黑域启动插件"></a>Magisk-黑域启动插件</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ</a><br>提取码：2spa</p>
-<h2 id="Magisk-浪漫雅圆-Sleek-Google-综合字体"><a href="#Magisk-浪漫雅圆-Sleek-Google-综合字体" class="headerlink" title="Magisk_浪漫雅圆+Sleek+Google(综合字体)"></a>Magisk_浪漫雅圆+Sleek+Google(综合字体)</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q</a><br>提取码：hq66<br>功能：修改系统字体</p>
-<h2 id="充电90％自动暂停"><a href="#充电90％自动暂停" class="headerlink" title="充电90％自动暂停"></a>充电90％自动暂停</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q</a><br>提取码：jrtk<br>功能：充电90％自动暂停</p>
-<h2 id="其他个人收集模块"><a href="#其他个人收集模块" class="headerlink" title="其他个人收集模块"></a>其他个人收集模块</h2><p>链接：<a href="https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg" target="_blank" rel="noopener">https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg</a><br>提取码：r87o</p>
-<p>链接：<a href="https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg" target="_blank" rel="noopener">https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg</a><br>提取码：53tv</p>
-<p>！！玩机有风险，搞机需谨慎。！！</p>
-<h1 id="Edxp模块"><a href="#Edxp模块" class="headerlink" title="Edxp模块"></a>Edxp模块</h1><p>edxp 上有模块下载，也可以去edxp上下载</p>
-<p><img src="https://s1.ax1x.com/2020/06/16/NkV97q.jpg" alt="enter image description here"></p>
-<p><img src="https://s1.ax1x.com/2020/06/16/NkEvcQ.jpg" alt="enter image description here"></p>
-<h2 id="哔哩漫游"><a href="#哔哩漫游" class="headerlink" title="哔哩漫游"></a>哔哩漫游</h2><p>作者：iAcn/djytw/yujincheng08<br>哔哩漫游 (BiliRoaming) - <a href="http://repo.xposed.info/module/me.iacn.biliroaming" target="_blank" rel="noopener">http://repo.xposed.info/module/me.iacn.biliroaming</a><br>功能：<br>解除B站番剧区域限制<br>港澳台CDN加速<br>缓存番剧<br>支持国际版和概念版<br>自定义主题色<br>关闭青少年模式弹窗<br>显示评论区楼层<br>概念版添加直播入口<br>不以小程序形式分享</p>
-<h2 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h2><p>作者：Specher<br>网易云音乐插件 - <a href="http://repo.xposed.info/module/com.specher.music163" target="_blank" rel="noopener">http://repo.xposed.info/module/com.specher.music163</a><br>功能：一个网易云音乐的Xposed插件。<br>目前功能：自动签到、跳过启动广告、本地数据修改、美化功能。<br>最佳适配4.3.X，理论任意版本通用</p>
-<h2 id="云村清洁工"><a href="#云村清洁工" class="headerlink" title="云村清洁工"></a>云村清洁工</h2><p>作者：xmodule.org<br>云村清洁工app是一款非常好用的网易云插件，需要XP框架，搭配食用非常舒服，避免提示应用升级<br>重要：使用的是七牛云镜像下载，请勿在xposed install内下载！！！！<br>请直接用浏览器访问： <a href="https://repo.xposed.info/module/me.zjns.lovecloudmusic下载" target="_blank" rel="noopener">https://repo.xposed.info/module/me.zjns.lovecloudmusic下载</a></p>
-<p>1、禁止签到跳转商城；<br>2、去除启动页，评论区等位置广告；<br>3、伪装成谷歌版，避免提示升级。、</p>
-<p>涉及到各种CD问题，不再更新。你可以关注微信公众号: xmodule 回复: 云村清洁工 下载我最新编译的版本</p>
-<h2 id="WeXposed-（微X模块）"><a href="#WeXposed-（微X模块）" class="headerlink" title="WeXposed （微X模块）"></a>WeXposed （微X模块）</h2><p>作者：fkzhang</p>
-<ul>
-<li><a href="http://repo.xposed.info/module/com.fkzhang.wechatxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.wechatxposed</a><br>功能：-防止微信撤回消息</li>
-<li>转发微信聊天里的图片和小视频到朋友圈</li>
-<li>转发聊天里的多张图片（最多9张）到朋友圈</li>
-<li>转发语音给朋友</li>
-<li>转发收藏内容</li>
-<li>转发朋友圈里的内容到自己的朋友圈</li>
-<li>分享图片和小视频</li>
-<li>屏蔽群聊成员</li>
-<li>自动查找僵尸粉</li>
-<li>批量删除好友</li>
-<li>批量删除僵尸粉</li>
-<li>自动回复</li>
-<li>自定义表情最高限额</li>
-<li>自动领取红包、转账</li>
-<li>等等。。。</li>
-</ul>
-<p>请谨慎使用自动领取红包功能！</p>
-<h2 id="QXposed-（QX模块）"><a href="#QXposed-（QX模块）" class="headerlink" title="QXposed （QX模块）"></a>QXposed （QX模块）</h2><p>作者：fkzhang<br> <a href="http://repo.xposed.info/module/com.fkzhang.qqxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.qqxposed</a><br>功能：-防止QQ撤回消息<br>-自动领取红包<br>-控制骰子<br>-支持TIM</p>
-<h2 id="chimi"><a href="#chimi" class="headerlink" title="chimi"></a>chimi</h2><p>作者：yonhhen<br>链接：<a href="https://github.com/yonghen/chimi-/releases" target="_blank" rel="noopener">https://github.com/yonghen/chimi-/releases</a><br>功能：MIUI主题破解</p>
-<h2 id="MIUI主题防恢复"><a href="#MIUI主题防恢复" class="headerlink" title="MIUI主题防恢复"></a>MIUI主题防恢复</h2><p>作者：夢月時歌<br>链接<a href="https://www.wenshushu.cn/f/2s1mm0vm3bx" target="_blank" rel="noopener">https://www.wenshushu.cn/f/2s1mm0vm3bx</a><br>功能：启MIUI主题破解模块，有效防止主题自动恢复默认。可用第三方主题，免费使用付费字体。</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-        <category>玩机</category>
-      </categories>
-      <tags>
-        <tag>android</tag>
-        <tag>玩机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩机汇总（0）：刷机常识，双清，BL，REC，TWRP</title>
-    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%880%EF%BC%89%EF%BC%9A%E5%88%B7%E6%9C%BA%E5%B8%B8%E8%AF%86%EF%BC%8C%E5%8F%8C%E6%B8%85%EF%BC%8CBL%EF%BC%8CREC%EF%BC%8CTWRP/</url>
-    <content><![CDATA[<pre><code class="bash">
-</code></pre>
-<p>本文介绍手机刷机常识，双清，BL，REC，TWRP</p>
-<a id="more"></a>
-
-<p>前排提示：<br>本文转载自一加社区：<a href="http://www.oneplusbbs.com/thread-3851619-1-1.html" target="_blank" rel="noopener">http://www.oneplusbbs.com/thread-3851619-1-1.html</a></p>
-<h1 id="对于刷机里面一些概念的理解"><a href="#对于刷机里面一些概念的理解" class="headerlink" title="对于刷机里面一些概念的理解"></a>对于刷机里面一些概念的理解</h1><p>首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释：</p>
-<h2 id="BL锁"><a href="#BL锁" class="headerlink" title="BL锁　　"></a>BL锁　　</h2><p>BL锁就是bootloader锁，BL从安卓问世以来一直存在，它的功能在我看来应该是限制用户刷第三方ROM和降级系统。在锁住bl的情况下，用户是根本不可能刷第三方ROM和第三方recovery的，最多也就是刷个基于官方的精简包。bl还有一个恶心的限制就是root，所有要root的机器，都必须解锁才能获取。那有人就问了，为什么以前的老机器和安卓4点几的机子都可以一键root呢，这是因为以前的机器bl锁等级低，我们可以利用bl锁的漏洞，绕过bl解锁。然而现在的系统BL等级比较高，自然就无法绕过BL锁去root了。</p>
-<h2 id="REC"><a href="#REC" class="headerlink" title="REC　　"></a>REC　　</h2><p>REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。Recovery就是像是电脑上的小型winPE系统，winPE可以在电脑上安装操作系统，或者做些备份、管理的工作。如果把手机比喻成房屋，那么地皮就像手机的硬件，房子像手机系统，建房子的各种工具就是就是Recovery了。官方Recovery只能用来刷入官方的系统，如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
-<h2 id="TWRP"><a href="#TWRP" class="headerlink" title="TWRP"></a>TWRP</h2><p>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。</p>
-<h2 id="双清"><a href="#双清" class="headerlink" title="双清"></a>双清</h2><pre><code>  　wipe data/factory reset：清除用户数据并恢复出厂设置
-  　wipecache partition：清除系统缓存 ，
-  　一般刷机前执行，具体看资源发布者的要求。</code></pre><h2 id="三清"><a href="#三清" class="headerlink" title="三清"></a>三清</h2><pre><code> 　 wipe data/factory reset：清除用户数据并恢复出厂设置
-  　wipe cache partition：清除系统缓存
-  　wipe dalvik cache：清除安卓虚拟机缓存
-  　具体看资源发布者的要求。</code></pre><h2 id="四清"><a href="#四清" class="headerlink" title="四清"></a>四清</h2><p>　　wipe data/factory reset：清除用户数据并恢复出厂设置<br>　　wipe cache partition：清除系统缓存<br>　　wipe dalvik cache：清除安卓虚拟机缓存<br>　　wipe system：清除系统<br>　　该操作可以更干净地刷入新系统，但并不建议也尽量不要四清，具体看资源发布者的要求。<br>　　在这里我要说一下，很多人会觉得四清五清等多清会让刷入的系统更干净，其实这是一种误区，这样子很容易引起手机卡信号基带异常，例如电信卡无法出现4G+等情况出现，内存卡异常等问题，很多人说刷机过后信号没了，就是刷机多清的问题，除了首次刷机需要格式化内存卡，刷回官方固件的时候会自动清卡以外，其他时候完全没必要多清。<br>       System这个分区基本包含了整个安卓操作系统，包括安卓用户界面、和所有预装的系统应用程序。擦除这个分区，会删除整个安卓系统，但不会导致不能启动。你可以通过进入Recovery程序，安装一个新ROM，也就是新的安卓系统。双清三清四清会清空个人的用户数据包括 ：应用程序、短信信息、联系人、通讯录、应用数据等等…，但不会清空内置卡如 图片、音乐、个人文件等等（此话来源于DK大佬……懒得打直接复制了）。</p>
-<h2 id="根目录"><a href="#根目录" class="headerlink" title="根目录　　"></a>根目录　　</h2><p>楼主想了一下，觉得有必要为小白们科普一下什么是根目录。根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。点开手机内部储存看到的就是手机的根目录，同理，在电脑上也是一样，打开“我的电脑”，双击C盘就进入C盘的根目录，双击D盘就进入D盘的根目录，点开游戏文件夹看到的就是游戏的根目录。</p>
-<h1 id="刷机过程和图文操作详解"><a href="#刷机过程和图文操作详解" class="headerlink" title="刷机过程和图文操作详解"></a>刷机过程和图文操作详解</h1><h2 id="如何在无需解BL锁不ROOT的情况下刷官方系统？"><a href="#如何在无需解BL锁不ROOT的情况下刷官方系统？" class="headerlink" title="如何在无需解BL锁不ROOT的情况下刷官方系统？"></a>如何在无需解BL锁不ROOT的情况下刷官方系统？</h2><p>直接官方REC刷入官方ROM（全量包）：把官方刷机包放到手机根目录，进入设置-系统升级，点一下系统升级右上角的齿轮。选择本地升级，选择你刚才放入的官方刷机包，就跟平时升级一样的，不过降级建议恢复出厂设置。</p>
-<h2 id="如何ROOT以及刷入第三方系统？"><a href="#如何ROOT以及刷入第三方系统？" class="headerlink" title="如何ROOT以及刷入第三方系统？"></a>如何ROOT以及刷入第三方系统？</h2><p>这两种操作的前提都是解BL锁和刷入第三方REC：TWRP。</p>
-<p>第一次ROOT和刷机需要电脑，看到这里，如果你的手机没有解过BL锁而且身边没有电脑，那么你现在可以暂时放弃学习这篇帖子了。</p>
-<p>ROOT：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把ROOT包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面安装ROOT包。（注意，安卓8.0系统的ROOT包只能选Magisk。)</p>
-<p>最常见的ROOT包有两种：supersu和Magisk。</p>
-<p>如果想卸载，直接卡刷卸载包</p>
-<p>刷入第三方系统：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把系统ROM包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面，安装下载的系统ROM。</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-        <category>玩机</category>
-      </categories>
-      <tags>
-        <tag>android</tag>
-        <tag>玩机</tag>
+        <tag>数据结构</tag>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -478,1089 +1423,144 @@ title可加可不加</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>数据结构学习笔记：线性表、顺序表</title>
-    <url>/2020/06/15/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%BA%BF%E6%80%A7%E8%A1%A8%E3%80%81%E9%A1%BA%E5%BA%8F%E8%A1%A8/</url>
+    <title>玩机汇总（0）：刷机常识，双清，BL，REC，TWRP</title>
+    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%880%EF%BC%89%EF%BC%9A%E5%88%B7%E6%9C%BA%E5%B8%B8%E8%AF%86%EF%BC%8C%E5%8F%8C%E6%B8%85%EF%BC%8CBL%EF%BC%8CREC%EF%BC%8CTWRP/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
+<p>本文介绍手机刷机常识，双清，BL，REC，TWRP</p>
 <a id="more"></a>
-<p>2.线性表：</p>
-<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
-<pre><code class="bash">
-// 初始化线性表 
-Status InitList(SqList* L);
-// 插入数值 
-Status ListInsert(SqList* L, int i, ElemType e);
-// 显示当前线性表 
-void showList(SqList L);
-// 返回某个位置的数值
-Status GetElem(SqList L, int i, ElemType* e);
-// 在线性表中查找与 e 值相等的元素，并返回序号
-Status LocateElem(SqList L, int e);
-// 删除元素
-Status ListDelete(SqList* L, int i, int* e);
-// 返回元素个数
-Status ListLength(SqList L);</code></pre>
-<p>定义</p>
-<pre><code class="bash">
-<span class="comment">#define MAXSIZE 20</span>
-typedef int Status;
-typedef int ElemType;
-typedef struct
-{
-    // 元素值
-    ElemType data[MAXSIZE];
-    // 线性表当前长度
-    int length;
-    // 线性表最大长度
-    int maxlength;
-}SqList;</code></pre>
-<p>3.初始化</p>
-<pre><code class="bash">
-Status Initlist(SqList *L)
-{
-    L-&gt;Lenth=1;
-    L-&gt;maxLenth=Maxsize;
-}
-4.遍历
-int showList(SqList L)
-{
- <span class="keyword">if</span>(L-&gt;Lenth==1) 
- {
-     <span class="built_in">return</span> 0；
- }
-   int i;
-    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
-    {
-        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
-    }
-}</code></pre>
-<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
+
+<p>前排提示：<br>本文转载自一加社区：<a href="http://www.oneplusbbs.com/thread-3851619-1-1.html" target="_blank" rel="noopener">http://www.oneplusbbs.com/thread-3851619-1-1.html</a></p>
+<h1 id="对于刷机里面一些概念的理解"><a href="#对于刷机里面一些概念的理解" class="headerlink" title="对于刷机里面一些概念的理解"></a>对于刷机里面一些概念的理解</h1><p>首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释：</p>
+<h2 id="BL锁"><a href="#BL锁" class="headerlink" title="BL锁　　"></a>BL锁　　</h2><p>BL锁就是bootloader锁，BL从安卓问世以来一直存在，它的功能在我看来应该是限制用户刷第三方ROM和降级系统。在锁住bl的情况下，用户是根本不可能刷第三方ROM和第三方recovery的，最多也就是刷个基于官方的精简包。bl还有一个恶心的限制就是root，所有要root的机器，都必须解锁才能获取。那有人就问了，为什么以前的老机器和安卓4点几的机子都可以一键root呢，这是因为以前的机器bl锁等级低，我们可以利用bl锁的漏洞，绕过bl解锁。然而现在的系统BL等级比较高，自然就无法绕过BL锁去root了。</p>
+<h2 id="REC"><a href="#REC" class="headerlink" title="REC　　"></a>REC　　</h2><p>REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。Recovery就是像是电脑上的小型winPE系统，winPE可以在电脑上安装操作系统，或者做些备份、管理的工作。如果把手机比喻成房屋，那么地皮就像手机的硬件，房子像手机系统，建房子的各种工具就是就是Recovery了。官方Recovery只能用来刷入官方的系统，如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
+<h2 id="TWRP"><a href="#TWRP" class="headerlink" title="TWRP"></a>TWRP</h2><p>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。</p>
+<h2 id="双清"><a href="#双清" class="headerlink" title="双清"></a>双清</h2><pre><code>  　wipe data/factory reset：清除用户数据并恢复出厂设置
+  　wipecache partition：清除系统缓存 ，
+  　一般刷机前执行，具体看资源发布者的要求。</code></pre><h2 id="三清"><a href="#三清" class="headerlink" title="三清"></a>三清</h2><pre><code> 　 wipe data/factory reset：清除用户数据并恢复出厂设置
+  　wipe cache partition：清除系统缓存
+  　wipe dalvik cache：清除安卓虚拟机缓存
+  　具体看资源发布者的要求。</code></pre><h2 id="四清"><a href="#四清" class="headerlink" title="四清"></a>四清</h2><p>　　wipe data/factory reset：清除用户数据并恢复出厂设置<br>　　wipe cache partition：清除系统缓存<br>　　wipe dalvik cache：清除安卓虚拟机缓存<br>　　wipe system：清除系统<br>　　该操作可以更干净地刷入新系统，但并不建议也尽量不要四清，具体看资源发布者的要求。<br>　　在这里我要说一下，很多人会觉得四清五清等多清会让刷入的系统更干净，其实这是一种误区，这样子很容易引起手机卡信号基带异常，例如电信卡无法出现4G+等情况出现，内存卡异常等问题，很多人说刷机过后信号没了，就是刷机多清的问题，除了首次刷机需要格式化内存卡，刷回官方固件的时候会自动清卡以外，其他时候完全没必要多清。<br>       System这个分区基本包含了整个安卓操作系统，包括安卓用户界面、和所有预装的系统应用程序。擦除这个分区，会删除整个安卓系统，但不会导致不能启动。你可以通过进入Recovery程序，安装一个新ROM，也就是新的安卓系统。双清三清四清会清空个人的用户数据包括 ：应用程序、短信信息、联系人、通讯录、应用数据等等…，但不会清空内置卡如 图片、音乐、个人文件等等（此话来源于DK大佬……懒得打直接复制了）。</p>
+<h2 id="根目录"><a href="#根目录" class="headerlink" title="根目录　　"></a>根目录　　</h2><p>楼主想了一下，觉得有必要为小白们科普一下什么是根目录。根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。点开手机内部储存看到的就是手机的根目录，同理，在电脑上也是一样，打开“我的电脑”，双击C盘就进入C盘的根目录，双击D盘就进入D盘的根目录，点开游戏文件夹看到的就是游戏的根目录。</p>
+<h1 id="刷机过程和图文操作详解"><a href="#刷机过程和图文操作详解" class="headerlink" title="刷机过程和图文操作详解"></a>刷机过程和图文操作详解</h1><h2 id="如何在无需解BL锁不ROOT的情况下刷官方系统？"><a href="#如何在无需解BL锁不ROOT的情况下刷官方系统？" class="headerlink" title="如何在无需解BL锁不ROOT的情况下刷官方系统？"></a>如何在无需解BL锁不ROOT的情况下刷官方系统？</h2><p>直接官方REC刷入官方ROM（全量包）：把官方刷机包放到手机根目录，进入设置-系统升级，点一下系统升级右上角的齿轮。选择本地升级，选择你刚才放入的官方刷机包，就跟平时升级一样的，不过降级建议恢复出厂设置。</p>
+<h2 id="如何ROOT以及刷入第三方系统？"><a href="#如何ROOT以及刷入第三方系统？" class="headerlink" title="如何ROOT以及刷入第三方系统？"></a>如何ROOT以及刷入第三方系统？</h2><p>这两种操作的前提都是解BL锁和刷入第三方REC：TWRP。</p>
+<p>第一次ROOT和刷机需要电脑，看到这里，如果你的手机没有解过BL锁而且身边没有电脑，那么你现在可以暂时放弃学习这篇帖子了。</p>
+<p>ROOT：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把ROOT包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面安装ROOT包。（注意，安卓8.0系统的ROOT包只能选Magisk。)</p>
+<p>最常见的ROOT包有两种：supersu和Magisk。</p>
+<p>如果想卸载，直接卡刷卸载包</p>
+<p>刷入第三方系统：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把系统ROM包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面，安装下载的系统ROM。</p>
 ]]></content>
       <categories>
-        <category>教程</category>
-        <category>学习</category>
+        <category>转载</category>
+        <category>玩机</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
-        <tag>学习笔记</tag>
+        <tag>android</tag>
+        <tag>玩机</tag>
       </tags>
   </entry>
   <entry>
-    <title>数据结构学习笔记：算法和算法分析</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AE%97%E6%B3%95%E5%92%8C%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</url>
+    <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
+    <url>/2020/06/16/%E7%8E%A9%E6%9C%BA%E6%B1%87%E6%80%BB%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9Amagisk%E6%A8%A1%E5%9D%97%E5%92%8CEdxp%E6%A8%A1%E5%9D%97%E5%88%86%E4%BA%AB/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>一、知识点<br>1.算法:是指令的有限序列，是对特定问题求解步骤的描述。<br>算法具有下列5个重要特性:<br>1.有穷性:步骤有限，执行时间有限。<br>2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径<br>3.可行性:可以通过已经实现的基本运算执行有限次来实现的;<br>4.输入:算法具有零个或多个输入。<br>5.输出:算法具有一个或多个输出。</p>
+<p>本文介绍magisk模块和Edxp模块分享，均为网络资源<br>为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页<br>在此对各个大佬表示感谢，如有问题，请联系我删除。</p>
 <a id="more"></a>
-<p>2.算法和程序的区别:<br>(1)在执行时间上，算法所描述的步骤一定是有限的，而程序可以无限地执行下去。因此程序并不需要满足上 述的第一个条件(有穷性)。例如操作系统程序，是一个在无限循环中执行的程序，因而不是一个算法。<br>(2)在语言描述上，程序必须采用规定的程序设计语言来书写,而算法没有这种限制。:<br>3.设计一个好的算法通常要考虑达到以下目标:<br>1.正确性:算法应能正确地实现预定的功能;<br>2.易读性:算法应易于阅读和理解，以便于调试、修改和扩充;<br>3.健壮性:当环境发生变化(如遇到非法输入)时，算法能适当地做出反应或进行处理，不会产生不正确的运算结果;<br>4.高效率:具有较高的时间和空间性能。<br>4.算法的评价方法常分两类<br>1.事前分析估计<br>2.事后统计<br>5.算法的时间复杂度(TimeComplexity):<br>T(N)是该算法的时间耗费,是其所求解问题规模N的函数。当问题规模N趋向无穷大时，不考虑具体的运行时间函数，只考虑运行时间函数的数量级(阶) 这称为算法的渐进时间复杂度(Asymptotic Time Complexity)。对渐进表示法的常用记法如下:<br>大0表示法T(N)=O(f(N))<br>说明:如果存在常量c&gt;0和正整数No&gt;=1，当N&gt;=No时有T(N)&lt;=cf(N)。即给出了时间复杂度的上界，不可能比cf(N)更大。<br>例1:假定有两个算法A和B求解同一个问题，它们的时间函数分别是TA(n)=100n^2,TB(n)=5n^3。它们的时间复杂度分别记为0(n 2)和O(n 3),那么算法A一定比算法B慢吗?<br>分析:<br>(1)_ 当输入量较小如n&lt; 20时，有TA(n)&gt; TB(n)， 算法B比算法A花费的时间少;<br>(2)-随着问题规模n的增大,两个算法的时间开销之比5n^3 /(100n^2) = n/20也随着增大。也就是说当问题规模较大时，算法A比算法B要有效地多。<br>6.语句的频度(frequency count) :<br>指的是该语句重复执行的次数。常通过计算基本操作的语句频度，求解时间复杂度。<br>[例2]分析下述程序段的时间复杂度。.<br>{ ++x; s=0; }<br>选取“++x;,”为基本操作，语句频度为1,则时间复杂度为0(1),即常量阶。<br>[例3]分析下述程序段的时间复杂度。</p>
-<pre><code class="bash"><span class="keyword">for</span>[j=1; j&lt;=10000; ++j)
-    {
-    ++X; S+=X;
-    }
+
+<p>前排提示：每个模块对每个手机兼容性无法保证，模块之间也有可能会有冲突，有变砖风险。<br>玩机有风险，搞机需谨慎。</p>
+<h1 id="magisk-模块"><a href="#magisk-模块" class="headerlink" title="magisk 模块"></a>magisk 模块</h1><h2 id="MM管理器-2018-09-16-汉化"><a href="#MM管理器-2018-09-16-汉化" class="headerlink" title="MM管理器-2018.09.16 汉化"></a>MM管理器-2018.09.16 汉化</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg" target="_blank" rel="noopener">https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg</a><br>提取码：27wk<br>功能：可在rec模式卸载已安装模块，可用来救砖。（高版本的第三方rec已具备此功能）</p>
+<h2 id="小米-mixAlpha-机型模块"><a href="#小米-mixAlpha-机型模块" class="headerlink" title="小米 mixAlpha 机型模块"></a>小米 mixAlpha 机型模块</h2><p>作者：酷安 坏叔叔_hi<br>网址（作者原分享网址）：<a href="https://www.lanzous.com/i9yvlkf?t" target="_blank" rel="noopener">https://www.lanzous.com/i9yvlkf?t</a><br>功能：将手机型号修改为 MixAlpha<br><img src="https://s1.ax1x.com/2020/06/16/Nkixdf.jpg" alt="图源：酷安 坏叔叔_hi"></p>
+<p>更多机型模块可以在酷安<a href="http://www.coolapk.com/u/1010322" target="_blank" rel="noopener">侯旭Hxv</a>主页寻找</p>
+<h2 id="AD-影视-Hosts1-2"><a href="#AD-影视-Hosts1-2" class="headerlink" title="AD 影视 Hosts1.2"></a>AD 影视 Hosts1.2</h2><p>作者：依然的爱<br>网址：链接：<a href="https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg" target="_blank" rel="noopener">https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg</a><br>提取码：zr37<br>功能：屏蔽各类广告包括(各大视频网站,运营商劫持广告，大部分APP广告),hosts规则均来自于网络搜索,github,人工抓取及酷友提供，使用时请关闭其他hosts模块,请关闭systemless hosts模块(如果有)。</p>
+<h2 id="Magisk-超级快充2-0"><a href="#Magisk-超级快充2-0" class="headerlink" title="Magisk-超级快充2.0"></a>Magisk-超级快充2.0</h2><p>作者：<br>链接：链接：<a href="https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA" target="_blank" rel="noopener">https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA</a><br>提取码：p7m4<br>功能：快充</p>
+<h2 id="Magisk-毒液-完整版（适合开机慢）"><a href="#Magisk-毒液-完整版（适合开机慢）" class="headerlink" title="Magisk-毒液 完整版（适合开机慢）"></a>Magisk-毒液 完整版（适合开机慢）</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg" target="_blank" rel="noopener">https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg</a><br>提取码：a6nd<br>功能：改变开机动画</p>
+<h2 id="Magisk-黑域启动插件"><a href="#Magisk-黑域启动插件" class="headerlink" title="Magisk-黑域启动插件"></a>Magisk-黑域启动插件</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ</a><br>提取码：2spa</p>
+<h2 id="Magisk-浪漫雅圆-Sleek-Google-综合字体"><a href="#Magisk-浪漫雅圆-Sleek-Google-综合字体" class="headerlink" title="Magisk_浪漫雅圆+Sleek+Google(综合字体)"></a>Magisk_浪漫雅圆+Sleek+Google(综合字体)</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q</a><br>提取码：hq66<br>功能：修改系统字体</p>
+<h2 id="充电90％自动暂停"><a href="#充电90％自动暂停" class="headerlink" title="充电90％自动暂停"></a>充电90％自动暂停</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q</a><br>提取码：jrtk<br>功能：充电90％自动暂停</p>
+<h2 id="其他个人收集模块"><a href="#其他个人收集模块" class="headerlink" title="其他个人收集模块"></a>其他个人收集模块</h2><p>链接：<a href="https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg" target="_blank" rel="noopener">https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg</a><br>提取码：r87o</p>
+<p>链接：<a href="https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg" target="_blank" rel="noopener">https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg</a><br>提取码：53tv</p>
+<p>！！玩机有风险，搞机需谨慎。！！</p>
+<h1 id="Edxp模块"><a href="#Edxp模块" class="headerlink" title="Edxp模块"></a>Edxp模块</h1><p>edxp 上有模块下载，也可以去edxp上下载</p>
+<p><img src="https://s1.ax1x.com/2020/06/16/NkV97q.jpg" alt="enter image description here"></p>
+<p><img src="https://s1.ax1x.com/2020/06/16/NkEvcQ.jpg" alt="enter image description here"></p>
+<h2 id="哔哩漫游"><a href="#哔哩漫游" class="headerlink" title="哔哩漫游"></a>哔哩漫游</h2><p>作者：iAcn/djytw/yujincheng08<br>哔哩漫游 (BiliRoaming) - <a href="http://repo.xposed.info/module/me.iacn.biliroaming" target="_blank" rel="noopener">http://repo.xposed.info/module/me.iacn.biliroaming</a><br>功能：<br>解除B站番剧区域限制<br>港澳台CDN加速<br>缓存番剧<br>支持国际版和概念版<br>自定义主题色<br>关闭青少年模式弹窗<br>显示评论区楼层<br>概念版添加直播入口<br>不以小程序形式分享</p>
+<h2 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h2><p>作者：Specher<br>网易云音乐插件 - <a href="http://repo.xposed.info/module/com.specher.music163" target="_blank" rel="noopener">http://repo.xposed.info/module/com.specher.music163</a><br>功能：一个网易云音乐的Xposed插件。<br>目前功能：自动签到、跳过启动广告、本地数据修改、美化功能。<br>最佳适配4.3.X，理论任意版本通用</p>
+<h2 id="云村清洁工"><a href="#云村清洁工" class="headerlink" title="云村清洁工"></a>云村清洁工</h2><p>作者：xmodule.org<br>云村清洁工app是一款非常好用的网易云插件，需要XP框架，搭配食用非常舒服，避免提示应用升级<br>重要：使用的是七牛云镜像下载，请勿在xposed install内下载！！！！<br>请直接用浏览器访问： <a href="https://repo.xposed.info/module/me.zjns.lovecloudmusic下载" target="_blank" rel="noopener">https://repo.xposed.info/module/me.zjns.lovecloudmusic下载</a></p>
+<p>1、禁止签到跳转商城；<br>2、去除启动页，评论区等位置广告；<br>3、伪装成谷歌版，避免提示升级。、</p>
+<p>涉及到各种CD问题，不再更新。你可以关注微信公众号: xmodule 回复: 云村清洁工 下载我最新编译的版本</p>
+<h2 id="WeXposed-（微X模块）"><a href="#WeXposed-（微X模块）" class="headerlink" title="WeXposed （微X模块）"></a>WeXposed （微X模块）</h2><p>作者：fkzhang</p>
+<ul>
+<li><a href="http://repo.xposed.info/module/com.fkzhang.wechatxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.wechatxposed</a><br>功能：-防止微信撤回消息</li>
+<li>转发微信聊天里的图片和小视频到朋友圈</li>
+<li>转发聊天里的多张图片（最多9张）到朋友圈</li>
+<li>转发语音给朋友</li>
+<li>转发收藏内容</li>
+<li>转发朋友圈里的内容到自己的朋友圈</li>
+<li>分享图片和小视频</li>
+<li>屏蔽群聊成员</li>
+<li>自动查找僵尸粉</li>
+<li>批量删除好友</li>
+<li>批量删除僵尸粉</li>
+<li>自动回复</li>
+<li>自定义表情最高限额</li>
+<li>自动领取红包、转账</li>
+<li>等等。。。</li>
+</ul>
+<p>请谨慎使用自动领取红包功能！</p>
+<h2 id="QXposed-（QX模块）"><a href="#QXposed-（QX模块）" class="headerlink" title="QXposed （QX模块）"></a>QXposed （QX模块）</h2><p>作者：fkzhang<br> <a href="http://repo.xposed.info/module/com.fkzhang.qqxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.qqxposed</a><br>功能：-防止QQ撤回消息<br>-自动领取红包<br>-控制骰子<br>-支持TIM</p>
+<h2 id="chimi"><a href="#chimi" class="headerlink" title="chimi"></a>chimi</h2><p>作者：yonhhen<br>链接：<a href="https://github.com/yonghen/chimi-/releases" target="_blank" rel="noopener">https://github.com/yonghen/chimi-/releases</a><br>功能：MIUI主题破解</p>
+<h2 id="MIUI主题防恢复"><a href="#MIUI主题防恢复" class="headerlink" title="MIUI主题防恢复"></a>MIUI主题防恢复</h2><p>作者：夢月時歌<br>链接<a href="https://www.wenshushu.cn/f/2s1mm0vm3bx" target="_blank" rel="noopener">https://www.wenshushu.cn/f/2s1mm0vm3bx</a><br>功能：启MIUI主题破解模块，有效防止主题自动恢复默认。可用第三方主题，免费使用付费字体。</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+        <category>玩机</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>玩机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win 上安装Git</title>
+    <url>/2020/06/18/Win-%E4%B8%8A%E5%AE%89%E8%A3%85Git/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>个人博客搭建（1）：Hexo搭建个人博客部署到Github</title>
+    <url>/2020/06/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Github/</url>
+    <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>选取“++x;”为基本操作，语句频度为10000，则时间复杂度为0(1),即常量阶。<br>[例4]分析下述程序段的时间复杂度。</p>
-<pre><code class="bash">
-s=0; .
-<span class="keyword">for</span>(j=1;j&lt;=n;j*=2)
-++X;</code></pre>
-<p>2^m=n;则m=log2’n<br>选取“++x;”为基本操作,<br>语句频度为log2”n,则时间复杂度为O(log2”n),即对数阶。<br>[例5]分析下述程序段的时间复杂度。</p>
-<pre><code class="bash">
-<span class="keyword">for</span>(i=1; i&lt;=2*n; ++i) 
-{
-++X; S+=X;
-}</code></pre>
-<p>选取“++x;”为基本操作，语句频度为2xn,则时间复杂度为O(n),即线性阶。<br>[例6]分析下述程序段的时间复杂度。</p>
-<pre><code class="bash"><span class="keyword">for</span>(j=1;j&lt;=n; ++j)
-{
-     <span class="keyword">for</span>(k=1;k&lt;=n/4; ++k)
-     {
-          ++X; S+=X;
-     }
-}
-</code></pre>
-<p>选取“++x;”为基本操作，语句频度为nxn/4, 则时间复杂度为O(n^2),即平方阶。.<br>并非所有的双重循环的时间复杂度都是0(n2)的，下面举例说明。<br>[例8]分析下述程序段的时间复杂度。</p>
-<pre><code class="bash">
-<span class="keyword">for</span>(j=1; j&lt;n; j*=2)
-    {
-        <span class="keyword">for</span>(k=1;k&lt;=n; ++k) 
-        {
-            ++X; S+=X;
-        }
-    }</code></pre>
-<p>时间复杂度为O(n log2”n),即线性对数阶<br>[例10]矩阵相乘。</p>
-<pre><code class="bash">
-<span class="keyword">for</span>(i= 1;i &lt;= n; i++)
-{
-    <span class="keyword">for</span>(j= 1;j&lt;=n; j++)
-    {
-        c[il][j]= 0;
-        <span class="keyword">for</span>(k= 1;k &lt;=n; k++)
-        {
-            c[i][j]= c[i][j] + a[i][k]* b[k][j];
-        }
-    }
-}</code></pre>
-<p>选取第3层循环中的循环体“c[i][j] = c[i][j] + a[i][k]*b[k][j];”为基本操作，语句频度为n3,所以该算法的时间复杂度是O(n3)，即立方阶。<br>二、例题<br>计算算法的时间复杂度是属于一种( )。<br>A.事前统计的方法<br>B.事前分析估算的方法<br>C.事后统计的方法<br>D.事后分析估算的方法<br>(北京理工大学2005十一.4(1分)|<br>[参考答案]<br>B<br>设n是描述问题规模的非负整数，下面程序片段的时间复杂度是</p>
-<pre><code class="bash">
-X=2;
-<span class="keyword">while</span>(x&lt;n/2)
-{
-    x=2*x;
-}</code></pre>
-<p>A. O(log2n)<br>B.0(n)<br>C. O(nlog2n)<br>D. O(n2)<br>[2011年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>A</p>
-<p>求整数n(n&gt;=0)阶乘的算法如下，其时间复杂度是( )。</p>
-<pre><code class="bash">
-int fact(int n)
-{
-    <span class="keyword">if</span> (n&lt;=1)
-        <span class="built_in">return</span> 1 ;
-    <span class="built_in">return</span> n*fact(n-1) ;
-}</code></pre>
-<p>A. Ollog2n)<br>B. O(n)<br>C.0(nlog2n)<br>D. O(n2)<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>B<br>下列程序段的时间复杂度()。</p>
-<pre><code class="bash">
-count=O;
-<span class="keyword">for</span>(k=1;k&lt;=n;k*=2)
-    <span class="keyword">for</span>(j=1;j&lt;=n; j+=1)
-        count++;</code></pre>
-<p>A. O(log2n)<br>B. O(n)<br>C. O(nlog2n)<br>D.O(n2)<br>[2014年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>C<br>下列函数的时间复杂度( t )。</p>
-<pre><code class="bash">
-int func(int n)
-{
-    int i=O,sum=0;
-    <span class="keyword">while</span>( sum&lt;n )
-        sum += ++i;
-    <span class="built_in">return</span> i;，
-}</code></pre>
-<p>A. Ollog2n)<br>B.O(n^1/2)<br>C. O(n)<br>D. O(nlog2n)<br>[2017年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] B</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构学习笔记：基本概念和术语</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E6%9C%AF%E8%AF%AD/</url>
-    <content><![CDATA[<p>一、知识点<br>1.数据<br>数据是信息的载体，是描述客观事物的数、字符、以及所有能输入到计算机中被计算机识别和处理的符号的集合。</p>
-<a id="more"></a>
-<p>2.数据元素<br>是数据中的一个个体，是数据的基本单位。在一些情况下数据元素也称为元素、结点、顶点、记录等。数据元素用于完整地描述一个对象。<br>3.数据项(Data Item)<br>是组成数据元素的有特定意义的补课分割的最小单位。如构成一个数据元素的字段、域、属性等都可称之为数据项。数据元素是数据项的集合。如:学生信息表中的学号、姓名、性别、专业等。<br>4.数据对象(Data Object)<br>是具有相同性质的数据元素的集合，是数据的一个子集。如:<br>计算机专业全体学生,<br>整数集合N={0, +1, +2,…},<br>小写字符集合C={‘a’，’b’,.，’z’},<br>5.数据结构<br>通过抽象的方法研究一组有特定关系的数据的存储与处理，数据结构主要研究三个方面的内容。<br>(1)数据的逻辑结构;<br>(2)存储结构;<br>(3)运算实现。<br><img src="https://s1.ax1x.com/2020/06/14/NSZDlq.png" alt="enter image description here"><br>6.数据逻辑结构<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591517817083-afa193ec-13c7-40c4-8596-22f27c4e64dc.png" alt="enter image description here"><br>7.数据的存储结构<br>1.顺序存储结构：借助元素在存储器中的相对位置表示数据之间的相对关系，通常用数组实现。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518276747-2f12dc36-5c2c-43e5-89b9-daf785f02af2.png" alt="enter image description here"><br>2.链式存储结构：借助表示元素存储地址的指针显式地指出元素之间的逻辑关系。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518244536-2157c0eb-91ea-43a4-9a50-63105ef7c623.png" alt="enter image description here"><br>3.哈希(散列)存储方式:是专用于集合结构的数据存放方式。用一个哈希函数将数据元素按关键字和一个唯一的存储位置关联起来。<br>4.索引存储方式:数据元素被排成一个序列:d1, d2, .，dn,每个结点di在序列里都有对应的位序i，位序可以作为结点的索引存储在索引表中。检索时利用结点的顺序号i来确定结点的存储地址。<br>8.抽象数据类型<br>为了形象直观的描述数据结构，引入抽象数据类型(Abstract Data Type,简称ADT)“抽象”的意义在于数据类型的数学抽象特性在定义抽象数据类型时,就是定义其数据的逻辑结构和操作说明，而不必考虑数据的存储结构和操作的具体实现<br>二、例题<br>1.数据结构中数据元素之间的逻辑关系被称为()。<br>A.数据的存储结构<br>B.数据的基本操作<br>C.程序的算法<br>D.数据的逻辑结构<br>北京理工大学2005十-.1(1分)]<br>[参考答案] D<br>2.在数据结构中，从逻辑上可以将之分为( )。<br>A.动态结构和静态结构<br>B.紧凑结构和非紧凑结构<br>C.内部结构和外部结构<br>D.线性结构和非线性结构<br>[中南大学2005-.1(2分)]<br>[参考答案] D<br>3.以下数据结构中，()是非线性数据结构<br>A.树<br>B.字符串<br>C.队<br>D.栈<br>[中山大学1999- .4]<br>[参考答案] A<br>4.以下属于逻辑结构的是()<br>A.顺序表<br>B.哈希表<br>C.有序表<br>D.单链表<br>[西安电子科技大学应用2001-.1]<br>[参考答案] C  其中顺序表是顺序存储结构，哈希表是哈希存储方式，单链表是链式存储结构。<br>5.己知表头元素为c的单链表在内存中的存储状态如下表所示。现将f放于1014H处并插入到单链表中，若f在逻   辑上位a和e之间，则a, e, f的链接地址”依次是( )。<br>A.1010H, 1014H, 1004H<br>B.11010H, 1004H, 1014H<br>C.1014H, 1010H, 1004H<br>D. | 1014H, 1004H, 1010H<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] D.<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518971491-3204bc4e-cab8-45fc-b846-34a8a1b1b947.png" alt="enter image description here"></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构学习笔记：预备知识</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<p>预备知识<br>关于考试<br>考研 ：<br>全国统考：单项选择 综合应用 算法设计<br>自主命题： 观察前几年考题</p>
-<a id="more"></a>
-<p>C与C++<br>1.输入输出<br>c: scanf printf<br>c++:cin cout （in out 分别表示输入输出）<br>eg1</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a,</span><br><span class="line">    double b,c;</span><br><span class="line">    scanf(<span class="string">"%d"</span>,&amp;a);</span><br><span class="line">    c=a+b;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,c);</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br><span class="line">``` </span><br><span class="line">```bash</span><br><span class="line">include&lt;iostream&gt;  //头文件</span><br><span class="line">using namespace std;//从 std 中找头文件</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    double b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b;//输入ab</span><br><span class="line">    c=a+b;</span><br><span class="line">    cout&lt;&lt;<span class="string">"c="</span>&lt;&lt;c&lt;&lt;endl;//endl相当于“\n”，回车换行</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>2.申请空间<br>c:   malloc  free<br>c++:  new delete<br>eg</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">include&lt;stdlib.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=(int *)malloc(sizeof(int));//申请空间，本来返回*void类型，但p是int*，所以有强制转换（int*)</span><br><span class="line">    scanf(<span class="string">"%d"</span>,p);//p已经是地址，所以不用&amp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,*p);</span><br><span class="line">    free(p);</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">includ&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=new int(3);//申请一个变量 初值为3；若int[10]则为长度为10 的数组</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    cin&gt;&gt;*p;</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    delete p;</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>模板</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//1.假如设计一个求两参数最大值的函数，在实践中我们可能需要定义3个函数</span><br><span class="line"></span><br><span class="line">int Max (inta, intb)&#123; <span class="built_in">return</span>( a&gt;b) ? a:b;&#125;</span><br><span class="line"></span><br><span class="line">double Max ( doublea，double b)&#123; <span class="built_in">return</span>( a &gt;b)? a:b;&#125;</span><br><span class="line">char Max( char a，charb) &#123;<span class="built_in">return</span>(a&gt; b)? a: b;&#125;</span><br><span class="line">//2.这些函数几乎相同，唯一的区别就是形参类型不同</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">template&lt;class T&gt;</span><br><span class="line">T Max(T a,T b)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">return</span> a&gt;b?a:b;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3, 5) is "</span>&lt;&lt;Max(3,5) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3.0,5.0) is "</span>&lt;&lt; Max(3.0,5.0) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max('3';,5')is"</span>&lt;&lt; Maxl<span class="string">'3;5'</span>) &lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：身份证号码验证</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E7%A0%81%E9%AA%8C%E8%AF%81/</url>
-    <content><![CDATA[<p>描述<br>居民身份证是18位字符的编码，每个人的编码都是唯一的，校验规则如下：<br>∑（ai*wi）mod 11 = 1<br>i表示号码字符从左至右包括校验码字符在内的位置序号；ai表示第i位置上的号码字符值；Wi表示第i位置上的加权因子。即将各位上的数值乘上位权之和对11取余，余数为1则表示该编码正确。注意：如果最后一位校验码是“X”或“x”，则代表该校验码的数值为10。<br>各位的权值依次是：7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2，1<br>例如某身份证号码为：370683198901117657，这是正确的编码。<br>又如某号码为：470683198902117657，这是错误的编码。</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>第一行是一个数字n，表示后面有n行待判断的号码<br>从第二行起，每行一个18位的字符串，表示要判断的身份证号码<br>输出格式<br>输出一个数值，表示正确的身份证号码的个数<br>样例<br>输入样例<br>4<br>430321200506200105<br>430321200505070050<br>430302200512290036<br>43038120050824012X<br>输出样例<br>3<br>限制<br>时间限制：1000 ms<br>内存限制：65535 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>
-int main() 
-{
-    int n = 0, i = 0, sum = 0,j = 0;
-    char id[20];
-    int quan[] = { 7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2,1};
-    scanf(<span class="string">"%d"</span>, &amp;n);
-    int flag = 0;
-    <span class="keyword">for</span> (i =1; i &lt;=n; i++) 
-    {
-        scanf(<span class="string">"%s"</span>, id);
-        sum = 0;
-        int t = 0, x = 18;
-        <span class="keyword">if</span> (id[17] == <span class="string">'X'</span> || id[17] == <span class="string">'x'</span>)
-        {
-
-            x--;
-            t++;
-        }
-
-        <span class="keyword">for</span> (j = 0; j &lt; x; j++)
-        {
-            sum = sum + (id[j]-<span class="string">'0'</span>)*(quan[j]);
-
-        }
-        <span class="keyword">if</span> (t == 1)
-        {
-            sum = sum + 10;
-        }
-
-        <span class="keyword">if</span> (sum % 11 == 1)
-        {
-            flag++;
-        }
-
-    }
-    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, flag);
-
-
-    <span class="built_in">return</span> 0;
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：按字典规则比较字符大小</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%8C%89%E5%AD%97%E5%85%B8%E8%A7%84%E5%88%99%E6%AF%94%E8%BE%83%E5%AD%97%E7%AC%A6%E5%A4%A7%E5%B0%8F/</url>
-    <content><![CDATA[<p>描述<br>按照字典规则比较两个英文字符串的大小，基本规则如下：<br>（1）字符串左对齐比较<br>（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’<br>（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’<br>（4）字符串中只有大小写字母和空格，空格小于任何字母<br>例如：”aBc”&lt;”abc”,”abcdef”&lt;”abD”，”Abcd”&lt;”abc”</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>输入是两行，每行一个字符串，长度均小于1000<br>输出格式<br>输出一个整数，表示这两个字符串比较大小的结果。如果第一个小于第二个，输出-1；<br>如果第一个大于第二个，输出1；相等则输出0。<br>样例<br>输入样例<br>your<br>you<br>输出样例<br>1<br>限制<br>时间限制：100 ms<br>内存限制：8192 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-<span class="comment">#include&lt;string.h&gt;</span>
-int main()
-{
-    int i, len_a, len_b, max;
-    char a[1000], b[1000];
-    gets(a);
-    gets(b);
-    len_a = strlen(a);
-    len_b = strlen(b);
-    <span class="keyword">if</span> (len_a &gt; len_b)
-    {
-        max = len_a;
-    }
-    <span class="keyword">else</span>
-    {
-        max = len_b;
-    }
-    //<span class="built_in">printf</span>(<span class="string">"%c1\n"</span>,a[5]);
-    //<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,max);
-    int flag = 0;
-    <span class="keyword">for</span> (i = 0; i &lt; max; i++)
-    {
-
-        <span class="keyword">if</span> (a[i] == b[i])
-        {
-            <span class="keyword">if</span> (i == max - 1)
-            {
-                flag = 1;
-            }
-            <span class="built_in">continue</span>;
-
-        }
-        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] == <span class="string">' '</span> &amp;&amp; b[i] != <span class="string">' '</span>) {
-            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
-            <span class="built_in">break</span>;
-        }
-        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] != <span class="string">' '</span> &amp;&amp; b[i] == <span class="string">' '</span>) {
-            <span class="built_in">printf</span>(<span class="string">"1"</span>);
-            <span class="built_in">break</span>;
-        }
-        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &lt; b[i]) {
-            <span class="built_in">printf</span>(<span class="string">"-1"</span>);
-            <span class="built_in">break</span>;
-        }
-        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; b[i]) {
-            <span class="built_in">printf</span>(<span class="string">"1"</span>);
-            <span class="built_in">break</span>;
-        }
-        <span class="keyword">else</span>
-            <span class="built_in">printf</span>(<span class="string">"0"</span>);
-
-    }
-    <span class="keyword">if</span> (flag == 1)
-    {
-        <span class="built_in">printf</span>(<span class="string">"0"</span>);
-    }
-
-    <span class="built_in">return</span> 0;
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：汉罗塔问题</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%89%E7%BD%97%E5%A1%94%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>描述<br>约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。<br>这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615<br>这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。<br>假定圆盘从小到大编号为1, 2, …</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>输入为一个整数(小于20）后面跟三个单字符字符串<br>。整数为盘子的数目，后三个字符表示三个杆子的编号。<br>输出格式<br>输出每一步移动盘子的记录。一次移动一行。每次移动的记录为例如 a-&gt;3-&gt;b 的形式，即把编号为3的盘子从a杆移至b杆。<br>样例<br>输入样例<br>2 a b c<br>输出样例<br>a-&gt;1-&gt;c<br>a-&gt;2-&gt;b<br>c-&gt;1-&gt;b<br>限制<br>时间限制：10000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>
-//将n个圆盘从x柱子上借助y柱子移动到z柱子上
-void move(int n, char x, char y, char z)
-{
-    //<span class="built_in">printf</span>(<span class="string">"B: %d %c %c %c \n"</span>, n, x, y, z);
-    <span class="keyword">if</span> (n == 1)
-    {
-        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);
-    }
-    <span class="keyword">else</span>
-    {
-        move(n - 1, x, z, y); //将n-1个圆盘从x柱子上借助z柱子移动到y柱子上
-        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);//将第n个盘子从x移到z上
-        move(n - 1, y, x, z);//将n-1个圆盘从y柱子上借助x柱子移动到z柱子上
-    }
-
-}
-
-
-int main()
-{
-    //分别代表三个柱子
-    char ch1,ch2,ch3;
-    int n;   //n代表圆盘的个数
-    scanf(<span class="string">"%d %c %c %c"</span>, &amp;n ,&amp; ch1, &amp;ch2, &amp;ch3);
-  //  <span class="built_in">printf</span>(<span class="string">"A: %d %c %c %c \n"</span>, n, ch1, ch2, ch3);
-    move(n, ch1, ch3, ch2);
-    <span class="built_in">return</span> 0;
-
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：求f（x,n）</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82f%EF%BC%88x-n%EF%BC%89/</url>
-    <content><![CDATA[<p>描述<br><img src="https://cdn.nlark.com/yuque/0/2020/jpeg/1188793/1585885913457-6bfbccd8-7197-4869-b873-9a13bea6f610.jpeg" alt="enter image description here"></p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>第一数是x的值，第二个数是n的值。<br>输出格式<br>函数值，保留两位小数。<br>样例<br>输入样例<br>1 2<br>输出样例<br>0.40<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-<span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b);
-int main()
-{
-    double x, n;
-    scanf(<span class="string">"%lf%lf"</span>, &amp;x, &amp;n);
-    <span class="built_in">float</span> e;
-    e = f(x, n);
-    <span class="built_in">printf</span>(<span class="string">"%.2f\n"</span>, e);
-    <span class="built_in">return</span> 0;
-}
-<span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b)
-{
-    <span class="built_in">float</span> k;
-    <span class="keyword">if</span> (b == 1)
-    {
-        k = a * 1.00 / (a + 1) * 1.00;
-        <span class="built_in">return</span> k;
-    }
-    <span class="keyword">else</span>
-    {
-        k = a * 1.00 / (b + f(a, b - 1)) * 1.00;
-
-    }   <span class="built_in">return</span> k;
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：阿克曼函数</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E9%98%BF%E5%85%8B%E6%9B%BC%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<p>描述<br>阿克曼(Ackmann)函数A(m，n)中，m，n定义域是非负整数(m≤3,n≤10)，函数值定义为：<br>   akm(m,n) = n+1;         (m=0时)<br>   akm(m,n) = akm(m-1,1);  (m&gt;0,n=0时)<br>   akm(m,n) = akm(m-1,akm(m, n-1)); （m,n&gt;0时)</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>输入m和n。<br>输出格式<br>函数值<br>样例<br>输入样例<br>2 3<br>输出样例<br>9<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-
-int akm(int m,int n)
-{
-    <span class="keyword">if</span> (m == 0)
-    {
-        <span class="built_in">return</span> n + 1;
-    }
-    <span class="keyword">else</span> <span class="keyword">if</span> (m &gt; 0 &amp;&amp; n == 0)
-    {
-        <span class="built_in">return</span> akm(m - 1,1);
-    }
-    <span class="keyword">else</span>
-    {
-        <span class="built_in">return</span> akm(m - 1, akm(m, n - 1));
-    }
-
-
-}
-int main()
-{
-    int m, n;
-    scanf(<span class="string">"%d%d"</span>, &amp;m, &amp;n);
-    <span class="keyword">if</span> (m &lt;= 3 &amp;&amp; m &gt;= 0 &amp;&amp; n &lt;= 10 &amp;&amp; n &gt;= 0)
-    {
-        int ans;
-        ans=akm(m, n);
-        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans);
-    }
-
-
-    <span class="built_in">return</span> 0;
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：计算鞍点</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E8%AE%A1%E7%AE%97%E9%9E%8D%E7%82%B9/</url>
-    <content><![CDATA[<p>描述<br>给定一个5*5的矩阵，每行只有一个最大值，每列只有一个最小值，寻找这个矩阵的鞍点。鞍点指的是矩阵中的一个元素，它是所在行的最大值，并且是所在列的最小值。<br>  例如：在下面的例子中（第4行第1列的元素就是鞍点，值为8 ）。<br>   11 3 5 6 9<br>   12 4 7 8 10<br>   10 5 6 9 11<br>   8 6 4 7 2<br>   15 10 11 20 25。</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>第一行包含两个整数n和m，表示图像包含像素点的行数和列数。1≤n≤100，1≤m≤100。<br>接下来n行，每行m个整数，表示图像的每个像素点灰度。相邻两个整数之间用单个空格隔开，每个元素均在0~255之间。<br>输出格式<br>m行，每行n个整数，为模糊处理后的图像。相邻两个整数之间用单个空格隔开。<br>样例<br>输入样例<br>4 5<br>100 0 100 0 50<br>50 100 200 0 0<br>50 50 100 100 200<br>100 100 50 50 100<br>输出样例<br>100 0 100 0 50<br>50 80 100 60 0<br>50 80 100 90 200<br>100 100 50 50 100<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>注意点<br>“舍入到最接近的整数” 所以考虑小数时要四舍五入；即：<br>int change(double t)<br>{<br>double NewNum = floor(t);//浮点取整<br>return ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;<br>}<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-int main()
-{
-    int cur[5][5];
-    int ans;
-    int i,j,f,m,n,y,h,l;
-    int flag;
-    <span class="keyword">for</span> (i = 0; i &lt; 5; i++)
-    {
-        <span class="keyword">for</span> (j = 0; j &lt; 5; j++)
-        {
-            scanf(<span class="string">"%d"</span>, &amp;cur[i][j]);
-        }
-    }
-    /*int a, b;
-    <span class="keyword">for</span> (a = 0; a &lt; 5; a++)
-    {
-        <span class="keyword">for</span> (b = 0; b &lt; 5; b++)
-        {
-
-            <span class="built_in">printf</span>(<span class="string">"%d "</span>,cur[a][b]);
-            <span class="keyword">if</span> (b == 4)
-            {
-                <span class="built_in">printf</span>(<span class="string">"\n"</span>);
-            }
-        }
-    }
-    */
-
-    int max_x,min_y;
-    <span class="keyword">for</span> (m = 0; m &lt; 5; m++)
-    {
-        flag = 0;
-        max_x = cur[m][0];
-        y = 0;
-        <span class="keyword">for</span> (n = 0; n &lt; 5; n++)
-        {
-
-            <span class="keyword">if</span> (cur[m][n] &gt;max_x)
-            {
-                max_x = cur[m][n];
-                y = n;
-            }
-        }
-        int t;
-        min_y = max_x;
-        <span class="keyword">for</span> (t = 0; t &lt; 5; t++)
-        {
-
-            <span class="keyword">if</span> (cur[t][y] &lt;min_y)
-            {
-                //min_y = cur[t][y];
-                goto a;
-
-            }
-        }
-        h = m+1; l = y+1;
-        ans = min_y;
-        goto b;
-    a:
-        flag = 1;
-
-
-    }
-    <span class="keyword">if</span> (flag == 1)
-    {
-        <span class="built_in">printf</span>(<span class="string">"not found\n"</span>);
-        <span class="built_in">return</span> 0;
-    }
-    b:
-
-        <span class="built_in">printf</span>(<span class="string">"%d %d %d\n"</span>,h,l,ans);
-
-    <span class="built_in">return</span> 0;
-}</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：图像模糊处理</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E5%9B%BE%E5%83%8F%E6%A8%A1%E7%B3%8A%E5%A4%84%E7%90%86/</url>
-    <content><![CDATA[<p>描述<br>给定m行n列的图像各像素点的灰度值，要求用如下方法对其进行模糊化处理：<br>1.四周最外侧的像素点灰度值不变；<br>2.中间各像素点新灰度值为该像素点及其上下左右相邻四个像素点原灰度值的平均(舍入到最接近的整数)。</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>第一行包含两个整数n和m，表示图像包含像素点的行数和列数。1≤n≤100，1≤m≤100。<br>接下来n行，每行m个整数，表示图像的每个像素点灰度。相邻两个整数之间用单个空格隔开，每个元素均在0~255之间。<br>输出格式<br>m行，每行n个整数，为模糊处理后的图像。相邻两个整数之间用单个空格隔开。<br>样例<br>输入样例<br>4 5<br>100 0 100 0 50<br>50 100 200 0 0<br>50 50 100 100 200<br>100 100 50 50 100<br>输出样例<br>100 0 100 0 50<br>50 80 100 60 0<br>50 80 100 90 200<br>100 100 50 50 100<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>注意点<br>“舍入到最接近的整数” 所以考虑小数时要四舍五入；即：<br>int change(double t)<br>{<br>    double NewNum = floor(t);//浮点取整<br>    return ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;<br>}<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-<span class="comment">#include &lt;math.h&gt;</span>
-int change(double t)
-{
-    double NewNum = floor(t);//浮点取整
-    <span class="built_in">return</span> ((t - NewNum) - 0.5 &lt;= 0) ? NewNum : NewNum + 1;
-}
-
-int main()
-{
-    int m, n;
-    int p, q;
-    int cur[100][100], ans[100][100];
-    scanf(<span class="string">"%d %d"</span>, &amp;m, &amp;n);
-    int i, j;
-    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
-    {
-        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
-        {
-            scanf(<span class="string">"%d"</span>, &amp;cur[i][j]);
-        }
-    }
-    //<span class="built_in">printf</span>(<span class="string">"-------------------------\n"</span>);
-    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
-    {
-        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
-        {
-            ans[i][j] = cur[i][j];
-        }
-    }
-
-    int x, y;
-    <span class="keyword">for</span> (x = 1; x &lt; m - 1; x++)
-    {
-        <span class="keyword">for</span> (y = 1; y &lt; n - 1; y++)
-        {
-
-            double t = (cur[x][y] + cur[x - 1][y] + cur[x + 1][y] + cur[x][y - 1] + cur[x][y + 1]) / 5.0;
-            int w = change(t);
-            ans[x][y] = w;
-        }
-    }
-    <span class="keyword">for</span> (i = 0; i &lt; m; i++)
-    {
-        <span class="keyword">for</span> (j = 0; j &lt; n; j++)
-        {
-            <span class="built_in">printf</span>(<span class="string">"%d "</span>, ans[i][j]);
-            <span class="keyword">if</span> (j == n - 1)
-            {
-                <span class="built_in">printf</span>(<span class="string">"\n"</span>);
-            }
-        }
-    }
-
-
-
-    <span class="built_in">return</span> 0;
-}
-</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title> 数据结构习题：查找二叉树</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9F%A5%E6%89%BE%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
-    <content><![CDATA[<p>已知一棵二叉树用邻接表结构存储，中序查找二叉树中值为x的结点，并指出是第几个结点。</p>
+<p>本文介绍Hexo搭建个人博客部署到Github</p>
 <a id="more"></a>
 
-<p>格式<br>输入格式<br>第一行n为二叉树的结点个树，n≤100；第二行x表示要查找的结点的值；以下第一列数据是各结点的值，第二列数据是左儿子结点编号，第三列数据是右儿子结点编号。<br>输出格式<br>一个数即查找的结点编号。<br>样例<br>输入样例<br>7<br>15<br>5 2 3<br>12 4 5<br>10 0 0<br>29 0 0<br>15 6 7<br>8 0 0<br>23 0 0<br>输出样例<br>4<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-
-struct node
-
-{
-
-    int n;
-
-    int l;
-
-    int r;
-
-}a[300];
-
-int n,m,flag,key;
-
-void find(int k)
-
-{
-
-    <span class="keyword">if</span>(a[k].l)
-
-        find(a[k].l);
-
-    <span class="keyword">if</span>(a[k].n==m&amp;&amp;key==0)
-
-    {
-
-        <span class="built_in">printf</span>(<span class="string">"%d"</span>,++flag);
-
-        key=1;
-
-        <span class="built_in">return</span>;
-
-    }
-
-    flag++;
-
-    <span class="keyword">if</span>(a[k].r)
-
-        find(a[k].r);
-
-}
-
-int main()
-
-{
-
-    int i;
-
-    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
-
-    <span class="keyword">for</span>(i=1;i&lt;=n;i++)
-
-    {
-
-        scanf(<span class="string">"%d %d %d"</span>,&amp;a[i].n,&amp;a[i].l,&amp;a[i].r);
-
-    }
-
-    find(1);
-
-    <span class="built_in">return</span> 0;
-
-}
-</code></pre>
 ]]></content>
       <categories>
-        <category>教程</category>
-        <category>学习</category>
+        <category>博客</category>
+        <category>搭建</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
+        <tag>Win</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
-    <title>数据结构习题： 查找二叉树</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E9%81%8D%E5%8E%86%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
-    <content><![CDATA[<p>格式<br>输入格式<br>第一行一个整数n，表示这棵完全二叉树的元素数目；第二行是n个整数，分别表示这棵二叉树上的元素值。<br>输出格式<br>输出为三行，第一行是先序遍历序列，第二行是中序遍历序列，第三行是后序遍历序列。数值之间用空格分隔<br>样例<br>输入样例<br>8<br>246 53 520 879 865 388 745 477<br>输出样例<br>246 53 879 477 865 520 388 745<br>477 879 53 865 246 388 520 745<br>477 879 865 53 388 745 520 246<br>限制<br>时间限制：300 ms<br>内存限制：16384 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">##include&lt;stdio.h&gt;</span>
-<span class="comment">#include&lt;stdlib.h&gt;</span>
-
-typedef struct bitree
-{
-    int data;
-    struct bitree *lchild,*rchild;
-} BiTNode;
-
-BiTNode* CreateBiTree(int *,int);
-void PreOderTraverse(BiTNode *);
-void PreOderTraverse_hou(BiTNode *);
-void PreOderTraverse_zhong(BiTNode *);
-
-int main()
-{
-    BiTNode *t;
-    int n,i;
-    scanf(<span class="string">"%d"</span>,&amp;n);
-    int a[1001];
-    <span class="keyword">for</span>(i=0; i&lt;n; i++)
-    {
-        scanf(<span class="string">"%d"</span>,&amp;a[i]);
-    }
-    //int a[10] = {1,2,3,4,5,6,7,8,9};                 //树中结点的数据
-
-    t = CreateBiTree(a,n);
-
-    PreOderTraverse(t);
-    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
-    PreOderTraverse_zhong(t);
-    <span class="built_in">printf</span>(<span class="string">"\n"</span>);
-    PreOderTraverse_hou(t);
-
-    <span class="built_in">return</span> 0;
-}
-
-//创建二叉树
-BiTNode* CreateBiTree(int *a,int n)
-{
-    BiTNode *root,*p;
-    BiTNode *bitQueue[n];                        //定义一个队列用来存放完全二叉树
-    int front=1,rear=1;                          //初始化队列
-//生成结点并入队
-    int i;
-    <span class="keyword">for</span>(i=0; i&lt;n; i++)
-    {
-        <span class="keyword">if</span>(*(a+i) == 0)
-            p = NULL;
-        <span class="keyword">else</span>
-        {
-            p = (BiTNode *)malloc(sizeof(BiTNode));
-            p-&gt;data = *(a+i);
-            p-&gt;lchild = p-&gt;rchild = NULL;
-        }
-        bitQueue[rear++] = p;                    //p结点入队,队尾指针加 1
-        <span class="keyword">if</span>(i==0) root = p;                       //初始化根节点
-    }
-//找出结点间的父子关系
-    <span class="keyword">while</span>(front != rear)                         //如果队列不为空
-    {
-        p = bitQueue[front];                    //当前要找关系的结点
-        <span class="keyword">if</span>(p != NULL)
-        {
-            <span class="keyword">if</span>(2*front &lt;= n)    p-&gt;lchild = bitQueue[2*front];
-            <span class="keyword">if</span>(2*front+1 &lt;= n)  p-&gt;rchild = bitQueue[2*front+1];
-        }
-        front++;                               //队头指针加 1，指向下一个结点
-    }
-
-    <span class="built_in">return</span> root;
-}
-
-//前序遍历
-void PreOderTraverse(BiTNode *t)
-{
-    <span class="keyword">if</span>(t)                   //如果树不为空
-    {
-        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
-        PreOderTraverse(t-&gt;lchild);
-        PreOderTraverse(t-&gt;rchild);
-    }
-}
-//中序遍历
-void PreOderTraverse_zhong(BiTNode *t)
-{
-    <span class="keyword">if</span>(t)                   //如果树不为空
-    {
-        PreOderTraverse_zhong(t-&gt;lchild);
-        <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
-        PreOderTraverse_zhong(t-&gt;rchild);
-    }
-}
-//后序遍历
-void PreOderTraverse_hou(BiTNode *t)
-{
-    <span class="keyword">if</span>(t)                   //如果树不为空
-    {
-        PreOderTraverse_hou(t-&gt;lchild);
-
-        PreOderTraverse_hou(t-&gt;rchild);
-         <span class="built_in">printf</span>(<span class="string">"%d "</span>,t-&gt;data);
-    }
-}
-
-</code></pre>
-]]></content>
+    <title>无题</title>
+    <url>/2020/06/20/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">每个人都应该学会自我消化消极情绪</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="c8cfc122f07f068cfa74bb291c3d04c4123d46391af8d47993690f7516bcc439">5f0a6b8dcdae0acf872ba08a8d9a00ab79707ddc6f6f9657e82449a3c5aa93cc77564cd1e763eb6e3c096a59656c4889d4c6d98f95768b66831eefd3f77d26749fe15ab5ec6b696db94a547ac64705515c248697e4a5990d5c5778b30483c9d0a40aa0abad895c99331849afb2d4cdb609e0e5890d06a1368a9509133033045dcea1539ba4fe6a849a84cbc809d1adee69a47474552a7e266e0ec1203eb77dd98384ffd7c3b08baf9cda398dff4e2b4c57eb653cdeb627db8dfcde059d2a8a0952c6b0188a57de3ded6f125858f794e63470540073f59037d98f8c26f806b31b516339998a1be0adedab17ead05f52cef496ce8d797d114aca4228c693844069ae64f88e071dd93e2502174e35ec26eeb868cc2a7546a1b0d0cb6d489d293b1cfbce45eb6dd03529a75afabb6b19d0206f7509131c92c9df3a3ec002a2d1795f6dc6a87346249e438cd81da142d300558f38753239a5469e972a0f6f7742e1a214a391460fe09b39a2709bccee8d7504c0a9b43132bb9772018a9c3dbeb613b58e6c3c9b76672ed53215010e301501e09860e77038916a473c3046db0589c841a17f30be58535c615f64b8b1a092956afb2a3c2ca0bff9163adf963847ff885425f47b149ac2bcc462d46082f628ac986871dab7d2b4a811a9e5bde3fef9702f131c64318e8d0a076a5d8de1b3c9e702</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>教程</category>
-        <category>学习</category>
+        <category>情绪</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
+        <tag>生活</tag>
+        <tag>日记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：求后序遍历</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86/</url>
-    <content><![CDATA[<p>描述<br>输入一棵二叉树的先序和中序遍历序列，输出其后序遍历序列。</p>
-<a id="more"></a>
-<p>格式<br>输入格式<br>共两行，第一行一个字符串，表示树的先序遍历，第二行一个字符串，表示树的中序遍历。<br>输出格式<br>一行，表示树的后序遍历序列。<br>样例<br>输入样例<br>abdec<br>dbeac<br>输出样例<br>debca<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;string.h&gt;</span>
-
-<span class="comment">#include&lt;stdio.h&gt;</span>
-
-char s1[20], s2[20], ans[20];//s1[N],s2[N]分别为先序和中序遍历序列
-
-void build(int n, char* s1, char* s2, char* s)
-
-{
-
-    <span class="keyword">if</span>(n &lt;= 0) <span class="built_in">return</span>;    int p = strchr(s2, s1[0]) - s2;//找到根结点的位置
-
-    build(p, s1+1, s2, s);//递归构造左子树的后序遍历
-
-    build(n-p-1, s1+p+1, s2+p+1, s+p);//递归构造右子树的后序遍历
-
-    s[n-1] = s1[0];//把根结点添加到最后
-
-}
-
-int main()
-
-{
-
-    <span class="keyword">while</span>(scanf(<span class="string">"%s%s"</span>,s1, s2) == 2)
-
-    {
-
-        int n= strlen(s1);
-
-        build(n, s1,s2, ans);
-
-        ans[n] = <span class="string">'\0'</span>;
-
-        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>,ans);
-
-        <span class="built_in">return</span> 0;
-
-    }
-
-}
-
-</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：城市路</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E5%9F%8E%E5%B8%82%E8%B7%AF/</url>
-    <content><![CDATA[<p>描述<br>罗老师被邀请参加一个舞会，是在城市n，而罗老师当前所处的城市为1,附近还有很多城市2~n-1，有些城市之间没有直接相连的路，有些城市之间有直接相连的路，这些路都是双向的，当然也可能有多条。<br>现在给出直接相邻城市的路长度，罗老师想知道从城市1到城市n，最短多少距离。</p>
-<a id="more"></a>
-
-<p>格式<br>输入格式<br>输入n, m，表示n个城市和m条路;<br>接下来m行，每行a b c， 表示城市a与城市b有长度为c的路。<br>输出格式<br>输出1到n的最短路。如果1到达不了n，就输出-1。<br>样例<br>输入样例<br>5 5<br>1 2 20<br>2 3 30<br>3 4 20<br>4 5 20<br>1 5 100<br>输出样例<br>90<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-int a[200][200],b[200][200],path[200][200];
-
-void floyd(int n)
-{
-    int i,j,k;
-    <span class="keyword">for</span>(i=1; i&lt;=n; i++)
-    {
-        <span class="keyword">for</span>(j=1; j&lt;=n; j++)
-        {
-            <span class="keyword">if</span>(i!=j)
-                path[i][j]=i;
-            <span class="keyword">else</span>
-                path[i][j]=-1;
-        }
-    }
-    <span class="keyword">for</span>(k=1; k&lt;=n; k++)
-    {
-        <span class="keyword">for</span>(i=1; i&lt;=n; i++)
-        {
-            <span class="keyword">for</span>(j=1; j&lt;=n; j++)
-            {
-                <span class="keyword">if</span>(a[i][j]&gt;a[i][k]+a[k][j])
-                {
-                    a[i][j]=a[i][k]+a[k][j];
-                    path[i][j]=path[k][j];
-                }
-            }
-        }
-    }
-}
-
-int main()
-{
-    int n,m,i,j;
-    scanf(<span class="string">"%d %d"</span>,&amp;n,&amp;m);
-    <span class="keyword">for</span>(i=1; i&lt;=m; i++)
-    {
-        int x,y,z;
-        scanf(<span class="string">"%d %d"</span>,&amp;x,&amp;y);
-        <span class="keyword">if</span>(b[x][y]==0)
-            scanf(<span class="string">" %d"</span>,&amp;a[x][y]);
-        <span class="keyword">else</span>
-        {
-            scanf(<span class="string">" %d"</span>,&amp;z);
-            <span class="keyword">if</span>(z&lt;a[x][y])
-                a[x][y]==z;
-        }
-        b[x][y]=1;
-    }
-    <span class="keyword">for</span>(i=1;i&lt;=m;i++)
-    {
-        <span class="keyword">for</span>(j=1;j&lt;=m;j++)
-        {
-            <span class="keyword">if</span>(a[i][j]==0)
-            a[i][j]=999;
-        }
-    }
-    floyd(n);
-    <span class="keyword">if</span>(a[1][n]==999)
-        <span class="built_in">printf</span>(<span class="string">"-1"</span>);
-    <span class="keyword">else</span>
-        <span class="built_in">printf</span>(<span class="string">"%d"</span>,a[1][n]);
-    <span class="built_in">return</span> 0;
-}
-
-</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：最优布线问题</title>
-    <url>/2020/06/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%9C%80%E4%BC%98%E5%B8%83%E7%BA%BF%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>描述<br>学校有n台计算机，为了方便数据传输，现要将它们用数据线连接起来。两台计算机被连接是指它们有数据线连接。由于计算机所处的位置不同，因此不同的两台计算机的连接费用往往是不同的。<br>当然，如果将任意两台计算机都用数据线连接，费用将是相当庞大的。为了节省费用，我们采用数据的间接传输手段，即一台计算机可以间接的通过若干台计算机（作为中转）来实现与另一台计算机的连接。<br>现在由你负责连接这些计算机，任务是使任意两台计算机都连通（不管是直接的或间接的）。</p>
-<a id="more"></a>
-
-<p>格式<br>输入格式<br>第一行为整数n（2≤n≤30），表示计算机的数目。此后的n行，每行n个整数。第x+1行y列的整数表示直接连接第x台计算机和第y台计算机的费用。<br>输出格式<br>一个整数，表示最小的连接费用。<br>样例<br>输入样例<br>3<br>0 1 2<br>1 0 1<br>2 1 0<br>输出样例<br>2<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p>
-<pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span>
-int n, s, pnt[105], a[105][105], vs[105], as = 0;
-int main()
-{
-
-    int i, j, x, q;
-    scanf(<span class="string">"%d"</span>, &amp;n);
-    <span class="keyword">for</span> (i = 1; i &lt;= n; i++)
-
-
-        <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
-
-            scanf(<span class="string">"%d"</span>, &amp;a[i][j]);
-
-    pnt[++s] = vs[1] = 1;
-
-    <span class="keyword">for</span> (; s &lt; n;)
-
-    {
-
-        x = 2147483640;
-
-        <span class="keyword">for</span> (i = 1; i &lt;= s; i++)
-
-            <span class="keyword">for</span> (j = 1; j &lt;= n; j++)
-
-                <span class="keyword">if</span> (x &gt; a[pnt[i]][j] &amp;&amp; !vs[j])
-                {
-
-                    x = a[pnt[i]][j];
-
-                    q = j;
-
-                }
-
-        as += x;
-
-        pnt[++s] = q;
-
-        vs[q] = 1;
-
-    }
-
-    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, as);
-
-}
-
-</code></pre>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>习题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构习题：求解一元三次方程</title>
-    <url>/2020/06/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%A0%E9%A2%98%EF%BC%9A%E6%B1%82%E8%A7%A3%E4%B8%80%E5%85%83%E4%B8%89%E6%AC%A1%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<p>求解一元三次方程<br>描述<br>形如： ax^3+bx^2+cx+d=0 这样的三次方程，给出该方程中各项的系数(a，b，c，d均为实数)，请求出该方程在指定范围内的一个根。<br>例如方程：2x^3+3x^2+4x+5=0，在[-10,10]范围内有一个根为-1.371134。<br>测试集给定的范围保证刚好有一个根。</p>
-<a id="more"></a>
-<p>比如输入：<br>1.2 -1.0 3.4 4.4<br>-3 0<br>则根为：-0.856541<br>又比如输入：<br>-1.2 2.3 4.4 -3<br>-3 0<br>则根为：-1.534508<br>格式<br>输入格式<br>两行实数，第一行为4个实数，分别代表a,b,c,d。第二行两个实数，表示左右区间。<br>输出格式<br>一个实数，表示方程的解，精确到小数点后6位。<br>样例<br>输入样例<br>2.3 4.2 -1.7 -3<br>-10 10<br>输出样例<br>0.849809<br>限制<br>时间限制：100 ms<br>内存限制：16384 KB<br>提示<br>注意题目对精度和速度的要求</p>
-<p>代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    double a,b,c,d;</span><br><span class="line">    double x1,x2,x0,fx1,fx2,fx0,x,y;</span><br><span class="line"></span><br><span class="line">    scanf(<span class="string">"%lf %lf %lf %lf"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    scanf(<span class="string">"%lf %lf"</span>,&amp;x1, &amp;x2);</span><br><span class="line">    fx1=(( a * x1 + b) * x1 + c) * x1 + d;</span><br><span class="line">    fx2=(( a * x2 + b) * x2 + c) * x2 + d;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        x0 = ( x1 + x2 ) / 2;</span><br><span class="line">        fx0 = (( a * x0 + b) * x0 + c) * x0 + d;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>( (fx0 * fx1) &lt; 0 )</span><br><span class="line">        &#123;</span><br><span class="line">            x2 = x0;</span><br><span class="line">            fx2 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            x1 = x0;</span><br><span class="line">            fx1 = fx0;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>( fabs( fx0 ) &gt;= 1e-7 );  //求根精度</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"%lf"</span>, x0 );</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
-    <title>win桌面美化教程</title>
-    <url>/2020/06/13/win%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>win桌面美化教程<br>Win桌面美化教程<br>在这记录下个人win 美化入坑的一些经验，主要是怕自己以后忘了怎么搞的<br> <img src="https://s1.ax1x.com/2020/06/13/txSFTf.png" alt="enter image description here"></p>
-<a id="more"></a> [more](https://hexo.io/docs/writing.html)
-
-<p>先上一波成品图</p>
-<p><img src="https://s1.ax1x.com/2020/06/13/tvz7O1.gif" alt="enter image description here"></p>
-<p>目录</p>
-<p>1.文件<br>rainmeter :<br>链接：<a href="https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA" target="_blank" rel="noopener">https://pan.baidu.com/s/1lgWzoQYrZwnBk1uUB2bgJA</a> 提取码：3527<br>2.配置<br>美化主要需要 win主题，rainmeter， 透明状态栏等等东西<br>2.1 注意事项<br>为避免造成错误，一般最好先关闭各种安全软件，创建系统还原点<br>右击“我的电脑” 点击“属性”</p>
-<p>点击“系统保护” 点击“创建”</p>
-<p>随便输入，点击创建，等待一会就创建好了</p>
-<p>创建系统还原点的目的是备份下之前的设置，以便以后想恢复的时候恢复</p>
-<p>2.2 rainmeter 安装与使用<br>Rainmeter是一款美化桌面的软件，可以加载各种桌面摆件：天气，时间，快捷方式，RSS，播放器，系统信息监控等<br>安装并运行 Rainmeter 程序，即可双击雨滴皮肤运行，部分雨滴皮肤是文件夹式的，复制到C:\Users\用户名\Documents\Rainmeter\Skins内，在任务栏托盘处找到白色小水滴的图标，双击打开配置面板，在左侧选择.ini文件，选择加载。<br>比较占用系统资源，老爷机谨慎安装；新手在安装时不要选择便携模式，否则无法正常安装皮肤。<br>下面是我收集到的一些插件包（资源来自网络，侵删）<br>使用方法：解压到C:\Users\用户名\Documents\Rainmeter\Skins目录下，在rainmeter 管理器里安装就好了，桌面上课一拖到任意位置</p>
-<p>时钟插件 链接：<a href="https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1S2tf6RUv2fK_-yVFQ-sdvQ</a> 提取码：1tpe<br>频谱和时间 链接：<a href="https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A" target="_blank" rel="noopener">https://pan.baidu.com/s/1aIdue3BuPRKk_HgTnSkl-A</a> 提取码：9kb9<br>布卡娘 链接：<a href="https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A" target="_blank" rel="noopener">https://pan.baidu.com/s/1ePNvoTSX1FvYkqx0dHB11A</a> 提取码：iyko<br>侧边栏 链接：<a href="https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw" target="_blank" rel="noopener">https://pan.baidu.com/s/1YMuRB9hzRITqdmya_W2Nhw</a> 提取码：egia<br>皮肤 链接：<a href="https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A" target="_blank" rel="noopener">https://pan.baidu.com/s/1nDnacaIoY9Tt7YPh1kzh2A</a> 提取码：zaa8<br>2.3 透明化状态栏<br>这个就是一个软件达到的效果<br>软件名： TranslucentTB<br>下载：<br>链接：<a href="https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA" target="_blank" rel="noopener">https://pan.baidu.com/s/14K4zASY82_TByhgTq9mDGA</a> 提取码：axer<br>2.4 然后就是一些好康的壁纸了！！<br>链接：<a href="https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg" target="_blank" rel="noopener">https://pan.baidu.com/s/1sxkKiuqJBbpJm6rTWP-PDg</a> 提取码：m731<br>魔法阵 链接：<a href="https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1tD5ZI0-zIqnlfv18P__DEQ</a> 提取码：6dkd</p>
-<p>2.5 仿mac状态栏<br>就是动图中那个东西，也只是一个软件达到的效果<br>软件名:mydock<br>链接：<a href="https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg" target="_blank" rel="noopener">https://pan.baidu.com/s/1RDH85lhHjFxo2ye342vKLg</a> 提取码：xljl<br>—————————————–END——————————<br>有时间的话在写一下自定义磁贴的<br><img src="https://s1.ax1x.com/2020/06/13/tvzvfe.png" alt="enter image description here"></p>
-]]></content>
   </entry>
 </search>
