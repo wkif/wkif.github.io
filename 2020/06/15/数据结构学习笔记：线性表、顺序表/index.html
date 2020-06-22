@@ -12,7 +12,7 @@
     <meta name="keywords" content="博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coderkif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder,"> 
     <meta name="description" content="当混浊变成一种常态，清白就是一种罪。Never Give Up,
 
-1.线性结构的特点:存在唯一–一个被称为“第一一个”的数据元素;存在唯一一个被称为“最后一个”的数据元素;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元,"> 
+线性结构的特点:存在唯一–一个被称为“第一一个”的数据元素;存在唯一一个被称为“最后一个”的数据元素;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无,"> 
     <meta name="author" content="kif"> 
     <link rel="alternative" href="atom.xml" title="Kif Room" type="application/atom+xml"> 
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/wkif/CDN/img/favicon.png"> 
@@ -85,11 +85,11 @@
         <div class="content markdown">
             <pre><code class="bash">
 </code></pre>
-<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
+<h1 id="线性结构的特点"><a href="#线性结构的特点" class="headerlink" title="线性结构的特点:"></a>线性结构的特点:</h1><p>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
 <a id="more"></a>
-<p>2.线性表：</p>
-<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
-<pre><code class="bash">
+<h1 id="线性表："><a href="#线性表：" class="headerlink" title="线性表："></a>线性表：</h1><p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]</p>
+<h2 id="顺序表"><a href="#顺序表" class="headerlink" title="顺序表"></a>顺序表</h2><p>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"></p>
+<h3 id="顺序表定义"><a href="#顺序表定义" class="headerlink" title="顺序表定义"></a>顺序表定义</h3><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><pre><code class="bash">
 // 初始化线性表 
 Status InitList(SqList* L);
 // 插入数值 
@@ -104,8 +104,7 @@ Status LocateElem(SqList L, int e);
 Status ListDelete(SqList* L, int i, int* e);
 // 返回元素个数
 Status ListLength(SqList L);</code></pre>
-<p>定义</p>
-<pre><code class="bash">
+<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><pre><code class="bash">
 <span class="comment">#define MAXSIZE 20</span>
 typedef int Status;
 typedef int ElemType;
@@ -118,28 +117,105 @@ typedef struct
     // 线性表最大长度
     int maxlength;
 }SqList;</code></pre>
-<p>3.初始化</p>
-<pre><code class="bash">
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><pre><code class="bash">
 Status Initlist(SqList *L)
 {
     L-&gt;Lenth=1;
     L-&gt;maxLenth=Maxsize;
-}
-4.遍历
-int showList(SqList L)
+}</code></pre>
+<h3 id="遍历"><a href="#遍历" class="headerlink" title="遍历"></a>遍历</h3><pre><code>Status showList(SqList L)
 {
- <span class="keyword">if</span>(L-&gt;Lenth==1) 
+ if(L-&gt;Lenth==1) 
  {
-     <span class="built_in">return</span> 0；
+     return 0；
  }
    int i;
-    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
+    for（i=0;i&lt;maxLenth;i++）
     {
-        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
+        printf(&quot;%d&quot;,L-&gt;data[i]);
     }
-}</code></pre>
-<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
+}
+</code></pre><h3 id="插入数值"><a href="#插入数值" class="headerlink" title="插入数值"></a>插入数值</h3><pre><code>
+Status ListInsert(SqList* L, int i, ElemType e)
+{
+    int j;
+    if (i&lt;0 || i&gt;L-&gt;maxlenth||L-&gt;lenth==L-&gt;maxlenth)
+    {
+        return -1;
+    }
 
+
+    for (int m = i; m &lt; L-&gt;lenth; m++)
+    {
+        L-&gt;data[m + 1] = L-&gt;data[m];
+    }
+    L-&gt;data[i] = e;
+    L-&gt;lenth++;
+
+}
+</code></pre><h3 id="返回某个位置的数值"><a href="#返回某个位置的数值" class="headerlink" title="返回某个位置的数值"></a>返回某个位置的数值</h3><pre><code>
+tatus GetElem(SqList L, int i, ElemType* e)
+{
+    int j;
+    if (i&lt;0 || i&gt;L-&gt;maxlenth)
+    {
+        return -1;
+    }
+    for (j = 0; j &lt; L.lenth; j++)
+    {
+        if (j == i)
+        {
+            *e = L.data[j-1];
+        }
+        else
+            return -1;
+    }
+    printf(&quot;%d\n&quot;, e);
+}
+</code></pre><h3 id="在线性表中查找与-e-值相等的元素，并返回序号"><a href="#在线性表中查找与-e-值相等的元素，并返回序号" class="headerlink" title="在线性表中查找与 e 值相等的元素，并返回序号"></a>在线性表中查找与 e 值相等的元素，并返回序号</h3><pre><code>Status LocateElem(SqList L, int e)
+{
+    int b[Maxsize];
+    int j,t=0,m=0;
+    for (j = t; j &lt; L.lenth; j++)
+    {
+        if (e == L.data[j])
+        {
+            b[m] = j;
+            m++;
+            t = j;
+        }
+    }
+    return *b;
+}</code></pre><h3 id="删除第i个元素，并用e保存"><a href="#删除第i个元素，并用e保存" class="headerlink" title="删除第i个元素，并用e保存"></a>删除第i个元素，并用e保存</h3><pre><code>Status ListDelete(SqList* L, int i, int* e)
+{
+    if (i&lt;0 || i&gt;L-&gt;maxlenth)
+    {
+        return -1;
+    }
+    int t;
+    for (t = i; t &lt; L-&gt;lenth; t++)
+    {
+        L-&gt;data[t] = L-&gt;data[t + 1];
+
+    }
+    L-&gt;lenth--;
+
+}</code></pre><h3 id="逆置"><a href="#逆置" class="headerlink" title="逆置"></a>逆置</h3><pre><code>void nizhi(SqList* L)
+{
+    ElemType temp;
+    for (int i = 0; i &lt; L-&gt;lenth / 2; i++)
+    {
+        temp = L-&gt;data[i];
+        L-&gt;data[i] = L-&gt;data[L-&gt;lenth - 1 - i];
+        L-&gt;data[L-&gt;lenth - 1 - i] = temp;
+    }
+}
+</code></pre><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>(1)顺序表需要预先分配存储空间，很难恰当预留空间。<br>(2)逻辑次序和物理次序的一致性，能够按序号(下标)直接存取元素，具有随机存取的优点;<br>(3)顺序表在插入删除时需要移动大量的数据，因此其插入和删除效率低;<br>(4)难于改变顺序表的大小，需要重新创建一个新的顺序表，把原表里的数据复制到新表，然后释放原表空间。<br>(5)顺序表比较适合静态的、经常做定位访问的线性表。</p>
+<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>下述哪一条是顺序存储结构的优点? ( )<br>A.插入运算方便<br>B.可方便地用于各种逻辑结构的存储表示<br>C.存储密度大<br>D.删除运算方便<br>[江苏大学2006-.1 (2分) ]<br>[参考答案] C</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>下面关于线性表的叙述中，错误的是哪一个? ( )<br>A.线性表采用顺序存储，必须占用一片连续的存储单元。<br>B.线性表采用顺序存储，便于进行插入和删除操作。<br>C.线性表采用链接存储，不必占用一片连续的存储单元。<br>D.线性表采用链接存储,便于插入和删除操作。<br>北方交通大学2001-.14 (2分) I<br>[参考答案] B</p>
+<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>对于顺序存储的线性表，访问结点和增加、删除结点的时间复杂度为()。<br>A. O(n) 0(n)<br>B.0(n) 0(1)<br>C.0(1) 0(n)<br>D.0(1)0(1)<br>[青岛大学2000五.1 (2分) ]<br>[参考答案] C</p>
+<h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>顺序表A与B的结点关键字为整数， A表与B表的元素均非递减有序，试给出一种高效的算法，将B表中元素合并到A表中，使新的A表的元素仍保持非递减有序，高效指最大限度的避免移动元素。<br>提示:从线性表的哪个方向遍历效率高?</p>
+<pre><code></code></pre>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
@@ -170,7 +246,7 @@ int showList(SqList L)
     </div>
     
         <div class='side'>
-				
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#线性结构的特点"><span class="toc-number">1.</span> <span class="toc-text">线性结构的特点:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#线性表："><span class="toc-number">2.</span> <span class="toc-text">线性表：</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#顺序表"><span class="toc-number">2.1.</span> <span class="toc-text">顺序表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#顺序表定义"><span class="toc-number">2.1.1.</span> <span class="toc-text">顺序表定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#函数"><span class="toc-number">2.1.2.</span> <span class="toc-text">函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#定义"><span class="toc-number">2.1.3.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化"><span class="toc-number">2.1.4.</span> <span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#遍历"><span class="toc-number">2.1.5.</span> <span class="toc-text">遍历</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#插入数值"><span class="toc-number">2.1.6.</span> <span class="toc-text">插入数值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#返回某个位置的数值"><span class="toc-number">2.1.7.</span> <span class="toc-text">返回某个位置的数值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#在线性表中查找与-e-值相等的元素，并返回序号"><span class="toc-number">2.1.8.</span> <span class="toc-text">在线性表中查找与 e 值相等的元素，并返回序号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#删除第i个元素，并用e保存"><span class="toc-number">2.1.9.</span> <span class="toc-text">删除第i个元素，并用e保存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#逆置"><span class="toc-number">2.1.10.</span> <span class="toc-text">逆置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#特点"><span class="toc-number">2.2.</span> <span class="toc-text">特点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#例题"><span class="toc-number">3.</span> <span class="toc-text">例题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1"><span class="toc-number">3.1.</span> <span class="toc-text">1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2"><span class="toc-number">3.2.</span> <span class="toc-text">2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3"><span class="toc-number">3.3.</span> <span class="toc-text">3</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4"><span class="toc-number">3.4.</span> <span class="toc-text">4</span></a></li></ol></li></ol>	
         </div>
     
 </div>

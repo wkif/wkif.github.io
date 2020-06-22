@@ -223,6 +223,44 @@ title可加可不加</code></pre>
 ]]></content>
   </entry>
   <entry>
+    <title>Excel数据整理与分析（1）：应用晨工作流程</title>
+    <url>/2020/06/22/Excel%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90%EF%BC%881%EF%BC%89%EF%BC%9A%E5%BA%94%E7%94%A8%E6%99%A8%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<pre><code class="bash">
+</code></pre>
+<h1 id="知识点部分"><a href="#知识点部分" class="headerlink" title="知识点部分"></a>知识点部分</h1><p>需要掌握以下基本知识点:<br>Excel的基本工作流程及工作簿、工作表、行与列、鼠标状态、单元格的相关参数。为后面章节打牢基础!</p>
+<h2 id="基本工作流程"><a href="#基本工作流程" class="headerlink" title="基本工作流程"></a>基本工作流程</h2><p>数据的存储—-》 数据的处理———》数据的分析———》数据的呈现</p>
+<h2 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析"></a>名词解析</h2><p><img src="./5FCX%7BK6I_12Q09UIXN%60V6C.png" alt="Alt text"></p>
+<h3 id="工作簿"><a href="#工作簿" class="headerlink" title="工作簿"></a>工作簿</h3><p>即一个Excel文件；</p>
+<h3 id="工作表"><a href="#工作表" class="headerlink" title="工作表"></a>工作表</h3><p>分为当前活动工作表和非活动工作表；</p>
+<p>如Sheet1 是当前活动工作表；其他的是非活动工作表</p>
+<p><img src="./H%5BLM4%7BB%5DJX4O6%60$EXB%7D3WQ.png" alt="Alt text"></p>
+<p>一个工作簿可容纳<strong>255</strong>个工作表；</p>
+<h3 id="行与列"><a href="#行与列" class="headerlink" title="行与列"></a>行与列</h3><p>CTRL+Down 可下滑至最后一行，即<strong>1048576</strong>行；</p>
+<p>CTRL+Right 可右滑至最右列，<strong>文件-选项-公式-R1C1引用样式勾选-确定</strong>，可看到有<strong>16384</strong>列；</p>
+<h3 id="单元格"><a href="#单元格" class="headerlink" title="单元格"></a>单元格</h3><p>每个单元格可村<strong>32767</strong>个字符</p>
+<h3 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h3><p><img src="./81X%7D908%5BKU7COZLVIY%7D%7DC5.png" alt="Alt text"></p>
+<p><strong>选项-自定义功能区</strong> 可以更改</p>
+<h3 id="编辑栏"><a href="#编辑栏" class="headerlink" title="编辑栏"></a>编辑栏</h3><p><strong>选项卡-视图</strong>可选择显示与否编辑栏</p>
+<h3 id="名称框"><a href="#名称框" class="headerlink" title="名称框"></a>名称框</h3><p><img src="./8Q%5B9_SG%5B2SCG2K5LV4P3%5D7.png" alt="Alt text"></p>
+<p>可对一个区域命名；</p>
+<h3 id="鼠标三大状态"><a href="#鼠标三大状态" class="headerlink" title="鼠标三大状态"></a>鼠标三大状态</h3><h4 id="选挥柄："><a href="#选挥柄：" class="headerlink" title="选挥柄："></a>选挥柄：</h4><p>用于选择单元格区域</p>
+<h4 id="移动柄："><a href="#移动柄：" class="headerlink" title="移动柄："></a>移动柄：</h4><p>用于移动或配合ctrH键盘复制单元格区域<br>####填充柄：<br>复制、填充单元格区域，包括数据、公式等，双击有惊喜!</p>
+<h5 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h5><p>一.快速添加序号<br>1.序号栏输入1 2；<br><img src="./A%5B29_X~5$82BTLI5FKZV.png" alt="Alt text"><br>2.选中1 2这两框，鼠标移到右下角。向下拖动</p>
+<p><img src="https://s1.ax1x.com/2020/06/22/NYYXh6.gif" alt="Alt text"></p>
+<p>二.快速复制属性<br><img src="./cp1.gif" alt="Alt text"></p>
+<h3 id="单元格-1"><a href="#单元格-1" class="headerlink" title="单元格"></a>单元格</h3><p><img src="./LF2JKYUVLN2LFGP~4G%60%7B2Y.png" alt="Alt text"></p>
+<h1 id="回顾笔记整理"><a href="#回顾笔记整理" class="headerlink" title="回顾笔记整理"></a>回顾笔记整理</h1><p>1、Excel的基本 工作流程是数据存储数据整理-数据分析-数据呈现<br>2、一个工作簿默认最多能建255个工作表，内存大的可以更多<br>3、一个工作表有1048576行、16384列”<br>4、一个工作表约172亿个单元格，-个单元格能存放32767个字符<br>5、鼠标三大状态:选择柄、移动柄、填充柄。双击填充柄快速填充需要临近列有数据。<br>下一节我们将学习1.2 Excel规范制表之经典的三表结构</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无题</title>
     <url>/2020/06/20/%E6%97%A0%E9%A2%98/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -482,11 +520,11 @@ title可加可不加</code></pre>
     <url>/2020/06/15/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%BA%BF%E6%80%A7%E8%A1%A8%E3%80%81%E9%A1%BA%E5%BA%8F%E8%A1%A8/</url>
     <content><![CDATA[<pre><code class="bash">
 </code></pre>
-<p>1.线性结构的特点:<br>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
+<h1 id="线性结构的特点"><a href="#线性结构的特点" class="headerlink" title="线性结构的特点:"></a>线性结构的特点:</h1><p>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p>
 <a id="more"></a>
-<p>2.线性表：</p>
-<p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]<br>1.顺序表<br>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"><br>2.顺序表定义<br>函数</p>
-<pre><code class="bash">
+<h1 id="线性表："><a href="#线性表：" class="headerlink" title="线性表："></a>线性表：</h1><p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]</p>
+<h2 id="顺序表"><a href="#顺序表" class="headerlink" title="顺序表"></a>顺序表</h2><p>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"></p>
+<h3 id="顺序表定义"><a href="#顺序表定义" class="headerlink" title="顺序表定义"></a>顺序表定义</h3><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><pre><code class="bash">
 // 初始化线性表 
 Status InitList(SqList* L);
 // 插入数值 
@@ -501,8 +539,7 @@ Status LocateElem(SqList L, int e);
 Status ListDelete(SqList* L, int i, int* e);
 // 返回元素个数
 Status ListLength(SqList L);</code></pre>
-<p>定义</p>
-<pre><code class="bash">
+<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><pre><code class="bash">
 <span class="comment">#define MAXSIZE 20</span>
 typedef int Status;
 typedef int ElemType;
@@ -515,28 +552,105 @@ typedef struct
     // 线性表最大长度
     int maxlength;
 }SqList;</code></pre>
-<p>3.初始化</p>
-<pre><code class="bash">
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><pre><code class="bash">
 Status Initlist(SqList *L)
 {
     L-&gt;Lenth=1;
     L-&gt;maxLenth=Maxsize;
-}
-4.遍历
-int showList(SqList L)
+}</code></pre>
+<h3 id="遍历"><a href="#遍历" class="headerlink" title="遍历"></a>遍历</h3><pre><code>Status showList(SqList L)
 {
- <span class="keyword">if</span>(L-&gt;Lenth==1) 
+ if(L-&gt;Lenth==1) 
  {
-     <span class="built_in">return</span> 0；
+     return 0；
  }
    int i;
-    <span class="keyword">for</span>（i=0;i&lt;maxLenth;i++）
+    for（i=0;i&lt;maxLenth;i++）
     {
-        <span class="built_in">printf</span>(<span class="string">"%d"</span>,L-&gt;data[i]);
+        printf(&quot;%d&quot;,L-&gt;data[i]);
     }
-}</code></pre>
-<p>2.2  链表<br>用指针实现变长的线性存储结构<br>分为单链表，双链表，循环链表</p>
-]]></content>
+}
+</code></pre><h3 id="插入数值"><a href="#插入数值" class="headerlink" title="插入数值"></a>插入数值</h3><pre><code>
+Status ListInsert(SqList* L, int i, ElemType e)
+{
+    int j;
+    if (i&lt;0 || i&gt;L-&gt;maxlenth||L-&gt;lenth==L-&gt;maxlenth)
+    {
+        return -1;
+    }
+
+
+    for (int m = i; m &lt; L-&gt;lenth; m++)
+    {
+        L-&gt;data[m + 1] = L-&gt;data[m];
+    }
+    L-&gt;data[i] = e;
+    L-&gt;lenth++;
+
+}
+</code></pre><h3 id="返回某个位置的数值"><a href="#返回某个位置的数值" class="headerlink" title="返回某个位置的数值"></a>返回某个位置的数值</h3><pre><code>
+tatus GetElem(SqList L, int i, ElemType* e)
+{
+    int j;
+    if (i&lt;0 || i&gt;L-&gt;maxlenth)
+    {
+        return -1;
+    }
+    for (j = 0; j &lt; L.lenth; j++)
+    {
+        if (j == i)
+        {
+            *e = L.data[j-1];
+        }
+        else
+            return -1;
+    }
+    printf(&quot;%d\n&quot;, e);
+}
+</code></pre><h3 id="在线性表中查找与-e-值相等的元素，并返回序号"><a href="#在线性表中查找与-e-值相等的元素，并返回序号" class="headerlink" title="在线性表中查找与 e 值相等的元素，并返回序号"></a>在线性表中查找与 e 值相等的元素，并返回序号</h3><pre><code>Status LocateElem(SqList L, int e)
+{
+    int b[Maxsize];
+    int j,t=0,m=0;
+    for (j = t; j &lt; L.lenth; j++)
+    {
+        if (e == L.data[j])
+        {
+            b[m] = j;
+            m++;
+            t = j;
+        }
+    }
+    return *b;
+}</code></pre><h3 id="删除第i个元素，并用e保存"><a href="#删除第i个元素，并用e保存" class="headerlink" title="删除第i个元素，并用e保存"></a>删除第i个元素，并用e保存</h3><pre><code>Status ListDelete(SqList* L, int i, int* e)
+{
+    if (i&lt;0 || i&gt;L-&gt;maxlenth)
+    {
+        return -1;
+    }
+    int t;
+    for (t = i; t &lt; L-&gt;lenth; t++)
+    {
+        L-&gt;data[t] = L-&gt;data[t + 1];
+
+    }
+    L-&gt;lenth--;
+
+}</code></pre><h3 id="逆置"><a href="#逆置" class="headerlink" title="逆置"></a>逆置</h3><pre><code>void nizhi(SqList* L)
+{
+    ElemType temp;
+    for (int i = 0; i &lt; L-&gt;lenth / 2; i++)
+    {
+        temp = L-&gt;data[i];
+        L-&gt;data[i] = L-&gt;data[L-&gt;lenth - 1 - i];
+        L-&gt;data[L-&gt;lenth - 1 - i] = temp;
+    }
+}
+</code></pre><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>(1)顺序表需要预先分配存储空间，很难恰当预留空间。<br>(2)逻辑次序和物理次序的一致性，能够按序号(下标)直接存取元素，具有随机存取的优点;<br>(3)顺序表在插入删除时需要移动大量的数据，因此其插入和删除效率低;<br>(4)难于改变顺序表的大小，需要重新创建一个新的顺序表，把原表里的数据复制到新表，然后释放原表空间。<br>(5)顺序表比较适合静态的、经常做定位访问的线性表。</p>
+<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>下述哪一条是顺序存储结构的优点? ( )<br>A.插入运算方便<br>B.可方便地用于各种逻辑结构的存储表示<br>C.存储密度大<br>D.删除运算方便<br>[江苏大学2006-.1 (2分) ]<br>[参考答案] C</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>下面关于线性表的叙述中，错误的是哪一个? ( )<br>A.线性表采用顺序存储，必须占用一片连续的存储单元。<br>B.线性表采用顺序存储，便于进行插入和删除操作。<br>C.线性表采用链接存储，不必占用一片连续的存储单元。<br>D.线性表采用链接存储,便于插入和删除操作。<br>北方交通大学2001-.14 (2分) I<br>[参考答案] B</p>
+<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>对于顺序存储的线性表，访问结点和增加、删除结点的时间复杂度为()。<br>A. O(n) 0(n)<br>B.0(n) 0(1)<br>C.0(1) 0(n)<br>D.0(1)0(1)<br>[青岛大学2000五.1 (2分) ]<br>[参考答案] C</p>
+<h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>顺序表A与B的结点关键字为整数， A表与B表的元素均非递减有序，试给出一种高效的算法，将B表中元素合并到A表中，使新的A表的元素仍保持非递减有序，高效指最大限度的避免移动元素。<br>提示:从线性表的哪个方向遍历效率高?</p>
+<pre><code></code></pre>]]></content>
       <categories>
         <category>教程</category>
         <category>学习</category>
