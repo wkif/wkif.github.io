@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kif Room</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://kifroom.icu/"/>
+  <updated>2020-06-23T04:46:11.364Z</updated>
+  <id>http://kifroom.icu/</id>
+  
+  <author>
+    <name>kif</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析（1）：应用层工作流程</title>
+    <link href="http://kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/"/>
+    <id>http://kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/</id>
+    <published>2020-06-22T13:07:09.000Z</published>
+    <updated>2020-06-23T04:46:11.364Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;知识点部分&quot;&gt;&lt;a href=&quot;#知识点部分&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无题</title>
+    <link href="http://kifroom.icu/2020/06/20/wu-ti/"/>
+    <id>http://kifroom.icu/2020/06/20/wu-ti/</id>
+    <published>2020-06-19T19:38:22.000Z</published>
+    <updated>2020-06-19T20:43:32.819Z</updated>
+    
+    <summary type="html">
+    
+      个人私密哈，主要是情绪宣泄
+    
+    </summary>
+    
+    
+      <category term="情绪" scheme="http://kifroom.icu/categories/%E6%83%85%E7%BB%AA/"/>
+    
+    
+      <category term="生活" scheme="http://kifroom.icu/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="日记" scheme="http://kifroom.icu/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win 上安装Git</title>
+    <link href="http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/"/>
+    <id>http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/</id>
+    <published>2020-06-18T14:37:58.000Z</published>
+    <updated>2020-06-18T14:37:58.095Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>个人博客搭建（1）：Hexo搭建个人博客部署到Github</title>
+    <link href="http://kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/"/>
+    <id>http://kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/</id>
+    <published>2020-06-18T14:32:44.000Z</published>
+    <updated>2020-06-18T14:37:19.783Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文介绍Hexo搭建个人博客部署到Github&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="http://kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="搭建" scheme="http://kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Win" scheme="http://kifroom.icu/tags/Win/"/>
+    
+      <category term="教程" scheme="http://kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
+    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/"/>
+    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/</id>
+    <published>2020-06-16T10:02:56.000Z</published>
+    <updated>2020-06-16T11:14:48.753Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文介绍magisk模块和Edxp模块分享，均为网络资源&lt;br&gt;为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页&lt;br&gt;在此对各个大佬表示感谢，如有问题，请联系我删除。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E7%8E%A9%E6%9C%BA/"/>
+    
+    
+      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩机汇总（0）：刷机常识，双清，BL，REC，TWRP</title>
+    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/"/>
+    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/</id>
+    <published>2020-06-16T09:33:44.000Z</published>
+    <updated>2020-06-16T09:50:24.055Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文介绍手机刷机常识，双清，BL，REC，TWRP&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E7%8E%A9%E6%9C%BA/"/>
+    
+    
+      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩机汇总（二）：刷入第三方rec 与magisk、Edx安装</title>
+    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/"/>
+    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/</id>
+    <published>2020-06-16T06:28:19.000Z</published>
+    <updated>2020-06-16T10:35:23.870Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文介绍手机第三方rec刷入和magisk、Edxp的安装&lt;br&gt;有变砖风险。&lt;br&gt;玩机有风险，搞机需谨慎。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
+    
+    
+      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩机汇总（一）：小米手机解锁与刷开发版</title>
+    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/"/>
+    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/</id>
+    <published>2020-06-16T04:03:00.000Z</published>
+    <updated>2020-06-16T10:35:16.391Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文记录我几年的玩机记录和经验，以小米手机的玩机经验为主&lt;br&gt;有变砖风险。&lt;br&gt;玩机有风险，搞机需谨慎。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
+    
+    
+      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+    
+      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="http://kifroom.icu/2020/06/15/markdown-yu-fa/"/>
+    <id>http://kifroom.icu/2020/06/15/markdown-yu-fa/</id>
+    <published>2020-06-15T07:46:59.000Z</published>
+    <updated>2020-06-19T19:44:51.102Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Markdown" scheme="http://kifroom.icu/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构学习笔记：线性表、顺序表</title>
+    <link href="http://kifroom.icu/2020/06/15/shu-ju-jie-gou-xue-xi-bi-ji-xian-xing-biao-shun-xu-biao/"/>
+    <id>http://kifroom.icu/2020/06/15/shu-ju-jie-gou-xue-xi-bi-ji-xian-xing-biao-shun-xu-biao/</id>
+    <published>2020-06-15T07:35:36.000Z</published>
+    <updated>2020-06-21T12:40:38.366Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;线性结构的特点&quot;&gt;&lt;a href=&quot;#线性结构的特点&quot; class=&quot;headerlink&quot; title=&quot;线性结构的特点:&quot;&gt;&lt;/a&gt;线性结构的特点:&lt;/h1&gt;&lt;p&gt;存在唯一–一个被称为“第一一个”的数据元素;&lt;br&gt;存在唯一一个被称为“最后一个”的数据元素;&lt;br&gt;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构学习笔记：算法和算法分析</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-suan-fa-he-suan-fa-fen-xi/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-suan-fa-he-suan-fa-fen-xi/</id>
+    <published>2020-06-14T11:28:02.000Z</published>
+    <updated>2020-06-14T11:43:17.604Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一、知识点&lt;br&gt;1.算法:是指令的有限序列，是对特定问题求解步骤的描述。&lt;br&gt;算法具有下列5个重要特性:&lt;br&gt;1.有穷性:步骤有限，执行时间有限。&lt;br&gt;2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径&lt;br&gt;3.可行性:可以通过已经实现的基本运算执行有限次来实现的;&lt;br&gt;4.输入:算法具有零个或多个输入。&lt;br&gt;5.输出:算法具有一个或多个输出。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构学习笔记：基本概念和术语</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-ji-ben-gai-nian-he-zhu-yu/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-ji-ben-gai-nian-he-zhu-yu/</id>
+    <published>2020-06-14T11:27:28.000Z</published>
+    <updated>2020-06-14T11:37:00.140Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一、知识点&lt;br&gt;1.数据&lt;br&gt;数据是信息的载体，是描述客观事物的数、字符、以及所有能输入到计算机中被计算机识别和处理的符号的集合。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构学习笔记：预备知识</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-yu-bei-zhi-shi/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-yu-bei-zhi-shi/</id>
+    <published>2020-06-14T11:27:28.000Z</published>
+    <updated>2020-06-14T11:35:45.975Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;预备知识&lt;br&gt;关于考试&lt;br&gt;考研 ：&lt;br&gt;全国统考：单项选择 综合应用 算法设计&lt;br&gt;自主命题： 观察前几年考题&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：身份证号码验证</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-shen-fen-zheng-hao-ma-yan-zheng/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-shen-fen-zheng-hao-ma-yan-zheng/</id>
+    <published>2020-06-14T11:19:33.000Z</published>
+    <updated>2020-06-14T11:24:42.725Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;居民身份证是18位字符的编码，每个人的编码都是唯一的，校验规则如下：&lt;br&gt;∑（ai*wi）mod 11 = 1&lt;br&gt;i表示号码字符从左至右包括校验码字符在内的位置序号；ai表示第i位置上的号码字符值；Wi表示第i位置上的加权因子。即将各位上的数值乘上位权之和对11取余，余数为1则表示该编码正确。注意：如果最后一位校验码是“X”或“x”，则代表该校验码的数值为10。&lt;br&gt;各位的权值依次是：7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2，1&lt;br&gt;例如某身份证号码为：370683198901117657，这是正确的编码。&lt;br&gt;又如某号码为：470683198902117657，这是错误的编码。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：按字典规则比较字符大小</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-an-zi-dian-gui-ze-bi-jiao-zi-fu-da-xiao/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-an-zi-dian-gui-ze-bi-jiao-zi-fu-da-xiao/</id>
+    <published>2020-06-14T11:18:26.000Z</published>
+    <updated>2020-06-14T11:23:35.917Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;按照字典规则比较两个英文字符串的大小，基本规则如下：&lt;br&gt;（1）字符串左对齐比较&lt;br&gt;（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’&lt;br&gt;（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’&lt;br&gt;（4）字符串中只有大小写字母和空格，空格小于任何字母&lt;br&gt;例如：”aBc”&amp;lt;”abc”,”abcdef”&amp;lt;”abD”，”Abcd”&amp;lt;”abc”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：汉罗塔问题</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-han-luo-ta-wen-ti/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-han-luo-ta-wen-ti/</id>
+    <published>2020-06-14T11:17:08.000Z</published>
+    <updated>2020-06-14T11:22:29.480Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。&lt;br&gt;这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615&lt;br&gt;这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。&lt;br&gt;假定圆盘从小到大编号为1, 2, …&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：求f（x,n）</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-qiu-f-x-n/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-qiu-f-x-n/</id>
+    <published>2020-06-14T05:41:35.000Z</published>
+    <updated>2020-06-14T10:30:16.720Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;&lt;img src=&quot;https://cdn.nlark.com/yuque/0/2020/jpeg/1188793/1585885913457-6bfbccd8-7197-4869-b873-9a13bea6f610.jpeg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：阿克曼函数</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-a-ke-man-han-shu/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-a-ke-man-han-shu/</id>
+    <published>2020-06-14T05:40:39.000Z</published>
+    <updated>2020-06-14T10:29:44.165Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;阿克曼(Ackmann)函数A(m，n)中，m，n定义域是非负整数(m≤3,n≤10)，函数值定义为：&lt;br&gt;   akm(m,n) = n+1;         (m=0时)&lt;br&gt;   akm(m,n) = akm(m-1,1);  (m&amp;gt;0,n=0时)&lt;br&gt;   akm(m,n) = akm(m-1,akm(m, n-1)); （m,n&amp;gt;0时)&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：计算鞍点</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-ji-suan-an-dian/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-ji-suan-an-dian/</id>
+    <published>2020-06-14T05:39:41.000Z</published>
+    <updated>2020-06-14T10:30:10.608Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;给定一个5*5的矩阵，每行只有一个最大值，每列只有一个最小值，寻找这个矩阵的鞍点。鞍点指的是矩阵中的一个元素，它是所在行的最大值，并且是所在列的最小值。&lt;br&gt;  例如：在下面的例子中（第4行第1列的元素就是鞍点，值为8 ）。&lt;br&gt;   11 3 5 6 9&lt;br&gt;   12 4 7 8 10&lt;br&gt;   10 5 6 9 11&lt;br&gt;   8 6 4 7 2&lt;br&gt;   15 10 11 20 25。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构习题：图像模糊处理</title>
+    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-tu-xiang-mo-hu-chu-li/"/>
+    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-tu-xiang-mo-hu-chu-li/</id>
+    <published>2020-06-14T05:37:33.000Z</published>
+    <updated>2020-06-14T10:28:42.790Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;描述&lt;br&gt;给定m行n列的图像各像素点的灰度值，要求用如下方法对其进行模糊化处理：&lt;br&gt;1.四周最外侧的像素点灰度值不变；&lt;br&gt;2.中间各像素点新灰度值为该像素点及其上下左右相邻四个像素点原灰度值的平均(舍入到最接近的整数)。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+</feed>
