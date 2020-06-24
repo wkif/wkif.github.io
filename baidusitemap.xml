@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/</loc>
+    <lastmod>2020-06-24</lastmod>
+  </url>  <url>
+    <loc>http://kifroom.icu/2020/06/13/win-zhuo-mian-mei-hua-jiao-cheng/</loc>
+    <lastmod>2020-06-24</lastmod>
+  </url>  <url>
     <loc>http://kifroom.icu/2020/06/13/hello-world/</loc>
     <lastmod>2020-06-24</lastmod>
   </url>  <url>
@@ -27,9 +33,6 @@
   </url>  <url>
     <loc>http://kifroom.icu/2020/06/15/shu-ju-jie-gou-xue-xi-bi-ji-xian-xing-biao-shun-xu-biao/</loc>
     <lastmod>2020-06-21</lastmod>
-  </url>  <url>
-    <loc>http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/</loc>
-    <lastmod>2020-06-18</lastmod>
   </url>  <url>
     <loc>http://kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/</loc>
     <lastmod>2020-06-18</lastmod>
@@ -89,9 +92,6 @@
     <lastmod>2020-06-13</lastmod>
   </url>  <url>
     <loc>http://kifroom.icu/2020/06/13/shu-ju-jie-gou-xi-ti-qiu-jie-yi-yuan-san-ci-fang-cheng/</loc>
-    <lastmod>2020-06-13</lastmod>
-  </url>  <url>
-    <loc>http://kifroom.icu/2020/06/13/win-zhuo-mian-mei-hua-jiao-cheng/</loc>
     <lastmod>2020-06-13</lastmod>
   </url>
 </urlset>
