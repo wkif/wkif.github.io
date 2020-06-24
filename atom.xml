@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kifroom.icu/"/>
-  <updated>2020-06-23T12:22:00.618Z</updated>
+  <updated>2020-06-24T07:45:49.328Z</updated>
   <id>http://kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析（3）：常见错误及解决</title>
+    <link href="http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/"/>
+    <id>http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/</id>
+    <published>2020-06-24T07:42:17.000Z</published>
+    <updated>2020-06-24T07:45:49.328Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="正确表格"><a href="#正确表格" class="headerlink" title="正确表格"></a>正确表格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdURzR.png" alt="正确"></p><h2 id="错误1：合并单元格"><a href="#错误1：合并单元格" class="headerlink" title="错误1：合并单元格"></a>错误1：合并单元格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdUOSA.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;正确表格&quot;&gt;&lt;a href=&quot;#正确表格&quot; class=&quot;headerlink&quot; title=&quot;正确表格&quot;&gt;&lt;/a&gt;正确表
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析（2）:经典的三表结构&#39;</title>
+    <link href="http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/"/>
+    <id>http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</id>
+    <published>2020-06-24T07:18:48.000Z</published>
+    <updated>2020-06-24T07:40:56.553Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h4 id="首先弄清楚-我们为什么要用-Exccl"><a href="#首先弄清楚-我们为什么要用-Exccl" class="headerlink" title="首先弄清楚,我们为什么要用 Exccl?"></a>首先弄清楚,我们为什么要用 Exccl?</h4><ol><li>工作中使用Excc的目的，是为了得到各式各样用于决策的分析报表。而分析报表需要一个规范的源数据表提供数据。有了规范的源数据表，我们就可以制作出各式各样的决策报表。一句话总结就是设计一个标准的源数据表，制作出N个分析汇总表!</li><li>其实很多时候，就是因为制表不规范、录入数据格式不统一，对数据汇总分析造成极大的困扰，需要花大量的时间去整理数据，不仅效率慢，而且还存在数据不准确现象。</li></ol><p>本节需要理解以下知识点:</p><h4 id="源数据表"><a href="#源数据表" class="headerlink" title="源数据表:"></a>源数据表:</h4><p>也叫数据明细表，用于存放录入或导入的表格数据。<br>例如：<br><img src="https://graph.baidu.com/resource/222958c108f1dd98bad5201592983623.jpg" alt="源数据表"></p><h4 id="参数表"><a href="#参数表" class="headerlink" title="参数表:"></a>参数表:</h4><p>对源数据表的字段录入说明，为汇总表提供分析的维度。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/NdYHij.png" alt="参数表"></p><h4 id="汇总表"><a href="#汇总表" class="headerlink" title="汇总表:"></a>汇总表:</h4><p>Excel最终的分析报表，可以是数据汇总表、透视表、图表。一份源数据表可以制作出N张汇总表。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/Ndtwfs.png" alt="汇总表"></p><p>只要源数据表里面的数据规范，我们可以不用学太多的复杂函数和<br>复杂技巧来弥补制表不规范的不足，成倍的提升工作效率!<br>”好比美食界的名言:“食材好，厨艺不高，吃起来也美味!<br>下一-章1.3节我们将学习Excel中源数据表常见错误暨规范化处理方法</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;首先弄清楚-我们为什么要用-Exccl&quot;&gt;&lt;a href=&quot;#首先弄清楚-我们为什么要用-Exccl&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构习题：扑克牌魔术</title>
@@ -506,60 +570,6 @@
     <summary type="html">
     
       &lt;p&gt;描述&lt;br&gt;按照字典规则比较两个英文字符串的大小，基本规则如下：&lt;br&gt;（1）字符串左对齐比较&lt;br&gt;（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’&lt;br&gt;（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’&lt;br&gt;（4）字符串中只有大小写字母和空格，空格小于任何字母&lt;br&gt;例如：”aBc”&amp;lt;”abc”,”abcdef”&amp;lt;”abD”，”Abcd”&amp;lt;”abc”&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：汉罗塔问题</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-han-luo-ta-wen-ti/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-han-luo-ta-wen-ti/</id>
-    <published>2020-06-14T11:17:08.000Z</published>
-    <updated>2020-06-14T11:22:29.480Z</updated>
-    
-    <content type="html"><![CDATA[<p>描述<br>约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。<br>这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615<br>这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。<br>假定圆盘从小到大编号为1, 2, …</p><a id="more"></a><p>格式<br>输入格式<br>输入为一个整数(小于20）后面跟三个单字符字符串<br>。整数为盘子的数目，后三个字符表示三个杆子的编号。<br>输出格式<br>输出每一步移动盘子的记录。一次移动一行。每次移动的记录为例如 a-&gt;3-&gt;b 的形式，即把编号为3的盘子从a杆移至b杆。<br>样例<br>输入样例<br>2 a b c<br>输出样例<br>a-&gt;1-&gt;c<br>a-&gt;2-&gt;b<br>c-&gt;1-&gt;b<br>限制<br>时间限制：10000 ms<br>内存限制：65536 KB<br>代码</p><pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>//将n个圆盘从x柱子上借助y柱子移动到z柱子上void move(int n, char x, char y, char z){    //<span class="built_in">printf</span>(<span class="string">"B: %d %c %c %c \n"</span>, n, x, y, z);    <span class="keyword">if</span> (n == 1)    {        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);    }    <span class="keyword">else</span>    {        move(n - 1, x, z, y); //将n-1个圆盘从x柱子上借助z柱子移动到y柱子上        <span class="built_in">printf</span>(<span class="string">"%c-&gt;%d-&gt;%c\n"</span>, x, n, z);//将第n个盘子从x移到z上        move(n - 1, y, x, z);//将n-1个圆盘从y柱子上借助x柱子移动到z柱子上    }}int main(){    //分别代表三个柱子    char ch1,ch2,ch3;    int n;   //n代表圆盘的个数    scanf(<span class="string">"%d %c %c %c"</span>, &amp;n ,&amp; ch1, &amp;ch2, &amp;ch3);  //  <span class="built_in">printf</span>(<span class="string">"A: %d %c %c %c \n"</span>, n, ch1, ch2, ch3);    move(n, ch1, ch3, ch2);    <span class="built_in">return</span> 0;}</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;描述&lt;br&gt;约19世纪末，在欧州的商店中出售一种智力玩具，在一块铜板上有三根杆，最左边的杆上自上而下、由小到大顺序串着由64个圆盘构成的塔。目的是将最左边杆上的盘全部移到中间的杆上，条件是一次只能移动一个盘，且不允许大盘放在小盘的上面。&lt;br&gt;这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615&lt;br&gt;这是一个天文数字，若每一微秒可能计算(并不输出)一次移动，那么也需要几乎一百万年。我们仅能找出问题的解决方法并解决较小N值时的汉诺塔，但很难用计算机解决64层的汉诺塔。&lt;br&gt;假定圆盘从小到大编号为1, 2, …&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：求f（x,n）</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-qiu-f-x-n/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-qiu-f-x-n/</id>
-    <published>2020-06-14T05:41:35.000Z</published>
-    <updated>2020-06-14T10:30:16.720Z</updated>
-    
-    <content type="html"><![CDATA[<p>描述<br><img src="https://cdn.nlark.com/yuque/0/2020/jpeg/1188793/1585885913457-6bfbccd8-7197-4869-b873-9a13bea6f610.jpeg" alt="enter image description here"></p><a id="more"></a><p>格式<br>输入格式<br>第一数是x的值，第二个数是n的值。<br>输出格式<br>函数值，保留两位小数。<br>样例<br>输入样例<br>1 2<br>输出样例<br>0.40<br>限制<br>时间限制：1000 ms<br>内存限制：65536 KB<br>代码</p><pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span><span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b);int main(){    double x, n;    scanf(<span class="string">"%lf%lf"</span>, &amp;x, &amp;n);    <span class="built_in">float</span> e;    e = f(x, n);    <span class="built_in">printf</span>(<span class="string">"%.2f\n"</span>, e);    <span class="built_in">return</span> 0;}<span class="built_in">float</span> f(<span class="built_in">float</span> a, <span class="built_in">float</span> b){    <span class="built_in">float</span> k;    <span class="keyword">if</span> (b == 1)    {        k = a * 1.00 / (a + 1) * 1.00;        <span class="built_in">return</span> k;    }    <span class="keyword">else</span>    {        k = a * 1.00 / (b + f(a, b - 1)) * 1.00;    }   <span class="built_in">return</span> k;}</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;描述&lt;br&gt;&lt;img src=&quot;https://cdn.nlark.com/yuque/0/2020/jpeg/1188793/1585885913457-6bfbccd8-7197-4869-b873-9a13bea6f610.jpeg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
     
     </summary>
     

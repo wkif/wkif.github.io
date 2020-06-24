@@ -2200,4 +2200,81 @@ int main()
         <tag>习题</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Excel数据整理与分析（2）:经典的三表结构&#39;</title>
+    <url>/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</url>
+    <content><![CDATA[<pre class=" language-bash"><code class="language-bash">
+</code></pre>
+<h4 id="首先弄清楚-我们为什么要用-Exccl"><a href="#首先弄清楚-我们为什么要用-Exccl" class="headerlink" title="首先弄清楚,我们为什么要用 Exccl?"></a>首先弄清楚,我们为什么要用 Exccl?</h4><ol>
+<li>工作中使用Excc的目的，是为了得到各式各样用于决策的分析报表。而分析报表需要一个规范的源数据表提供数据。有了规范的源数据表，我们就可以制作出各式各样的决策报表。一句话总结就是设计一个标准的源数据表，制作出N个分析汇总表!</li>
+<li>其实很多时候，就是因为制表不规范、录入数据格式不统一，对数据汇总分析造成极大的困扰，需要花大量的时间去整理数据，不仅效率慢，而且还存在数据不准确现象。</li>
+</ol>
+<p>本节需要理解以下知识点:</p>
+<h4 id="源数据表"><a href="#源数据表" class="headerlink" title="源数据表:"></a>源数据表:</h4><p>也叫数据明细表，用于存放录入或导入的表格数据。<br>例如：<br><img src="https://graph.baidu.com/resource/222958c108f1dd98bad5201592983623.jpg" alt="源数据表"></p>
+<h4 id="参数表"><a href="#参数表" class="headerlink" title="参数表:"></a>参数表:</h4><p>对源数据表的字段录入说明，为汇总表提供分析的维度。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/NdYHij.png" alt="参数表"></p>
+<h4 id="汇总表"><a href="#汇总表" class="headerlink" title="汇总表:"></a>汇总表:</h4><p>Excel最终的分析报表，可以是数据汇总表、透视表、图表。一份源数据表可以制作出N张汇总表。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/Ndtwfs.png" alt="汇总表"></p>
+<p>只要源数据表里面的数据规范，我们可以不用学太多的复杂函数和<br>复杂技巧来弥补制表不规范的不足，成倍的提升工作效率!<br>”好比美食界的名言:“食材好，厨艺不高，吃起来也美味!<br>下一-章1.3节我们将学习Excel中源数据表常见错误暨规范化处理方法</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Excel数据整理与分析（3）：常见错误及解决</title>
+    <url>/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/</url>
+    <content><![CDATA[<pre class=" language-bash"><code class="language-bash">
+</code></pre>
+<h2 id="正确表格"><a href="#正确表格" class="headerlink" title="正确表格"></a>正确表格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdURzR.png" alt="正确"></p>
+<h2 id="错误1：合并单元格"><a href="#错误1：合并单元格" class="headerlink" title="错误1：合并单元格"></a>错误1：合并单元格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdUOSA.png" alt="1"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
 </search>

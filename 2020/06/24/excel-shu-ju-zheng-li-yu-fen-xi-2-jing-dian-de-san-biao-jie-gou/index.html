@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="search, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
+    <meta name="keywords" content="Excel数据整理与分析（2）:经典的三表结构&#39;, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
     <meta name="description" content="Never Give Up">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>search | Kif Room</title>
+    <title>Excel数据整理与分析（2）:经典的三表结构&#39; | Kif Room</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -331,12 +331,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">search</h1>
+                    <h1 class="description center-align post-title">Excel数据整理与分析（2）:经典的三表结构&#39;</h1>
                 </div>
             </div>
         </div>
@@ -451,12 +451,33 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">学习笔记</span>
+                            </a>
+                        
+                            <a href="/tags/Excel/">
+                                <span class="chip bg-color">Excel</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                教程
+                            </a>
+                        
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -465,21 +486,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-13
+                    2020-06-24
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-13
+                    2020-06-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    443
                 </div>
                 
 
@@ -501,7 +522,36 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <pre class=" language-bash"><code class="language-bash">
+</code></pre>
+<h4 id="首先弄清楚-我们为什么要用-Exccl"><a href="#首先弄清楚-我们为什么要用-Exccl" class="headerlink" title="首先弄清楚,我们为什么要用 Exccl?"></a>首先弄清楚,我们为什么要用 Exccl?</h4><ol>
+<li>工作中使用Excc的目的，是为了得到各式各样用于决策的分析报表。而分析报表需要一个规范的源数据表提供数据。有了规范的源数据表，我们就可以制作出各式各样的决策报表。一句话总结就是设计一个标准的源数据表，制作出N个分析汇总表!</li>
+<li>其实很多时候，就是因为制表不规范、录入数据格式不统一，对数据汇总分析造成极大的困扰，需要花大量的时间去整理数据，不仅效率慢，而且还存在数据不准确现象。</li>
+</ol>
+<p>本节需要理解以下知识点:</p>
+<h4 id="源数据表"><a href="#源数据表" class="headerlink" title="源数据表:"></a>源数据表:</h4><p>也叫数据明细表，用于存放录入或导入的表格数据。<br>例如：<br><img src="https://graph.baidu.com/resource/222958c108f1dd98bad5201592983623.jpg" alt="源数据表"></p>
+<h4 id="参数表"><a href="#参数表" class="headerlink" title="参数表:"></a>参数表:</h4><p>对源数据表的字段录入说明，为汇总表提供分析的维度。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/NdYHij.png" alt="参数表"></p>
+<h4 id="汇总表"><a href="#汇总表" class="headerlink" title="汇总表:"></a>汇总表:</h4><p>Excel最终的分析报表，可以是数据汇总表、透视表、图表。一份源数据表可以制作出N张汇总表。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/Ndtwfs.png" alt="汇总表"></p>
+<p>只要源数据表里面的数据规范，我们可以不用学太多的复杂函数和<br>复杂技巧来弥补制表不规范的不足，成倍的提升工作效率!<br>”好比美食界的名言:“食材好，厨艺不高，吃起来也美味!<br>下一-章1.3节我们将学习Excel中源数据表常见错误暨规范化处理方法</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -526,7 +576,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://kifroom.icu/search/index.html">http://kifroom.icu/search/index.html</a>
+                    <a href="http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/">http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -563,7 +613,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">学习笔记</span>
+                                </a>
+                            
+                                <a href="/tags/Excel/">
+                                    <span class="chip bg-color">Excel</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -992,39 +1050,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一页</div>
             <div class="card">
-                <a href="/search/index.html">
+                <a href="/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="search">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Excel数据整理与分析（3）：常见错误及解决">
                         
-                        <span class="card-title">search</span>
+                        <span class="card-title">Excel数据整理与分析（3）：常见错误及解决</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
+
+正确表格
+错误1：合并单元格
+
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.data
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-24
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            kif
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">学习笔记</span>
+                    </a>
+                    
+                    <a href="/tags/Excel/">
+                        <span class="chip bg-color">Excel</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1032,37 +1115,56 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一页&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/search/index.html">
+                <a href="/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="search">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="数据结构习题：扑克牌魔术">
                         
-                        <span class="card-title">search</span>
+                        <span class="card-title">数据结构习题：扑克牌魔术</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            描述东哥是个乡村魔术师，COVID-19疫情期间闲来无事，用扑克牌给邻居们表演了一场小魔术：他将一叠预先洗好的扑克牌背面朝上拿在手中，先将最上面的扑克牌放到最下面，然后打开现在最上面的这张扑克牌，并放到边上，这是一张1；然后又将最上面的扑克
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-23
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            kif
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B9%A0%E9%A2%98/">
+                        <span class="chip bg-color">习题</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
