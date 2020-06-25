@@ -2277,4 +2277,116 @@ int main()
         <tag>Excel</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Excel数据整理与分析（4）：工作表功能操作技巧</title>
+    <url>/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/</url>
+    <content><![CDATA[<pre class=" language-bash"><code class="language-bash">
+</code></pre>
+<h2 id="操作要求："><a href="#操作要求：" class="headerlink" title="操作要求："></a>操作要求：</h2><h3 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h3><p>新建工作簿时，设置默认包含的工作表数为3个 并设置“用户名”<br><strong>文件-》选项——》常规</strong>中设置<br><img src="https://s1.ax1x.com/2020/06/25/N0zZkj.png" alt="新建工作表"></p>
+<h3 id="快速定位"><a href="#快速定位" class="headerlink" title="快速定位"></a>快速定位</h3><p>快速定位切换到“六月”这个工作表，完成“六月”这个表中的产品销售求和</p>
+<h4 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h4><p> 鼠标右键如图图标<br> <img src="https://s1.ax1x.com/2020/06/25/N0zWgP.png" alt="1"><br> 选择所需工作表确定即可定位<br> <img src="https://s1.ax1x.com/2020/06/25/N0z4u8.png" alt="2"></p>
+<h4 id="求和"><a href="#求和" class="headerlink" title="求和"></a>求和</h4><p>单击表中一个表格，按下 <strong>ctrl+A</strong>全选数据表格<br>按<strong>Alt+=</strong>快速求和<br> <img src="https://s1.ax1x.com/2020/06/25/NBSUaQ.png" alt="求和"></p>
+<h3 id="批量删除"><a href="#批量删除" class="headerlink" title="批量删除"></a>批量删除</h3><p>批量删除 Sheet11到Sheet1这些多余的空白工作表<br><strong>shift连续选中多个，ctrl不连续的选择多个</strong><br>按住ctr在单击所需删除的数据表，右击之后删除</p>
+<h3 id="重命名"><a href="#重命名" class="headerlink" title="重命名"></a>重命名</h3><p>右击需要改正的数据表</p>
+<p><img src="https://s1.ax1x.com/2020/06/25/NBpPeS.png" alt="重命名"></p>
+<h3 id="移动-复制"><a href="#移动-复制" class="headerlink" title="移动/复制"></a>移动/复制</h3><h4 id="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"><a href="#新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中" class="headerlink" title="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"></a>新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中</h4><p><img src="https://s1.ax1x.com/2020/06/25/NBpuLT.png" alt="新建"><br>左上角<strong>文件</strong>——》新建  由于第一步设置，新建的工作簿中有三个工作表<br><img src="https://s1.ax1x.com/2020/06/25/NBpYS1.png" alt="三个工作表"></p>
+<h4 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h4><p>将该工作簿中工作表移动到 新的工作簿中，并新工作簿保存到桌面</p>
+<p>右击所需移动的工作表 ——》点击移动或复制——》<br><img src="https://s1.ax1x.com/2020/06/25/NBpg6P.png" alt="移动"></p>
+<p><strong>注</strong>：记得打钩副本，否则原数据簿中就没有该数据表了！<br><img src="https://s1.ax1x.com/2020/06/25/NB9etH.th.png" alt="副本"><br>点击如图，选择新工作簿——》确定 ——》ctrl+s保存</p>
+<p><img src="https://s1.ax1x.com/2020/06/25/NBp7pn.png" alt="2"></p>
+<h3 id="标签颜色"><a href="#标签颜色" class="headerlink" title="标签颜色"></a>标签颜色</h3><p>.将工作表标签颜色填充成蓝色</p>
+<p>右击所需改变的数据表，如图</p>
+<p><img src="https://s1.ax1x.com/2020/06/25/NB9Sh9.png" alt="填充颜色"></p>
+<h3 id="取消-隐藏"><a href="#取消-隐藏" class="headerlink" title="(取消)隐藏"></a>(取消)隐藏</h3><p>隐藏工作表，然后取消隐藏的工作表</p>
+<p>如图可对工作表(取消)隐藏<br><img src="!%5BAlt%20text%5D%28./1593068064619.png%29" alt="隐藏"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Excel数据整理与分析（6）：数据排序</title>
+    <url>/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>Excel数据整理与分析（5）：常见的数据操作技巧</title>
+    <url>/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/</url>
+    <content><![CDATA[<pre class=" language-bash"><code class="language-bash">
+</code></pre>
+<p>掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行<br>和列、快速选中有数据的行和列数据、批量填充、空单元格定位填<br>充等高级操作技巧。</p>
+<h3 id="自动调整行高和列宽"><a href="#自动调整行高和列宽" class="headerlink" title="自动调整行高和列宽"></a>自动调整行高和列宽</h3><p><strong>全选数据——》鼠标移动到如图（行或列）——》双击</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCAvq.png" alt="自动调整"><br><img src="https://s1.ax1x.com/2020/06/25/NBC12R.gif" alt="gif"></p>
+<h3 id="全选有数据的整行（列）"><a href="#全选有数据的整行（列）" class="headerlink" title="全选有数据的整行（列）"></a>全选有数据的整行（列）</h3><p>1.<br><strong>Ctrl+Shift+方向键下（右）</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCBRA.gif" alt="1"><br><strong>注</strong>有空单元格是会停下</p>
+<p>2.通过名称框快速选择区域<br>名称框中输入首尾坐标，回车<br><img src="https://s1.ax1x.com/2020/06/25/NBiiXq.gif" alt="1"></p>
+<h3 id="移动单元格"><a href="#移动单元格" class="headerlink" title="移动单元格"></a>移动单元格</h3><p>全选有数据的整行（列）——》<strong>Shift+移动柄</strong>移动<br><img src="https://s1.ax1x.com/2020/06/25/NBia3d.gif" alt="移动"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>1-调整合适的行和高，只需要将鼠标放到行标和列标的中间位置双击即可。<br>2-通过ctrl + shift +方向键进行选择数据<br>3-按住shift键移动行和列位置的时候，需要先松开鼠标，再松开shift键才 可以实现行列调换<br>下一章1.6节我们将学习Excel工作表数据操作之数据排序</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>教程</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
 </search>

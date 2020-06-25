@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kifroom.icu/"/>
-  <updated>2020-06-24T07:45:49.328Z</updated>
+  <updated>2020-06-25T07:30:13.788Z</updated>
   <id>http://kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,96 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析（6）：数据排序</title>
+    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/"/>
+    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</id>
+    <published>2020-06-25T07:30:13.000Z</published>
+    <updated>2020-06-25T07:30:13.788Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析（5）：常见的数据操作技巧</title>
+    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/"/>
+    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/</id>
+    <published>2020-06-25T06:57:17.000Z</published>
+    <updated>2020-06-25T07:28:45.876Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><p>掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行<br>和列、快速选中有数据的行和列数据、批量填充、空单元格定位填<br>充等高级操作技巧。</p><h3 id="自动调整行高和列宽"><a href="#自动调整行高和列宽" class="headerlink" title="自动调整行高和列宽"></a>自动调整行高和列宽</h3><p><strong>全选数据——》鼠标移动到如图（行或列）——》双击</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCAvq.png" alt="自动调整"><br><img src="https://s1.ax1x.com/2020/06/25/NBC12R.gif" alt="gif"></p><h3 id="全选有数据的整行（列）"><a href="#全选有数据的整行（列）" class="headerlink" title="全选有数据的整行（列）"></a>全选有数据的整行（列）</h3><p>1.<br><strong>Ctrl+Shift+方向键下（右）</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCBRA.gif" alt="1"><br><strong>注</strong>有空单元格是会停下</p><p>2.通过名称框快速选择区域<br>名称框中输入首尾坐标，回车<br><img src="https://s1.ax1x.com/2020/06/25/NBiiXq.gif" alt="1"></p><h3 id="移动单元格"><a href="#移动单元格" class="headerlink" title="移动单元格"></a>移动单元格</h3><p>全选有数据的整行（列）——》<strong>Shift+移动柄</strong>移动<br><img src="https://s1.ax1x.com/2020/06/25/NBia3d.gif" alt="移动"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>1-调整合适的行和高，只需要将鼠标放到行标和列标的中间位置双击即可。<br>2-通过ctrl + shift +方向键进行选择数据<br>3-按住shift键移动行和列位置的时候，需要先松开鼠标，再松开shift键才 可以实现行列调换<br>下一章1.6节我们将学习Excel工作表数据操作之数据排序</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行&lt;br&gt;和列、快速选中有数据的行和列数据、批量填充、空单元格定位填&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析（4）：工作表功能操作技巧</title>
+    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/"/>
+    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/</id>
+    <published>2020-06-25T06:19:04.000Z</published>
+    <updated>2020-06-25T06:55:24.289Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="操作要求："><a href="#操作要求：" class="headerlink" title="操作要求："></a>操作要求：</h2><h3 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h3><p>新建工作簿时，设置默认包含的工作表数为3个 并设置“用户名”<br><strong>文件-》选项——》常规</strong>中设置<br><img src="https://s1.ax1x.com/2020/06/25/N0zZkj.png" alt="新建工作表"></p><h3 id="快速定位"><a href="#快速定位" class="headerlink" title="快速定位"></a>快速定位</h3><p>快速定位切换到“六月”这个工作表，完成“六月”这个表中的产品销售求和</p><h4 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h4><p> 鼠标右键如图图标<br> <img src="https://s1.ax1x.com/2020/06/25/N0zWgP.png" alt="1"><br> 选择所需工作表确定即可定位<br> <img src="https://s1.ax1x.com/2020/06/25/N0z4u8.png" alt="2"></p><h4 id="求和"><a href="#求和" class="headerlink" title="求和"></a>求和</h4><p>单击表中一个表格，按下 <strong>ctrl+A</strong>全选数据表格<br>按<strong>Alt+=</strong>快速求和<br> <img src="https://s1.ax1x.com/2020/06/25/NBSUaQ.png" alt="求和"></p><h3 id="批量删除"><a href="#批量删除" class="headerlink" title="批量删除"></a>批量删除</h3><p>批量删除 Sheet11到Sheet1这些多余的空白工作表<br><strong>shift连续选中多个，ctrl不连续的选择多个</strong><br>按住ctr在单击所需删除的数据表，右击之后删除</p><h3 id="重命名"><a href="#重命名" class="headerlink" title="重命名"></a>重命名</h3><p>右击需要改正的数据表</p><p><img src="https://s1.ax1x.com/2020/06/25/NBpPeS.png" alt="重命名"></p><h3 id="移动-复制"><a href="#移动-复制" class="headerlink" title="移动/复制"></a>移动/复制</h3><h4 id="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"><a href="#新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中" class="headerlink" title="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"></a>新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中</h4><p><img src="https://s1.ax1x.com/2020/06/25/NBpuLT.png" alt="新建"><br>左上角<strong>文件</strong>——》新建  由于第一步设置，新建的工作簿中有三个工作表<br><img src="https://s1.ax1x.com/2020/06/25/NBpYS1.png" alt="三个工作表"></p><h4 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h4><p>将该工作簿中工作表移动到 新的工作簿中，并新工作簿保存到桌面</p><p>右击所需移动的工作表 ——》点击移动或复制——》<br><img src="https://s1.ax1x.com/2020/06/25/NBpg6P.png" alt="移动"></p><p><strong>注</strong>：记得打钩副本，否则原数据簿中就没有该数据表了！<br><img src="https://s1.ax1x.com/2020/06/25/NB9etH.th.png" alt="副本"><br>点击如图，选择新工作簿——》确定 ——》ctrl+s保存</p><p><img src="https://s1.ax1x.com/2020/06/25/NBp7pn.png" alt="2"></p><h3 id="标签颜色"><a href="#标签颜色" class="headerlink" title="标签颜色"></a>标签颜色</h3><p>.将工作表标签颜色填充成蓝色</p><p>右击所需改变的数据表，如图</p><p><img src="https://s1.ax1x.com/2020/06/25/NB9Sh9.png" alt="填充颜色"></p><h3 id="取消-隐藏"><a href="#取消-隐藏" class="headerlink" title="(取消)隐藏"></a>(取消)隐藏</h3><p>隐藏工作表，然后取消隐藏的工作表</p><p>如图可对工作表(取消)隐藏<br><img src="!%5BAlt%20text%5D%28./1593068064619.png%29" alt="隐藏"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;操作要求：&quot;&gt;&lt;a href=&quot;#操作要求：&quot; class=&quot;headerlink&quot; title=&quot;操作要求：&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析（3）：常见错误及解决</title>
@@ -501,87 +591,6 @@
       <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构学习笔记：预备知识</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-yu-bei-zhi-shi/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-yu-bei-zhi-shi/</id>
-    <published>2020-06-14T11:27:28.000Z</published>
-    <updated>2020-06-14T11:35:45.975Z</updated>
-    
-    <content type="html"><![CDATA[<p>预备知识<br>关于考试<br>考研 ：<br>全国统考：单项选择 综合应用 算法设计<br>自主命题： 观察前几年考题</p><a id="more"></a><p>C与C++<br>1.输入输出<br>c: scanf printf<br>c++:cin cout （in out 分别表示输入输出）<br>eg1</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a,</span><br><span class="line">    double b,c;</span><br><span class="line">    scanf(<span class="string">"%d"</span>,&amp;a);</span><br><span class="line">    c=a+b;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,c);</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br><span class="line">``` </span><br><span class="line">```bash</span><br><span class="line">include&lt;iostream&gt;  //头文件</span><br><span class="line">using namespace std;//从 std 中找头文件</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    double b,c;</span><br><span class="line">    cin&gt;&gt;a&gt;&gt;b;//输入ab</span><br><span class="line">    c=a+b;</span><br><span class="line">    cout&lt;&lt;<span class="string">"c="</span>&lt;&lt;c&lt;&lt;endl;//endl相当于“\n”，回车换行</span><br><span class="line">    <span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>2.申请空间<br>c:   malloc  free<br>c++:  new delete<br>eg</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br><span class="line">include&lt;stdlib.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=(int *)malloc(sizeof(int));//申请空间，本来返回*void类型，但p是int*，所以有强制转换（int*)</span><br><span class="line">    scanf(<span class="string">"%d"</span>,p);//p已经是地址，所以不用&amp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,*p);</span><br><span class="line">    free(p);</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">includ&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int *p=NULL;</span><br><span class="line">    p=new int(3);//申请一个变量 初值为3；若int[10]则为长度为10 的数组</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    cin&gt;&gt;*p;</span><br><span class="line">    cout&lt;&lt;*p&lt;&lt;endl;</span><br><span class="line">    delete p;</span><br><span class="line">    p=NULL;</span><br><span class="line"> <span class="built_in">return</span> 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>模板</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">//1.假如设计一个求两参数最大值的函数，在实践中我们可能需要定义3个函数</span><br><span class="line"></span><br><span class="line">int Max (inta, intb)&#123; <span class="built_in">return</span>( a&gt;b) ? a:b;&#125;</span><br><span class="line"></span><br><span class="line">double Max ( doublea，double b)&#123; <span class="built_in">return</span>( a &gt;b)? a:b;&#125;</span><br><span class="line">char Max( char a，charb) &#123;<span class="built_in">return</span>(a&gt; b)? a: b;&#125;</span><br><span class="line">//2.这些函数几乎相同，唯一的区别就是形参类型不同</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">template&lt;class T&gt;</span><br><span class="line">T Max(T a,T b)</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">return</span> a&gt;b?a:b;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3, 5) is "</span>&lt;&lt;Max(3,5) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max(3.0,5.0) is "</span>&lt;&lt; Max(3.0,5.0) &lt;&lt;endl;</span><br><span class="line">cout &lt;&lt;<span class="string">"Max('3';,5')is"</span>&lt;&lt; Maxl<span class="string">'3;5'</span>) &lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;预备知识&lt;br&gt;关于考试&lt;br&gt;考研 ：&lt;br&gt;全国统考：单项选择 综合应用 算法设计&lt;br&gt;自主命题： 观察前几年考题&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：身份证号码验证</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-shen-fen-zheng-hao-ma-yan-zheng/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-shen-fen-zheng-hao-ma-yan-zheng/</id>
-    <published>2020-06-14T11:19:33.000Z</published>
-    <updated>2020-06-14T11:24:42.725Z</updated>
-    
-    <content type="html"><![CDATA[<p>描述<br>居民身份证是18位字符的编码，每个人的编码都是唯一的，校验规则如下：<br>∑（ai*wi）mod 11 = 1<br>i表示号码字符从左至右包括校验码字符在内的位置序号；ai表示第i位置上的号码字符值；Wi表示第i位置上的加权因子。即将各位上的数值乘上位权之和对11取余，余数为1则表示该编码正确。注意：如果最后一位校验码是“X”或“x”，则代表该校验码的数值为10。<br>各位的权值依次是：7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2，1<br>例如某身份证号码为：370683198901117657，这是正确的编码。<br>又如某号码为：470683198902117657，这是错误的编码。</p><a id="more"></a><p>格式<br>输入格式<br>第一行是一个数字n，表示后面有n行待判断的号码<br>从第二行起，每行一个18位的字符串，表示要判断的身份证号码<br>输出格式<br>输出一个数值，表示正确的身份证号码的个数<br>样例<br>输入样例<br>4<br>430321200506200105<br>430321200505070050<br>430302200512290036<br>43038120050824012X<br>输出样例<br>3<br>限制<br>时间限制：1000 ms<br>内存限制：65535 KB<br>代码</p><pre><code class="bash"><span class="comment">#include &lt;stdio.h&gt;</span>int main() {    int n = 0, i = 0, sum = 0,j = 0;    char id[20];    int quan[] = { 7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2,1};    scanf(<span class="string">"%d"</span>, &amp;n);    int flag = 0;    <span class="keyword">for</span> (i =1; i &lt;=n; i++)     {        scanf(<span class="string">"%s"</span>, id);        sum = 0;        int t = 0, x = 18;        <span class="keyword">if</span> (id[17] == <span class="string">'X'</span> || id[17] == <span class="string">'x'</span>)        {            x--;            t++;        }        <span class="keyword">for</span> (j = 0; j &lt; x; j++)        {            sum = sum + (id[j]-<span class="string">'0'</span>)*(quan[j]);        }        <span class="keyword">if</span> (t == 1)        {            sum = sum + 10;        }        <span class="keyword">if</span> (sum % 11 == 1)        {            flag++;        }    }    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, flag);    <span class="built_in">return</span> 0;}</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;描述&lt;br&gt;居民身份证是18位字符的编码，每个人的编码都是唯一的，校验规则如下：&lt;br&gt;∑（ai*wi）mod 11 = 1&lt;br&gt;i表示号码字符从左至右包括校验码字符在内的位置序号；ai表示第i位置上的号码字符值；Wi表示第i位置上的加权因子。即将各位上的数值乘上位权之和对11取余，余数为1则表示该编码正确。注意：如果最后一位校验码是“X”或“x”，则代表该校验码的数值为10。&lt;br&gt;各位的权值依次是：7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2，1&lt;br&gt;例如某身份证号码为：370683198901117657，这是正确的编码。&lt;br&gt;又如某号码为：470683198902117657，这是错误的编码。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：按字典规则比较字符大小</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-an-zi-dian-gui-ze-bi-jiao-zi-fu-da-xiao/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xi-ti-an-zi-dian-gui-ze-bi-jiao-zi-fu-da-xiao/</id>
-    <published>2020-06-14T11:18:26.000Z</published>
-    <updated>2020-06-14T11:23:35.917Z</updated>
-    
-    <content type="html"><![CDATA[<p>描述<br>按照字典规则比较两个英文字符串的大小，基本规则如下：<br>（1）字符串左对齐比较<br>（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’<br>（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’<br>（4）字符串中只有大小写字母和空格，空格小于任何字母<br>例如：”aBc”&lt;”abc”,”abcdef”&lt;”abD”，”Abcd”&lt;”abc”</p><a id="more"></a><p>格式<br>输入格式<br>输入是两行，每行一个字符串，长度均小于1000<br>输出格式<br>输出一个整数，表示这两个字符串比较大小的结果。如果第一个小于第二个，输出-1；<br>如果第一个大于第二个，输出1；相等则输出0。<br>样例<br>输入样例<br>your<br>you<br>输出样例<br>1<br>限制<br>时间限制：100 ms<br>内存限制：8192 KB<br>代码</p><pre><code class="bash"><span class="comment">#include&lt;stdio.h&gt;</span><span class="comment">#include&lt;string.h&gt;</span>int main(){    int i, len_a, len_b, max;    char a[1000], b[1000];    gets(a);    gets(b);    len_a = strlen(a);    len_b = strlen(b);    <span class="keyword">if</span> (len_a &gt; len_b)    {        max = len_a;    }    <span class="keyword">else</span>    {        max = len_b;    }    //<span class="built_in">printf</span>(<span class="string">"%c1\n"</span>,a[5]);    //<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,max);    int flag = 0;    <span class="keyword">for</span> (i = 0; i &lt; max; i++)    {        <span class="keyword">if</span> (a[i] == b[i])        {            <span class="keyword">if</span> (i == max - 1)            {                flag = 1;            }            <span class="built_in">continue</span>;        }        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] == <span class="string">' '</span> &amp;&amp; b[i] != <span class="string">' '</span>) {            <span class="built_in">printf</span>(<span class="string">"-1"</span>);            <span class="built_in">break</span>;        }        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] != <span class="string">' '</span> &amp;&amp; b[i] == <span class="string">' '</span>) {            <span class="built_in">printf</span>(<span class="string">"1"</span>);            <span class="built_in">break</span>;        }        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &lt; b[i]) {            <span class="built_in">printf</span>(<span class="string">"-1"</span>);            <span class="built_in">break</span>;        }        <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; b[i]) {            <span class="built_in">printf</span>(<span class="string">"1"</span>);            <span class="built_in">break</span>;        }        <span class="keyword">else</span>            <span class="built_in">printf</span>(<span class="string">"0"</span>);    }    <span class="keyword">if</span> (flag == 1)    {        <span class="built_in">printf</span>(<span class="string">"0"</span>);    }    <span class="built_in">return</span> 0;}</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;描述&lt;br&gt;按照字典规则比较两个英文字符串的大小，基本规则如下：&lt;br&gt;（1）字符串左对齐比较&lt;br&gt;（2）字母无大小写对应关系时忽略大小写，比如’B’不仅大于’A’，也大于’a’&lt;br&gt;（3）字母有大小写对应关系时，大写小于小写，比如’A’小于’a’&lt;br&gt;（4）字符串中只有大小写字母和空格，空格小于任何字母&lt;br&gt;例如：”aBc”&amp;lt;”abc”,”abcdef”&amp;lt;”abD”，”Abcd”&amp;lt;”abc”&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
     
   </entry>
   
