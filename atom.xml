@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kifroom.icu/"/>
-  <updated>2020-06-25T07:30:13.788Z</updated>
+  <updated>2020-06-25T09:24:18.674Z</updated>
   <id>http://kifroom.icu/</id>
   
   <author>
@@ -17,28 +17,66 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Excel数据整理与分析（6）：数据排序</title>
-    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/"/>
-    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</id>
-    <published>2020-06-25T07:30:13.000Z</published>
-    <updated>2020-06-25T07:30:13.788Z</updated>
+    <title>Excel数据整理与分析（7）：数据查找与替换</title>
+    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/"/>
+    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/</id>
+    <published>2020-06-25T08:52:49.000Z</published>
+    <updated>2020-06-25T09:24:18.674Z</updated>
     
-    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="掌握数据查找替换及通配符查找替换。"><a href="#掌握数据查找替换及通配符查找替换。" class="headerlink" title="掌握数据查找替换及通配符查找替换。"></a>掌握数据查找替换及通配符查找替换。</h2><h3 id="常规查找替换"><a href="#常规查找替换" class="headerlink" title="常规查找替换"></a>常规查找替换</h3><p><img src="https://s1.ax1x.com/2020/06/25/NBlPmD.png" alt="梨子1"></p><h4 id="查找到凭证号为”记-0029”的单元格数据"><a href="#查找到凭证号为”记-0029”的单元格数据" class="headerlink" title="查找到凭证号为”记-0029”的单元格数据"></a>查找到凭证号为”记-0029”的单元格数据</h4><p>点击任意单元格——》ctrl+a全选——》查找替换——》输入——》查找全部<br><img src="https://s1.ax1x.com/2020/06/25/NBl074.png" alt="查找"><br><img src="https://s1.ax1x.com/2020/06/25/NBlfBD.png" alt="2"></p><h4 id="替换”一车间”为”一部门”"><a href="#替换”一车间”为”一部门”" class="headerlink" title="替换”一车间”为”一部门”"></a>替换”一车间”为”一部门”</h4><p>替换大部分同上</p><h4 id="将”深圳”替换为”深圳市”"><a href="#将”深圳”替换为”深圳市”" class="headerlink" title="将”深圳”替换为”深圳市”"></a>将”深圳”替换为”深圳市”</h4><p>此处元数据中既有“深圳”又有“深圳市”，故需要两步替换，即：</p><p>先深圳——》深圳市，此时发现会出现“深圳市市”，</p><p>再深圳市市——》深圳市即可。</p><p>或者第一步替换时打钩 单元格匹配<br><img src="https://s1.ax1x.com/2020/06/25/NB1RGn.png" alt="打钩单元格匹配"></p><h3 id="通配符查找与替换"><a href="#通配符查找与替换" class="headerlink" title="通配符查找与替换"></a>通配符查找与替换</h3><p>*表示任意多个字符<br>?表示任意单个字符</p><ul><li>?要表达自己本身的意思，<del>* ~?、</del><br><img src="https://s1.ax1x.com/2020/06/25/NB3FJA.png" alt="梨子2"></li></ul><h4 id="将姓张的员工都改为”优秀员工”"><a href="#将姓张的员工都改为”优秀员工”" class="headerlink" title="将姓张的员工都改为”优秀员工”"></a>将姓张的员工都改为”优秀员工”</h4><p><img src="https://s1.ax1x.com/2020/06/25/NB3Qij.png" alt="1"></p><h4 id="将姓张且名字为两个字的员工都改为”优秀员工”"><a href="#将姓张且名字为两个字的员工都改为”优秀员工”" class="headerlink" title="将姓张且名字为两个字的员工都改为”优秀员工”"></a>将姓张且名字为两个字的员工都改为”优秀员工”</h4><p><img src="https://s1.ax1x.com/2020/06/25/NB30Y9.png" alt="2"></p><h4 id="仅将张-替换为”优秀员工”"><a href="#仅将张-替换为”优秀员工”" class="headerlink" title="仅将张*替换为”优秀员工”"></a>仅将张*替换为”优秀员工”</h4><p><img src="https://s1.ax1x.com/2020/06/25/NB3bm8.png" alt="3"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>1-选择查找替换时，需要选定查找区域，不选定单元格区域,默认查找的范围是整个工作表<br>2-在Excel里面有三个符号比较特殊，波浪号~ ,星号<em>,问号?这三个符号要牢记。<br>*表示任意多个字符，?表示任意单个字符,而且必须在英文状态输入的才有效，所以输入前<br>需要关闭中文输入法。如果要要表达</em>号和?号本身,就需要加~在前面即可。<br>下一章1.8节我们将学习Excel工作表数据操作之数据筛选。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-        
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;掌握数据查找替换及通配符查找替换。&quot;&gt;&lt;a href=&quot;#掌握数据查找替换及通配符查找替换。&quot; class=&quot;header
       
     
     </summary>
     
     
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析（6）：数据排序</title>
+    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/"/>
+    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</id>
+    <published>2020-06-25T07:30:13.787Z</published>
+    <updated>2020-06-25T08:46:35.574Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="掌握数据排序及高级排序技巧。"><a href="#掌握数据排序及高级排序技巧。" class="headerlink" title="掌握数据排序及高级排序技巧。"></a>掌握数据排序及高级排序技巧。</h2><h3 id="基础排序、多关键字排序"><a href="#基础排序、多关键字排序" class="headerlink" title="基础排序、多关键字排序"></a>基础排序、多关键字排序</h3><p><img src="https://s1.ax1x.com/2020/06/25/NBFjJg.png" alt="例1"><br>1.按总分进行降序排列，找出总分前五名的姓名</p><p><img src="https://s1.ax1x.com/2020/06/25/NBkeSJ.gif" alt="1"></p><p>2.总分（由高到低）作为第一排序依据，数学成绩作为第二排序依据，语文成绩作为第三排序依据（都按降序进行排序）</p><p><img src="https://s1.ax1x.com/2020/06/25/NBZMge.gif" alt="2"></p><h3 id="按颜色排序"><a href="#按颜色排序" class="headerlink" title="按颜色排序"></a>按颜色排序</h3><p><img src="https://s1.ax1x.com/2020/06/25/NBZXxe.png" alt="例2"></p><p>在B列按单元格填充色进行排序 （从顶端到底端按：“蓝色-红色-黄色-无填充”的顺序进行排列）</p><p><img src="https://s1.ax1x.com/2020/06/25/NBnuCV.gif" alt="颜色排序"></p><h3 id="自定义序列排序"><a href="#自定义序列排序" class="headerlink" title="自定义序列排序"></a>自定义序列排序</h3><p><img src="https://s1.ax1x.com/2020/06/25/NBu9aR.png" alt="梨3"></p><p>按销售部门的名称进行排序规整，一部→五部</p><p>####自定义序列<br><img src="https://s1.ax1x.com/2020/06/25/NBujYt.png" alt="自定义序列"><br>文件——》选项——》高级——》编辑自定义列表</p><p><img src="https://s1.ax1x.com/2020/06/25/NBK07d.gif" alt="2"></p><p>####排序</p><p>排序——》自定义序列<br><img src="https://s1.ax1x.com/2020/06/25/NBMS41.gif" alt="排序"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>1-升序排序就是从低到高排，降序排序就是从高到低排<br>2-如果整行排序，则不需要选择整列数据，只需要鼠标点中该列数据任意单元格即可<br>3-自定义排序灵活，有了它，工作中排序都可以应对<br>4-重点练习工资条的制作<br>下一章1.7节我们将学习Excel工作表数据操作之查找替换。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;掌握数据排序及高级排序技巧。&quot;&gt;&lt;a href=&quot;#掌握数据排序及高级排序技巧。&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
     
   </entry>
   
@@ -552,33 +590,6 @@
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;一、知识点&lt;br&gt;1.算法:是指令的有限序列，是对特定问题求解步骤的描述。&lt;br&gt;算法具有下列5个重要特性:&lt;br&gt;1.有穷性:步骤有限，执行时间有限。&lt;br&gt;2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径&lt;br&gt;3.可行性:可以通过已经实现的基本运算执行有限次来实现的;&lt;br&gt;4.输入:算法具有零个或多个输入。&lt;br&gt;5.输出:算法具有一个或多个输出。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构学习笔记：基本概念和术语</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-ji-ben-gai-nian-he-zhu-yu/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-ji-ben-gai-nian-he-zhu-yu/</id>
-    <published>2020-06-14T11:27:28.000Z</published>
-    <updated>2020-06-14T11:37:00.140Z</updated>
-    
-    <content type="html"><![CDATA[<p>一、知识点<br>1.数据<br>数据是信息的载体，是描述客观事物的数、字符、以及所有能输入到计算机中被计算机识别和处理的符号的集合。</p><a id="more"></a><p>2.数据元素<br>是数据中的一个个体，是数据的基本单位。在一些情况下数据元素也称为元素、结点、顶点、记录等。数据元素用于完整地描述一个对象。<br>3.数据项(Data Item)<br>是组成数据元素的有特定意义的补课分割的最小单位。如构成一个数据元素的字段、域、属性等都可称之为数据项。数据元素是数据项的集合。如:学生信息表中的学号、姓名、性别、专业等。<br>4.数据对象(Data Object)<br>是具有相同性质的数据元素的集合，是数据的一个子集。如:<br>计算机专业全体学生,<br>整数集合N={0, +1, +2,…},<br>小写字符集合C={‘a’，’b’,.，’z’},<br>5.数据结构<br>通过抽象的方法研究一组有特定关系的数据的存储与处理，数据结构主要研究三个方面的内容。<br>(1)数据的逻辑结构;<br>(2)存储结构;<br>(3)运算实现。<br><img src="https://s1.ax1x.com/2020/06/14/NSZDlq.png" alt="enter image description here"><br>6.数据逻辑结构<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591517817083-afa193ec-13c7-40c4-8596-22f27c4e64dc.png" alt="enter image description here"><br>7.数据的存储结构<br>1.顺序存储结构：借助元素在存储器中的相对位置表示数据之间的相对关系，通常用数组实现。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518276747-2f12dc36-5c2c-43e5-89b9-daf785f02af2.png" alt="enter image description here"><br>2.链式存储结构：借助表示元素存储地址的指针显式地指出元素之间的逻辑关系。<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518244536-2157c0eb-91ea-43a4-9a50-63105ef7c623.png" alt="enter image description here"><br>3.哈希(散列)存储方式:是专用于集合结构的数据存放方式。用一个哈希函数将数据元素按关键字和一个唯一的存储位置关联起来。<br>4.索引存储方式:数据元素被排成一个序列:d1, d2, .，dn,每个结点di在序列里都有对应的位序i，位序可以作为结点的索引存储在索引表中。检索时利用结点的顺序号i来确定结点的存储地址。<br>8.抽象数据类型<br>为了形象直观的描述数据结构，引入抽象数据类型(Abstract Data Type,简称ADT)“抽象”的意义在于数据类型的数学抽象特性在定义抽象数据类型时,就是定义其数据的逻辑结构和操作说明，而不必考虑数据的存储结构和操作的具体实现<br>二、例题<br>1.数据结构中数据元素之间的逻辑关系被称为()。<br>A.数据的存储结构<br>B.数据的基本操作<br>C.程序的算法<br>D.数据的逻辑结构<br>北京理工大学2005十-.1(1分)]<br>[参考答案] D<br>2.在数据结构中，从逻辑上可以将之分为( )。<br>A.动态结构和静态结构<br>B.紧凑结构和非紧凑结构<br>C.内部结构和外部结构<br>D.线性结构和非线性结构<br>[中南大学2005-.1(2分)]<br>[参考答案] D<br>3.以下数据结构中，()是非线性数据结构<br>A.树<br>B.字符串<br>C.队<br>D.栈<br>[中山大学1999- .4]<br>[参考答案] A<br>4.以下属于逻辑结构的是()<br>A.顺序表<br>B.哈希表<br>C.有序表<br>D.单链表<br>[西安电子科技大学应用2001-.1]<br>[参考答案] C  其中顺序表是顺序存储结构，哈希表是哈希存储方式，单链表是链式存储结构。<br>5.己知表头元素为c的单链表在内存中的存储状态如下表所示。现将f放于1014H处并插入到单链表中，若f在逻   辑上位a和e之间，则a, e, f的链接地址”依次是( )。<br>A.1010H, 1014H, 1004H<br>B.11010H, 1004H, 1014H<br>C.1014H, 1010H, 1004H<br>D. | 1014H, 1004H, 1010H<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] D.<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591518971491-3204bc4e-cab8-45fc-b846-34a8a1b1b947.png" alt="enter image description here"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一、知识点&lt;br&gt;1.数据&lt;br&gt;数据是信息的载体，是描述客观事物的数、字符、以及所有能输入到计算机中被计算机识别和处理的符号的集合。&lt;/p&gt;
     
     </summary>
     
