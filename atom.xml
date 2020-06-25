@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kifroom.icu/"/>
-  <updated>2020-06-25T09:24:18.674Z</updated>
+  <updated>2020-06-25T09:52:30.623Z</updated>
   <id>http://kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C语言思维导图</title>
+    <link href="http://kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/"/>
+    <id>http://kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/</id>
+    <published>2020-06-25T09:47:08.000Z</published>
+    <updated>2020-06-25T09:52:30.623Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><p><img src="https://s1.ax1x.com/2020/06/25/NBtcIU.png" alt="C思维导图"></p><p>注：转自：<a href="https://hirak0.xyz/" target="_blank" rel="noopener">hirak0</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/06/25/NBtcIU.png&quot; alt=&quot;C思维导图&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://kifroom.icu/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="C语言" scheme="http://kifroom.icu/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析（7）：数据查找与替换</title>
@@ -561,35 +591,6 @@
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&quot;线性结构的特点&quot;&gt;&lt;a href=&quot;#线性结构的特点&quot; class=&quot;headerlink&quot; title=&quot;线性结构的特点:&quot;&gt;&lt;/a&gt;线性结构的特点:&lt;/h1&gt;&lt;p&gt;存在唯一–一个被称为“第一一个”的数据元素;&lt;br&gt;存在唯一一个被称为“最后一个”的数据元素;&lt;br&gt;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构学习笔记：算法和算法分析</title>
-    <link href="http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-suan-fa-he-suan-fa-fen-xi/"/>
-    <id>http://kifroom.icu/2020/06/14/shu-ju-jie-gou-xue-xi-bi-ji-suan-fa-he-suan-fa-fen-xi/</id>
-    <published>2020-06-14T11:28:02.000Z</published>
-    <updated>2020-06-14T11:43:17.604Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code class="bash"></code></pre><p>一、知识点<br>1.算法:是指令的有限序列，是对特定问题求解步骤的描述。<br>算法具有下列5个重要特性:<br>1.有穷性:步骤有限，执行时间有限。<br>2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径<br>3.可行性:可以通过已经实现的基本运算执行有限次来实现的;<br>4.输入:算法具有零个或多个输入。<br>5.输出:算法具有一个或多个输出。</p><a id="more"></a><p>2.算法和程序的区别:<br>(1)在执行时间上，算法所描述的步骤一定是有限的，而程序可以无限地执行下去。因此程序并不需要满足上 述的第一个条件(有穷性)。例如操作系统程序，是一个在无限循环中执行的程序，因而不是一个算法。<br>(2)在语言描述上，程序必须采用规定的程序设计语言来书写,而算法没有这种限制。:<br>3.设计一个好的算法通常要考虑达到以下目标:<br>1.正确性:算法应能正确地实现预定的功能;<br>2.易读性:算法应易于阅读和理解，以便于调试、修改和扩充;<br>3.健壮性:当环境发生变化(如遇到非法输入)时，算法能适当地做出反应或进行处理，不会产生不正确的运算结果;<br>4.高效率:具有较高的时间和空间性能。<br>4.算法的评价方法常分两类<br>1.事前分析估计<br>2.事后统计<br>5.算法的时间复杂度(TimeComplexity):<br>T(N)是该算法的时间耗费,是其所求解问题规模N的函数。当问题规模N趋向无穷大时，不考虑具体的运行时间函数，只考虑运行时间函数的数量级(阶) 这称为算法的渐进时间复杂度(Asymptotic Time Complexity)。对渐进表示法的常用记法如下:<br>大0表示法T(N)=O(f(N))<br>说明:如果存在常量c&gt;0和正整数No&gt;=1，当N&gt;=No时有T(N)&lt;=cf(N)。即给出了时间复杂度的上界，不可能比cf(N)更大。<br>例1:假定有两个算法A和B求解同一个问题，它们的时间函数分别是TA(n)=100n^2,TB(n)=5n^3。它们的时间复杂度分别记为0(n 2)和O(n 3),那么算法A一定比算法B慢吗?<br>分析:<br>(1)_ 当输入量较小如n&lt; 20时，有TA(n)&gt; TB(n)， 算法B比算法A花费的时间少;<br>(2)-随着问题规模n的增大,两个算法的时间开销之比5n^3 /(100n^2) = n/20也随着增大。也就是说当问题规模较大时，算法A比算法B要有效地多。<br>6.语句的频度(frequency count) :<br>指的是该语句重复执行的次数。常通过计算基本操作的语句频度，求解时间复杂度。<br>[例2]分析下述程序段的时间复杂度。.<br>{ ++x; s=0; }<br>选取“++x;,”为基本操作，语句频度为1,则时间复杂度为0(1),即常量阶。<br>[例3]分析下述程序段的时间复杂度。</p><pre><code class="bash"><span class="keyword">for</span>[j=1; j&lt;=10000; ++j)    {    ++X; S+=X;    }</code></pre><p>选取“++x;”为基本操作，语句频度为10000，则时间复杂度为0(1),即常量阶。<br>[例4]分析下述程序段的时间复杂度。</p><pre><code class="bash">s=0; .<span class="keyword">for</span>(j=1;j&lt;=n;j*=2)++X;</code></pre><p>2^m=n;则m=log2’n<br>选取“++x;”为基本操作,<br>语句频度为log2”n,则时间复杂度为O(log2”n),即对数阶。<br>[例5]分析下述程序段的时间复杂度。</p><pre><code class="bash"><span class="keyword">for</span>(i=1; i&lt;=2*n; ++i) {++X; S+=X;}</code></pre><p>选取“++x;”为基本操作，语句频度为2xn,则时间复杂度为O(n),即线性阶。<br>[例6]分析下述程序段的时间复杂度。</p><pre><code class="bash"><span class="keyword">for</span>(j=1;j&lt;=n; ++j){     <span class="keyword">for</span>(k=1;k&lt;=n/4; ++k)     {          ++X; S+=X;     }}</code></pre><p>选取“++x;”为基本操作，语句频度为nxn/4, 则时间复杂度为O(n^2),即平方阶。.<br>并非所有的双重循环的时间复杂度都是0(n2)的，下面举例说明。<br>[例8]分析下述程序段的时间复杂度。</p><pre><code class="bash"><span class="keyword">for</span>(j=1; j&lt;n; j*=2)    {        <span class="keyword">for</span>(k=1;k&lt;=n; ++k)         {            ++X; S+=X;        }    }</code></pre><p>时间复杂度为O(n log2”n),即线性对数阶<br>[例10]矩阵相乘。</p><pre><code class="bash"><span class="keyword">for</span>(i= 1;i &lt;= n; i++){    <span class="keyword">for</span>(j= 1;j&lt;=n; j++)    {        c[il][j]= 0;        <span class="keyword">for</span>(k= 1;k &lt;=n; k++)        {            c[i][j]= c[i][j] + a[i][k]* b[k][j];        }    }}</code></pre><p>选取第3层循环中的循环体“c[i][j] = c[i][j] + a[i][k]*b[k][j];”为基本操作，语句频度为n3,所以该算法的时间复杂度是O(n3)，即立方阶。<br>二、例题<br>计算算法的时间复杂度是属于一种( )。<br>A.事前统计的方法<br>B.事前分析估算的方法<br>C.事后统计的方法<br>D.事后分析估算的方法<br>(北京理工大学2005十一.4(1分)|<br>[参考答案]<br>B<br>设n是描述问题规模的非负整数，下面程序片段的时间复杂度是</p><pre><code class="bash">X=2;<span class="keyword">while</span>(x&lt;n/2){    x=2*x;}</code></pre><p>A. O(log2n)<br>B.0(n)<br>C. O(nlog2n)<br>D. O(n2)<br>[2011年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>A</p><p>求整数n(n&gt;=0)阶乘的算法如下，其时间复杂度是( )。</p><pre><code class="bash">int fact(int n){    <span class="keyword">if</span> (n&lt;=1)        <span class="built_in">return</span> 1 ;    <span class="built_in">return</span> n*fact(n-1) ;}</code></pre><p>A. Ollog2n)<br>B. O(n)<br>C.0(nlog2n)<br>D. O(n2)<br>[2012年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>B<br>下列程序段的时间复杂度()。</p><pre><code class="bash">count=O;<span class="keyword">for</span>(k=1;k&lt;=n;k*=2)    <span class="keyword">for</span>(j=1;j&lt;=n; j+=1)        count++;</code></pre><p>A. O(log2n)<br>B. O(n)<br>C. O(nlog2n)<br>D.O(n2)<br>[2014年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案]<br>C<br>下列函数的时间复杂度( t )。</p><pre><code class="bash">int func(int n){    int i=O,sum=0;    <span class="keyword">while</span>( sum&lt;n )        sum += ++i;    <span class="built_in">return</span> i;，}</code></pre><p>A. Ollog2n)<br>B.O(n^1/2)<br>C. O(n)<br>D. O(nlog2n)<br>[2017年全国硕士研究生入学计算机学科专业基础综合试题]<br>[参考答案] B</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;一、知识点&lt;br&gt;1.算法:是指令的有限序列，是对特定问题求解步骤的描述。&lt;br&gt;算法具有下列5个重要特性:&lt;br&gt;1.有穷性:步骤有限，执行时间有限。&lt;br&gt;2.确定性:有确切的合义，无二义性，算法只有唯一的一条执行路径&lt;br&gt;3.可行性:可以通过已经实现的基本运算执行有限次来实现的;&lt;br&gt;4.输入:算法具有零个或多个输入。&lt;br&gt;5.输出:算法具有一个或多个输出。&lt;/p&gt;
     
     </summary>
     
