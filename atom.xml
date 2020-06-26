@@ -5,9 +5,9 @@
   <subtitle>kif</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kifroom.icu/"/>
+  <link href="www.kifroom.icu/"/>
   <updated>2020-06-26T03:35:38.108Z</updated>
-  <id>http://kifroom.icu/</id>
+  <id>www.kifroom.icu/</id>
   
   <author>
     <name>kif</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Excel数据整理与分析（8）：数据筛选之高级去重应用</title>
-    <link href="http://kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/"/>
-    <id>http://kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/</id>
+    <link href="www.kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/"/>
+    <id>www.kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/</id>
     <published>2020-06-26T03:35:37.000Z</published>
     <updated>2020-06-26T03:35:38.108Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>C语言思维导图</title>
-    <link href="http://kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/"/>
-    <id>http://kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/</id>
+    <link href="www.kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/"/>
+    <id>www.kifroom.icu/2020/06/25/c-yu-yan-si-wei-dao-tu/</id>
     <published>2020-06-25T09:47:08.000Z</published>
     <updated>2020-06-25T09:52:30.623Z</updated>
     
@@ -63,19 +63,19 @@
     </summary>
     
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="C语言" scheme="http://kifroom.icu/tags/C%E8%AF%AD%E8%A8%80/"/>
+      <category term="C语言" scheme="www.kifroom.icu/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（7）：数据查找与替换</title>
-    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/"/>
-    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/</id>
+    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/"/>
+    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-7-shu-ju-cha-zhao-yu-ti-huan/</id>
     <published>2020-06-25T08:52:49.000Z</published>
     <updated>2020-06-25T09:24:18.674Z</updated>
     
@@ -93,21 +93,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（6）：数据排序</title>
-    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/"/>
-    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</id>
+    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/"/>
+    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-6-shu-ju-pai-xu/</id>
     <published>2020-06-25T07:30:13.787Z</published>
     <updated>2020-06-25T08:46:35.574Z</updated>
     
@@ -125,21 +125,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（5）：常见的数据操作技巧</title>
-    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/"/>
-    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/</id>
+    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/"/>
+    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/</id>
     <published>2020-06-25T06:57:17.000Z</published>
     <updated>2020-06-25T07:28:45.876Z</updated>
     
@@ -157,21 +157,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（4）：工作表功能操作技巧</title>
-    <link href="http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/"/>
-    <id>http://kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/</id>
+    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/"/>
+    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/</id>
     <published>2020-06-25T06:19:04.000Z</published>
     <updated>2020-06-25T06:55:24.289Z</updated>
     
@@ -189,21 +189,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（3）：常见错误及解决</title>
-    <link href="http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/"/>
-    <id>http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/</id>
+    <link href="www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/"/>
+    <id>www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/</id>
     <published>2020-06-24T07:42:17.000Z</published>
     <updated>2020-06-24T07:45:49.328Z</updated>
     
@@ -221,21 +221,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（2）:经典的三表结构&#39;</title>
-    <link href="http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/"/>
-    <id>http://kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</id>
+    <link href="www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/"/>
+    <id>www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</id>
     <published>2020-06-24T07:18:48.000Z</published>
     <updated>2020-06-24T07:40:56.553Z</updated>
     
@@ -253,21 +253,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>数据结构习题：扑克牌魔术</title>
-    <link href="http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/"/>
-    <id>http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/</id>
+    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/"/>
+    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/</id>
     <published>2020-06-23T12:20:35.000Z</published>
     <updated>2020-06-23T12:22:00.618Z</updated>
     
@@ -280,21 +280,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>数据结构习题：判断出栈序列合法性</title>
-    <link href="http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/"/>
-    <id>http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/</id>
+    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/"/>
+    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/</id>
     <published>2020-06-23T12:18:08.000Z</published>
     <updated>2020-06-23T12:19:50.949Z</updated>
     
@@ -307,21 +307,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>数据结构习题：删除单词后缀</title>
-    <link href="http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/"/>
-    <id>http://kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/</id>
+    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/"/>
+    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/</id>
     <published>2020-06-23T12:14:33.000Z</published>
     <updated>2020-06-23T12:17:15.348Z</updated>
     
@@ -334,21 +334,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="习题" scheme="http://kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
+      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>Excel数据整理与分析（1）：应用层工作流程</title>
-    <link href="http://kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/"/>
-    <id>http://kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/</id>
+    <link href="www.kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/"/>
+    <id>www.kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/</id>
     <published>2020-06-22T13:07:09.000Z</published>
     <updated>2020-06-23T04:46:11.364Z</updated>
     
@@ -366,21 +366,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Excel" scheme="http://kifroom.icu/tags/Excel/"/>
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
   <entry>
     <title>无题</title>
-    <link href="http://kifroom.icu/2020/06/20/wu-ti/"/>
-    <id>http://kifroom.icu/2020/06/20/wu-ti/</id>
+    <link href="www.kifroom.icu/2020/06/20/wu-ti/"/>
+    <id>www.kifroom.icu/2020/06/20/wu-ti/</id>
     <published>2020-06-19T19:38:22.000Z</published>
     <updated>2020-06-24T03:01:31.235Z</updated>
     
@@ -393,19 +393,19 @@
     </summary>
     
     
-      <category term="情绪" scheme="http://kifroom.icu/categories/%E6%83%85%E7%BB%AA/"/>
+      <category term="情绪" scheme="www.kifroom.icu/categories/%E6%83%85%E7%BB%AA/"/>
     
     
-      <category term="生活" scheme="http://kifroom.icu/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="www.kifroom.icu/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="日记" scheme="http://kifroom.icu/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="日记" scheme="www.kifroom.icu/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Win 上安装Git</title>
-    <link href="http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/"/>
-    <id>http://kifroom.icu/2020/06/18/win-shang-an-zhuang-git/</id>
+    <link href="www.kifroom.icu/2020/06/18/win-shang-an-zhuang-git/"/>
+    <id>www.kifroom.icu/2020/06/18/win-shang-an-zhuang-git/</id>
     <published>2020-06-18T14:37:58.000Z</published>
     <updated>2020-06-24T03:45:48.423Z</updated>
     
@@ -420,21 +420,21 @@
     </summary>
     
     
-      <category term="转载" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="教程" scheme="http://kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="win" scheme="http://kifroom.icu/tags/win/"/>
+      <category term="win" scheme="www.kifroom.icu/tags/win/"/>
     
   </entry>
   
   <entry>
     <title>个人博客搭建（1）：Hexo搭建个人博客部署到Github</title>
-    <link href="http://kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/"/>
-    <id>http://kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/</id>
+    <link href="www.kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/"/>
+    <id>www.kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/</id>
     <published>2020-06-18T14:32:44.000Z</published>
     <updated>2020-06-18T14:37:19.783Z</updated>
     
@@ -449,21 +449,21 @@
     </summary>
     
     
-      <category term="博客" scheme="http://kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="搭建" scheme="http://kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/"/>
+      <category term="搭建" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Win" scheme="http://kifroom.icu/tags/Win/"/>
+      <category term="Win" scheme="www.kifroom.icu/tags/Win/"/>
     
-      <category term="教程" scheme="http://kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
-    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/"/>
-    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/</id>
+    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/"/>
+    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/</id>
     <published>2020-06-16T10:02:56.000Z</published>
     <updated>2020-06-24T03:02:11.459Z</updated>
     
@@ -478,21 +478,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
     
     
-      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>玩机汇总（0）：刷机常识，双清，BL，REC，TWRP</title>
-    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/"/>
-    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/</id>
+    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/"/>
+    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/</id>
     <published>2020-06-16T09:33:44.000Z</published>
     <updated>2020-06-16T09:50:24.055Z</updated>
     
@@ -507,21 +507,21 @@
     </summary>
     
     
-      <category term="转载" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E7%8E%A9%E6%9C%BA/"/>
     
     
-      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>玩机汇总（二）：刷入第三方rec 与magisk、Edx安装</title>
-    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/"/>
-    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/</id>
+    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/"/>
+    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-er-shua-ru-di-san-fang-rec-yu-magisk-edx-an-zhuang/</id>
     <published>2020-06-16T06:28:19.000Z</published>
     <updated>2020-06-16T10:35:23.870Z</updated>
     
@@ -536,21 +536,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
     
     
-      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>玩机汇总（一）：小米手机解锁与刷开发版</title>
-    <link href="http://kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/"/>
-    <id>http://kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/</id>
+    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/"/>
+    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-yi-xiao-mi-shou-ji-jie-suo-yu-shua-kai-fa-ban/</id>
     <published>2020-06-16T04:03:00.000Z</published>
     <updated>2020-06-16T10:35:16.391Z</updated>
     
@@ -565,21 +565,21 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
     
     
-      <category term="android" scheme="http://kifroom.icu/tags/android/"/>
+      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
     
-      <category term="玩机" scheme="http://kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
+      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>Markdown语法</title>
-    <link href="http://kifroom.icu/2020/06/15/markdown-yu-fa/"/>
-    <id>http://kifroom.icu/2020/06/15/markdown-yu-fa/</id>
+    <link href="www.kifroom.icu/2020/06/15/markdown-yu-fa/"/>
+    <id>www.kifroom.icu/2020/06/15/markdown-yu-fa/</id>
     <published>2020-06-15T07:46:59.000Z</published>
     <updated>2020-06-24T03:01:53.480Z</updated>
     
@@ -592,14 +592,14 @@
     </summary>
     
     
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Markdown" scheme="http://kifroom.icu/tags/Markdown/"/>
+      <category term="Markdown" scheme="www.kifroom.icu/tags/Markdown/"/>
     
   </entry>
   
