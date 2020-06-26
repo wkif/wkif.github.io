@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kifroom.icu/"/>
-  <updated>2020-06-25T09:52:30.623Z</updated>
+  <updated>2020-06-26T03:35:38.108Z</updated>
   <id>http://kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析（8）：数据筛选之高级去重应用</title>
+    <link href="http://kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/"/>
+    <id>http://kifroom.icu/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/</id>
+    <published>2020-06-26T03:35:37.000Z</published>
+    <updated>2020-06-26T03:35:38.108Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>C语言思维导图</title>
@@ -574,35 +600,6 @@
       <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Markdown" scheme="http://kifroom.icu/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构学习笔记：线性表、顺序表</title>
-    <link href="http://kifroom.icu/2020/06/15/shu-ju-jie-gou-xue-xi-bi-ji-xian-xing-biao-shun-xu-biao/"/>
-    <id>http://kifroom.icu/2020/06/15/shu-ju-jie-gou-xue-xi-bi-ji-xian-xing-biao-shun-xu-biao/</id>
-    <published>2020-06-15T07:35:36.000Z</published>
-    <updated>2020-06-21T12:40:38.366Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code class="bash"></code></pre><h1 id="线性结构的特点"><a href="#线性结构的特点" class="headerlink" title="线性结构的特点:"></a>线性结构的特点:</h1><p>存在唯一–一个被称为“第一一个”的数据元素;<br>存在唯一一个被称为“最后一个”的数据元素;<br>除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。</p><a id="more"></a><h1 id="线性表："><a href="#线性表：" class="headerlink" title="线性表："></a>线性表：</h1><p>  是具有相同数据类型的n(n&gt;=0)个数据元素的有限序列，通常记为（a0,a1,a2,a3……an-1）<br>位序:ai(0≤i≤n- 1)是线性表中的元素，则称i为数据元素a在线性表中的位序(位置)<br>线性表存储分类[顺序表]、[链表]</p><h2 id="顺序表"><a href="#顺序表" class="headerlink" title="顺序表"></a>顺序表</h2><p>(用一维数组实现定长的线性存储结构)按索引值从小到大存放在一片相邻的连续区域紧凑结构，存储密度为1<br>需要一块连续的存储空间，可以用一个数组实现，一个动态数组需要三个变量<br>data:数据<br>curLenth:数组中元素个数，表长<br>Maxsize:数组规模（容量）<br><img src="https://cdn.nlark.com/yuque/0/2020/png/1188793/1591878008655-4319340e-d79c-43bc-9bb9-8bc73fd6b225.png" alt="enter image description here"></p><h3 id="顺序表定义"><a href="#顺序表定义" class="headerlink" title="顺序表定义"></a>顺序表定义</h3><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><pre><code class="bash">// 初始化线性表 Status InitList(SqList* L);// 插入数值 Status ListInsert(SqList* L, int i, ElemType e);// 显示当前线性表 void showList(SqList L);// 返回某个位置的数值Status GetElem(SqList L, int i, ElemType* e);// 在线性表中查找与 e 值相等的元素，并返回序号Status LocateElem(SqList L, int e);// 删除元素Status ListDelete(SqList* L, int i, int* e);// 返回元素个数Status ListLength(SqList L);</code></pre><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><pre><code class="bash"><span class="comment">#define MAXSIZE 20</span>typedef int Status;typedef int ElemType;typedef struct{    // 元素值    ElemType data[MAXSIZE];    // 线性表当前长度    int length;    // 线性表最大长度    int maxlength;}SqList;</code></pre><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><pre><code class="bash">Status Initlist(SqList *L){    L-&gt;Lenth=1;    L-&gt;maxLenth=Maxsize;}</code></pre><h3 id="遍历"><a href="#遍历" class="headerlink" title="遍历"></a>遍历</h3><pre><code>Status showList(SqList L){ if(L-&gt;Lenth==1)  {     return 0； }   int i;    for（i=0;i&lt;maxLenth;i++）    {        printf(&quot;%d&quot;,L-&gt;data[i]);    }}</code></pre><h3 id="插入数值"><a href="#插入数值" class="headerlink" title="插入数值"></a>插入数值</h3><pre><code>Status ListInsert(SqList* L, int i, ElemType e){    int j;    if (i&lt;0 || i&gt;L-&gt;maxlenth||L-&gt;lenth==L-&gt;maxlenth)    {        return -1;    }    for (int m = i; m &lt; L-&gt;lenth; m++)    {        L-&gt;data[m + 1] = L-&gt;data[m];    }    L-&gt;data[i] = e;    L-&gt;lenth++;}</code></pre><h3 id="返回某个位置的数值"><a href="#返回某个位置的数值" class="headerlink" title="返回某个位置的数值"></a>返回某个位置的数值</h3><pre><code>tatus GetElem(SqList L, int i, ElemType* e){    int j;    if (i&lt;0 || i&gt;L-&gt;maxlenth)    {        return -1;    }    for (j = 0; j &lt; L.lenth; j++)    {        if (j == i)        {            *e = L.data[j-1];        }        else            return -1;    }    printf(&quot;%d\n&quot;, e);}</code></pre><h3 id="在线性表中查找与-e-值相等的元素，并返回序号"><a href="#在线性表中查找与-e-值相等的元素，并返回序号" class="headerlink" title="在线性表中查找与 e 值相等的元素，并返回序号"></a>在线性表中查找与 e 值相等的元素，并返回序号</h3><pre><code>Status LocateElem(SqList L, int e){    int b[Maxsize];    int j,t=0,m=0;    for (j = t; j &lt; L.lenth; j++)    {        if (e == L.data[j])        {            b[m] = j;            m++;            t = j;        }    }    return *b;}</code></pre><h3 id="删除第i个元素，并用e保存"><a href="#删除第i个元素，并用e保存" class="headerlink" title="删除第i个元素，并用e保存"></a>删除第i个元素，并用e保存</h3><pre><code>Status ListDelete(SqList* L, int i, int* e){    if (i&lt;0 || i&gt;L-&gt;maxlenth)    {        return -1;    }    int t;    for (t = i; t &lt; L-&gt;lenth; t++)    {        L-&gt;data[t] = L-&gt;data[t + 1];    }    L-&gt;lenth--;}</code></pre><h3 id="逆置"><a href="#逆置" class="headerlink" title="逆置"></a>逆置</h3><pre><code>void nizhi(SqList* L){    ElemType temp;    for (int i = 0; i &lt; L-&gt;lenth / 2; i++)    {        temp = L-&gt;data[i];        L-&gt;data[i] = L-&gt;data[L-&gt;lenth - 1 - i];        L-&gt;data[L-&gt;lenth - 1 - i] = temp;    }}</code></pre><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>(1)顺序表需要预先分配存储空间，很难恰当预留空间。<br>(2)逻辑次序和物理次序的一致性，能够按序号(下标)直接存取元素，具有随机存取的优点;<br>(3)顺序表在插入删除时需要移动大量的数据，因此其插入和删除效率低;<br>(4)难于改变顺序表的大小，需要重新创建一个新的顺序表，把原表里的数据复制到新表，然后释放原表空间。<br>(5)顺序表比较适合静态的、经常做定位访问的线性表。</p><h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>下述哪一条是顺序存储结构的优点? ( )<br>A.插入运算方便<br>B.可方便地用于各种逻辑结构的存储表示<br>C.存储密度大<br>D.删除运算方便<br>[江苏大学2006-.1 (2分) ]<br>[参考答案] C</p><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>下面关于线性表的叙述中，错误的是哪一个? ( )<br>A.线性表采用顺序存储，必须占用一片连续的存储单元。<br>B.线性表采用顺序存储，便于进行插入和删除操作。<br>C.线性表采用链接存储，不必占用一片连续的存储单元。<br>D.线性表采用链接存储,便于插入和删除操作。<br>北方交通大学2001-.14 (2分) I<br>[参考答案] B</p><h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>对于顺序存储的线性表，访问结点和增加、删除结点的时间复杂度为()。<br>A. O(n) 0(n)<br>B.0(n) 0(1)<br>C.0(1) 0(n)<br>D.0(1)0(1)<br>[青岛大学2000五.1 (2分) ]<br>[参考答案] C</p><h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>顺序表A与B的结点关键字为整数， A表与B表的元素均非递减有序，试给出一种高效的算法，将B表中元素合并到A表中，使新的A表的元素仍保持非递减有序，高效指最大限度的避免移动元素。<br>提示:从线性表的哪个方向遍历效率高?</p><pre><code></code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&quot;线性结构的特点&quot;&gt;&lt;a href=&quot;#线性结构的特点&quot; class=&quot;headerlink&quot; title=&quot;线性结构的特点:&quot;&gt;&lt;/a&gt;线性结构的特点:&lt;/h1&gt;&lt;p&gt;存在唯一–一个被称为“第一一个”的数据元素;&lt;br&gt;存在唯一一个被称为“最后一个”的数据元素;&lt;br&gt;除“第一个”元素无前驱外,集合中的每个元素均有且\只有一个“直接”前驱;除“最后一个”元素无后继外，集合中每个数据元素均有且只有一个“直接”后继。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="http://kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="http://kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="学习笔记" scheme="http://kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   

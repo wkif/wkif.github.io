@@ -80,6 +80,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Excel数据整理与分析（8）：数据筛选之高级去重应用</title>
+    <url>/2020/06/26/excel-shu-ju-zheng-li-yu-fen-xi-8-shu-ju-shai-xuan-zhi-gao-ji-qu-chong-ying-yong/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
     <title>C语言思维导图</title>
     <url>/2020/06/25/c-yu-yan-si-wei-dao-tu/</url>
     <content><![CDATA[<pre class=" language-bash"><code class="language-bash">
