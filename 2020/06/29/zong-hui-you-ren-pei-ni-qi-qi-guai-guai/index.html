@@ -1,0 +1,1526 @@
+<!DOCTYPE HTML>
+<html lang="zh_CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="总会有人陪你奇奇怪怪, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
+    <meta name="description" content="Never Give Up">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>总会有人陪你奇奇怪怪 | Kif Room</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Kif Room" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Kif Room</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言册</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友人帐</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于我</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/collection" class="waves-effect waves-light">
+      
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
+      
+      <span>收藏</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Kif Room</div>
+        <div class="logo-desc">
+            
+            Never Give Up
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言册
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友人帐
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于我
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/collection" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			收藏
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/wkif" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/wkif" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">总会有人陪你奇奇怪怪</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                                <span class="chip bg-color">生活</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%97%A5%E8%AE%B0/">
+                                <span class="chip bg-color">日记</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%83%85%E7%BB%AA/" class="post-category">
+                                情绪
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-06-29
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2020-06-29
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    17
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">每个人都应该学会自我消化消极情绪</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="54f57601e5fe52ebf600e8af0eff4bab1f592be6069c2c3b328f53c9ea33cd6a">8bfdaced6c938b488e6e370b0bc7bc33ccd9b98cc074ff99ceca02cf6a230cca38158634a35d72e80cb9f4984f90b39d800e43a8cb4e320ade2bb649df4954dd7f878f5bdc68477b86867ccf93902db2f1e4ae8b95d3b218fd0f64c7cce796db693f429e87bb6f8fd67c4937c7381d5b32ccdf9b75832b80935aa088e1f9e96d49c5e67474e20164cdc84f11a86aaf8b2b1d689fbc70756621efcdad905b6b597334181c0734495bcdbe9074513d8e0727c248631a73b32fcc4f2f4763150ac70c03cfef66c863a019dd3749f5b90ba32a960af9bb4a5117075c90402d7df2fef5f72a38208f12451c4cc735859752618fcd257ed94d52849c1d75749139f8bb6418bf3396d7925da51b8dfdc535b7190cb630670efb28487a7b591097da965c0cf8cf2cf1a1806311e1664494e2237e03a000413e1a476263f30ac6c3fa9568296865b8d49f0dd5c48a3deaff4cb9d54c24c0bcd773bf3ed21106de9c036a344149939f83e5b41b9da5864a29ed090c4a5bbb3e2936067c78a9228ee4b8f9193f9a015ef4ca843b7274323ab8837b3e45441b962d5540c8958bd65d365df9b2e258ea6f74f2efe6a036c84d81640713534ecd11454663a45b2b07d292fa14c5d6e5731384f1669d35595a6b10e5a5605d8acd9fb5ec3b9b8f477502171040b57b0e471b7525dc487145a6d2b84ef777efb26fba450bb96885153292f4ab2274ff1d1e4c7c2cb3c279099899d7ab2d94d1a4e92d237eb4e96bdefb52e5def157b571a0c61767cd7602143713b5bdfac31e05a350364ff5b5914d8f6abe66495a4491dea4b08e3966978580df7e960240b8b75b3b5acc470b3d3932b0c0898f7345f950f2a106d03e747d8f860a10b40afcb856778a7e48451e010c92335e357b1b7f362c37fc64895f7d0f8f10f5390e5cee8894aca134995ca5f5af37479fad9410811e433968439d6e235a2e27ca1ae7753a55d907dc9f77455d73b79772490c55d46754d72913f29dd0b231721182b05384542ec223f339d5a1ed93c470be396248273ea4482286fc6e55660b5eb00c0f86abdc1f9492fa657ea9eaf8a9210cce72a8332686136abb7856232b2f29a8fdf6f2affce867f46346c6824817b17ef1f868bbd0c06f1ee768952436fcbe0edfea2d9e526048b9f65775bed78cb9fc362c22b25db574030f8d85098b117f1006acdb707f9892a48938e9ed9bf7c826a50f88b0785e3a42d7846baedaaa30eaaf1cf39887fed3c92268ffdf1d805343c4f7799c0d2374d3b21bf74a857476743f2e8234c7a9a14e96faabe83df4b22568d637df2a0251340084d5177d510f5fe6a5f4ad3ffe63357ded54077386dadadf4df2fcb0f636c667989dec9e38c62b3f3b2af93fc89608f77cc965d0b7d044395a1df1abb42b8906ac120f3ac88d6fe91a81e2757a0c52eb93f42527e173c758de47f851afcb8b86e07509961224fa02da4cfc95b8e99b945f2e8aaedec14708eb693bebf0d563c42e5ed26e3784c09e7861f90df5f5536673e79e1a24a27458ef4a1adff767a676572893fd9539e3b43e7629512a1f73a2da74d4e9b546cb8cdb94510adc24149a90e50957bae42dea94cbd1f6e0244cd953df5e980d93f0785652ca12694cc063bff167776aeccd3121948eede578741558895cdcb0bf10be53a01ed1e428c80f3174bc49f2d6023c5fb9a7c594c8605084582dd556c57e715908f6a7d79dd5d5c5c1e0e3305d079a5abab2201aeaae6050889e78ac0bcd1bcf42de614fb3158dc27fa5b5fabec8204dd446e3b293ae5d522c8de6408fd423394693aa8f3645744df3abce8035afaba89e37ca103aa03c50ad89088e15889c60f4d81caf1aecee4690ea2181379bb1da15ae1c1e31fa9fee01785bbd9146ad2d4cbbf15dddd292ee46e28979980335ddd2fb3015cca5d8a4c134b92c589a2d3205491288a65082fd7b48d1680bf3f3a8622e720450d293e1213c5b4160bd6d19f0887f4371b63b6c3427c6c01a75d3eff13f25829c2116637712c5ca522165edeb208eaec04b385e44e4d0bf3b4ac2d9c1cbb0e205311fba91690f3f98813da62d64addb037edf1afe6f8c95dfc0d7fa81c88ab09cfb3a8b0667cfabfd5700c5ac2b56fefd34efd9ab0bf0703f565595dcc5fedfed4e47d0dc90b5e653b3dd5cc8fc4970f74b1807c77c43eac761b38b22d80b37122ae176ed32b5b13a0dcdc4a1a05c498b9a88242af5689e87e6c651472f33affff3a21d62f055b9050564cf26eff415fcfe1eb0c4ce8ac92330591d87b17a5889c79dffc56fe4b3a4856837e0290f16df0036bbe37e85ed75f7813da246e11a6a4243da505b7df12a5926be0f7dfc54180b6d58acfd5898e1c1e902642de434b925fc31e2131fcda05f65f57449f1eb5a161aac9ce31c580b0c07ca59ba488ce75054a19719d0110470e90e203df29c1c256c1d0d0f8b699d3992054056393633453bf47e6f5a73724c52b0168299d330022e7a1565f8794b1f5341ffc3c37b925d2983cadf3fe67cd79cf42accdc1fd907604bd8c0fc73bd8aeda8b664e84b60d2df7474c93f8579cdd3febc065a5170e709418866d43d45038dcef0ee44d41e215fd59f1558587482b9bab926fac534acb5b03fbbafd8e928fabd905483315d87e5809a6432c22295e4a5feb266f5367eefdcb773d16b5ab4f438293a4a5c3dc6f703e94a5f534f9d398217b7a2d9efd677bda96e46e80e20d1f4ebfb3247820f303563a46a72830635dda8333ccdb55b19d030334a77d2b4a2f17d8efed16a4b6251f23aa3b9b381f2634e66a83832718c7a0b52f453a83d9231cac586d287d4e13b6813a1121ab646ec84dfeb295458d28ab462cd0d8e5734d974803671fc15d6e74da9a5dc7c60bfb80730fddcf0b725e49aad53168bf5d904aa57c3d8f525b2801211f55869b9446b07540f676f88419c395cd7a8aaef303cc3d0fcf046be52441f525130ea66e194205bffee28b79a6bac4f87877995f82816ae248df937196c16511b46e2393d836dd9ac57be3a4f3a3e3854f750d4010cd7edb2a616731b95825a5922f145b41d0d6e31154c60c7d36851614f99e36e5b5d8822aed06802f4d7bf5348f0b4e62f4ba8d7a242ed8d3156a969ae1d5aedfac40835fb9197b4eaa39e97d7962068c25e6ef6e930fed3c016dc9a89c3d1b43173a68d9d4f52b5a53bcdb3949e81307c52d3da88a7416e152b6a63e827c8556c812610ad462efc28c0c2c2c21ddd7e7652bd711a43e9d1b28dc981259e77efc81764c1da7756a5cd5a4162a67bc82d9a11751de431c6605a08a32a7721387bf4f1420c9fbb39bf3b8c5ac82c92b644f7b4ec0fc17e517912277df376061cf59acf40d30f7ed4a87311dcdc2035f50c9994b409f8eac0021b73dcbc2b6217c2655170ce997b543a291de00a0a2525befdd270c9b9930d63a166fc38c081e8f93741b9a0cb779456c879192239bf12657f1bd808365da41079bb7ae7feef6730a0cada050c62be6d02c28d68efb73347b68e141698b65077375e44947beff35a1a81a9a4df2bf3e3e0fbb6bd2857cf9000472d3208da51fdd9948dafd918dee2fc55357ef4709e4b5f5982267aa381941bfa548ec45cb535070faad8087410a2cb7b764368b0f5b206c02efd5fa146a8f14c697128bf4d7e6d1529ec0c952c1d199e7e5441827f7ae561f3c9c9e5a7e62bdb63549b24062d0c66e2a884f9cb407040a7e4fb2cf476ec616725222818314aa2164346d59582616a855f98035aa22526ed1d077bc87599c9faa36c2fea3672a60abadb43baef5f8f82b9877217922bf869fc920b24eb1632474f786c9af7c90122686bbede26dd9f864203bbec5f212d4fb59008a5400c2d38c8ef76b34f111b9db3c276f3e5d2a66e514b658d1ce3e189815397e71eccd895c0702180b2a28608f1d94fe00ed62d6148abea31b2d8331a13a8e01fe8c5b04f0380cbfa96e195b3e0fe707d560b69420139f7efdf20ca7904548ccf56b668a8e6615cd7d1f0a9a8a3376379b01be3092da953093a77505499d3492f87e00e7015432a35197f87653d3de94980a4360f8abc58a3ecc3bc499f9e6d3d530653759dc80b9dea228381b992c50b61901283cbb8132531459c288874fb1108c7285acd1fa869c8806ca7e527a653c06cc77ce4ba578351986f0cc579b3e8d41dfe05066c10d5977fa0e7e768811ad2687eb32d1d46437f19ad87eb1b9da92970b4eaedc3a1cda17c1dba3e4d86d9813a744d77bb0429846eeb8cc3ce2819453bc0fca761a8fab9ef6ed7bf7d54703c000028bb718843ae3684300ae7943045c43604fbce60f9b72df54e18642606e77f723a85dd3ab5b3e6d425f9b84cb5654a83314376fcfcd0b09fb9ef3b4a17cf8fce3df3818880d2dc48fa7bac8cd2ad794eb8f99ec705abc8957a75ab3072ff776af39b216bdf7010f1be7a401306294e45f1feb9a5b3411a3325986a0370371d67021c22d0416055caa4396bdca237ec500d47cac57f9b391ec0bca2b659ff9e956d9238d68d8bbad8ffca6ee6219ddb9436e85032530a7377de608abcdd15f9b39bfee9eb72055f7e1414dd467da71cb6f402f6b204a0431b4500472478713d5769400995199a0c9b0b0feb83d9e1bae1ae883fd85bb5fad9aaea7d5b866972405b0311dea9463df5252d654d8cc4d4a790878ba7c4b9a309082f21d8074004ffa9764034b95c0bf68510af448393c8d13ecca01e9514c409d7015af383d99dd01e9119eb213413c707ee5380680eab6cfde07502d721196c1d36c8280e60ae2642ecee99a26a24b10394f83e129c94066d8cb99927ed317d8adbbb479ef1a9306a917b9d0a78548b095f89c0d6dd53631a4ad9f54c904ecaaf28ad27bcd8eb0a5a272f6d03c9e6763d4144963b9ab276cdcecc768d955bdc54d3afd09dadac4f79b6a5f1e32a29b767be560de5b21b882ce0ac73c2f3d103297655b20c1299ef7ed725952d179234dcf1bc8c4cdb53adbc0de13895a52131f18e6d511a98efecfd250d33150a6cc6cbc4027072f1c8b1c412a49762634ff13c13668d4a6bfe5d41cd955fa7caa36c08a25f3fb1fb5be31f0785b37bb9c8481273d91b2d6718183005cc5b562f3d3fbbb31d490a06c244f1d0a6e98699d0a82f9bd63f3bef0e28dcfa95002c63b25188b4a67af49e57f9f91dc03c3080b67bf7c7604a7cabd5294483619c30b715db7a3b10b609a9e753cd34e5a01bcde706eac0ec9be1c70f96dfd8d3c6d3d392a2baa8390b77564dfa13916b988c56b844d78f51953423c7d47dfd2379344168afcdbf72b325585fc4a5b7228c81e3113a700db068ce2f185cfda0580d4f58e7f1db96f1dc18416b869472f551a272ad5616a1d2cc7e140f3404068bc6db8af37ce00a516b9cc0e34d08e02a176fdfe4bcfe7cb141d6c5a98915eb9b1fed87efa8bcf56e09a38647ecb9490d3475f93dfd09db202a6c533ea23a6b2fa83085afab2485f2359770b80dda668d932822862f2ae9b95eea8e1066c03435dc32d5e2c03d98c239d0f6b1f6f45dc1533197c194957fa28a678e9539724fd599947de1a918e7fcd49fdda2fa97460140a429a8ce696b450e8fe637d3d019da17f04e5e18241f9920ec6c7a8512e94af24217d697eb274039f0fc8795fd1cbe5ca9481eaf8f1f4ae42c17ebc3dc26d711dcaf4d2a9d040411b0c766e9cee2b1167b814986f7ecad79f95aa9995f657d894618925b6a1de113d8393288880b4d83158e6a4faf645ce25dc24d753ef8b579bb2639012064eb2fba76bd20d60d79c7d6c89fe566940b7bac3385c5a191c034df845c3babe180f6d2c4e10bed2d5a09baa1feffdcb1d94e695dbf025c2f653bc8783c9908d7aabed1732e34635eb92545a43a50f2a312c8c3913de1f211e149d872f9eeb70ea0f1a6657402589aa3be2c015abf8ea1379249ebe4dd4bb243bf2ee7ccf0bb336e084ffdc7a3c1031469be076a02d537757157e80e2ad00ce71a867ccb9807c58d4463664281c4a4c892b57625dcfaa5bf5697dfe5ed97933f7d75f6094e73a631d05d2b42b1214d147ace993f5f37605ca1d8e23bb94ffdd28f562c505f53f1e9dea8a1e7174bcaef8c1615610b67cc2ca6eaaf168f50ae1121060ebcd8a8cd353c5323d7a5d779cdb22934a474499622e2952323f419e882b84ee0255d5e75a638ce7f2e04b3f876bb20798ea9f6e631524f3b56224a74429687809243de45529899092b0c664c0be5bff8b069e676f4350c65093b16df413d9da529d2e46e498cf530e567b686bd12b436532e1a1b3ac81dfbcbd9ca27a00d9e24a4eb2dab798b4d94036174f9e761e92602a381dc29c8a8ee6372151aab0dbdc692f99f372df9d3502554af737b33a9bac1ed3b80f7152ccfbe09f999245d9ceb057d5a9cf880ea32d52d58bc4357b91d17264ffd6ec04c7d439bc246555c6fb4968975f0959ed0b8c91d66d101d1ae198d04d3a606f0166e23c51c8829e75873e995e43c62f47705fa1980258bd65495d9801c3aa94d94590e7b271f31a4edd6e7aed83fa52d7236ba45a622b1aa812585d7cf31aa5e66d0cc128ba1f59072b840f47ea4b433835715cb52eec0082cefd2ee1d383ff6c3d3af802d2f188e97de6865440d621b0b4405adf24bb6424c5f0f3e193cc746506f930608a5609810fefb4c726c9afe5126a841074c9e3fa8b5fb80c76e92dd4aabd7cc0316620a30749c2170cb76173866f0a1c4cb0ccdbf3e42207be806a15fda20d9eb2591a5ab094a7c3f1f8d5d67ea79a2f3a92a2413f93f151ede9b17a527b72abd7f6fe0450166b33917042db86ec4e4827774748af072cf5ee0a77c701f5afb6693f0167e245b62d12858c45c92b4fbff223b8eff1a923a680abf115f881729bfc799cca202600e96f8a2a9724575a4048f01b90c56d785bbfc442cfc0d609eb322da2d71a4d56c31dc8ca24899bcb38b55def15de876d7efd70ab7dbde5c9d3d7ea5871bb9a76aceb055ff61ba929024c32a1f67f7224a235107f5ff590673cda6d26e500e67ef5d9ea1ea8b4b87463f92095ffa4582501c4891d18f06fca572a07844b858327cad5bf1077a9f62445ecb2f78cfeef529ebbc0c8e0b62111d96ddbf01991dbc6acd4f4ce99e71f04436a141d6d7ca9ec257d4b3365c2841c1a7083c2b89c4fb0ef31dc2be3be8f55399ba4bd27d1274ad066ea406323c01b58985d164952dcb433753c3411495c85c2b2c6767527aa2911d591ec5f77752833a342335d903017dbaad1d2c08e6cf6349aab01e5ef72041eca0a3569c472b3d5538d5fe90cc9483949d3a26072dbcb3e277b62d6185c5fe6e5e75bcd8c2a2391db5b2f57c685c1f4bd5d161ac36faea06dc8a42fc7fb7ce3e9fbd4ae14a2a4624812df5dfda7b1c88ecb0044e52cbcfe7e1b7c414ebb6d36bb6b860411b33847bb62a3b65ee25b1bda421b35fe8f42d4aec349ad0870b66befad7124d1181026446dfa569e48b2eb3bb280645b5db41f40fc446a05ead081c22819b8bee6fda688cc302294a0832262a7f7622db3030f32eff842d5ef95dda21c4ea604fe86a50ed3544aadf013bbbccd1748250f8f3da2a735e886e2803692047f2317febc9220075efe1136e788a91d97ba13e8c361b0f2e586d406c8b4f00b195e315437a056197462b48922476b350a75e7ecd5d6121b220e940ef4baad5f9a1a204af5ccdc213cf3e656b9d7b798049bb53efb43e9f9822a9172fcee5882a6d7d64ebf433a801115dd7c211f9dd59da146b650afdd2999f5ab15e4c6a528fb337243b13e7183a99bf04556a3cb4c4134af6c8db6455318f10d9a03569b73715e6684b72d7455fc6389afb1da0aa6ba2bcdd04982f91407994952e3b6c11cf889190e7cf3c979c32a6503dd9bd467999dd715d55fe6ae049f68eb80acf7afb342ff408123c8e8595</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">kif</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="www.kifroom.icu/2020/06/29/zong-hui-you-ren-pei-ni-qi-qi-guai-guai/">www.kifroom.icu/2020/06/29/zong-hui-you-ren-pei-ni-qi-qi-guai-guai/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">kif</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                                    <span class="chip bg-color">生活</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%97%A5%E8%AE%B0/">
+                                    <span class="chip bg-color">日记</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'b7AAVOuWhWIEQsQfviV12FRp-gzGzoHsz',
+        appKey: 'TYFSaiPIN5WAmTU3nv8wG8wb',
+        notify: 'true' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'identicon',
+        pageSize: '10',
+        lang: 'en',
+        placeholder: '“你真的分清了，新鲜感，喜欢，爱和占有欲，还是不甘心。”'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2020/06/29/zong-hui-you-ren-pei-ni-qi-qi-guai-guai/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="总会有人陪你奇奇怪怪">
+                        
+                        <span class="card-title">总会有人陪你奇奇怪怪</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+  
+  
+    每个人都应该学会自我消化消极情绪
+    
+  
+  8bfdaced6c938b488e6e370b0bc7bc33ccd9b98cc074ff99ceca02cf6a230cca38158634a35d72e80c
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%83%85%E7%BB%AA/" class="post-category">
+                                    情绪
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                        <span class="chip bg-color">生活</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%97%A5%E8%AE%B0/">
+                        <span class="chip bg-color">日记</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一页&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/06/26/gao-kao-ji-wo-lai-gei-ni-shuo-shuo-xiang-tan-da-xue/">
+                    <div class="card-image">
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/College/college_27.jpg" class="responsive-img" alt="高考季：我来给你说说湘潭大学">
+                        
+                        <span class="card-title">高考季：我来给你说说湘潭大学</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+  
+  
+    输入密码，查看文章。
+    
+  
+  f4aa8a292499ddcf21c5cb7aff2dc20de5bf0aab633a74f4dfff660fefa757ba0ba988b5c0ab24bcecb91d4e
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%94%9F%E6%B4%BB/" class="post-category">
+                                    生活
+                                </a>
+                            
+                            <a href="/categories/%E7%94%9F%E6%B4%BB/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%83%85%E7%BB%AA/">
+                        <span class="chip bg-color">情绪</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Kif Room<br />'
+            + '文章作者: kif<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">kif</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;小破站有:&nbsp;<span
+                class="white-color">21.6k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;目前访问量有:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;访问小破站的人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "5";
+                    var startDate = "13";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已在各种风波中坚挺 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已在各种风波中坚挺 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/wkif" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:kif101001000@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1825565000" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1825565000" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/u/7186433481" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/u/7186433481" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/8140bfec20d15be81cf41c6169d8efbc" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/8140bfec20d15be81cf41c6169d8efbc" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="\js\FunnyTitle.js"></script>
+<!-- 雪花特效3 -->
+
+<script type="text/javascript">
+var windowWidth = $(window).width();
+if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+}
+</script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":350},"mobile":{"show":true},"log":false});</script></body>
+
+</html>
