@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-06-30T14:05:13.705Z</updated>
+  <updated>2020-07-01T11:15:53.380Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(10):工作簿及工作表保护操作</title>
+    <link href="www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/"/>
+    <id>www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/</id>
+    <published>2020-07-01T11:15:53.000Z</published>
+    <updated>2020-07-01T11:15:53.380Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>个人博客搭建（2）:配置gitalk评论</title>
+    <link href="www.kifroom.icu/2020/07/01/ge-ren-bo-ke-da-jian-2-pei-zhi-gitalk-ping-lun/"/>
+    <id>www.kifroom.icu/2020/07/01/ge-ren-bo-ke-da-jian-2-pei-zhi-gitalk-ping-lun/</id>
+    <published>2020-07-01T10:11:26.000Z</published>
+    <updated>2020-07-01T11:10:38.511Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>本文介绍Hexo matery主题下配置gitalk评论</p><a id="more"></a><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于该主题自带多种评论，</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文介绍Hexo matery主题下配置gitalk评论&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="搭建" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Win" scheme="www.kifroom.icu/tags/Win/"/>
+    
+      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(9):单元格之自定义数字格式</title>
@@ -540,64 +595,6 @@
       <category term="Win" scheme="www.kifroom.icu/tags/Win/"/>
     
       <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>玩机汇总（三）：magisk模块和Edxp模块分享</title>
-    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/"/>
-    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-san-magisk-mo-kuai-he-edxp-mo-kuai-fen-xiang/</id>
-    <published>2020-06-16T10:02:56.000Z</published>
-    <updated>2020-06-24T03:02:11.459Z</updated>
-    
-    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><p>本文介绍magisk模块和Edxp模块分享，均为网络资源<br>为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页<br>在此对各个大佬表示感谢，如有问题，请联系我删除。</p><a id="more"></a><p>前排提示：每个模块对每个手机兼容性无法保证，模块之间也有可能会有冲突，有变砖风险。<br>玩机有风险，搞机需谨慎。</p><h1 id="magisk-模块"><a href="#magisk-模块" class="headerlink" title="magisk 模块"></a>magisk 模块</h1><h2 id="MM管理器-2018-09-16-汉化"><a href="#MM管理器-2018-09-16-汉化" class="headerlink" title="MM管理器-2018.09.16 汉化"></a>MM管理器-2018.09.16 汉化</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg" target="_blank" rel="noopener">https://pan.baidu.com/s/14ZeKBRdC9DJly00FwkTXpg</a><br>提取码：27wk<br>功能：可在rec模式卸载已安装模块，可用来救砖。（高版本的第三方rec已具备此功能）</p><h2 id="小米-mixAlpha-机型模块"><a href="#小米-mixAlpha-机型模块" class="headerlink" title="小米 mixAlpha 机型模块"></a>小米 mixAlpha 机型模块</h2><p>作者：酷安 坏叔叔_hi<br>网址（作者原分享网址）：<a href="https://www.lanzous.com/i9yvlkf?t" target="_blank" rel="noopener">https://www.lanzous.com/i9yvlkf?t</a><br>功能：将手机型号修改为 MixAlpha<br><img src="https://s1.ax1x.com/2020/06/16/Nkixdf.jpg" alt="图源：酷安 坏叔叔_hi"></p><p>更多机型模块可以在酷安<a href="http://www.coolapk.com/u/1010322" target="_blank" rel="noopener">侯旭Hxv</a>主页寻找</p><h2 id="AD-影视-Hosts1-2"><a href="#AD-影视-Hosts1-2" class="headerlink" title="AD 影视 Hosts1.2"></a>AD 影视 Hosts1.2</h2><p>作者：依然的爱<br>网址：链接：<a href="https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg" target="_blank" rel="noopener">https://pan.baidu.com/s/15-J1saudJheohBFJZpWyOg</a><br>提取码：zr37<br>功能：屏蔽各类广告包括(各大视频网站,运营商劫持广告，大部分APP广告),hosts规则均来自于网络搜索,github,人工抓取及酷友提供，使用时请关闭其他hosts模块,请关闭systemless hosts模块(如果有)。</p><h2 id="Magisk-超级快充2-0"><a href="#Magisk-超级快充2-0" class="headerlink" title="Magisk-超级快充2.0"></a>Magisk-超级快充2.0</h2><p>作者：<br>链接：链接：<a href="https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA" target="_blank" rel="noopener">https://pan.baidu.com/s/1Nj0ngsQkjMGeT0PvmWGllA</a><br>提取码：p7m4<br>功能：快充</p><h2 id="Magisk-毒液-完整版（适合开机慢）"><a href="#Magisk-毒液-完整版（适合开机慢）" class="headerlink" title="Magisk-毒液 完整版（适合开机慢）"></a>Magisk-毒液 完整版（适合开机慢）</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg" target="_blank" rel="noopener">https://pan.baidu.com/s/14fz045q_CbY3bGgyvD7WDg</a><br>提取码：a6nd<br>功能：改变开机动画</p><h2 id="Magisk-黑域启动插件"><a href="#Magisk-黑域启动插件" class="headerlink" title="Magisk-黑域启动插件"></a>Magisk-黑域启动插件</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1LeyI462PzAHSndWNelg9UQ</a><br>提取码：2spa</p><h2 id="Magisk-浪漫雅圆-Sleek-Google-综合字体"><a href="#Magisk-浪漫雅圆-Sleek-Google-综合字体" class="headerlink" title="Magisk_浪漫雅圆+Sleek+Google(综合字体)"></a>Magisk_浪漫雅圆+Sleek+Google(综合字体)</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1rpOyQKVmI9dQIVwCC2ER4Q</a><br>提取码：hq66<br>功能：修改系统字体</p><h2 id="充电90％自动暂停"><a href="#充电90％自动暂停" class="headerlink" title="充电90％自动暂停"></a>充电90％自动暂停</h2><p>作者：<br>链接：<a href="https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1Lgk4keO6oRAcMZIqLaxZ6Q</a><br>提取码：jrtk<br>功能：充电90％自动暂停</p><h2 id="其他个人收集模块"><a href="#其他个人收集模块" class="headerlink" title="其他个人收集模块"></a>其他个人收集模块</h2><p>链接：<a href="https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg" target="_blank" rel="noopener">https://pan.baidu.com/s/1AdRqJlDClp0qKn9njXejzg</a><br>提取码：r87o</p><p>链接：<a href="https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg" target="_blank" rel="noopener">https://pan.baidu.com/s/1Wx6CnfhOSTURk_72uf1mQg</a><br>提取码：53tv</p><p>！！玩机有风险，搞机需谨慎。！！</p><h1 id="Edxp模块"><a href="#Edxp模块" class="headerlink" title="Edxp模块"></a>Edxp模块</h1><p>edxp 上有模块下载，也可以去edxp上下载</p><p><img src="https://s1.ax1x.com/2020/06/16/NkV97q.jpg" alt="enter image description here"></p><p><img src="https://s1.ax1x.com/2020/06/16/NkEvcQ.jpg" alt="enter image description here"></p><h2 id="哔哩漫游"><a href="#哔哩漫游" class="headerlink" title="哔哩漫游"></a>哔哩漫游</h2><p>作者：iAcn/djytw/yujincheng08<br>哔哩漫游 (BiliRoaming) - <a href="http://repo.xposed.info/module/me.iacn.biliroaming" target="_blank" rel="noopener">http://repo.xposed.info/module/me.iacn.biliroaming</a><br>功能：<br>解除B站番剧区域限制<br>港澳台CDN加速<br>缓存番剧<br>支持国际版和概念版<br>自定义主题色<br>关闭青少年模式弹窗<br>显示评论区楼层<br>概念版添加直播入口<br>不以小程序形式分享</p><h2 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h2><p>作者：Specher<br>网易云音乐插件 - <a href="http://repo.xposed.info/module/com.specher.music163" target="_blank" rel="noopener">http://repo.xposed.info/module/com.specher.music163</a><br>功能：一个网易云音乐的Xposed插件。<br>目前功能：自动签到、跳过启动广告、本地数据修改、美化功能。<br>最佳适配4.3.X，理论任意版本通用</p><h2 id="云村清洁工"><a href="#云村清洁工" class="headerlink" title="云村清洁工"></a>云村清洁工</h2><p>作者：xmodule.org<br>云村清洁工app是一款非常好用的网易云插件，需要XP框架，搭配食用非常舒服，避免提示应用升级<br>重要：使用的是七牛云镜像下载，请勿在xposed install内下载！！！！<br>请直接用浏览器访问： <a href="https://repo.xposed.info/module/me.zjns.lovecloudmusic下载" target="_blank" rel="noopener">https://repo.xposed.info/module/me.zjns.lovecloudmusic下载</a></p><p>1、禁止签到跳转商城；<br>2、去除启动页，评论区等位置广告；<br>3、伪装成谷歌版，避免提示升级。、</p><p>涉及到各种CD问题，不再更新。你可以关注微信公众号: xmodule 回复: 云村清洁工 下载我最新编译的版本</p><h2 id="WeXposed-（微X模块）"><a href="#WeXposed-（微X模块）" class="headerlink" title="WeXposed （微X模块）"></a>WeXposed （微X模块）</h2><p>作者：fkzhang</p><ul><li><a href="http://repo.xposed.info/module/com.fkzhang.wechatxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.wechatxposed</a><br>功能：-防止微信撤回消息</li><li>转发微信聊天里的图片和小视频到朋友圈</li><li>转发聊天里的多张图片（最多9张）到朋友圈</li><li>转发语音给朋友</li><li>转发收藏内容</li><li>转发朋友圈里的内容到自己的朋友圈</li><li>分享图片和小视频</li><li>屏蔽群聊成员</li><li>自动查找僵尸粉</li><li>批量删除好友</li><li>批量删除僵尸粉</li><li>自动回复</li><li>自定义表情最高限额</li><li>自动领取红包、转账</li><li>等等。。。</li></ul><p>请谨慎使用自动领取红包功能！</p><h2 id="QXposed-（QX模块）"><a href="#QXposed-（QX模块）" class="headerlink" title="QXposed （QX模块）"></a>QXposed （QX模块）</h2><p>作者：fkzhang<br> <a href="http://repo.xposed.info/module/com.fkzhang.qqxposed" target="_blank" rel="noopener">http://repo.xposed.info/module/com.fkzhang.qqxposed</a><br>功能：-防止QQ撤回消息<br>-自动领取红包<br>-控制骰子<br>-支持TIM</p><h2 id="chimi"><a href="#chimi" class="headerlink" title="chimi"></a>chimi</h2><p>作者：yonhhen<br>链接：<a href="https://github.com/yonghen/chimi-/releases" target="_blank" rel="noopener">https://github.com/yonghen/chimi-/releases</a><br>功能：MIUI主题破解</p><h2 id="MIUI主题防恢复"><a href="#MIUI主题防恢复" class="headerlink" title="MIUI主题防恢复"></a>MIUI主题防恢复</h2><p>作者：夢月時歌<br>链接<a href="https://www.wenshushu.cn/f/2s1mm0vm3bx" target="_blank" rel="noopener">https://www.wenshushu.cn/f/2s1mm0vm3bx</a><br>功能：启MIUI主题破解模块，有效防止主题自动恢复默认。可用第三方主题，免费使用付费字体。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;本文介绍magisk模块和Edxp模块分享，均为网络资源&lt;br&gt;为尊重原作者劳动成果，最大程度保证模块来自原作者分享网页&lt;br&gt;在此对各个大佬表示感谢，如有问题，请联系我删除。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="玩机" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E7%8E%A9%E6%9C%BA/"/>
-    
-    
-      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
-    
-      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>玩机汇总（0）：刷机常识，双清，BL，REC，TWRP</title>
-    <link href="www.kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/"/>
-    <id>www.kifroom.icu/2020/06/16/wan-ji-hui-zong-0-shua-ji-chang-shi-shuang-qing-bl-rec-twrp/</id>
-    <published>2020-06-16T09:33:44.000Z</published>
-    <updated>2020-06-16T09:50:24.055Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code class="bash"></code></pre><p>本文介绍手机刷机常识，双清，BL，REC，TWRP</p><a id="more"></a><p>前排提示：<br>本文转载自一加社区：<a href="http://www.oneplusbbs.com/thread-3851619-1-1.html" target="_blank" rel="noopener">http://www.oneplusbbs.com/thread-3851619-1-1.html</a></p><h1 id="对于刷机里面一些概念的理解"><a href="#对于刷机里面一些概念的理解" class="headerlink" title="对于刷机里面一些概念的理解"></a>对于刷机里面一些概念的理解</h1><p>首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释：</p><h2 id="BL锁"><a href="#BL锁" class="headerlink" title="BL锁　　"></a>BL锁　　</h2><p>BL锁就是bootloader锁，BL从安卓问世以来一直存在，它的功能在我看来应该是限制用户刷第三方ROM和降级系统。在锁住bl的情况下，用户是根本不可能刷第三方ROM和第三方recovery的，最多也就是刷个基于官方的精简包。bl还有一个恶心的限制就是root，所有要root的机器，都必须解锁才能获取。那有人就问了，为什么以前的老机器和安卓4点几的机子都可以一键root呢，这是因为以前的机器bl锁等级低，我们可以利用bl锁的漏洞，绕过bl解锁。然而现在的系统BL等级比较高，自然就无法绕过BL锁去root了。</p><h2 id="REC"><a href="#REC" class="headerlink" title="REC　　"></a>REC　　</h2><p>REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。Recovery就是像是电脑上的小型winPE系统，winPE可以在电脑上安装操作系统，或者做些备份、管理的工作。如果把手机比喻成房屋，那么地皮就像手机的硬件，房子像手机系统，建房子的各种工具就是就是Recovery了。官方Recovery只能用来刷入官方的系统，如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p><h2 id="TWRP"><a href="#TWRP" class="headerlink" title="TWRP"></a>TWRP</h2><p>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。</p><h2 id="双清"><a href="#双清" class="headerlink" title="双清"></a>双清</h2><pre><code>  　wipe data/factory reset：清除用户数据并恢复出厂设置  　wipecache partition：清除系统缓存 ，  　一般刷机前执行，具体看资源发布者的要求。</code></pre><h2 id="三清"><a href="#三清" class="headerlink" title="三清"></a>三清</h2><pre><code> 　 wipe data/factory reset：清除用户数据并恢复出厂设置  　wipe cache partition：清除系统缓存  　wipe dalvik cache：清除安卓虚拟机缓存  　具体看资源发布者的要求。</code></pre><h2 id="四清"><a href="#四清" class="headerlink" title="四清"></a>四清</h2><p>　　wipe data/factory reset：清除用户数据并恢复出厂设置<br>　　wipe cache partition：清除系统缓存<br>　　wipe dalvik cache：清除安卓虚拟机缓存<br>　　wipe system：清除系统<br>　　该操作可以更干净地刷入新系统，但并不建议也尽量不要四清，具体看资源发布者的要求。<br>　　在这里我要说一下，很多人会觉得四清五清等多清会让刷入的系统更干净，其实这是一种误区，这样子很容易引起手机卡信号基带异常，例如电信卡无法出现4G+等情况出现，内存卡异常等问题，很多人说刷机过后信号没了，就是刷机多清的问题，除了首次刷机需要格式化内存卡，刷回官方固件的时候会自动清卡以外，其他时候完全没必要多清。<br>       System这个分区基本包含了整个安卓操作系统，包括安卓用户界面、和所有预装的系统应用程序。擦除这个分区，会删除整个安卓系统，但不会导致不能启动。你可以通过进入Recovery程序，安装一个新ROM，也就是新的安卓系统。双清三清四清会清空个人的用户数据包括 ：应用程序、短信信息、联系人、通讯录、应用数据等等…，但不会清空内置卡如 图片、音乐、个人文件等等（此话来源于DK大佬……懒得打直接复制了）。</p><h2 id="根目录"><a href="#根目录" class="headerlink" title="根目录　　"></a>根目录　　</h2><p>楼主想了一下，觉得有必要为小白们科普一下什么是根目录。根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。点开手机内部储存看到的就是手机的根目录，同理，在电脑上也是一样，打开“我的电脑”，双击C盘就进入C盘的根目录，双击D盘就进入D盘的根目录，点开游戏文件夹看到的就是游戏的根目录。</p><h1 id="刷机过程和图文操作详解"><a href="#刷机过程和图文操作详解" class="headerlink" title="刷机过程和图文操作详解"></a>刷机过程和图文操作详解</h1><h2 id="如何在无需解BL锁不ROOT的情况下刷官方系统？"><a href="#如何在无需解BL锁不ROOT的情况下刷官方系统？" class="headerlink" title="如何在无需解BL锁不ROOT的情况下刷官方系统？"></a>如何在无需解BL锁不ROOT的情况下刷官方系统？</h2><p>直接官方REC刷入官方ROM（全量包）：把官方刷机包放到手机根目录，进入设置-系统升级，点一下系统升级右上角的齿轮。选择本地升级，选择你刚才放入的官方刷机包，就跟平时升级一样的，不过降级建议恢复出厂设置。</p><h2 id="如何ROOT以及刷入第三方系统？"><a href="#如何ROOT以及刷入第三方系统？" class="headerlink" title="如何ROOT以及刷入第三方系统？"></a>如何ROOT以及刷入第三方系统？</h2><p>这两种操作的前提都是解BL锁和刷入第三方REC：TWRP。</p><p>第一次ROOT和刷机需要电脑，看到这里，如果你的手机没有解过BL锁而且身边没有电脑，那么你现在可以暂时放弃学习这篇帖子了。</p><p>ROOT：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把ROOT包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面安装ROOT包。（注意，安卓8.0系统的ROOT包只能选Magisk。)</p><p>最常见的ROOT包有两种：supersu和Magisk。</p><p>如果想卸载，直接卡刷卸载包</p><p>刷入第三方系统：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把系统ROM包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面，安装下载的系统ROM。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;本文介绍手机刷机常识，双清，BL，REC，TWRP&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="玩机" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E7%8E%A9%E6%9C%BA/"/>
-    
-    
-      <category term="android" scheme="www.kifroom.icu/tags/android/"/>
-    
-      <category term="玩机" scheme="www.kifroom.icu/tags/%E7%8E%A9%E6%9C%BA/"/>
     
   </entry>
   

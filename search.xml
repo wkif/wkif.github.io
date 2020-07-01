@@ -100,6 +100,67 @@
       </tags>
   </entry>
   <entry>
+    <title>Excel数据整理与分析(10):工作簿及工作表保护操作</title>
+    <url>/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>个人博客搭建（2）:配置gitalk评论</title>
+    <url>/2020/07/01/ge-ren-bo-ke-da-jian-2-pei-zhi-gitalk-ping-lun/</url>
+    <content><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash">
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>本文介绍Hexo matery主题下配置gitalk评论</p>
+<a id="more"></a>
+
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于该主题自带多种评论，</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>搭建</category>
+      </categories>
+      <tags>
+        <tag>Win</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Excel数据整理与分析(9):单元格之自定义数字格式</title>
     <url>/2020/06/29/excel-shu-ju-zheng-li-yu-fen-xi-9-dan-yuan-ge-zhi-zi-ding-yi-shu-zi-ge-shi/</url>
     <content><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash">
