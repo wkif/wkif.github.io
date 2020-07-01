@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Excel数据整理与分析(10):工作簿及工作表保护操作, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
+    <meta name="keywords" content="Excel数据整理与分析(9):单元格之自定义数字格式, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
     <meta name="description" content="Never Give Up">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Excel数据整理与分析(10):工作簿及工作表保护操作 | Kif Room</title>
+    <title>Excel数据整理与分析(9):单元格之自定义数字格式 | Kif Room</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -332,12 +332,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Excel数据整理与分析(10):工作簿及工作表保护操作</h1>
+                    <h1 class="description center-align post-title">Excel数据整理与分析(9):单元格之自定义数字格式</h1>
                 </div>
             </div>
         </div>
@@ -452,9 +452,17 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">学习笔记</span>
+                            </a>
+                        
+                            <a href="/tags/Excel/">
+                                <span class="chip bg-color">Excel</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -480,14 +488,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    777
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -502,7 +510,62 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script>
+                <pre class="line-numbers language-bash"><code class="language-bash">
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="自定义单元格数字格式"><a href="#自定义单元格数字格式" class="headerlink" title="自定义单元格数字格式"></a>自定义单元格数字格式</h3><p>1-自定义数字格式:允许用户创建符合-定规则的数字格式! .<br>2-应用自定义格式的数字并不会改变数值本身，只改变数值的显显方式。</p>
+<p>例如</p>
+<table>
+<thead>
+<tr>
+<th>小写金额</th>
+<th>大写金额</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1450</td>
+<td>壹万叁仟肆佰伍拾</td>
+</tr>
+</tbody></table>
+<p>自定义格式路径：<br>点中数据——》<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.1.png" alt="1"></p>
+<p>自定义的格式代码具有以下结构:<br>正数;负数;零值;文本   (;分号为英文符号)<br>100<br>-50<br>0|<br>ABCD</p>
+<h5 id="只显示文本"><a href="#只显示文本" class="headerlink" title="只显示文本"></a>只显示文本</h5><pre><code>;;;G/通用格式</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/cp3.gif" alt="1"></p>
+<h5 id="只屏蔽0"><a href="#只屏蔽0" class="headerlink" title="只屏蔽0"></a>只屏蔽0</h5><pre><code>G/通用格式;G/通用格式；;G/通用格式</code></pre><p>以分号隔开的四个区域组成一个完整的自定义格式代码， 在每个区域的代码对相应的数值产生作用。<br>同时也可以用运算符的方式表示条件值，如&gt;0, &lt;0表示正数和负数, &gt;60, &lt;60表示成绩的及格与否等。</p>
+<h5 id="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"><a href="#中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。" class="headerlink" title="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"></a>中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。</h5><pre><code>可供选择的颜色代码有：[黑色]、[白色]、[蓝色]、[红色]、[黄色]、[绿色]、[洋红]，颜色的两边必须加上英文方括号.还可以直接用：[颜色1]、[颜色2]等颜色代码，颜色数值范围为1～65，见实例五。实例五与实例四两种代码的效果完全一样。</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.2.png" alt="梨子"></p>
+<pre><code>G/通用格式;G/通用格式[红色];;</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.4.png" alt="2"></p>
+<pre><code>如果对学生成绩大于60的显示红色，小于60的显示蓝色，可以加入“&gt;”、“&lt;”等条件代码，见一下实例。 
+
+
+    [红色][&gt;60]G/通用格式;[蓝色]G/通用格式</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.5.png" alt="1"></p>
+<h5 id="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"><a href="#在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例" class="headerlink" title="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"></a>在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例</h5><pre><code>在自定义数字格式中，＃作为数字占位符，只显示有意义的数值，不显示无意义的0，</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.6.png" alt="1"></p>
+<h5 id="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"><a href="#在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例" class="headerlink" title="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"></a>在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例</h5><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.7.png" alt="1"></p>
+<h2 id="汇总"><a href="#汇总" class="headerlink" title="汇总"></a>汇总</h2><ol>
+<li>以万为单位显示数值，保留一位小数显示。<pre><code>  0!.0,  
+</code></pre></li>
+</ol>
+<pre><code>其中：
+**，**    表示“初以1000”
+
+**！**       将“.”制作本身处理，不让它做占位符；
+
+则
+    以万为单位、保留一位小数。显示后缀“万”。  表示为：0!.0,"万"
+    以万为单位、保留四位小数。显示后缀“万元”。 表示为：0!.0000"万元"
+    以亿为单位显示数值，保留两位小数显示。  表示为： 0!.00,,
+
+2.中文的“年月日”及“星期”方式显示日期
+</code></pre><p>yyyy”年”m”月”d”日”aaaa</p>
+<pre><code>其中：
+**aaaa** 表示星期
+
+则：
+![2](https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.9.png)
+
+3.对400、800等电话号码显示前置号码段，外加显示文本前缀
+
+
+``` "Tel："000-0000000</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.8.png" alt="1"></p>
+<p>4.其他<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.10.png" alt="3"></p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -582,7 +645,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">学习笔记</span>
+                                </a>
+                            
+                                <a href="/tags/Excel/">
+                                    <span class="chip bg-color">Excel</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1020,18 +1091,31 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Excel数据整理与分析(10):工作簿及工作表保护操作">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Excel数据整理与分析(9):单元格之自定义数字格式">
                         
-                        <span class="card-title">Excel数据整理与分析(10):工作簿及工作表保护操作</span>
+                        <span class="card-title">Excel数据整理与分析(9):单元格之自定义数字格式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+
+自定义单元格数字格式1-自定义数字格式:允许用户创建符合-定规则的数字格式! .2-应用自定义格式的数字并不会改变数值本身，只改变数值的显显方式。
+例如
+
+
+
+小写金额
+大写金额
+
+
+
+1450
+壹万叁仟肆佰伍拾
+
+
+自定义格式路径：点
                         
                     </div>
                     <div class="publish-info">
@@ -1047,6 +1131,18 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">学习笔记</span>
+                    </a>
+                    
+                    <a href="/tags/Excel/">
+                        <span class="chip bg-color">Excel</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1299,7 +1395,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;小破站有:&nbsp;<span
-                class="white-color">23.9k</span>&nbsp;字
+                class="white-color">24.6k</span>&nbsp;字
             
             
             
