@@ -481,7 +481,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-30
+                    2020-07-02
                 </div>
                 
 
@@ -526,18 +526,18 @@
 <td>壹万叁仟肆佰伍拾</td>
 </tr>
 </tbody></table>
-<p>自定义格式路径：<br>点中数据——》<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.1.png" alt="1"></p>
+<p>自定义格式路径：<br>点中数据——》<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.1.png" alt="1"></p>
 <p>自定义的格式代码具有以下结构:<br>正数;负数;零值;文本   (;分号为英文符号)<br>100<br>-50<br>0|<br>ABCD</p>
-<h5 id="只显示文本"><a href="#只显示文本" class="headerlink" title="只显示文本"></a>只显示文本</h5><pre><code>;;;G/通用格式</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/cp3.gif" alt="1"></p>
+<h5 id="只显示文本"><a href="#只显示文本" class="headerlink" title="只显示文本"></a>只显示文本</h5><pre><code>;;;G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/cp3.gif" alt="1"></p>
 <h5 id="只屏蔽0"><a href="#只屏蔽0" class="headerlink" title="只屏蔽0"></a>只屏蔽0</h5><pre><code>G/通用格式;G/通用格式；;G/通用格式</code></pre><p>以分号隔开的四个区域组成一个完整的自定义格式代码， 在每个区域的代码对相应的数值产生作用。<br>同时也可以用运算符的方式表示条件值，如&gt;0, &lt;0表示正数和负数, &gt;60, &lt;60表示成绩的及格与否等。</p>
-<h5 id="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"><a href="#中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。" class="headerlink" title="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"></a>中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。</h5><pre><code>可供选择的颜色代码有：[黑色]、[白色]、[蓝色]、[红色]、[黄色]、[绿色]、[洋红]，颜色的两边必须加上英文方括号.还可以直接用：[颜色1]、[颜色2]等颜色代码，颜色数值范围为1～65，见实例五。实例五与实例四两种代码的效果完全一样。</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.2.png" alt="梨子"></p>
-<pre><code>G/通用格式;G/通用格式[红色];;</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.4.png" alt="2"></p>
+<h5 id="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"><a href="#中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。" class="headerlink" title="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"></a>中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。</h5><pre><code>可供选择的颜色代码有：[黑色]、[白色]、[蓝色]、[红色]、[黄色]、[绿色]、[洋红]，颜色的两边必须加上英文方括号.还可以直接用：[颜色1]、[颜色2]等颜色代码，颜色数值范围为1～65，见实例五。实例五与实例四两种代码的效果完全一样。</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.2.png" alt="梨子"></p>
+<pre><code>G/通用格式;G/通用格式[红色];;</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.4.png" alt="2"></p>
 <pre><code>如果对学生成绩大于60的显示红色，小于60的显示蓝色，可以加入“&gt;”、“&lt;”等条件代码，见一下实例。 
 
 
-    [红色][&gt;60]G/通用格式;[蓝色]G/通用格式</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.5.png" alt="1"></p>
-<h5 id="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"><a href="#在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例" class="headerlink" title="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"></a>在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例</h5><pre><code>在自定义数字格式中，＃作为数字占位符，只显示有意义的数值，不显示无意义的0，</code></pre><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.6.png" alt="1"></p>
-<h5 id="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"><a href="#在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例" class="headerlink" title="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"></a>在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例</h5><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.7.png" alt="1"></p>
+    [红色][&gt;60]G/通用格式;[蓝色]G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.5.png" alt="1"></p>
+<h5 id="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"><a href="#在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例" class="headerlink" title="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"></a>在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例</h5><pre><code>在自定义数字格式中，＃作为数字占位符，只显示有意义的数值，不显示无意义的0，</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.6.png" alt="1"></p>
+<h5 id="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"><a href="#在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例" class="headerlink" title="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"></a>在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例</h5><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.7.png" alt="1"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
