@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-01T14:49:54.407Z</updated>
+  <updated>2020-07-02T03:58:25.927Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(11):案例讲解</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-11-an-li-jiang-jie/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-11-an-li-jiang-jie/</id>
+    <published>2020-07-02T03:58:01.540Z</published>
+    <updated>2020-07-02T03:58:25.927Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="公式转换为数值"><a href="#公式转换为数值" class="headerlink" title="公式转换为数值"></a>公式转换为数值</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.1.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.2.gif" alt="1.1"></p><h3 id="金额万元显示"><a href="#金额万元显示" class="headerlink" title="金额万元显示"></a>金额万元显示</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.3.png" alt="2"></p><pre><code>0!.0,"万"</code></pre><h3 id="表格行列转置"><a href="#表格行列转置" class="headerlink" title="表格行列转置"></a>表格行列转置</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.4.png" alt="3"><br>way：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.5.gif" alt="3.1"></p><h3 id="单元格行列混合引用"><a href="#单元格行列混合引用" class="headerlink" title="单元格行列混合引用"></a>单元格行列混合引用</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.6.png" alt="4"></p><pre><code>相对引用和绝对引用：按F4切换引用方式。相对引用: 'A1  复制、粘贴公式时行、列都变化绝对引用: $A$1 复制、粘贴公式时行、列都不变化行绝对引用:    A$1    复制、粘贴公式时行不变化，列变化    列绝对引用:    $A1    复制、粘贴公式时行变化，列不变化    </code></pre><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.7.gif" alt="4.1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(9):单元格之自定义数字格式</title>
@@ -567,35 +594,6 @@
       <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="win" scheme="www.kifroom.icu/tags/win/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人博客搭建（1）：Hexo搭建个人博客部署到Github</title>
-    <link href="www.kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/"/>
-    <id>www.kifroom.icu/2020/06/18/ge-ren-bo-ke-da-jian-1-hexo-da-jian-ge-ren-bo-ke-bu-shu-dao-github/</id>
-    <published>2020-06-18T14:32:44.000Z</published>
-    <updated>2020-07-01T09:53:50.653Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>本文介绍Hexo搭建个人博客部署到Github</p><a id="more"></a><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h3 id="利用-npm-命令即可安装。在任意位置点击鼠标右键，选择Git-Bash"><a href="#利用-npm-命令即可安装。在任意位置点击鼠标右键，选择Git-Bash" class="headerlink" title="利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Bash"></a>利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Bash</h3><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/2.png" alt="1"></p><h3 id="输入命令："><a href="#输入命令：" class="headerlink" title="输入命令："></a>输入命令：</h3><pre><code>-g是指全局安装hexo。</code></pre><pre class="line-numbers language-npm"><code class="language-npm"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h4><p>如果被”墙“，可使用<a href="https://developer.aliyun.com/mirror/NPM?from=tnpm" target="_blank" rel="noopener">淘宝 NPM 镜像</a></p><pre class="line-numbers language-$"><code class="language-$"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>使用淘宝NPM安装Hexo</p><pre class="line-numbers language-$"><code class="language-$"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>与原先的npm完全一样，只是命令改为cnpm,一样等待hexo安装完成<br>出现的WARN可以不用理会<br>继续输入以下命令</p><pre class="line-numbers language-$"><code class="language-$"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="检验"><a href="#检验" class="headerlink" title="检验"></a>检验</h3><pre class="line-numbers language-$"><code class="language-$"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h2><h3 id="创建文件夹"><a href="#创建文件夹" class="headerlink" title="创建文件夹"></a>创建文件夹</h3><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/3.png" alt="1"></p><h3 id="在Hexo文件下，右键运行Git-Bash，输入命令："><a href="#在Hexo文件下，右键运行Git-Bash，输入命令：" class="headerlink" title="在Hexo文件下，右键运行Git Bash，输入命令："></a>在Hexo文件下，右键运行Git Bash，输入命令：</h3><pre class="line-numbers language-hexo"><code class="language-hexo"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://upload-images.jianshu.io/upload_images/1531909-f6ae9b7089741c89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/829/format/webp" alt="转自：致Great https://www.jianshu.com/p/189fd945f38f"></p><p><img src="https://upload-images.jianshu.io/upload_images/1531909-d0452912537c03e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/658/format/webp" alt="转自：致Great https://www.jianshu.com/p/189fd945f38f "></p><h3 id="在-config-yml-进行基础配置"><a href="#在-config-yml-进行基础配置" class="headerlink" title="在_config.yml,进行基础配置"></a>在_config.yml,进行基础配置</h3><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/4.png" alt="1"><br>    这里只列举了部分，其他可以根据自己要求更改</p><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p><a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题下载</a></p><p>可以选择更多主题，然后在Hexo文件夹下 Git Bash</p><pre><code>git clone https://github.com/iissnan/hexo-theme-nextthemes/next（next为主题名字），来获得更多主题</code></pre><p>并在_config.yml中更改</p><p><img src="https://upload-images.jianshu.io/upload_images/1531909-9e10141923fcdf7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/489/format/webp" alt="1"></p><h3 id="本地浏览博客"><a href="#本地浏览博客" class="headerlink" title="本地浏览博客"></a>本地浏览博客</h3><p>  分别输入 如下命令：</p><pre><code>hexo g      hexo s</code></pre><p><a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">更多命令</a></p><p><img src="https://upload-images.jianshu.io/upload_images/1531909-0501276ece21c570.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/566/format/webp" alt="图源同上"></p><p>在浏览器输入：localhost：4000 ，就可以进行访问</p><h3 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h3><p>在我们放置博客文件的文件夹Hexo中，source/_posts/<br>目录下存放着所有博文的Markdown文件，初始化只有一个hello-world.md文件。<br>我们可以在Git Bash中创建新博文：</p><pre class="line-numbers language-hexo"><code class="language-hexo"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>在_posts目录下会生成相应的.md文件，接下来我们可以编辑该文件，直接写博文。（注意使用Markdown语法）</p><p>文章中头部内容</p><pre class="line-numbers language----"><code class="language----">title: typora-vue-theme主题介绍date: 2018-09-07 09:25:00author: kifimg: /source/images/xxx.jpgtop: truecover: truecoverImg: /images/1.jpgpassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92toc: falsemathjax: falsesummary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories: Markdowntags:  - Typora  - Markdown---itle    Markdown 的文件标题    文章标题，强烈建议填写此选项date    文件创建时的日期时间    发布时间，强烈建议填写此选项，且最好保证全局唯一author    根 _config.yml 中的 author    文章作者img    featureImages 中的某个值    文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: http://xxx.com/xxx.jpgtop    true    推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章cover    false    v1.0.2版本新增，表示该文章是否需要加入到首页轮播封面中coverImg    无    v1.0.2版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片password    无    文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项toc    true    是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项mathjax    false    是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行summary    无    文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories    无    文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类tags    无    文章标签，一篇文章可以多个标签keywords    文章标题    文章关键字，SEO 时需要reprintPolicy    cc_by    文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>写完博文后，执行即可在博客中更新。</p><pre><code>hexo ghexo d</code></pre><p>如果要删除博文，则直接把_posts目录下相应的.md文件删除，再执行上述命令即可。<br>PS：关于在博文中插入图片<br>可以把图片统一放置在source/images目录下，然后在使用时用下述方式引用。</p><pre class="line-numbers language-![](/images/image.jpg)"><code class="language-![](/images/image.jpg)"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="部署到Github上"><a href="#部署到Github上" class="headerlink" title="部署到Github上"></a>部署到Github上</h3><h4 id="申请Github账号"><a href="#申请Github账号" class="headerlink" title="申请Github账号"></a>申请Github账号</h4><h4 id="new-repository"><a href="#new-repository" class="headerlink" title="new repository"></a>new repository</h4><p><img src="https://upload-images.jianshu.io/upload_images/1531909-8decffce7d3866b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/494/format/webp" alt="1"></p><p>然后点击  Create repository</p><h4 id="在-config-yml进行配置"><a href="#在-config-yml进行配置" class="headerlink" title="在_config.yml进行配置"></a>在_config.yml进行配置</h4><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/5_1.png" alt="1"></p><h5 id="仓库地址"><a href="#仓库地址" class="headerlink" title="仓库地址"></a>仓库地址</h5><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/6_1.png" alt="2"></p><h4 id="安装hexo-deployer-git自动部署发布工具"><a href="#安装hexo-deployer-git自动部署发布工具" class="headerlink" title="安装hexo-deployer-git自动部署发布工具"></a>安装hexo-deployer-git自动部署发布工具</h4><pre class="line-numbers language-npm"><code class="language-npm"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="发布到Github"><a href="#发布到Github" class="headerlink" title="发布到Github"></a>发布到Github</h4><pre><code>hexo chexo ghexo d</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;本文介绍Hexo搭建个人博客部署到Github&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="博客" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="搭建" scheme="www.kifroom.icu/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/"/>
-    
-    
-      <category term="Win" scheme="www.kifroom.icu/tags/Win/"/>
-    
-      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
