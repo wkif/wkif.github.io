@@ -510,22 +510,21 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-bash"><code class="language-bash">
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><pre><code>语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])
-             LOOKUP(查找值,数据区域）      LOOKUP(lookup_ value, array)
-
-为什么要学LOOKUP函数?
-    因为vlookup是单条件查找，而lookup可以N个条件查找</code></pre><h2 id="梨子"><a href="#梨子" class="headerlink" title="梨子"></a>梨子</h2><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.1.png" alt="1"></p>
+                <pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])<br>                 LOOKUP(查找值,数据区域）      LOOKUP(lookup_ value, array)</p>
+<p>为什么要学LOOKUP函数?<br>        因为vlookup是单条件查找，而lookup可以N个条件查找</p>
+<h2 id="梨子"><a href="#梨子" class="headerlink" title="梨子"></a>梨子</h2><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.1.png" alt="1"></p>
 <p>查询出产品A和产品B对应的城市销量<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.2.png" alt="2"></p>
 <h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><h4 id="城市："><a href="#城市：" class="headerlink" title="城市："></a>城市：</h4><p>筛选出是否是所需城市</p>
 <p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.3.gif" alt="1"></p>
-<pre><code>即：（B17:B36)=J17   b12-b16是否等于J17</code></pre><h4 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h4><p>筛选出产品 （A为例）</p>
-<p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12_1.3.gif" alt="2"><br>    即：(C17:C36)=K16)      C17-C36是否等于K16</p>
+<p>即：（B17:B36)=J17   b12-b16是否等于J17</p>
+<h4 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h4><p>筛选出产品 （A为例）</p>
+<p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.4.gif" alt="2"><br>    即：(C17:C36)=K16)      C17-C36是否等于K16</p>
 <h4 id="筛选出同时满足一商量条件"><a href="#筛选出同时满足一商量条件" class="headerlink" title="筛选出同时满足一商量条件."></a>筛选出同时满足一商量条件.</h4><p>利用<strong><em>当且仅当true乘true=1</em></strong></p>
 <p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.5.gif" alt="3"><br>    即：((B17:B36)=J17)*((C17:C36)=K16)      相乘是否等于1</p>
 <h4 id="转换为文本格式"><a href="#转换为文本格式" class="headerlink" title="转换为文本格式"></a>转换为文本格式</h4><p>利用<strong><em>0/anynumber</em></strong></p>
-<p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.6.gif" alt="4"><br>    即：0/((B17:B36)=J17)*((C17:C36)=K16)</p>
+<p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.6.gif" alt="4"></p>
+<p>即：0/((B17:B36)=J17)*((C17:C36)=K16)</p>
 <h4 id="lookup函数中各值"><a href="#lookup函数中各值" class="headerlink" title="lookup函数中各值"></a>lookup函数中各值</h4><pre><code>查找值 1
 查找条件 0/((B17:B36)=J17)*((C17:C36)=K16)
 结果列  D17:D36 （即销量）</code></pre><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.7.gif" alt="5"></p>
@@ -1064,9 +1063,7 @@
                     <div class="summary block-with-text">
                         
                             
-
-介绍语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])
-             LOOKUP(查找值,数据区域）      
+介绍语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])                 LOOKUP(查找值,数据区域）    
                         
                     </div>
                     <div class="publish-info">
