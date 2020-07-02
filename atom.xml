@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-02T05:42:17.271Z</updated>
+  <updated>2020-07-02T09:09:40.724Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,86 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(15):数据录入规范</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/</id>
+    <published>2020-07-02T09:09:40.000Z</published>
+    <updated>2020-07-02T09:09:40.724Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(14):工作表打印设置</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/</id>
+    <published>2020-07-02T07:54:42.303Z</published>
+    <updated>2020-07-02T09:08:23.325Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="打印预览"><a href="#打印预览" class="headerlink" title="打印预览"></a>打印预览</h3><p>视图——》分页预览</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.2.png" alt="."></p><p>通过插入删除分页符可以改变打印<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.3.png" alt="3"></p><h3 id="打印标题"><a href="#打印标题" class="headerlink" title="打印标题"></a>打印标题</h3><p>这种“分割”方式会使得第二页没有标题，此时各通过“打印标题“完成<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.4.png" alt="3"></p><p>“顶端标题行”填上标题行<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.5.png" alt="5"></p><p>之后再打印预览就可以看到第二页也会有标题</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.6.png" alt="6"></p><h3 id="分页打印"><a href="#分页打印" class="headerlink" title="分页打印"></a>分页打印</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.7.png" alt="7"><br>将图中在一页的四个简历分为四页打印</p><pre><code>以单元格左、上边分开</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.8.gif" alt="7"></p><h3 id="不打印图片对象"><a href="#不打印图片对象" class="headerlink" title="不打印图片对象"></a>不打印图片对象</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.9.png" alt="9"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(13):单元格保护操作</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/</id>
+    <published>2020-07-02T06:40:29.138Z</published>
+    <updated>2020-07-02T07:53:30.149Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="单元格保护"><a href="#单元格保护" class="headerlink" title="单元格保护"></a>单元格保护</h2><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.1.png" alt="1"></p><h3 id="要求：仅允许用户-在G2：G4区域中编辑数据"><a href="#要求：仅允许用户-在G2：G4区域中编辑数据" class="headerlink" title="要求：仅允许用户 在G2：G4区域中编辑数据"></a>要求：仅允许用户 在G2：G4区域中编辑数据</h3><p>way：</p><p>1.全选</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.2.png" alt="1"><br>2.选中可编辑单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.3.png" alt="2"></p><p>3.全选启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.4.png" alt="3"></p><h3 id="在编辑栏里面不显示F2：F4单元格中应用的公式"><a href="#在编辑栏里面不显示F2：F4单元格中应用的公式" class="headerlink" title="在编辑栏里面不显示F2：F4单元格中应用的公式"></a>在编辑栏里面不显示F2：F4单元格中应用的公式</h3><p>1.选中所需隐藏单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.5.png" alt="1"></p><p>2.启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.6.png" alt="2"></p><h3 id="B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"><a href="#B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑" class="headerlink" title="B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"></a>B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.7.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(12):LOOKUP函数</title>
@@ -70,13 +150,13 @@
   </entry>
   
   <entry>
-    <title>Excel数据整理与分析(9):单元格之自定义数字格式</title>
+    <title>Excel数据整理与分析(10):工作簿及工作表保护操作</title>
     <link href="www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/"/>
     <id>www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/</id>
     <published>2020-07-01T11:15:53.380Z</published>
-    <updated>2020-07-02T05:43:13.233Z</updated>
+    <updated>2020-07-02T06:36:45.774Z</updated>
     
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="自定义单元格数字格式"><a href="#自定义单元格数字格式" class="headerlink" title="自定义单元格数字格式"></a>自定义单元格数字格式</h3><p>1-自定义数字格式:允许用户创建符合-定规则的数字格式! .<br>2-应用自定义格式的数字并不会改变数值本身，只改变数值的显显方式。</p><p>例如</p><table><thead><tr><th>小写金额</th><th>大写金额</th></tr></thead><tbody><tr><td>1450</td><td>壹万叁仟肆佰伍拾</td></tr></tbody></table><p>自定义格式路径：<br>点中数据——》<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.1.png" alt="1"></p><p>自定义的格式代码具有以下结构:<br>正数;负数;零值;文本   (;分号为英文符号)<br>100<br>-50<br>0|<br>ABCD</p><h5 id="只显示文本"><a href="#只显示文本" class="headerlink" title="只显示文本"></a>只显示文本</h5><pre><code>;;;G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/cp3.gif" alt="1"></p><h5 id="只屏蔽0"><a href="#只屏蔽0" class="headerlink" title="只屏蔽0"></a>只屏蔽0</h5><pre><code>G/通用格式;G/通用格式；;G/通用格式</code></pre><p>以分号隔开的四个区域组成一个完整的自定义格式代码， 在每个区域的代码对相应的数值产生作用。<br>同时也可以用运算符的方式表示条件值，如&gt;0, &lt;0表示正数和负数, &gt;60, &lt;60表示成绩的及格与否等。</p><h5 id="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"><a href="#中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。" class="headerlink" title="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"></a>中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。</h5><pre><code>可供选择的颜色代码有：[黑色]、[白色]、[蓝色]、[红色]、[黄色]、[绿色]、[洋红]，颜色的两边必须加上英文方括号.还可以直接用：[颜色1]、[颜色2]等颜色代码，颜色数值范围为1～65，见实例五。实例五与实例四两种代码的效果完全一样。</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.2.png" alt="梨子"></p><pre><code>G/通用格式;G/通用格式[红色];;</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.4.png" alt="2"></p><pre><code>如果对学生成绩大于60的显示红色，小于60的显示蓝色，可以加入“&gt;”、“&lt;”等条件代码，见一下实例。     [红色][&gt;60]G/通用格式;[蓝色]G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.5.png" alt="1"></p><h5 id="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"><a href="#在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例" class="headerlink" title="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"></a>在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例</h5><pre><code>在自定义数字格式中，＃作为数字占位符，只显示有意义的数值，不显示无意义的0，</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.6.png" alt="1"></p><h5 id="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"><a href="#在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例" class="headerlink" title="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"></a>在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例</h5><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.7.png" alt="1"></p><h2 id="汇总"><a href="#汇总" class="headerlink" title="汇总"></a>汇总</h2><ol><li>以万为单位显示数值，保留一位小数显示。<pre><code>  0!.0,  </code></pre></li></ol><pre><code>其中：**，**    表示“初以1000”**！**       将“.”制作本身处理，不让它做占位符；则    以万为单位、保留一位小数。显示后缀“万”。  表示为：0!.0,"万"    以万为单位、保留四位小数。显示后缀“万元”。 表示为：0!.0000"万元"    以亿为单位显示数值，保留两位小数显示。  表示为： 0!.00,,2.中文的“年月日”及“星期”方式显示日期</code></pre><p>yyyy”年”m”月”d”日”aaaa</p><pre><code>其中：**aaaa** 表示星期则：![2](https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.9.png)3.对400、800等电话号码显示前置号码段，外加显示文本前缀``` "Tel："000-0000000</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.8.png" alt="1"></p><p>4.其他<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.10.png" alt="3"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="设置工作簿打开密码为”123”，否则不能打开工作簿"><a href="#设置工作簿打开密码为”123”，否则不能打开工作簿" class="headerlink" title="设置工作簿打开密码为”123”，否则不能打开工作簿"></a>设置工作簿打开密码为”123”，否则不能打开工作簿</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.1.png" alt="1"></p><h2 id="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"><a href="#清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑" class="headerlink" title="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"></a>清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑</h2><h3 id="清除打开密码"><a href="#清除打开密码" class="headerlink" title="清除打开密码"></a>清除打开密码</h3><p> 上面相同操作设置打开密码为空即可</p><h3 id="设置工作簿编辑密码"><a href="#设置工作簿编辑密码" class="headerlink" title="设置工作簿编辑密码"></a>设置工作簿编辑密码</h3><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.2.png" alt="2"></p><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.3.png" alt="2"></p><h2 id="设置源数据表，不能被点中单元格，只能浏览"><a href="#设置源数据表，不能被点中单元格，只能浏览" class="headerlink" title="设置源数据表，不能被点中单元格，只能浏览"></a>设置源数据表，不能被点中单元格，只能浏览</h2><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.5.png" alt="1"><br> 全选 ——》审阅。。。<br> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.4.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -506,90 +586,6 @@
       <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：删除单词后缀</title>
-    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/"/>
-    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-shan-chu-dan-ci-hou-zhui/</id>
-    <published>2020-06-23T12:14:33.000Z</published>
-    <updated>2020-06-23T12:17:15.348Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><p>给定一个单词，如果该单词以er、ly或者ing后缀结尾， 则删除该后缀（题目保证删除后缀后的单词长度不为0）， 否则不进行任何操作。</p><a id="more"></a><h1 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>输入一行，包含一个单词（单词中间没有空格，每个单词最大长度为32）。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>输出按照题目要求处理后的单词。</p><h1 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h1><h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例"></a>输入样例</h2><p>referer<br>##输出样例<br>refer</p><h1 id="限制"><a href="#限制" class="headerlink" title="限制"></a>限制</h1><p>时间限制：1000 ms<br>内存限制：65536 KB</p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code>#include&lt;stdio.h&gt;#include&lt;stdlib.h&gt;#include&lt;string.h&gt;#define Maxsize 32typedef struct Str{    char* ch;    int lenth;    int strsiae;}Str;Str initStr(){    Str L;    L.lenth = 0;    L.ch = (char*)malloc(Maxsize * sizeof(char));    L.strsiae = Maxsize;    return L;}int  CreatStr(Str L,char* a){    if (strlen(a) &gt; Maxsize)    {    return 0;    }    int i;    for (i = 0; i &lt; strlen(a); i++)    {        L.ch[i] = a[i];        L.lenth++;    }    L.lenth = i;    return 1;}void Delete(Str L,int flag,int lenth){    int m;    if (flag == 1||flag==2)    {        for (m = 0; m &lt; lenth - 2; m++)        {            printf("%c", L.ch[m]);        }    }    else if (flag == 3)    {        for (m = 0; m &lt; lenth - 3; m++)        {            printf("%c", L.ch[m]);        }    }}void MatchStr(Str L,int lenth){    int j;    int flag = 0;    for (j = lenth; j &gt; 0; j--)    {        if (L.ch[lenth-1] == 'r' &amp;&amp; L.ch[lenth-2] == 'e')        {            flag = 1;            Delete(L,flag,lenth);            break;        }        else if (L.ch[lenth-1] == 'y' &amp;&amp; L.ch[lenth - 2] == 'l')        {            flag = 2;            Delete(L, flag,lenth);            break;        }        else if (L.ch[lenth-1] == 'g' &amp;&amp; L.ch[lenth - 2] == 'n' &amp;&amp; L.ch[lenth - 3] == 'i')        {            flag = 3;            Delete(L, flag,lenth);            break;        }        else        {            int m;            for (m = 0; m &lt; lenth; m++)            {                printf("%c", L.ch[m]);                break;            }        }    }}int main() {    char a[23];    gets(a);    int lenth=strlen(a);    Str L=initStr();    CreatStr(L,a);    /*int n;    for (n = 0; n &lt; lenth; n++)    {        printf("%c",L.ch[n]);    }    printf("\n");    */    MatchStr(L,lenth);    printf("\n");    return 0;}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot; class=&quot;headerlink&quot; title=&quot;描述&quot;&gt;&lt;/a&gt;描述&lt;/h1&gt;&lt;p&gt;给定一个单词，如果该单词以er、ly或者ing后缀结尾， 则删除该后缀（题目保证删除后缀后的单词长度不为0）， 否则不进行任何操作。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析（1）：应用层工作流程</title>
-    <link href="www.kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/"/>
-    <id>www.kifroom.icu/2020/06/22/excel-shu-ju-zheng-li-yu-fen-xi-1-ying-yong-ceng-gong-zuo-liu-cheng/</id>
-    <published>2020-06-22T13:07:09.000Z</published>
-    <updated>2020-06-23T04:46:11.364Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code class="bash"></code></pre><h1 id="知识点部分"><a href="#知识点部分" class="headerlink" title="知识点部分"></a>知识点部分</h1><p>需要掌握以下基本知识点:<br>Excel的基本工作流程及工作簿、工作表、行与列、鼠标状态、单元格的相关参数。为后面章节打牢基础!</p><h2 id="基本工作流程"><a href="#基本工作流程" class="headerlink" title="基本工作流程"></a>基本工作流程</h2><p>数据的存储—-》 数据的处理———》数据的分析———》数据的呈现</p><h2 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析"></a>名词解析</h2><p><img src="https://s1.ax1x.com/2020/06/22/NY6Hz9.png" alt="enter image description here"></p><h3 id="工作簿"><a href="#工作簿" class="headerlink" title="工作簿"></a>工作簿</h3><p>即一个Excel文件；</p><h3 id="工作表"><a href="#工作表" class="headerlink" title="工作表"></a>工作表</h3><p>分为当前活动工作表和非活动工作表；</p><p>如Sheet1 是当前活动工作表；其他的是非活动工作表</p><p><img src="https://s1.ax1x.com/2020/06/22/NY6xIO.png" alt="Alt text"></p><p>一个工作簿可容纳<strong>255</strong>个工作表；</p><h3 id="行与列"><a href="#行与列" class="headerlink" title="行与列"></a>行与列</h3><p>CTRL+Down 可下滑至最后一行，即<strong>1048576</strong>行；</p><p>CTRL+Right 可右滑至最右列，<strong>文件-选项-公式-R1C1引用样式勾选-确定</strong>，可看到有<strong>16384</strong>列；</p><h3 id="单元格"><a href="#单元格" class="headerlink" title="单元格"></a>单元格</h3><p>每个单元格可村<strong>32767</strong>个字符</p><h3 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h3><p><img src="https://s1.ax1x.com/2020/06/22/NYcCzd.png" alt="enter image description here"></p><p><strong>选项-自定义功能区</strong> 可以更改</p><h3 id="编辑栏"><a href="#编辑栏" class="headerlink" title="编辑栏"></a>编辑栏</h3><p><strong>选项卡-视图</strong>可选择显示与否编辑栏</p><h3 id="名称框"><a href="#名称框" class="headerlink" title="名称框"></a>名称框</h3><p><img src="https://s1.ax1x.com/2020/06/22/NYcVdf.png" alt="enter image description here"></p><p>可对一个区域命名；</p><h3 id="鼠标三大状态"><a href="#鼠标三大状态" class="headerlink" title="鼠标三大状态"></a>鼠标三大状态</h3><h4 id="选挥柄："><a href="#选挥柄：" class="headerlink" title="选挥柄："></a>选挥柄：</h4><p>用于选择单元格区域</p><h4 id="移动柄："><a href="#移动柄：" class="headerlink" title="移动柄："></a>移动柄：</h4><p>用于移动或配合ctrH键盘复制单元格区域</p><h4 id="填充柄："><a href="#填充柄：" class="headerlink" title="填充柄："></a>填充柄：</h4><p>复制、填充单元格区域，包括数据、公式等，双击有惊喜!</p><h5 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h5><p>一.快速添加序号<br>1.序号栏输入1 2；<br><img src="https://s1.ax1x.com/2020/06/22/NYcQQs.png" alt="enter image description here"><br>2.选中1 2这两框，鼠标移到右下角。向下拖动</p><p><img src="https://s1.ax1x.com/2020/06/22/NYYXh6.gif" alt="Alt text"></p><p>二.快速复制属性<br><img src="https://s1.ax1x.com/2020/06/22/NYcdSJ.gif" alt="enter image description here"></p><h3 id="单元格-1"><a href="#单元格-1" class="headerlink" title="单元格"></a>单元格</h3><p><img src="https://s1.ax1x.com/2020/06/22/NYcyTK.png" alt="enter image description here"></p><h1 id="回顾笔记整理"><a href="#回顾笔记整理" class="headerlink" title="回顾笔记整理"></a>回顾笔记整理</h1><p>1、Excel的基本 工作流程是数据存储数据整理-数据分析-数据呈现<br>2、一个工作簿默认最多能建255个工作表，内存大的可以更多<br>3、一个工作表有1048576行、16384列”<br>4、一个工作表约172亿个单元格，-个单元格能存放32767个字符<br>5、鼠标三大状态:选择柄、移动柄、填充柄。双击填充柄快速填充需要临近列有数据。<br>下一节我们将学习1.2 Excel规范制表之经典的三表结构</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&quot;知识点部分&quot;&gt;&lt;a href=&quot;#知识点部分&quot; class=&quot;headerlink&quot; title=&quot;知识点部分&quot;&gt;&lt;/a&gt;知识点部分&lt;/h1&gt;&lt;p&gt;需要掌握以下基本知识点:&lt;br&gt;Exc
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无题</title>
-    <link href="www.kifroom.icu/2020/06/20/wu-ti/"/>
-    <id>www.kifroom.icu/2020/06/20/wu-ti/</id>
-    <published>2020-06-19T19:38:22.000Z</published>
-    <updated>2020-06-26T16:37:30.201Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">每个人都应该学会自我消化消极情绪</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="81dd021122ce8d725ceca5b97f62b62c797950fb35e27a25b89b146353e0c870">8bfdaced6c938b488e6e370b0bc7bc33ccd9b98cc074ff99ceca02cf6a230cca38158634a35d72e80cb9f4984f90b39d800e43a8cb4e320ade2bb649df4954ddab7e4674d9f2f960dcfc682c1a71ad826c798496854bc29e0ab80e9cfb649d37dc85afa854d4009fe8fb09bf10a6b4c4cfd65633bc2001ed594cdf020f2390e8f1d5b1c5911aedb6f44a779053ee4a57d1123e2b7f1778422d24bda546095758939301c3948293064612c6d3a766c5020dbeef1588788f0a9df6cbf9bed645b2bda0e1734b52d352d3b3c06a03a1cf331720c481b23c3ec28d367c89e7a6d72c6086820c53f9761384e358c1ae0ff2f97567974e689d7ec96d78f57f1fad1badda021e89edad88855ee45e84a6e850e8802be18bc22af5cea39819e2c751ed1bbef56a2ebfe98b75f6b41408ef56bbb005d574555d3616007a7a3fe529ece8c586727723a4e6fb6f94ad50137bbbea040903881a348bb1b9b3f8c20d7e727f5a6ecc43f8706bcfa2f9319827e9569c7b2073a07fc9e5d7616d2d1cecaebc824630e6eddeb80f25b85a7bc90d138f50477d0f13df2ac84c91b905bc1bf9f19b319685799343d4c957b905ccf07328a041741acedceb3a44cc9a75165408cc3fd75e3b2b6d5f4a8b1f5e057dd29d5729143574900928e39aaebbca364c304a6035316b6763b72d3157d4b6f46808a8fbdfe2dea98fb16374f35cb323b94db0087e6f2566b289c1c85e18c803e3c63de74f3179eae9de70f1d0ac4bdff3b84340ac5df60bd82b1f1220e63b852dbba4978c60a324df521cfe8b584c42cbf9dcc5c31a02d17eeb628b352c2ba6f738394cff374cb71d851bb6ec2063d89cebbea69b1fa1508f9759b838af201f60f93bc9e0db272f4bc6df263c14f8eafb61d639a45061bc8fefc5a1d398776b202c3c9c81011faa42d44f4cd7b4eb8d08ccb3df12fcaf132e559f211051d7c881ef136e8cc003d2e4565e2667d8d414d29c01e0bc3210a8c3d0c800da6df4e6bbfc0336af323bea170b643a6604e26bea1b3c853d43b5fae8d2a2ccd1e60289e514df95e4e65ed67eb5d238c6e9323898645f3f5e65d786aebb19281c8452662f4606acad87da9c7591f333d21ebae1efec4cdfa6370f808b4142a699d341ae57d36bf7b36a33cc5622f50173e6faccf7db53f505ebe53c9016618636295c9fdadc6c9df0420709ee2cab6e6a7ac7fc16e60f3ba503808670362454909d9f194135d3c7e4f859779f15ae55510540e2d6f78f922081cdfd46677944acce9676d6cf5817d56f629866eb39286972f5c0c8e2c95bd6148cfeb31ce8716f3272cc98b182c1aae2d51a2f26947b4ad3794b748529554288d0808e103e2c00976d7154b200dd75c829fb1235b4d568d87adeb8a3d6cbde8bc723e69891463fd9f69ee83af0c497bfcc47ce1ddca8fb16a9211640ceceba446a57bc6ff048e504931ac9efe0877d7945a9ce29d9fe4b9e8eb241dce23c1e9483ba7a5e170cf938cba0a1d6c290ffa18e040d3b66d5aaff8268900d3d4fa3e691c43ed20a134e36d495e91a3fcf54cbff3e68b16a85134f5ed9a3d38e18561bc0f6f3408d305de58f20cb8bf5e66f564e79ea0cc5d9cf06d524bfdfe198c823d561b89aca599f57faf08301f6c4754454baa45e7664b3ccc44ae41272c15ae154f43a50794226a6733dfab190c090d50b54ca1966a98643c504ec8a0a56551d5f0bdf0a418536490d34b85c1eba782cba40469db1cfd53a70cdc4ee2809e9f6a52baa3a69a76ee43534b679ce8783bf4758aa4092839254e5ec05c29c24af0c8adc2498243ea7cab0699543c6c797858878fa6676e2aac778e40f4a2f22ecf6de35a8a5567a1431c5e84446a45a1b66a90801436138e8df37416f455789b68fe1e890bfd61a91015552877d5c9efa0405db19e5f92b89564d0985eea5d5463996eb6f6a45edb91ef8f5f3e743438155c481a740e93ed469674f4f84c2593fa4a4bb645f0c8e02816af9a8d702af49b2a8fb66b894662f0f923d3d69bfa8d47281463587d8f0cc5d0da7866a6ab0c2065ca21005091c44069dc61d71ed6781096aa284ba18e5b1df8040f99e7bb3a5b8a710319db3f493e93ded2f645814390f19e78b816daed0554f3f830c4f59ab1dffc530f3d819e3d800d5d001414aa6d2a9a45e77f9c5f2af9e1d11518e317d90d68bf7160ff9ca631e0a15b1d823c4254fc547dca94d5ce78da543521e195015a7bc4d1a50e5363c8d639d4bfc4b51128b8e1c1cc90f1feae73d187cd490f3d5251529fed18bbb3c145d35f66f2490a08f3fe33aa087799700f3ea36a528277858ec18f4265c5f07e352d774b4f04c7c2bb7ede673948b12406b156a5b24c82e88e53e66e1cce5882b75b6e9bc02dd4ee702b57f82708bbcbe54d861c5a9280035948d24c114a68c82df7dab37fde74db84defab2489814bd3b49ebf36c66f2f20aa671767ae8b12a8568e3a4fab73afe3d5d49700a30362498c77f1abced52a88f011b4837ee8049804ec94e48474993a76ff241b91aba9064ccd6f084f1dd72738e961289beba09ced6403d5cc02718111bec0404395f02b61818978a1038cbc30fdd4c41d7094c70c97af3ddd6f92db5b4de86e361e12a2ae05cf0eea870257d40c4db7b1ba158294b46ef5133f227fa9eee97a70909f4e5e806e72a8a1b1717c536ae7f9e9eb85c9286009102ccc1bf25237fb7eaa0f9edd085e8645385b087d4a4bed0c39cbe436662c31ad02b60db7ceff217f1fa78fe615e2b8cc609627eb2d455646cc9621880af79e9cbc98cf64f33490421eee14fd42efe798b4ff600ed528f16ef9949b37b10c3c693c112ac1526337976bd466a5ea288e6f4defcedd14d4aabca02313bde194533e0928bd5f784f4d2c8a6cef91838965b2da9fd9edd519e9f1b30aa4b61b9f47d3d95238c13150513cc8e806435cd03d11b17ba38e9261209e18b2acb0e39131990741e9dbc705414972fe44130ec0f20107238a3d14a7268ee698274ee5dd9edb771ebfab9e4f81f0da93a9ed451e35f2023ee6c43d02aa4fed57733ebdac1bdd7f0fb54e22d5e6d952f4a62855ed97c5e33ea490cfd80d3c210ac9d0853cc60df232621e74541263262d2f6e80c429633cbc6044f6f00c07f85726b2991182a1010084b1bb4853feae293083c6a710fb0aac0e976ef8f073c41b72ff8c54649032fb485d169dc8715b4f01be9955250f234c72dd1bfc19d330d79262da60b75e4044a5263d82912e4def6e06521a2d31cffb59e70b1b1528efe655a90df315c1f522c43f52c89cdf2652ea3016c7f8480cb3f61d25250cb71a2e5bab8ac3caed5f809cab4d8a7e3f2ac51c2e5039d39106afe40af8d27db5472a9dbb4fa0d7ce052201a61570576a31f42658786cefc113847ad539e1467097c80bc9e997579450b5827183fa6bd8271c22387c1add0be9c94f9ec8bdaa68d7aad0cd024c4f46648cda84d722d04b052872fc50e153a3f8366d2527cb090a000a7a31a501c65782ffb521df6684756701b547a2f55bfe02d800adad1d2dca25df0fdc89389209f051bcf6b5b66b5ddd653a990d7ad53be51b00c914054f2d87426cdb259d915b4fdf36747b9ff98a6c253051a2532c2e91596c8fb02c6f7ce2c473ac8869f4cf13d7e418318112b7023c96cdbd5d0ac837cdcbaae2df6a293c219c727b96866158cbfac4700ff2331b92f0ef95680d1c207bdc90ecda6ca14312b9f7af7f111bb7909dbbcc530653ca652d35815d3ae9c91109c2bb138f2395e946b45de42adf22542e1f276a809fceacb59cc9d5593b3193cb23441e4fa1e0aac553a5977b1e345dff17f2e9e2b19c2a97b648cc84c07e3450521dd3befa648a1043548c230da40f96fb2811644305dc5e316e9c57ea57d39ff1adad31ad91140bdab45d5cb75c6330ced4fd92ec8c29f465d321e0377fec2734d67c79ed63c443d4d33adc48e736c9f0ca0cfb397b8cb6587efd7729eaae02ed450d4118aafbac1aea92038e9c047633eaff827efda235a4f9fd78c43e36d2a7c0d64ffe091e903eb0150d9d4701c03b46ffe9e9fad6929466b7e0c3186e08888cb496c83c3cc0f808a34b404688c6e7cadccb91d56dbfcf607033de5a6adca89aca66060cd64c3ff14a5bc94495ace20625f9fac5c9a09ffdc58814d0a2e6ee3e08819dcff3d19871f63360a736c8ad3ac4579230a6e1e3233ab59a0c43dd80c62fc4381fccedbfa4f6a91538c34820e3bff97e12fa6529c32de0b15031d4740fd7ca34771475f63ef0436997e340c82abe402c917b7837c919fc844bf73414d49916147fd37f7b41e37a7cf028f2925613e9d9d27c12f15b7600b9a39da7c1b60549b67faa95c8ecd2cacaf0aa45457de1c71eab1ec906f03b20edfae4df27f999606aa1bc6632a3c480b5f2aa2f5a31e43493ab945e15c2274cdbb37a7057dfdc9469ae724e034a94edddaafa60d24fb50ba945b87a7eb1ac1ad3405880b7f16be4d0d60a9e7cf70945d2342c3015c77e506d3eb5a08b203cbabba95f7307aa6cf48fc2cbcf9e2fbbb77cb132be6cef3245b9c4aeffaaa3739fbdba9947ee7ee9fe63dbc99f722cc7a681b5543456ceaa63c9a076fa067b589340d4ad5e29d70d056a53506975444003f04a36f043dd142756bb190ee3405ba33867</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      个人私密哈，主要是情绪宣泄
-    
-    </summary>
-    
-    
-      <category term="情绪" scheme="www.kifroom.icu/categories/%E6%83%85%E7%BB%AA/"/>
-    
-    
-      <category term="生活" scheme="www.kifroom.icu/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="日记" scheme="www.kifroom.icu/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
