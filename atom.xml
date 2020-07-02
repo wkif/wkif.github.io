@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-02T03:58:25.927Z</updated>
+  <updated>2020-07-02T05:18:42.107Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(12):LOOKUP函数</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-12-lookup-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-12-lookup-han-shu/</id>
+    <published>2020-07-02T04:12:04.006Z</published>
+    <updated>2020-07-02T05:18:42.107Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><pre><code>语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])             LOOKUP(查找值,数据区域）      LOOKUP(lookup_ value, array)为什么要学LOOKUP函数?    因为vlookup是单条件查找，而lookup可以N个条件查找</code></pre><h2 id="梨子"><a href="#梨子" class="headerlink" title="梨子"></a>梨子</h2><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.1.png" alt="1"></p><p>查询出产品A和产品B对应的城市销量<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.2.png" alt="2"></p><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><h4 id="城市："><a href="#城市：" class="headerlink" title="城市："></a>城市：</h4><p>筛选出是否是所需城市</p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.3.gif" alt="1"></p><pre><code>即：（B17:B36)=J17   b12-b16是否等于J17</code></pre><h4 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h4><p>筛选出产品 （A为例）</p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12_1.3.gif" alt="2"><br>    即：(C17:C36)=K16)      C17-C36是否等于K16</p><h4 id="筛选出同时满足一商量条件"><a href="#筛选出同时满足一商量条件" class="headerlink" title="筛选出同时满足一商量条件."></a>筛选出同时满足一商量条件.</h4><p>利用<strong><em>当且仅当true乘true=1</em></strong></p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.5.gif" alt="3"><br>    即：((B17:B36)=J17)*((C17:C36)=K16)      相乘是否等于1</p><h4 id="转换为文本格式"><a href="#转换为文本格式" class="headerlink" title="转换为文本格式"></a>转换为文本格式</h4><p>利用<strong><em>0/anynumber</em></strong></p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.6.gif" alt="4"><br>    即：0/((B17:B36)=J17)*((C17:C36)=K16)</p><h4 id="lookup函数中各值"><a href="#lookup函数中各值" class="headerlink" title="lookup函数中各值"></a>lookup函数中各值</h4><pre><code>查找值 1查找条件 0/((B17:B36)=J17)*((C17:C36)=K16)结果列  D17:D36 （即销量）</code></pre><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.7.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(11):案例讲解</title>
@@ -565,35 +592,6 @@
       <category term="生活" scheme="www.kifroom.icu/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="日记" scheme="www.kifroom.icu/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Win 上安装Git和node.js</title>
-    <link href="www.kifroom.icu/2020/06/18/win-shang-an-zhuang-git-he-node.js/"/>
-    <id>www.kifroom.icu/2020/06/18/win-shang-an-zhuang-git-he-node.js/</id>
-    <published>2020-06-18T14:37:58.000Z</published>
-    <updated>2020-07-01T08:39:33.473Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文介绍Win上安装Gitd 和node.js方法<br>个人安装的环境：（快速安装基本简单；下一步默认其实也可以；看图就懂）</p><p>Windows10 64bit</p><h1 id="Git-2-13-0"><a href="#Git-2-13-0" class="headerlink" title="Git 2.13.0"></a>Git 2.13.0</h1><p>(下载 git网址 ： <a href="https://git-scm.com/download）" target="_blank" rel="noopener">https://git-scm.com/download）</a></p><a id="more"></a><h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-ed9bf0f750dd9dd9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="安装界面"></p><h3 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-4ea6a4a9f6a02d39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="路径选择"></p><h3 id="选择安装组件"><a href="#选择安装组件" class="headerlink" title="选择安装组件"></a>选择安装组件</h3><p>当然建议全选哈</p><p><img src="https://upload-images.jianshu.io/upload_images/1625340-be289d5604878843.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="组件"></p><h3 id="创建菜单文件夹"><a href="#创建菜单文件夹" class="headerlink" title="创建菜单文件夹"></a>创建菜单文件夹</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-2f31b5b0f9b7d7e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="文件夹"></p><h3 id="修改系统的环境变量"><a href="#修改系统的环境变量" class="headerlink" title="修改系统的环境变量"></a>修改系统的环境变量</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-b8dcc9ec2d4c323b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="修改环境变量"></p><h3 id="选择SSL的证书"><a href="#选择SSL的证书" class="headerlink" title="选择SSL的证书"></a>选择SSL的证书</h3><blockquote><p>https：（全称：Hyper Text Transfer Protocol over Secure Socket Layer）简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。 它是一个URI scheme（抽象标识符体系），句法类同http:体系。用于安全的HTTP数据传输。</p></blockquote><p><img src="https://upload-images.jianshu.io/upload_images/1625340-6d5a020a0eb30c66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/580/format/webp" alt="SSL证书"></p><h3 id="配置行尾结束符"><a href="#配置行尾结束符" class="headerlink" title="配置行尾结束符"></a>配置行尾结束符</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-6f1357783077497e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="1"></p><p><img src="https://upload-images.jianshu.io/upload_images/1625340-09404bca515d8faa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/835/format/webp" alt="2"></p><h3 id="配置终端仿真"><a href="#配置终端仿真" class="headerlink" title="配置终端仿真"></a>配置终端仿真</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-c8455f88430080cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="1"></p><blockquote><p>大多数其他Cygwin/MSYS终端一样，MinTTY也是基于pseudo终端(“pty”)设备的。但是MinTTY并不能完全替代windows的命令提示符。windows上自带简单的文本输出的原生态的命令提示符通常可以很好的工作，但交互性更好的诸如MinTTY这样的应用程序却可能出现故障——虽然通常都有应对方案。这就是为什么MinTTY不能完全替代windows自带的命令提示符</p></blockquote><h3 id="其他的配置–默认即可"><a href="#其他的配置–默认即可" class="headerlink" title="其他的配置–默认即可"></a>其他的配置–默认即可</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-ed74bffae2a8a283.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="1"></p><h3 id="等待安装"><a href="#等待安装" class="headerlink" title="等待安装"></a>等待安装</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-e502dd0ca2958b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/582/format/webp" alt="1"></p><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p><img src="https://upload-images.jianshu.io/upload_images/1625340-e496c05441dd1b45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/742/format/webp" alt="测试"></p><h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>如果中文没有正常显示，请求鼠标右击选择“option”选项，更换语言即可<br><img src="https://upload-images.jianshu.io/upload_images/1625340-ca4128fa0b62c4af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/448/format/webp" alt="中文"></p><p>转自：<br>作者：weir_will<br>链接：<a href="https://www.jianshu.com/p/414ccd423efc" target="_blank" rel="noopener">https://www.jianshu.com/p/414ccd423efc</a><br>来源：简书</p><h1 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h1><h2 id="下载链接：https-nodejs-org-en"><a href="#下载链接：https-nodejs-org-en" class="headerlink" title="下载链接：https://nodejs.org/en/"></a>下载链接：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></h2><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/hexo/1.png" alt="1"><br>安装步骤：一路默认就行（安装路径根据自己需要更改）</p><h2 id="验证软件正确安装"><a href="#验证软件正确安装" class="headerlink" title="验证软件正确安装"></a>验证软件正确安装</h2><p>同时按下Win键和R键（或者点击“开始菜单”-&gt;点击“运行”）,打开运行窗口,输入“cmd”<br>然后输入以下命令，结果与下图相同则说明安装正确，若不正确可以卸载软件重新安装</p><pre><code>git --versionnode -vnpm -v</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文介绍Win上安装Gitd 和node.js方法&lt;br&gt;个人安装的环境：（快速安装基本简单；下一步默认其实也可以；看图就懂）&lt;/p&gt;
-&lt;p&gt;Windows10 64bit&lt;/p&gt;
-&lt;h1 id=&quot;Git-2-13-0&quot;&gt;&lt;a href=&quot;#Git-2-13-0&quot; class=&quot;headerlink&quot; title=&quot;Git 2.13.0&quot;&gt;&lt;/a&gt;Git 2.13.0&lt;/h1&gt;&lt;p&gt;(下载 git网址 ： &lt;a href=&quot;https://git-scm.com/download）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://git-scm.com/download）&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="win" scheme="www.kifroom.icu/tags/win/"/>
     
   </entry>
   
