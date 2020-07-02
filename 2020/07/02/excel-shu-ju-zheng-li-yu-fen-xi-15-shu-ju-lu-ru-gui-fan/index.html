@@ -452,12 +452,33 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">学习笔记</span>
+                            </a>
+                        
+                            <a href="/tags/Excel/">
+                                <span class="chip bg-color">Excel</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                教程
+                            </a>
+                        
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -480,14 +501,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    651
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -502,7 +523,26 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script>
+                <pre class="line-numbers language-bash"><code class="language-bash">
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="数据录入指南"><a href="#数据录入指南" class="headerlink" title="数据录入指南"></a>数据录入指南</h2><h3 id="我们的源数据表从哪里来？"><a href="#我们的源数据表从哪里来？" class="headerlink" title="我们的源数据表从哪里来？"></a>我们的源数据表从哪里来？</h3><h4 id="人工从键盘录入数据"><a href="#人工从键盘录入数据" class="headerlink" title="人工从键盘录入数据"></a>人工从键盘录入数据</h4><p>比如学生考试成绩表，个人基本信息等，需要人工输入后才能分析汇总。</p>
+<h4 id="从外部数据导入"><a href="#从外部数据导入" class="headerlink" title="从外部数据导入"></a>从外部数据导入</h4><p>类似公司数据库、CRM系统，OA系统，网站、云端数据等导入到Excel工作表。<br>举例：学校食堂要分析同学们的消费数据，可以从食堂消费系统导出数据。那么食堂的消费数据从哪里来？<br>类似食堂消费系统、学校车辆收费系统等，这么多的数据就不需要人工录入，直接导入到Excel分析</p>
+<h3 id="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"><a href="#本节主要讲解如何从键盘规范的录入数据和数据录入的技巧" class="headerlink" title="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"></a>本节主要讲解如何从键盘规范的录入数据和数据录入的技巧</h3><p>数据录入前的准备工作：</p>
+<h4 id="在数据录入前，源数据需要哪些字段名？"><a href="#在数据录入前，源数据需要哪些字段名？" class="headerlink" title="在数据录入前，源数据需要哪些字段名？"></a>在数据录入前，源数据需要哪些字段名？</h4><p>举例：土木工程系学生基本信息表需要字段:序号、姓名、性别、学号、身份证号码、出生日期、年龄、联系方式、所在院系、就读专业</p>
+<h4 id="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"><a href="#确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。" class="headerlink" title="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"></a>确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。</h4><p>例如：<br>限制输入<br>条件：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.1.png" alt="1"></p>
+<p>1.性别（限制男女两种输入）<br>全选输入框——》数据——》数据验证——》数据验证——》序列——》<strong><em>男，女</em></strong><br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.2.gif" alt="2"></p>
+<p>2.学号（限制长度10）<br>全选输入框——》数据——》数据验证——》数据验证——》文本长度 ——》等于——》10<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.3.gif" alt="3"></p>
+<p>3.身份证号（限制长度）</p>
+<p>操作同上</p>
+<p>4.日期（限制为短日期）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.4.png" alt="4"></p>
+<p>5.联系方式（限制长度11）<br>6.专业（限制为仅能输入工程管理、桥梁建筑、工程造价之一）<br>同性别 序列</p>
+<h3 id="开始录入数据"><a href="#开始录入数据" class="headerlink" title="开始录入数据"></a>开始录入数据</h3><pre><code>如果忘记源数据表的规范要求，可以复习源数据表常见错误暨规范化处理方法。            
+数据标题从A1单元格开始，相同属性的字段名列靠在一起。                    
+同行输入，输入完内容需要向右输入，按Tab键。                    
+同列输入，输入完内容需要向下输入，按Enter键                    
+单元格内部换行，按Alt+Enter键                    
+单元格输入完内容，不要点击鼠标确定。这是不良输入习惯。点击鼠标确定的方式不仅仅影响输入速度，还影响公式的输入。                    </code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -582,7 +622,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">学习笔记</span>
+                                </a>
+                            
+                                <a href="/tags/Excel/">
+                                    <span class="chip bg-color">Excel</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1011,42 +1059,66 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一页</div>
             <div class="card">
-                <a href="/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/">
+                <a href="/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-16-dao-ru-wai-bu-shu-ju/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Excel数据整理与分析(15):数据录入规范">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Excel数据整理与分析(16):导入外部数据">
                         
-                        <span class="card-title">Excel数据整理与分析(15):数据录入规范</span>
+                        <span class="card-title">Excel数据整理与分析(16):导入外部数据</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+
+在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、网页文件数据导入。通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。
+
+
+文本类型
+.
+可通过分隔符分割数据
+网站数据-Access类型
+网页
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-02
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-02
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            kif
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">学习笔记</span>
+                    </a>
+                    
+                    <a href="/tags/Excel/">
+                        <span class="chip bg-color">Excel</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1088,8 +1160,16 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            kif
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -1292,7 +1372,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;小破站有:&nbsp;<span
-                class="white-color">24.8k</span>&nbsp;字
+                class="white-color">25.9k</span>&nbsp;字
             
             
             

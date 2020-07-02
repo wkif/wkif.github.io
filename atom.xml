@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-02T09:09:40.724Z</updated>
+  <updated>2020-07-02T11:49:07.485Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -17,28 +17,118 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Excel数据整理与分析(18):二维数据转一维数据</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/</id>
+    <published>2020-07-02T11:26:23.000Z</published>
+    <updated>2020-07-02T11:49:07.485Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>1、一维表，一般是用一行来存放一条完整的数据，相同属性用一列来存放一个字段，也叫源数据表。</p><p>2、二维表，一般是通过行和列分别记录两个不同的维度，来统计数据，也叫汇总表。</p><p>3、为什么需要二维数据表转一维数据表？</p><p>因为很多时候对方给我们的表格都是二维汇总表，有时候我们又想通过其他字段分析二维汇总表，<br>比如以上二维表显示的是按地区和年份显示合计金额，如果我们想看同比值，<br>我们就需要先把二维表转成一维表进行数据透视，才能看同比值。<br>只有一维数据可以直观的分析各个字段，所以需要二维数据转一维数据。</p><h2 id="操作–power-query"><a href="#操作–power-query" class="headerlink" title="操作–power query"></a>操作–power query</h2><p>原二维表<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.2.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(17):数据整理之拆分、合并转换</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-17-shu-ju-zheng-li-zhi-chai-fen-he-bing-zhuan-huan/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-17-shu-ju-zheng-li-zhi-chai-fen-he-bing-zhuan-huan/</id>
+    <published>2020-07-02T11:07:21.000Z</published>
+    <updated>2020-07-02T11:24:54.257Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="拆分数值"><a href="#拆分数值" class="headerlink" title="拆分数值"></a>拆分数值</h2><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.1.png" alt="1"></p><p><strong><em>快捷键：ctrl+e</em></strong></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.2.gif" alt="2"></p><h2 id="合并数值"><a href="#合并数值" class="headerlink" title="合并数值"></a>合并数值</h2><p>同理<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.3.gif" alt="3"></p><h2 id="转换数值"><a href="#转换数值" class="headerlink" title="转换数值"></a>转换数值</h2><p>!!同上快捷键，但至少输入两个数据<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.4.gif" alt="4"></p><h2 id="变换数值"><a href="#变换数值" class="headerlink" title="变换数值"></a>变换数值</h2><p>同上：</p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(16):导入外部数据</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-16-dao-ru-wai-bu-shu-ju/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-16-dao-ru-wai-bu-shu-ju/</id>
+    <published>2020-07-02T10:41:47.000Z</published>
+    <updated>2020-07-02T11:04:29.610Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、<br>网页文件数据导入。<br>通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。</p><a id="more"></a><h2 id="文本类型"><a href="#文本类型" class="headerlink" title="文本类型"></a>文本类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15_1.2.png" alt="2">.</p><p>可通过分隔符分割数据<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.3.png" alt="3"></p><h2 id="网站数据-Access类型"><a href="#网站数据-Access类型" class="headerlink" title="网站数据-Access类型"></a>网站数据-Access类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.4.png" alt="4"></p><h2 id="网页数据-XML类型"><a href="#网页数据-XML类型" class="headerlink" title="网页数据-XML类型"></a>网页数据-XML类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.5.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、&lt;br&gt;网页文件数据导入。&lt;br&gt;通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Excel数据整理与分析(15):数据录入规范</title>
     <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/"/>
     <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/</id>
-    <published>2020-07-02T09:09:40.000Z</published>
-    <updated>2020-07-02T09:09:40.724Z</updated>
+    <published>2020-07-02T07:54:42.000Z</published>
+    <updated>2020-07-02T10:43:04.984Z</updated>
     
-    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="数据录入指南"><a href="#数据录入指南" class="headerlink" title="数据录入指南"></a>数据录入指南</h2><h3 id="我们的源数据表从哪里来？"><a href="#我们的源数据表从哪里来？" class="headerlink" title="我们的源数据表从哪里来？"></a>我们的源数据表从哪里来？</h3><h4 id="人工从键盘录入数据"><a href="#人工从键盘录入数据" class="headerlink" title="人工从键盘录入数据"></a>人工从键盘录入数据</h4><p>比如学生考试成绩表，个人基本信息等，需要人工输入后才能分析汇总。</p><h4 id="从外部数据导入"><a href="#从外部数据导入" class="headerlink" title="从外部数据导入"></a>从外部数据导入</h4><p>类似公司数据库、CRM系统，OA系统，网站、云端数据等导入到Excel工作表。<br>举例：学校食堂要分析同学们的消费数据，可以从食堂消费系统导出数据。那么食堂的消费数据从哪里来？<br>类似食堂消费系统、学校车辆收费系统等，这么多的数据就不需要人工录入，直接导入到Excel分析</p><h3 id="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"><a href="#本节主要讲解如何从键盘规范的录入数据和数据录入的技巧" class="headerlink" title="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"></a>本节主要讲解如何从键盘规范的录入数据和数据录入的技巧</h3><p>数据录入前的准备工作：</p><h4 id="在数据录入前，源数据需要哪些字段名？"><a href="#在数据录入前，源数据需要哪些字段名？" class="headerlink" title="在数据录入前，源数据需要哪些字段名？"></a>在数据录入前，源数据需要哪些字段名？</h4><p>举例：土木工程系学生基本信息表需要字段:序号、姓名、性别、学号、身份证号码、出生日期、年龄、联系方式、所在院系、就读专业</p><h4 id="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"><a href="#确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。" class="headerlink" title="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"></a>确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。</h4><p>例如：<br>限制输入<br>条件：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.1.png" alt="1"></p><p>1.性别（限制男女两种输入）<br>全选输入框——》数据——》数据验证——》数据验证——》序列——》<strong><em>男，女</em></strong><br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.2.gif" alt="2"></p><p>2.学号（限制长度10）<br>全选输入框——》数据——》数据验证——》数据验证——》文本长度 ——》等于——》10<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.3.gif" alt="3"></p><p>3.身份证号（限制长度）</p><p>操作同上</p><p>4.日期（限制为短日期）</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.4.png" alt="4"></p><p>5.联系方式（限制长度11）<br>6.专业（限制为仅能输入工程管理、桥梁建筑、工程造价之一）<br>同性别 序列</p><h3 id="开始录入数据"><a href="#开始录入数据" class="headerlink" title="开始录入数据"></a>开始录入数据</h3><pre><code>如果忘记源数据表的规范要求，可以复习源数据表常见错误暨规范化处理方法。            数据标题从A1单元格开始，相同属性的字段名列靠在一起。                    同行输入，输入完内容需要向右输入，按Tab键。                    同列输入，输入完内容需要向下输入，按Enter键                    单元格内部换行，按Alt+Enter键                    单元格输入完内容，不要点击鼠标确定。这是不良输入习惯。点击鼠标确定的方式不仅仅影响输入速度，还影响公式的输入。                    </code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-        
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
       
     
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
@@ -46,8 +136,8 @@
     <title>Excel数据整理与分析(14):工作表打印设置</title>
     <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/"/>
     <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/</id>
-    <published>2020-07-02T07:54:42.303Z</published>
-    <updated>2020-07-02T09:08:23.325Z</updated>
+    <published>2020-07-02T07:54:42.000Z</published>
+    <updated>2020-07-02T10:43:11.008Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="打印预览"><a href="#打印预览" class="headerlink" title="打印预览"></a>打印预览</h3><p>视图——》分页预览</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.2.png" alt="."></p><p>通过插入删除分页符可以改变打印<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.3.png" alt="3"></p><h3 id="打印标题"><a href="#打印标题" class="headerlink" title="打印标题"></a>打印标题</h3><p>这种“分割”方式会使得第二页没有标题，此时各通过“打印标题“完成<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.4.png" alt="3"></p><p>“顶端标题行”填上标题行<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.5.png" alt="5"></p><p>之后再打印预览就可以看到第二页也会有标题</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.6.png" alt="6"></p><h3 id="分页打印"><a href="#分页打印" class="headerlink" title="分页打印"></a>分页打印</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.7.png" alt="7"><br>将图中在一页的四个简历分为四页打印</p><pre><code>以单元格左、上边分开</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.8.gif" alt="7"></p><h3 id="不打印图片对象"><a href="#不打印图片对象" class="headerlink" title="不打印图片对象"></a>不打印图片对象</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.9.png" alt="9"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -62,6 +152,10 @@
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
     
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
@@ -73,8 +167,8 @@
     <title>Excel数据整理与分析(13):单元格保护操作</title>
     <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/"/>
     <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/</id>
-    <published>2020-07-02T06:40:29.138Z</published>
-    <updated>2020-07-02T07:53:30.149Z</updated>
+    <published>2020-07-02T06:40:29.000Z</published>
+    <updated>2020-07-02T10:43:18.921Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="单元格保护"><a href="#单元格保护" class="headerlink" title="单元格保护"></a>单元格保护</h2><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.1.png" alt="1"></p><h3 id="要求：仅允许用户-在G2：G4区域中编辑数据"><a href="#要求：仅允许用户-在G2：G4区域中编辑数据" class="headerlink" title="要求：仅允许用户 在G2：G4区域中编辑数据"></a>要求：仅允许用户 在G2：G4区域中编辑数据</h3><p>way：</p><p>1.全选</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.2.png" alt="1"><br>2.选中可编辑单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.3.png" alt="2"></p><p>3.全选启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.4.png" alt="3"></p><h3 id="在编辑栏里面不显示F2：F4单元格中应用的公式"><a href="#在编辑栏里面不显示F2：F4单元格中应用的公式" class="headerlink" title="在编辑栏里面不显示F2：F4单元格中应用的公式"></a>在编辑栏里面不显示F2：F4单元格中应用的公式</h3><p>1.选中所需隐藏单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.5.png" alt="1"></p><p>2.启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.6.png" alt="2"></p><h3 id="B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"><a href="#B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑" class="headerlink" title="B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"></a>B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.7.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -89,6 +183,10 @@
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
     
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
@@ -100,8 +198,8 @@
     <title>Excel数据整理与分析(12):LOOKUP函数</title>
     <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-12-lookup-han-shu/"/>
     <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-12-lookup-han-shu/</id>
-    <published>2020-07-02T04:12:04.006Z</published>
-    <updated>2020-07-02T05:42:17.271Z</updated>
+    <published>2020-07-02T04:12:03.000Z</published>
+    <updated>2020-07-02T10:43:27.176Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>语法：LOOKUP(查找值,查找条件,结果列）  LOOKUP(lookup_ value, lookup_ vector, [result_ vector])<br>                 LOOKUP(查找值,数据区域）      LOOKUP(lookup_ value, array)</p><p>为什么要学LOOKUP函数?<br>        因为vlookup是单条件查找，而lookup可以N个条件查找</p><h2 id="梨子"><a href="#梨子" class="headerlink" title="梨子"></a>梨子</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.1.png" alt="1"></p><p>查询出产品A和产品B对应的城市销量<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.2.png" alt="2"></p><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><h4 id="城市："><a href="#城市：" class="headerlink" title="城市："></a>城市：</h4><p>筛选出是否是所需城市</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.3.gif" alt="1"></p><p>即：（B17:B36)=J17   b12-b16是否等于J17</p><h4 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h4><p>筛选出产品 （A为例）</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.4.gif" alt="2"><br>    即：(C17:C36)=K16)      C17-C36是否等于K16</p><h4 id="筛选出同时满足一商量条件"><a href="#筛选出同时满足一商量条件" class="headerlink" title="筛选出同时满足一商量条件."></a>筛选出同时满足一商量条件.</h4><p>利用<strong><em>当且仅当true乘true=1</em></strong></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.5.gif" alt="3"><br>    即：((B17:B36)=J17)*((C17:C36)=K16)      相乘是否等于1</p><h4 id="转换为文本格式"><a href="#转换为文本格式" class="headerlink" title="转换为文本格式"></a>转换为文本格式</h4><p>利用<strong><em>0/anynumber</em></strong></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.6.gif" alt="4"></p><p>即：0/((B17:B36)=J17)*((C17:C36)=K16)</p><h4 id="lookup函数中各值"><a href="#lookup函数中各值" class="headerlink" title="lookup函数中各值"></a>lookup函数中各值</h4><pre><code>查找值 1查找条件 0/((B17:B36)=J17)*((C17:C36)=K16)结果列  D17:D36 （即销量）</code></pre><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/12.7.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -115,6 +213,10 @@
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
     
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
@@ -126,8 +228,8 @@
     <title>Excel数据整理与分析(11):案例讲解</title>
     <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-11-an-li-jiang-jie/"/>
     <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-11-an-li-jiang-jie/</id>
-    <published>2020-07-02T03:58:01.540Z</published>
-    <updated>2020-07-02T03:58:25.927Z</updated>
+    <published>2020-07-02T03:58:01.000Z</published>
+    <updated>2020-07-02T10:43:33.801Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="公式转换为数值"><a href="#公式转换为数值" class="headerlink" title="公式转换为数值"></a>公式转换为数值</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.1.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.2.gif" alt="1.1"></p><h3 id="金额万元显示"><a href="#金额万元显示" class="headerlink" title="金额万元显示"></a>金额万元显示</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.3.png" alt="2"></p><pre><code>0!.0,"万"</code></pre><h3 id="表格行列转置"><a href="#表格行列转置" class="headerlink" title="表格行列转置"></a>表格行列转置</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.4.png" alt="3"><br>way：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.5.gif" alt="3.1"></p><h3 id="单元格行列混合引用"><a href="#单元格行列混合引用" class="headerlink" title="单元格行列混合引用"></a>单元格行列混合引用</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.6.png" alt="4"></p><pre><code>相对引用和绝对引用：按F4切换引用方式。相对引用: 'A1  复制、粘贴公式时行、列都变化绝对引用: $A$1 复制、粘贴公式时行、列都不变化行绝对引用:    A$1    复制、粘贴公式时行不变化，列变化    列绝对引用:    $A1    复制、粘贴公式时行变化，列不变化    </code></pre><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/3.1.7.gif" alt="4.1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -142,32 +244,9 @@
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(10):工作簿及工作表保护操作</title>
-    <link href="www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/"/>
-    <id>www.kifroom.icu/2020/07/01/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/</id>
-    <published>2020-07-01T11:15:53.380Z</published>
-    <updated>2020-07-02T06:36:45.774Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="设置工作簿打开密码为”123”，否则不能打开工作簿"><a href="#设置工作簿打开密码为”123”，否则不能打开工作簿" class="headerlink" title="设置工作簿打开密码为”123”，否则不能打开工作簿"></a>设置工作簿打开密码为”123”，否则不能打开工作簿</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.1.png" alt="1"></p><h2 id="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"><a href="#清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑" class="headerlink" title="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"></a>清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑</h2><h3 id="清除打开密码"><a href="#清除打开密码" class="headerlink" title="清除打开密码"></a>清除打开密码</h3><p> 上面相同操作设置打开密码为空即可</p><h3 id="设置工作簿编辑密码"><a href="#设置工作簿编辑密码" class="headerlink" title="设置工作簿编辑密码"></a>设置工作簿编辑密码</h3><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.2.png" alt="2"></p><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.3.png" alt="2"></p><h2 id="设置源数据表，不能被点中单元格，只能浏览"><a href="#设置源数据表，不能被点中单元格，只能浏览" class="headerlink" title="设置源数据表，不能被点中单元格，只能浏览"></a>设置源数据表，不能被点中单元格，只能浏览</h2><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.5.png" alt="1"><br> 全选 ——》审阅。。。<br> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.4.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-      
-    
-    </summary>
-    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
@@ -209,8 +288,8 @@
     <title>Excel数据整理与分析(9):单元格之自定义数字格式</title>
     <link href="www.kifroom.icu/2020/06/29/excel-shu-ju-zheng-li-yu-fen-xi-9-dan-yuan-ge-zhi-zi-ding-yi-shu-zi-ge-shi/"/>
     <id>www.kifroom.icu/2020/06/29/excel-shu-ju-zheng-li-yu-fen-xi-9-dan-yuan-ge-zhi-zi-ding-yi-shu-zi-ge-shi/</id>
-    <published>2020-06-29T13:19:47.787Z</published>
-    <updated>2020-07-02T05:43:47.945Z</updated>
+    <published>2020-06-29T13:19:47.000Z</published>
+    <updated>2020-07-02T10:43:46.697Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="自定义单元格数字格式"><a href="#自定义单元格数字格式" class="headerlink" title="自定义单元格数字格式"></a>自定义单元格数字格式</h3><p>1-自定义数字格式:允许用户创建符合-定规则的数字格式! .<br>2-应用自定义格式的数字并不会改变数值本身，只改变数值的显显方式。</p><p>例如</p><table><thead><tr><th>小写金额</th><th>大写金额</th></tr></thead><tbody><tr><td>1450</td><td>壹万叁仟肆佰伍拾</td></tr></tbody></table><p>自定义格式路径：<br>点中数据——》<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.1.png" alt="1"></p><p>自定义的格式代码具有以下结构:<br>正数;负数;零值;文本   (;分号为英文符号)<br>100<br>-50<br>0|<br>ABCD</p><h5 id="只显示文本"><a href="#只显示文本" class="headerlink" title="只显示文本"></a>只显示文本</h5><pre><code>;;;G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/cp3.gif" alt="1"></p><h5 id="只屏蔽0"><a href="#只屏蔽0" class="headerlink" title="只屏蔽0"></a>只屏蔽0</h5><pre><code>G/通用格式;G/通用格式；;G/通用格式</code></pre><p>以分号隔开的四个区域组成一个完整的自定义格式代码， 在每个区域的代码对相应的数值产生作用。<br>同时也可以用运算符的方式表示条件值，如&gt;0, &lt;0表示正数和负数, &gt;60, &lt;60表示成绩的及格与否等。</p><h5 id="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"><a href="#中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。" class="headerlink" title="中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。"></a>中文版的EXCEL还可以用颜色代码编写自定义格式，使其显示不同的颜色。</h5><pre><code>可供选择的颜色代码有：[黑色]、[白色]、[蓝色]、[红色]、[黄色]、[绿色]、[洋红]，颜色的两边必须加上英文方括号.还可以直接用：[颜色1]、[颜色2]等颜色代码，颜色数值范围为1～65，见实例五。实例五与实例四两种代码的效果完全一样。</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.2.png" alt="梨子"></p><pre><code>G/通用格式;G/通用格式[红色];;</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.4.png" alt="2"></p><pre><code>如果对学生成绩大于60的显示红色，小于60的显示蓝色，可以加入“&gt;”、“&lt;”等条件代码，见一下实例。     [红色][&gt;60]G/通用格式;[蓝色]G/通用格式</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.5.png" alt="1"></p><h5 id="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"><a href="#在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例" class="headerlink" title="在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例"></a>在自定义数字格式中，0作为数字占位符，当数字比代码的数量少时，显示无意义的0，见以下实例</h5><pre><code>在自定义数字格式中，＃作为数字占位符，只显示有意义的数值，不显示无意义的0，</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.6.png" alt="1"></p><h5 id="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"><a href="#在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例" class="headerlink" title="在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例"></a>在自定义数字格式中，？也是数字占位符，跟0很相似，但？以空格代替0，可用于小数点对齐及分数显示，见以下实例</h5><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/9.7.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -224,6 +303,41 @@
     
     </summary>
     
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(10):工作簿及工作表保护操作</title>
+    <link href="www.kifroom.icu/2020/06/29/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/"/>
+    <id>www.kifroom.icu/2020/06/29/excel-shu-ju-zheng-li-yu-fen-xi-10-gong-zuo-bo-ji-gong-zuo-biao-bao-hu-cao-zuo/</id>
+    <published>2020-06-29T13:19:47.000Z</published>
+    <updated>2020-07-02T10:43:40.313Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="设置工作簿打开密码为”123”，否则不能打开工作簿"><a href="#设置工作簿打开密码为”123”，否则不能打开工作簿" class="headerlink" title="设置工作簿打开密码为”123”，否则不能打开工作簿"></a>设置工作簿打开密码为”123”，否则不能打开工作簿</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.1.png" alt="1"></p><h2 id="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"><a href="#清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑" class="headerlink" title="清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑"></a>清除打开密码并设置工作簿编辑密码为”456”，否则只能只读，不能编辑</h2><h3 id="清除打开密码"><a href="#清除打开密码" class="headerlink" title="清除打开密码"></a>清除打开密码</h3><p> 上面相同操作设置打开密码为空即可</p><h3 id="设置工作簿编辑密码"><a href="#设置工作簿编辑密码" class="headerlink" title="设置工作簿编辑密码"></a>设置工作簿编辑密码</h3><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.2.png" alt="2"></p><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.3.png" alt="2"></p><h2 id="设置源数据表，不能被点中单元格，只能浏览"><a href="#设置源数据表，不能被点中单元格，只能浏览" class="headerlink" title="设置源数据表，不能被点中单元格，只能浏览"></a>设置源数据表，不能被点中单元格，只能浏览</h2><p> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.5.png" alt="1"><br> 全选 ——》审阅。。。<br> <img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/10.4.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
     
     
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
@@ -500,92 +614,6 @@
       <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析（2）:经典的三表结构&#39;</title>
-    <link href="www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/"/>
-    <id>www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-2-jing-dian-de-san-biao-jie-gou/</id>
-    <published>2020-06-24T07:18:48.000Z</published>
-    <updated>2020-06-24T07:40:56.553Z</updated>
-    
-    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h4 id="首先弄清楚-我们为什么要用-Exccl"><a href="#首先弄清楚-我们为什么要用-Exccl" class="headerlink" title="首先弄清楚,我们为什么要用 Exccl?"></a>首先弄清楚,我们为什么要用 Exccl?</h4><ol><li>工作中使用Excc的目的，是为了得到各式各样用于决策的分析报表。而分析报表需要一个规范的源数据表提供数据。有了规范的源数据表，我们就可以制作出各式各样的决策报表。一句话总结就是设计一个标准的源数据表，制作出N个分析汇总表!</li><li>其实很多时候，就是因为制表不规范、录入数据格式不统一，对数据汇总分析造成极大的困扰，需要花大量的时间去整理数据，不仅效率慢，而且还存在数据不准确现象。</li></ol><p>本节需要理解以下知识点:</p><h4 id="源数据表"><a href="#源数据表" class="headerlink" title="源数据表:"></a>源数据表:</h4><p>也叫数据明细表，用于存放录入或导入的表格数据。<br>例如：<br><img src="https://graph.baidu.com/resource/222958c108f1dd98bad5201592983623.jpg" alt="源数据表"></p><h4 id="参数表"><a href="#参数表" class="headerlink" title="参数表:"></a>参数表:</h4><p>对源数据表的字段录入说明，为汇总表提供分析的维度。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/NdYHij.png" alt="参数表"></p><h4 id="汇总表"><a href="#汇总表" class="headerlink" title="汇总表:"></a>汇总表:</h4><p>Excel最终的分析报表，可以是数据汇总表、透视表、图表。一份源数据表可以制作出N张汇总表。<br>例如：<br><img src="https://s1.ax1x.com/2020/06/24/Ndtwfs.png" alt="汇总表"></p><p>只要源数据表里面的数据规范，我们可以不用学太多的复杂函数和<br>复杂技巧来弥补制表不规范的不足，成倍的提升工作效率!<br>”好比美食界的名言:“食材好，厨艺不高，吃起来也美味!<br>下一-章1.3节我们将学习Excel中源数据表常见错误暨规范化处理方法</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;首先弄清楚-我们为什么要用-Exccl&quot;&gt;&lt;a href=&quot;#首先弄清楚-我们为什么要用-Exccl&quot; class=&quot;he
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：扑克牌魔术</title>
-    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/"/>
-    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-bu-ke-pai-mo-zhu/</id>
-    <published>2020-06-23T12:20:35.000Z</published>
-    <updated>2020-06-23T12:22:00.618Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><p>东哥是个乡村魔术师，COVID-19疫情期间闲来无事，用扑克牌给邻居们表演了一场小魔术：他将一叠预先洗好的扑克牌背面朝上拿在手中，先将最上面的扑克牌放到最下面，然后打开现在最上面的这张扑克牌，并放到边上，这是一张1；然后又将最上面的扑克牌放到最下面，再次打开最上面的扑克牌，这次是一张2；他依次重复这两个步骤：（1）将最上面的放到最下面，（2）打开最上面的这张扑克牌，最终打开的扑克牌依次是：1，2，3，4……<br>邻居们都猜不出原来这叠扑克牌是怎么放的，现在请你帮忙用计算机算一下，东哥手上这叠牌从上往下是怎么排的呢？<br>例如东哥手上有10张扑克牌，则一开始扑克牌应该是这么放的：<br>8 1 6 2 10 3 7 4 9 5</p><a id="more"></a><h1 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>输入只有一个数据n（n≤1000），表示扑克牌的张数</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>输出一行数据，表示扑克牌原来的顺序</p><h1 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h1><h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例"></a>输入样例</h2><p>5<br>##输出样例<br>3 1 5 2 4</p><h1 id="限制"><a href="#限制" class="headerlink" title="限制"></a>限制</h1><p>时间限制：100 ms<br>内存限制：32767 KB</p><h1 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h1><pre><code>#include&lt;stdio.h&gt;typedef struct Queue{    int index; //原序号}Queue;Queue qw[1000];int main(){    int n;    scanf("%d", &amp;n);    int result[1000], front = 0, rear = n, k = 1;    int i;    for (i = 0; i &lt; n; i++)    {        qw[i].index = i;        result[i] = 0;    }    while (front &lt; rear)    {        //出队到桌面    int index = qw[front].index;        result[index] = k++;        //出队到队尾        front++;        if (front == rear)            break;        qw[rear++] = qw[front];        front++;    }    int realresult[1000];    int t;    int m;    realresult[0] = result[n - 1];    m = 0;    for (t = 1; t &lt; n; t++)    {        while(m&lt;n-1)        {            realresult[t] = result[m];            m++;            break;        }    }    int u;    for (u = 0; u &lt; n; u++)    {        if (u == 0)        {            printf("%d", realresult[u]);        }        else        {            printf(" %d", realresult[u]);        }    }    printf("\n");    return 0;}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot; class=&quot;headerlink&quot; title=&quot;描述&quot;&gt;&lt;/a&gt;描述&lt;/h1&gt;&lt;p&gt;东哥是个乡村魔术师，COVID-19疫情期间闲来无事，用扑克牌给邻居们表演了一场小魔术：他将一叠预先洗好的扑克牌背面朝上拿在手中，先将最上面的扑克牌放到最下面，然后打开现在最上面的这张扑克牌，并放到边上，这是一张1；然后又将最上面的扑克牌放到最下面，再次打开最上面的扑克牌，这次是一张2；他依次重复这两个步骤：（1）将最上面的放到最下面，（2）打开最上面的这张扑克牌，最终打开的扑克牌依次是：1，2，3，4……&lt;br&gt;邻居们都猜不出原来这叠扑克牌是怎么放的，现在请你帮忙用计算机算一下，东哥手上这叠牌从上往下是怎么排的呢？&lt;br&gt;例如东哥手上有10张扑克牌，则一开始扑克牌应该是这么放的：&lt;br&gt;8 1 6 2 10 3 7 4 9 5&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构习题：判断出栈序列合法性</title>
-    <link href="www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/"/>
-    <id>www.kifroom.icu/2020/06/23/shu-ju-jie-gou-xi-ti-pan-duan-chu-zhan-xu-lie-he-fa-xing/</id>
-    <published>2020-06-23T12:18:08.000Z</published>
-    <updated>2020-06-23T12:19:50.949Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><p>有1、2、3、4、5、6、7这7个数字依次全部入栈后再出栈，在入栈的过程中栈中的数据也可以随时出栈，一直到整个栈为空。将出栈得到的数字依次排列，就可以得到一个“合法”的序列；对应的，有些形式字的排列是无论如何调整入栈和出栈顺序也无法得到的，被称为“非法”序列。<br>比如：“1 2 3 4 6 7 5” 和“1 2 5 6 4 3 7”都是合法的序列，而“1 2 5 7 3 4 6”和“1 2 6 3 4 5 7”以及“1 2 6 3 5 4 7”都是非法的序列。<br>请编写程序，判断给定的由7个数字组成的序列是合法的还是非法的，如果是合法的输出“Y”，否则输出“N”。</p><a id="more"></a><h1 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第1行是一个整数n，表示要判断的序列的数目。<br>从第2行到第n+1行，每行一个序列，由1~7组成<br>##输出格式<br>输出为一行，一个由“Y”和“N”组成的长度为n的字符串，中间不要空格</p><h1 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h1><h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例"></a>输入样例</h2><p>5<br>1   2   6   3   5   7   4<br>1   2   6   5   3   7   4<br>1   2   7   4   5   6   3<br>1   2   7   6   3   4   5<br>1   3   2   4   5   7   6</p><h2 id="输出样例"><a href="#输出样例" class="headerlink" title="输出样例"></a>输出样例</h2><p>NNNNY</p><h1 id="限制"><a href="#限制" class="headerlink" title="限制"></a>限制</h1><p>时间限制：100 ms<br>内存限制：16384 KB</p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code>//判断依据：出栈序列中，元素i之后所有比i小的元素间必须是降序排列的。#include&lt;stdio.h&gt;#define Size 7int main(){    int n;    scanf("%d", &amp;n);    int cur[100][Size];//二位数组前部分标记测试样例数，后部分表示每个样例中的数序号    int x;    //赋值    for (x = 1; x &lt;= n; x++)    {        int y;        for (y = 0; y &lt; Size; y++)        {            scanf("%d", &amp;(cur[x][y]));        }    }    int i, j, k, t, q;    int temp, flag1, flag2;    q = 1;    a:    while( q &lt;= n)    {        for (j = 0; j &lt; Size; j++)        {            flag1 = 0;            flag2 = 0;            for (k = j + 1; k &lt; Size; k++) //寻找s[i]之后第一个比s[i]小的    (!!!!!)            {                if (cur[q][k] &lt; cur[q][j])//s[i]之后存在比s[i]小的                {                    temp = cur[q][k];//s[j]是s[i]之后第一个比s[i]小的                    flag1 = 1;                    break;                }            }            if (flag1 == 1)            {                for (t = k + 1; t &lt; Size; t++)                {                    if (cur[q][t] &lt; cur[q][j])//s[j]之后如果还有比s[i]小的数                    {                        if (cur[q][t] &lt; temp)//都必须小于它之前的一个比s[i]小的数                        {                            temp = cur[q][t];//并更新temp                        }                        else//否则，出栈序列非法                        {                            flag2 = 1;                            break;//退出至（！！！！！）循环                        }                    }                }            }            if (flag2 == 1)//接着退出循环            {                break;             }        }        if (flag2 == 1)        {            printf("N");            if (q!= n)            {                q++;                goto a;            }        }        else        {            printf("Y");            if (q != n)            {                q++;                goto a;            }        }        q++;    }    printf("\n");return 0;}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot; class=&quot;headerlink&quot; title=&quot;描述&quot;&gt;&lt;/a&gt;描述&lt;/h1&gt;&lt;p&gt;有1、2、3、4、5、6、7这7个数字依次全部入栈后再出栈，在入栈的过程中栈中的数据也可以随时出栈，一直到整个栈为空。将出栈得到的数字依次排列，就可以得到一个“合法”的序列；对应的，有些形式字的排列是无论如何调整入栈和出栈顺序也无法得到的，被称为“非法”序列。&lt;br&gt;比如：“1 2 3 4 6 7 5” 和“1 2 5 6 4 3 7”都是合法的序列，而“1 2 5 7 3 4 6”和“1 2 6 3 4 5 7”以及“1 2 6 3 5 4 7”都是非法的序列。&lt;br&gt;请编写程序，判断给定的由7个数字组成的序列是合法的还是非法的，如果是合法的输出“Y”，否则输出“N”。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据结构" scheme="www.kifroom.icu/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="习题" scheme="www.kifroom.icu/tags/%E4%B9%A0%E9%A2%98/"/>
     
   </entry>
   
