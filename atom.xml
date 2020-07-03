@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-03T10:25:31.206Z</updated>
+  <updated>2020-07-03T10:35:16.746Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(21):表格美化</title>
+    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-21-biao-ge-mei-hua/"/>
+    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-21-biao-ge-mei-hua/</id>
+    <published>2020-07-03T10:35:16.000Z</published>
+    <updated>2020-07-03T10:35:16.746Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(20):条件格式</title>
@@ -561,38 +587,6 @@
         &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;掌握数据排序及高级排序技巧。&quot;&gt;&lt;a href=&quot;#掌握数据排序及高级排序技巧。&quot; class=&quot;headerlink&quot; 
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析（5）：常见的数据操作技巧</title>
-    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/"/>
-    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-5-chang-jian-de-shu-ju-cao-zuo-ji-qiao/</id>
-    <published>2020-06-25T06:57:17.000Z</published>
-    <updated>2020-06-25T07:28:45.876Z</updated>
-    
-    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><p>掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行<br>和列、快速选中有数据的行和列数据、批量填充、空单元格定位填<br>充等高级操作技巧。</p><h3 id="自动调整行高和列宽"><a href="#自动调整行高和列宽" class="headerlink" title="自动调整行高和列宽"></a>自动调整行高和列宽</h3><p><strong>全选数据——》鼠标移动到如图（行或列）——》双击</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCAvq.png" alt="自动调整"><br><img src="https://s1.ax1x.com/2020/06/25/NBC12R.gif" alt="gif"></p><h3 id="全选有数据的整行（列）"><a href="#全选有数据的整行（列）" class="headerlink" title="全选有数据的整行（列）"></a>全选有数据的整行（列）</h3><p>1.<br><strong>Ctrl+Shift+方向键下（右）</strong><br><img src="https://s1.ax1x.com/2020/06/25/NBCBRA.gif" alt="1"><br><strong>注</strong>有空单元格是会停下</p><p>2.通过名称框快速选择区域<br>名称框中输入首尾坐标，回车<br><img src="https://s1.ax1x.com/2020/06/25/NBiiXq.gif" alt="1"></p><h3 id="移动单元格"><a href="#移动单元格" class="headerlink" title="移动单元格"></a>移动单元格</h3><p>全选有数据的整行（列）——》<strong>Shift+移动柄</strong>移动<br><img src="https://s1.ax1x.com/2020/06/25/NBia3d.gif" alt="移动"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>1-调整合适的行和高，只需要将鼠标放到行标和列标的中间位置双击即可。<br>2-通过ctrl + shift +方向键进行选择数据<br>3-按住shift键移动行和列位置的时候，需要先松开鼠标，再松开shift键才 可以实现行列调换<br>下一章1.6节我们将学习Excel工作表数据操作之数据排序</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行&lt;br&gt;和列、快速选中有数据的行和列数据、批量填充、空单元格定位填&lt;br&gt;
       
     
     </summary>
