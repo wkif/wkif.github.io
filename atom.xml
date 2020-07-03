@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-03T09:39:29.940Z</updated>
+  <updated>2020-07-03T10:25:31.206Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -21,24 +21,25 @@
     <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/"/>
     <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/</id>
     <published>2020-07-03T09:39:29.000Z</published>
-    <updated>2020-07-03T09:39:29.940Z</updated>
+    <updated>2020-07-03T10:25:31.206Z</updated>
     
-    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="案例一"><a href="#案例一" class="headerlink" title="案例一"></a>案例一</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.1.png" alt="例一"></p><p>要求：</p><p>操作要求：（在J9:N16区域 突出显示单元格规则、项目选取规则、图标集应用和酷炫迷你图）<br>1.用浅红填充色深红文本，突出显示出各科目不及格的成绩<br>2.用蓝色填充，突出显示总分相同的单元格数据<br>3.用红色文本，选取出总分低于平均值的单元格数据<br>4.用图标集标识出数学成绩&gt;=85、&gt;=60和不及格部分（尝试一下：仅显示图标）<br>5.分析各科目的分数的趋势走向（用红点标识出低点，蓝色标识出高点）</p><p>效果图：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.6.png" alt="1">                </p><p>way：</p><p>1.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.2.gif" alt="1"></p><p>2.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.3.png" alt="2"></p><p>颜色自定义</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.4.png" alt="2"></p><p>3.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.5.png" alt="3"></p><p>4.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.7.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.8.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.9.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.10.png" alt="4"></p><p>5.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.11.gif" alt="5"></p><h2 id="案例二"><a href="#案例二" class="headerlink" title="案例二"></a>案例二</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.12.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.12.png" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-        
-      
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
     
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
@@ -47,13 +48,13 @@
     <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/"/>
     <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/</id>
     <published>2020-07-03T09:10:19.000Z</published>
-    <updated>2020-07-03T09:38:13.086Z</updated>
+    <updated>2020-07-03T10:25:37.980Z</updated>
     
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash">https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!</p><a id="more"></a><h2 id="输入信息提醒"><a href="#输入信息提醒" class="headerlink" title="输入信息提醒"></a>输入信息提醒</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.3.png" alt="2"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.2.gif" alt="3"></p><h2 id="圈示错误信息"><a href="#圈示错误信息" class="headerlink" title="圈示错误信息"></a>圈示错误信息</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.4.png" alt="4"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!</p><a id="more"></a><h2 id="输入信息提醒"><a href="#输入信息提醒" class="headerlink" title="输入信息提醒"></a>输入信息提醒</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.3.png" alt="2"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.2.gif" alt="3"></p><h2 id="圈示错误信息"><a href="#圈示错误信息" class="headerlink" title="圈示错误信息"></a>圈示错误信息</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.4.png" alt="4"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!&lt;/p&gt;
     
