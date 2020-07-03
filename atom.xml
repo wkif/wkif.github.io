@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-02T11:49:07.485Z</updated>
+  <updated>2020-07-03T09:39:29.940Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(20):条件格式</title>
+    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/"/>
+    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/</id>
+    <published>2020-07-03T09:39:29.000Z</published>
+    <updated>2020-07-03T09:39:29.940Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(19):通过数据验证避免数据录入错误</title>
+    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/"/>
+    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/</id>
+    <published>2020-07-03T09:10:19.000Z</published>
+    <updated>2020-07-03T09:38:13.086Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash">https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!</p><a id="more"></a><h2 id="输入信息提醒"><a href="#输入信息提醒" class="headerlink" title="输入信息提醒"></a>输入信息提醒</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.3.png" alt="2"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.2.gif" alt="3"></p><h2 id="圈示错误信息"><a href="#圈示错误信息" class="headerlink" title="圈示错误信息"></a>圈示错误信息</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.4.png" alt="4"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(18):二维数据转一维数据</title>
@@ -537,70 +592,6 @@
         &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;掌握自动调整行高和列宽、行列数据位置调整、隐藏和取消隐藏行&lt;br&gt;和列、快速选中有数据的行和列数据、批量填充、空单元格定位填&lt;br&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析（4）：工作表功能操作技巧</title>
-    <link href="www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/"/>
-    <id>www.kifroom.icu/2020/06/25/excel-shu-ju-zheng-li-yu-fen-xi-4-gong-zuo-biao-gong-neng-cao-zuo-ji-qiao/</id>
-    <published>2020-06-25T06:19:04.000Z</published>
-    <updated>2020-06-25T06:55:24.289Z</updated>
-    
-    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="操作要求："><a href="#操作要求：" class="headerlink" title="操作要求："></a>操作要求：</h2><h3 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h3><p>新建工作簿时，设置默认包含的工作表数为3个 并设置“用户名”<br><strong>文件-》选项——》常规</strong>中设置<br><img src="https://s1.ax1x.com/2020/06/25/N0zZkj.png" alt="新建工作表"></p><h3 id="快速定位"><a href="#快速定位" class="headerlink" title="快速定位"></a>快速定位</h3><p>快速定位切换到“六月”这个工作表，完成“六月”这个表中的产品销售求和</p><h4 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h4><p> 鼠标右键如图图标<br> <img src="https://s1.ax1x.com/2020/06/25/N0zWgP.png" alt="1"><br> 选择所需工作表确定即可定位<br> <img src="https://s1.ax1x.com/2020/06/25/N0z4u8.png" alt="2"></p><h4 id="求和"><a href="#求和" class="headerlink" title="求和"></a>求和</h4><p>单击表中一个表格，按下 <strong>ctrl+A</strong>全选数据表格<br>按<strong>Alt+=</strong>快速求和<br> <img src="https://s1.ax1x.com/2020/06/25/NBSUaQ.png" alt="求和"></p><h3 id="批量删除"><a href="#批量删除" class="headerlink" title="批量删除"></a>批量删除</h3><p>批量删除 Sheet11到Sheet1这些多余的空白工作表<br><strong>shift连续选中多个，ctrl不连续的选择多个</strong><br>按住ctr在单击所需删除的数据表，右击之后删除</p><h3 id="重命名"><a href="#重命名" class="headerlink" title="重命名"></a>重命名</h3><p>右击需要改正的数据表</p><p><img src="https://s1.ax1x.com/2020/06/25/NBpPeS.png" alt="重命名"></p><h3 id="移动-复制"><a href="#移动-复制" class="headerlink" title="移动/复制"></a>移动/复制</h3><h4 id="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"><a href="#新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中" class="headerlink" title="新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中"></a>新建一个工作簿，然后将“潭州教育”这个工作表复制到“新工作簿”中</h4><p><img src="https://s1.ax1x.com/2020/06/25/NBpuLT.png" alt="新建"><br>左上角<strong>文件</strong>——》新建  由于第一步设置，新建的工作簿中有三个工作表<br><img src="https://s1.ax1x.com/2020/06/25/NBpYS1.png" alt="三个工作表"></p><h4 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h4><p>将该工作簿中工作表移动到 新的工作簿中，并新工作簿保存到桌面</p><p>右击所需移动的工作表 ——》点击移动或复制——》<br><img src="https://s1.ax1x.com/2020/06/25/NBpg6P.png" alt="移动"></p><p><strong>注</strong>：记得打钩副本，否则原数据簿中就没有该数据表了！<br><img src="https://s1.ax1x.com/2020/06/25/NB9etH.th.png" alt="副本"><br>点击如图，选择新工作簿——》确定 ——》ctrl+s保存</p><p><img src="https://s1.ax1x.com/2020/06/25/NBp7pn.png" alt="2"></p><h3 id="标签颜色"><a href="#标签颜色" class="headerlink" title="标签颜色"></a>标签颜色</h3><p>.将工作表标签颜色填充成蓝色</p><p>右击所需改变的数据表，如图</p><p><img src="https://s1.ax1x.com/2020/06/25/NB9Sh9.png" alt="填充颜色"></p><h3 id="取消-隐藏"><a href="#取消-隐藏" class="headerlink" title="(取消)隐藏"></a>(取消)隐藏</h3><p>隐藏工作表，然后取消隐藏的工作表</p><p>如图可对工作表(取消)隐藏<br><img src="!%5BAlt%20text%5D%28./1593068064619.png%29" alt="隐藏"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;操作要求：&quot;&gt;&lt;a href=&quot;#操作要求：&quot; class=&quot;headerlink&quot; title=&quot;操作要求：&quot;&gt;&lt;/a&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析（3）：常见错误及解决</title>
-    <link href="www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/"/>
-    <id>www.kifroom.icu/2020/06/24/excel-shu-ju-zheng-li-yu-fen-xi-3-chang-jian-cuo-wu-ji-jie-jue/</id>
-    <published>2020-06-24T07:42:17.000Z</published>
-    <updated>2020-06-24T07:45:49.328Z</updated>
-    
-    <content type="html"><![CDATA[<pre class=" language-bash"><code class="language-bash"></code></pre><h2 id="正确表格"><a href="#正确表格" class="headerlink" title="正确表格"></a>正确表格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdURzR.png" alt="正确"></p><h2 id="错误1：合并单元格"><a href="#错误1：合并单元格" class="headerlink" title="错误1：合并单元格"></a>错误1：合并单元格</h2><p><img src="https://s1.ax1x.com/2020/06/24/NdUOSA.png" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;正确表格&quot;&gt;&lt;a href=&quot;#正确表格&quot; class=&quot;headerlink&quot; title=&quot;正确表格&quot;&gt;&lt;/a&gt;正确表
       
     
     </summary>
