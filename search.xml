@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>Excel数据整理与分析(29):逻辑判断函数（and or if ）</title>
+      <link href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/"/>
+      <url>/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/</url>
+      
+        <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握SUMIF单条件求和用法<br>2-掌握SUMIFS多条件求和用法</p><a id="more"></a><h3 id="TRUE-FALSE"><a href="#TRUE-FALSE" class="headerlink" title="TRUE(FALSE)"></a>TRUE(FALSE)</h3><p>TRUE        逻辑值“真”<br>FALSE        逻辑值“假”                </p><h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>通过比较运算，函数运算可以得到TRUE或者FALSE值<br>当用其他数字来代替逻辑值作为函数参数时，0代表FALSE，其他数字代表TRUE                        </p><h4 id="逻辑值参与运算"><a href="#逻辑值参与运算" class="headerlink" title="逻辑值参与运算"></a>逻辑值参与运算</h4><p>2     =1+TRUE<br>1     =1<em>TRUE<br>2     =SUM(TRUE,TRUE,FALSE,0)<br>0     =TRUE</em>FALSE        </p><h3 id="AND-OR-函数"><a href="#AND-OR-函数" class="headerlink" title="AND(OR)函数"></a>AND(OR)函数</h3><p>AND    所有参数的逻辑值为真时，返回 TRUE；只要一个参数的逻辑值为假，即返回 FALSE。<br>OR    在其参数组中，任何一个参数逻辑值为 TRUE，即返回 TRUE；任何一个参数的逻辑值为 FALSE，即返回 FALSE。    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>AND(OR)(logical1,logical2, …)<br>Logical1, logical2, …    表示待检测的 1 到 30 个条件值，各条件值可为 TRUE 或 FALSE。        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.1.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.2.gif" alt="2"></p><h3 id="IF函数"><a href="#IF函数" class="headerlink" title="IF函数"></a>IF函数</h3><p>执行真假值判断，根据逻辑计算的真假值，返回不同结果。可以使用函数 IF 对数值和公式进行条件检测。        </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>IF(logical_test,value_if_true,value_if_false)<br>(1) Logical_test    表示计算结果为 TRUE 或 FALSE 的任意值或表达式。<br>(2) Value_if_true    logical_test 为 TRUE 时返回的值。如果 logical_test 为 TRUE 而 value_if_true 为空，则本参数返回 0（零）。<br>(3) Value_if_false    logical_test 为 FALSE 时返回的值。如果 logical_test 为 FALSE 且忽略了 Value_if_false（即 value_if_true 后没有逗号），则会返回逻辑值 FALSE。        </p><h4 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h4><p>函数 IF 从2007版本开始可以嵌套64层，用 value_if_false 及 value_if_true 参数可以构造复杂的检测条件。<br>在计算参数 value_if_true 和 value_if_false 后，函数 IF 返回相应语句执行后的返回值。<br>如果函数 IF 的参数包含数组，则在执行 IF 语句时，数组中的每一个元素都将计算。         </p><p>例二：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.3.png" alt="3"></p><p>way:<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.4.gif" alt="4"></p><p>例三：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.5.png" alt="5"></p><pre><code>=IF(D39&gt;=90,"优秀",IF(D39&gt;=80,"良好",IF(D39&gt;=60,"及格","不及格")))</code></pre><p>例四：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.6.png" alt="6"></p><pre><code>=IF(AND(C88="男",D88&gt;60),"可以",IF(AND(C88="女",D88&gt;55),“可以”,“不可以”))</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析(28):条件求和函数</title>
+      <link href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-28-tiao-jian-qiu-he-han-shu/"/>
+      <url>/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-28-tiao-jian-qiu-he-han-shu/</url>
+      
+        <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握SUMIF单条件求和用法<br>2-掌握SUMIFS多条件求和用法</p><a id="more"></a><h3 id="SUMIF函数"><a href="#SUMIF函数" class="headerlink" title="SUMIF函数"></a>SUMIF函数</h3><p>根据指定单条件对若干单元格求和。            </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>SUMIF(range,criteria,sum_range)<br>(1) Range    为用于条件判断的单元格区域。<br>(2) Criteria    为确定哪些单元格将被相加求和的条件，其形式可以为数字、表达式或文本。例如，条件可以表示为 32、”32”、”&gt;32” 或 “apples”。<br>(3) Sum_range    是需要求和的实际单元格。            </p><h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>只有在区域中相应的单元格符合条件的情况下，sum_range 中的单元格才求和。<br>如果忽略了 sum_range，则对区域中的单元格求和。    </p><h4 id="例一："><a href="#例一：" class="headerlink" title="例一："></a>例一：</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.2.gif" alt="2"></p><p>简化写法：</p><pre><code>=SUMIF(C16:C28,C16,E16:E28)</code></pre><h3 id="SUMIFS函数"><a href="#SUMIFS函数" class="headerlink" title="SUMIFS函数"></a>SUMIFS函数</h3><p>根据指定多条件对若干单元格求和。        </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>SUMIFS(SUM_range,criteria1,sum_range1,criteria2,sum_range2,…)<br>(1) SUM_Range    为用于条件判断的单元格区域。<br>(2) Criteria1    为确定哪些单元格将被相加求和的条件，其形式可以为数字、表达式或文本。例如，条件可以表示为 32、”32”、”&gt;32” 或 “apples”。<br>(3) range1    是需要求和的实际单元格。        </p><h4 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h4><p>只有在区域中相应的单元格符合条件的情况下，sum_range 中的单元格才求和。<br>如果忽略了 sum_range，则对区域中的单元格求和。        </p><p>例二：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.3.png" alt="3"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.4.gif" alt="4"></p><p>实战：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.5.png" alt="5"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.6.png" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>shmily</title>
       <link href="/2020/07/13/shmily/"/>
       <url>/2020/07/13/shmily/</url>
