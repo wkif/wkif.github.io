@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-18T10:02:26.913Z</updated>
+  <updated>2020-07-18T10:05:33.942Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-18T10:05:33.942Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(29):逻辑判断函数（and or if ）</title>
@@ -553,37 +579,6 @@
     <updated>2020-07-02T10:43:11.008Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="打印预览"><a href="#打印预览" class="headerlink" title="打印预览"></a>打印预览</h3><p>视图——》分页预览</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.2.png" alt="."></p><p>通过插入删除分页符可以改变打印<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.3.png" alt="3"></p><h3 id="打印标题"><a href="#打印标题" class="headerlink" title="打印标题"></a>打印标题</h3><p>这种“分割”方式会使得第二页没有标题，此时各通过“打印标题“完成<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.4.png" alt="3"></p><p>“顶端标题行”填上标题行<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.5.png" alt="5"></p><p>之后再打印预览就可以看到第二页也会有标题</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.6.png" alt="6"></p><h3 id="分页打印"><a href="#分页打印" class="headerlink" title="分页打印"></a>分页打印</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.7.png" alt="7"><br>将图中在一页的四个简历分为四页打印</p><pre><code>以单元格左、上边分开</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.8.gif" alt="7"></p><h3 id="不打印图片对象"><a href="#不打印图片对象" class="headerlink" title="不打印图片对象"></a>不打印图片对象</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.9.png" alt="9"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(13):单元格保护操作</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-13-dan-yuan-ge-bao-hu-cao-zuo/</id>
-    <published>2020-07-02T06:40:29.000Z</published>
-    <updated>2020-07-02T10:43:18.921Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="单元格保护"><a href="#单元格保护" class="headerlink" title="单元格保护"></a>单元格保护</h2><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.1.png" alt="1"></p><h3 id="要求：仅允许用户-在G2：G4区域中编辑数据"><a href="#要求：仅允许用户-在G2：G4区域中编辑数据" class="headerlink" title="要求：仅允许用户 在G2：G4区域中编辑数据"></a>要求：仅允许用户 在G2：G4区域中编辑数据</h3><p>way：</p><p>1.全选</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.2.png" alt="1"><br>2.选中可编辑单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.3.png" alt="2"></p><p>3.全选启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.4.png" alt="3"></p><h3 id="在编辑栏里面不显示F2：F4单元格中应用的公式"><a href="#在编辑栏里面不显示F2：F4单元格中应用的公式" class="headerlink" title="在编辑栏里面不显示F2：F4单元格中应用的公式"></a>在编辑栏里面不显示F2：F4单元格中应用的公式</h3><p>1.选中所需隐藏单元格</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.5.png" alt="1"></p><p>2.启动保护</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.6.png" alt="2"></p><h3 id="B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"><a href="#B列的数据-仅允许人力资源部进行编辑（密码“123”），C列的数据-仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑" class="headerlink" title="B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑"></a>B列的数据 仅允许人力资源部进行编辑（密码“123”），C列的数据 仅允许财务部进行编辑（密码“456”），其他单元格区域不能被点中，也不能编辑</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/13.7.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
