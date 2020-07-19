@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-18T10:05:33.942Z</updated>
+  <updated>2020-07-19T14:51:14.389Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-18T10:05:33.942Z</updated>
+    <title>Excel数据整理与分析-32-INDEX+MATCH组合查找函数</title>
+    <link href="www.kifroom.icu/2020/07/19/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/19/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/</id>
+    <published>2020-07-19T14:51:14.389Z</published>
+    <updated>2020-07-19T14:51:14.389Z</updated>
     
     <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -39,6 +39,62 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-18T16:02:31.231Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="Row-Column-函数"><a href="#Row-Column-函数" class="headerlink" title="Row/Column 函数"></a>Row/Column 函数</h3><p>返回给定引用的行标(列标)。    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>ROW(reference)   COLUMN相同<br>Reference    为需要得到其行号的单元格或单元格区域。<br>如果省略 reference，则假定是对函数 ROW 所在单元格的引用。<br>如果 reference 为一个单元格区域，并且函数 ROW 作为垂直数组输入，则函数 ROW 将 reference 的行号以垂直数组的形式返回。<br>Reference 不能引用多个区域。    </p><p>例一：生成九九乘法表</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/L%60%60%5D~0787PE03_0AAA@3@Z2.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.4.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(31):VLOOKUP+COLUMN+MATCH黄金组合查找函数</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-19T14:51:41.391Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MATCH函数"><a href="#MATCH函数" class="headerlink" title="MATCH函数"></a>MATCH函数</h3><p>返回在指定方式下与指定数值匹配的数组中元素的相应位置。如果需要找出匹配元素的位置而不是匹配元素本身，则应该使用 MATCH 函数而不是 LOOKUP 函数。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MATCH(查找值,查找区域,逻辑值)<br>查找值    为需要在数据表中查找的数值。查找值可以是数值、文本或者逻辑值。<br>查找区域    可能包含所要查找的数值的连续单元格区域。查找区域 应为数组或数组引用。<br>逻辑值    逻辑值和VLOOKUP类似，当逻辑值是FALSE或者0的时候，函数进行精确查找;当逻辑值是1或者是-1进行模糊查找。        </p><p><strong><em>注</em></strong>        ：vlookup查找的值必须在首列，升序排序        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/15.png" alt="1"></p><p>其中逻辑值<br>1  -小于<br>0  -精确匹配<br>-1  -大于</p><pre><code>=MATCH(B17,B16:B19,0)=MATCH(E23,B23:E23,0)</code></pre><h3 id="VLOOKUP函数"><a href="#VLOOKUP函数" class="headerlink" title="VLOOKUP函数"></a>VLOOKUP函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>VLOOKUP(查找值，数据区域，返回列数，逻辑值)</p><p>查找值    是需要在数据区域的第一列中查找的数值，可以为数值、文本、引用或者是公式计算出的结果。只有查找值在数据区域<br>数据区域   是包括查找值和返回值在内的区域, -般表示为”$D$23:$F$31”的形式， 以便于公式填充，也可以将区域定义为一个名<br>返回列数   在数据区域的第一列找到查找值后 ，返回查找值对应的哪一-行的第几列的单元格的内容。<br>逻辑值    指明函数 VLOOKUP返回时是精确匹配还是近似匹配。</p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/I%5B1T%7BNOR%7D$T$%7B5JF%G%60@1R6.png" alt="1"></p><p>场景1：字段对应<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.8.gif" alt="1.1"></p><p>场景2：字段不对应<br>用match函数匹配一下<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/30.1.gif" alt="1.2"></p><p>例二：</p><p>模糊查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BR.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/31.gif" alt="2.1"></p><p>例三：通配符查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/LHB%R%60H~J5.png" alt="3"></p><p>way:</p><pre><code>=VLOOKUP("*B",C54:D57,2,0)</code></pre><p>例四：</p><p>跨工作表查询</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/X~TZP95BD3.png" alt="4.1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/JWKPYO~%O8.png" alt="4.2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/2454.gif" alt="4.3"></p><p>实战演练：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29SBW01GN.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
     
   </entry>
   
@@ -525,68 +581,6 @@
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、&lt;br&gt;网页文件数据导入。&lt;br&gt;通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(15):数据录入规范</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-15-shu-ju-lu-ru-gui-fan/</id>
-    <published>2020-07-02T07:54:42.000Z</published>
-    <updated>2020-07-02T10:43:04.984Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="数据录入指南"><a href="#数据录入指南" class="headerlink" title="数据录入指南"></a>数据录入指南</h2><h3 id="我们的源数据表从哪里来？"><a href="#我们的源数据表从哪里来？" class="headerlink" title="我们的源数据表从哪里来？"></a>我们的源数据表从哪里来？</h3><h4 id="人工从键盘录入数据"><a href="#人工从键盘录入数据" class="headerlink" title="人工从键盘录入数据"></a>人工从键盘录入数据</h4><p>比如学生考试成绩表，个人基本信息等，需要人工输入后才能分析汇总。</p><h4 id="从外部数据导入"><a href="#从外部数据导入" class="headerlink" title="从外部数据导入"></a>从外部数据导入</h4><p>类似公司数据库、CRM系统，OA系统，网站、云端数据等导入到Excel工作表。<br>举例：学校食堂要分析同学们的消费数据，可以从食堂消费系统导出数据。那么食堂的消费数据从哪里来？<br>类似食堂消费系统、学校车辆收费系统等，这么多的数据就不需要人工录入，直接导入到Excel分析</p><h3 id="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"><a href="#本节主要讲解如何从键盘规范的录入数据和数据录入的技巧" class="headerlink" title="本节主要讲解如何从键盘规范的录入数据和数据录入的技巧"></a>本节主要讲解如何从键盘规范的录入数据和数据录入的技巧</h3><p>数据录入前的准备工作：</p><h4 id="在数据录入前，源数据需要哪些字段名？"><a href="#在数据录入前，源数据需要哪些字段名？" class="headerlink" title="在数据录入前，源数据需要哪些字段名？"></a>在数据录入前，源数据需要哪些字段名？</h4><p>举例：土木工程系学生基本信息表需要字段:序号、姓名、性别、学号、身份证号码、出生日期、年龄、联系方式、所在院系、就读专业</p><h4 id="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"><a href="#确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。" class="headerlink" title="确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。"></a>确定字段名后，需要在参数表里面规定其格式，可以使用数据验证设置单元格，避免录入错误。</h4><p>例如：<br>限制输入<br>条件：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.1.png" alt="1"></p><p>1.性别（限制男女两种输入）<br>全选输入框——》数据——》数据验证——》数据验证——》序列——》<strong><em>男，女</em></strong><br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.2.gif" alt="2"></p><p>2.学号（限制长度10）<br>全选输入框——》数据——》数据验证——》数据验证——》文本长度 ——》等于——》10<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.3.gif" alt="3"></p><p>3.身份证号（限制长度）</p><p>操作同上</p><p>4.日期（限制为短日期）</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15.4.png" alt="4"></p><p>5.联系方式（限制长度11）<br>6.专业（限制为仅能输入工程管理、桥梁建筑、工程造价之一）<br>同性别 序列</p><h3 id="开始录入数据"><a href="#开始录入数据" class="headerlink" title="开始录入数据"></a>开始录入数据</h3><pre><code>如果忘记源数据表的规范要求，可以复习源数据表常见错误暨规范化处理方法。            数据标题从A1单元格开始，相同属性的字段名列靠在一起。                    同行输入，输入完内容需要向右输入，按Tab键。                    同列输入，输入完内容需要向下输入，按Enter键                    单元格内部换行，按Alt+Enter键                    单元格输入完内容，不要点击鼠标确定。这是不良输入习惯。点击鼠标确定的方式不仅仅影响输入速度，还影响公式的输入。                    </code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(14):工作表打印设置</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-14-gong-zuo-biao-da-yin-she-zhi/</id>
-    <published>2020-07-02T07:54:42.000Z</published>
-    <updated>2020-07-02T10:43:11.008Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="打印预览"><a href="#打印预览" class="headerlink" title="打印预览"></a>打印预览</h3><p>视图——》分页预览</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.2.png" alt="."></p><p>通过插入删除分页符可以改变打印<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.3.png" alt="3"></p><h3 id="打印标题"><a href="#打印标题" class="headerlink" title="打印标题"></a>打印标题</h3><p>这种“分割”方式会使得第二页没有标题，此时各通过“打印标题“完成<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.4.png" alt="3"></p><p>“顶端标题行”填上标题行<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.5.png" alt="5"></p><p>之后再打印预览就可以看到第二页也会有标题</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.6.png" alt="6"></p><h3 id="分页打印"><a href="#分页打印" class="headerlink" title="分页打印"></a>分页打印</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.7.png" alt="7"><br>将图中在一页的四个简历分为四页打印</p><pre><code>以单元格左、上边分开</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.8.gif" alt="7"></p><h3 id="不打印图片对象"><a href="#不打印图片对象" class="headerlink" title="不打印图片对象"></a>不打印图片对象</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/14.9.png" alt="9"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
-&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-      
     
     </summary>
     
