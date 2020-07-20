@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>Excel数据整理与分析-38-计算年月日</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(38):计算年月日’<br>date: 2020-07-20 15:11:26categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-37-TEXT函数应用</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(37):TEXT函数应用’<br>date: 2020-07-20 15:11:09<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a> <h3 id="TEXT函数"><a href="#TEXT函数" class="headerlink" title="TEXT函数"></a>TEXT函数</h3><p>TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>TEXT(value, format_text)</p><p>Value数值、能够返回数值的公式，或者对数值单元格的引用</p><p>Format. text文字形式的数字格式，文字形式来自于“单元格格式”对话框数字”选项卡的“分类”框(不是“常规”选择项卡)</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720181918.png" alt="1"></p><p>公历转农历</p><p><code>"[$-110000]e-m-d"</code></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720182233.png" alt="2"></p><p>例一：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720182323666.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183202.gif" alt="2"></p><p>例二：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183134.png" alt="3"></p><p>way:</p><p>1.切片</p><p>其中从哪儿开始切用到row函数，即：row（1：len（A1））</p><p>`</p><p>mid（A1,row（1：len（A1））,1）</p><p>`</p><p>2.屏蔽掉字母</p><p>`</p><p>TEXT（mid（A1,row（1：len（A1））,1），“0；0；0；！0”）</p><p>`</p><p>3.转换为数字比大小</p><p>`</p><p>=MAX(–TEXT(MID(A3,ROW(1:9),1),”0;;0;!0”))</p><p>`</p><p><strong><em>注</em></strong> 按ctrl + shift+enter</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720190527.gif" alt="4"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Excel数据整理与分析(35):FIND+SEARCH函数应用</title>
       <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/"/>
       <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/</url>

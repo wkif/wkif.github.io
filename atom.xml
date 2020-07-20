@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-20T08:26:01.533Z</updated>
+  <updated>2020-07-20T11:53:18.325Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析-38-计算年月日</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/</id>
+    <published>2020-07-20T11:27:06.507Z</published>
+    <updated>2020-07-20T11:53:18.325Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(38):计算年月日’<br>date: 2020-07-20 15:11:26categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(38):计算年月日’&lt;br&gt;date: 2020-07-20 15:11:26categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-37-TEXT函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/</id>
+    <published>2020-07-20T07:11:09.925Z</published>
+    <updated>2020-07-20T11:53:03.012Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(37):TEXT函数应用’<br>date: 2020-07-20 15:11:09<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a> <h3 id="TEXT函数"><a href="#TEXT函数" class="headerlink" title="TEXT函数"></a>TEXT函数</h3><p>TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>TEXT(value, format_text)</p><p>Value数值、能够返回数值的公式，或者对数值单元格的引用</p><p>Format. text文字形式的数字格式，文字形式来自于“单元格格式”对话框数字”选项卡的“分类”框(不是“常规”选择项卡)</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720181918.png" alt="1"></p><p>公历转农历</p><p><code>"[$-110000]e-m-d"</code></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720182233.png" alt="2"></p><p>例一：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720182323666.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183202.gif" alt="2"></p><p>例二：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183134.png" alt="3"></p><p>way:</p><p>1.切片</p><p>其中从哪儿开始切用到row函数，即：row（1：len（A1））</p><p>`</p><p>mid（A1,row（1：len（A1））,1）</p><p>`</p><p>2.屏蔽掉字母</p><p>`</p><p>TEXT（mid（A1,row（1：len（A1））,1），“0；0；0；！0”）</p><p>`</p><p>3.转换为数字比大小</p><p>`</p><p>=MAX(–TEXT(MID(A3,ROW(1:9),1),”0;;0;!0”))</p><p>`</p><p><strong><em>注</em></strong> 按ctrl + shift+enter</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720190527.gif" alt="4"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(37):TEXT函数应用’&lt;br&gt;date: 2020-07-20 15:11:09&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析(35):FIND+SEARCH函数应用</title>
@@ -523,63 +567,6 @@
       
         &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;
       
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(19):通过数据验证避免数据录入错误</title>
-    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/"/>
-    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-19-tong-guo-shu-ju-yan-zheng-bi-mian-shu-ju-lu-ru-cuo-wu/</id>
-    <published>2020-07-03T09:10:19.000Z</published>
-    <updated>2020-07-03T10:25:37.980Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!</p><a id="more"></a><h2 id="输入信息提醒"><a href="#输入信息提醒" class="headerlink" title="输入信息提醒"></a>输入信息提醒</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.3.png" alt="2"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.2.gif" alt="3"></p><h2 id="圈示错误信息"><a href="#圈示错误信息" class="headerlink" title="圈示错误信息"></a>圈示错误信息</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.4.png" alt="4"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/19.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(18):二维数据转一维数据</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/</id>
-    <published>2020-07-02T11:26:23.000Z</published>
-    <updated>2020-07-02T11:49:07.485Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>1、一维表，一般是用一行来存放一条完整的数据，相同属性用一列来存放一个字段，也叫源数据表。</p><p>2、二维表，一般是通过行和列分别记录两个不同的维度，来统计数据，也叫汇总表。</p><p>3、为什么需要二维数据表转一维数据表？</p><p>因为很多时候对方给我们的表格都是二维汇总表，有时候我们又想通过其他字段分析二维汇总表，<br>比如以上二维表显示的是按地区和年份显示合计金额，如果我们想看同比值，<br>我们就需要先把二维表转成一维表进行数据透视，才能看同比值。<br>只有一维数据可以直观的分析各个字段，所以需要二维数据转一维数据。</p><h2 id="操作–power-query"><a href="#操作–power-query" class="headerlink" title="操作–power query"></a>操作–power query</h2><p>原二维表<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.2.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
