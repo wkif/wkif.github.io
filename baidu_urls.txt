@@ -1,5 +1,4 @@
 www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/
-www.kifroom.icu/2020/07/20/untitled/
 www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/
 www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/
 www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/
@@ -8,3 +7,4 @@ www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-34-left-right-len-len
 www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/
 www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-28-tiao-jian-qiu-he-han-shu/
 www.kifroom.icu/2020/07/13/shmily/
+www.kifroom.icu/2020/07/13/vs-code-kai-fa-wei-xin-xiao-cheng-xu/

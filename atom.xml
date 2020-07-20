@@ -45,32 +45,6 @@
   </entry>
   
   <entry>
-    <title>Untitled</title>
-    <link href="www.kifroom.icu/2020/07/20/untitled/"/>
-    <id>www.kifroom.icu/2020/07/20/untitled/</id>
-    <published>2020-07-20T05:13:26.167Z</published>
-    <updated>2020-07-20T05:13:26.167Z</updated>
-    
-    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</title>
     <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/"/>
     <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/</id>
@@ -578,6 +552,34 @@
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(18):二维数据转一维数据</title>
+    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/"/>
+    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/</id>
+    <published>2020-07-02T11:26:23.000Z</published>
+    <updated>2020-07-02T11:49:07.485Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>1、一维表，一般是用一行来存放一条完整的数据，相同属性用一列来存放一个字段，也叫源数据表。</p><p>2、二维表，一般是通过行和列分别记录两个不同的维度，来统计数据，也叫汇总表。</p><p>3、为什么需要二维数据表转一维数据表？</p><p>因为很多时候对方给我们的表格都是二维汇总表，有时候我们又想通过其他字段分析二维汇总表，<br>比如以上二维表显示的是按地区和年份显示合计金额，如果我们想看同比值，<br>我们就需要先把二维表转成一维表进行数据透视，才能看同比值。<br>只有一维数据可以直观的分析各个字段，所以需要二维数据转一维数据。</p><h2 id="操作–power-query"><a href="#操作–power-query" class="headerlink" title="操作–power query"></a>操作–power query</h2><p>原二维表<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.2.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
