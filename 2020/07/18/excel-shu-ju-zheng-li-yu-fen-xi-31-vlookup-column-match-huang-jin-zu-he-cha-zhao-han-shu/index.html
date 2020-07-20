@@ -526,6 +526,7 @@
                 <pre class="line-numbers language-bash"><code class="language-bash">
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <a id="more"></a>
+
 <h3 id="MATCH函数"><a href="#MATCH函数" class="headerlink" title="MATCH函数"></a>MATCH函数</h3><p>返回在指定方式下与指定数值匹配的数组中元素的相应位置。如果需要找出匹配元素的位置而不是匹配元素本身，则应该使用 MATCH 函数而不是 LOOKUP 函数。                        </p>
 <h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MATCH(查找值,查找区域,逻辑值)<br>查找值    为需要在数据表中查找的数值。查找值可以是数值、文本或者逻辑值。<br>查找区域    可能包含所要查找的数值的连续单元格区域。查找区域 应为数组或数组引用。<br>逻辑值    逻辑值和VLOOKUP类似，当逻辑值是FALSE或者0的时候，函数进行精确查找;当逻辑值是1或者是-1进行模糊查找。        </p>
 <p><strong><em>注</em></strong>        ：vlookup查找的值必须在首列，升序排序        </p>
@@ -535,7 +536,7 @@
 =MATCH(E23,B23:E23,0)
 </code></pre><h3 id="VLOOKUP函数"><a href="#VLOOKUP函数" class="headerlink" title="VLOOKUP函数"></a>VLOOKUP函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>VLOOKUP(查找值，数据区域，返回列数，逻辑值)</p>
 <p>查找值    是需要在数据区域的第一列中查找的数值，可以为数值、文本、引用或者是公式计算出的结果。只有查找值在数据区域<br>数据区域   是包括查找值和返回值在内的区域, -般表示为”$D$23:$F$31”的形式， 以便于公式填充，也可以将区域定义为一个名<br>返回列数   在数据区域的第一列找到查找值后 ，返回查找值对应的哪一-行的第几列的单元格的内容。<br>逻辑值    指明函数 VLOOKUP返回时是精确匹配还是近似匹配。</p>
-<p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/I%5B1T%7BNOR%7D$T$%7B5JF%G%60@1R6.png" alt="1"></p>
+<p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BGB5URGID1M1VPS.png" alt="1"></p>
 <p>场景1：字段对应<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.8.gif" alt="1.1"></p>
 <p>场景2：字段不对应<br>用match函数匹配一下<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/30.1.gif" alt="1.2"></p>
 <p>例二：</p>
@@ -1076,24 +1077,26 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一页</div>
             <div class="card">
-                <a href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/">
+                <a href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Excel数据整理与分析(30):ROW+COLUMN获得行号和列标">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Excel数据整理与分析(32):INDEX+MATCH组合查找函数">
                         
-                        <span class="card-title">Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</span>
+                        <span class="card-title">Excel数据整理与分析(32):INDEX+MATCH组合查找函数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
+上一节课VLOOKUP+ MATCH针对源数据表组合查找函数,本节课学习INDEX+MATCH这对针对汇总表组合查找函数。
 
 
 
-Row/Column 函数返回给定引用的行标(列标)。    
-语法ROW(reference)   COLUMN相同Reference    为需要得到其行号的单元格或单元格区域。如果省略 reference，则假定是对函数 RO
+
+
+INDEX函数返回指定的行与列交叉处的单元格引用。函数 INDEX() 有两种形式：数组和引用。数组形式
                         
                     </div>
                     <div class="publish-info">
@@ -1138,13 +1141,13 @@ Row/Column 函数返回给定引用的行标(列标)。
                 下一页&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/">
+                <a href="/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-33-mid-zi-fu-chuan-jie-qu-han-shu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Excel数据整理与分析(29):逻辑判断函数（and or if ）">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Excel数据整理与分析(33):MID字符串截取函数">
                         
-                        <span class="card-title">Excel数据整理与分析(29):逻辑判断函数（and or if ）</span>
+                        <span class="card-title">Excel数据整理与分析(33):MID字符串截取函数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1152,11 +1155,10 @@ Row/Column 函数返回给定引用的行标(列标)。
                         
                             
 
-1-掌握SUMIF单条件求和用法2-掌握SUMIFS多条件求和用法
 
-
-TRUE(FALSE)TRUE        逻辑值“真”FALSE        逻辑值“假”                
-说明通过比较运算，函数运算可以得到
+MID函数从字符串中返回指定位置的的文本个数    
+语法MID(字符串,开始位置，字符的个数)MID(Text,Start_num，Num_chars)    
+Text指定的字符串Start_num开始的文本位置Num_chars
                         
                     </div>
                     <div class="publish-info">
@@ -1377,7 +1379,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;破站有:&nbsp;<span
-                class="white-color">35k</span>&nbsp;字
+                class="white-color">35.8k</span>&nbsp;字
             
             
             

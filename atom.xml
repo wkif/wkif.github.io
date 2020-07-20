@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-19T14:51:14.389Z</updated>
+  <updated>2020-07-20T07:15:22.128Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Excel数据整理与分析-32-INDEX+MATCH组合查找函数</title>
-    <link href="www.kifroom.icu/2020/07/19/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/19/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/</id>
-    <published>2020-07-19T14:51:14.389Z</published>
-    <updated>2020-07-19T14:51:14.389Z</updated>
+    <title>Excel数据整理与分析(35):FIND+SEARCH函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/</id>
+    <published>2020-07-20T06:47:54.000Z</published>
+    <updated>2020-07-20T07:15:22.128Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>理解FIND和SEARCH函数的区别。<br>同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊<br>查找。</p><a id="more"></a><h3 id="FIND函数"><a href="#FIND函数" class="headerlink" title="FIND函数"></a>FIND函数</h3><p>返回某个文本在字符串中的位置，区分大小写查找    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>FIND(find_text, within_text, [start_num])    </p><p>Find_text  必需。要查找的文本。<br>Within_text  必需。包含要查找文本的文本。<br>Start_num  可选。指定要从其开始搜索的字符。within_text 中的首字符是编号为 1 的字符。如果省略 start_num，则假设其值为 1。    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720145700.png" alt="例一"></p><p>way：</p><h3 id="SEARCH-sɝtʃ-函数"><a href="#SEARCH-sɝtʃ-函数" class="headerlink" title="SEARCH [sɝtʃ]函数"></a>SEARCH [sɝtʃ]函数</h3><p>返回某个文本在字符串中的位置，不区分大小写查找，可以实现模糊查找</p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>SEARCH(find_text,within_text,[start_num])<br>find_text  必需。要查找的文本。<br>within_text  必需。要在其中搜索 find_text 参数的值的文本。<br>start_num  可选。within_text 参数中从之开始搜索的字符编号。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;理解FIND和SEARCH函数的区别。&lt;br&gt;同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊&lt;br&gt;查找。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Untitled</title>
+    <link href="www.kifroom.icu/2020/07/20/untitled/"/>
+    <id>www.kifroom.icu/2020/07/20/untitled/</id>
+    <published>2020-07-20T05:13:26.167Z</published>
+    <updated>2020-07-20T05:13:26.167Z</updated>
     
     <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -71,18 +99,100 @@
   </entry>
   
   <entry>
+    <title>Excel数据整理与分析(32):INDEX+MATCH组合查找函数</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-20T05:13:01.767Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>上一节课VLOOKUP+ MATCH针对源数据表组合查找函数,本节课学习INDEX+MATCH这<br>对针对汇总表组合查找函数。</p><a id="more"></a><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/R09@J.png" alt="1"></p><h3 id="INDEX函数"><a href="#INDEX函数" class="headerlink" title="INDEX函数"></a>INDEX函数</h3><p>返回指定的行与列交叉处的单元格引用。函数 INDEX() 有两种形式：数组和引用。数组形式通常返回数值或数值数组；引用形式通常返回引用。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>INDEX(数据区域,行序号或列序号)                                                   数组形式<br>INDEX(数据区域的引用,行序号,列序号,区域序号)                        引用形式</p><p>​                        </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/P%0M22.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/55.gif" alt="1"></p><p>但是行列不会主动变化，所以嵌套match函数</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/56.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;上一节课VLOOKUP+ MATCH针对源数据表组合查找函数,本节课学习INDEX+MATCH这&lt;br&gt;对针对汇总表组合查找函数。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Excel数据整理与分析(31):VLOOKUP+COLUMN+MATCH黄金组合查找函数</title>
     <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/"/>
     <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/</id>
     <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-19T14:51:41.391Z</updated>
+    <updated>2020-07-19T15:04:22.784Z</updated>
     
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MATCH函数"><a href="#MATCH函数" class="headerlink" title="MATCH函数"></a>MATCH函数</h3><p>返回在指定方式下与指定数值匹配的数组中元素的相应位置。如果需要找出匹配元素的位置而不是匹配元素本身，则应该使用 MATCH 函数而不是 LOOKUP 函数。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MATCH(查找值,查找区域,逻辑值)<br>查找值    为需要在数据表中查找的数值。查找值可以是数值、文本或者逻辑值。<br>查找区域    可能包含所要查找的数值的连续单元格区域。查找区域 应为数组或数组引用。<br>逻辑值    逻辑值和VLOOKUP类似，当逻辑值是FALSE或者0的时候，函数进行精确查找;当逻辑值是1或者是-1进行模糊查找。        </p><p><strong><em>注</em></strong>        ：vlookup查找的值必须在首列，升序排序        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/15.png" alt="1"></p><p>其中逻辑值<br>1  -小于<br>0  -精确匹配<br>-1  -大于</p><pre><code>=MATCH(B17,B16:B19,0)=MATCH(E23,B23:E23,0)</code></pre><h3 id="VLOOKUP函数"><a href="#VLOOKUP函数" class="headerlink" title="VLOOKUP函数"></a>VLOOKUP函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>VLOOKUP(查找值，数据区域，返回列数，逻辑值)</p><p>查找值    是需要在数据区域的第一列中查找的数值，可以为数值、文本、引用或者是公式计算出的结果。只有查找值在数据区域<br>数据区域   是包括查找值和返回值在内的区域, -般表示为”$D$23:$F$31”的形式， 以便于公式填充，也可以将区域定义为一个名<br>返回列数   在数据区域的第一列找到查找值后 ，返回查找值对应的哪一-行的第几列的单元格的内容。<br>逻辑值    指明函数 VLOOKUP返回时是精确匹配还是近似匹配。</p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/I%5B1T%7BNOR%7D$T$%7B5JF%G%60@1R6.png" alt="1"></p><p>场景1：字段对应<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.8.gif" alt="1.1"></p><p>场景2：字段不对应<br>用match函数匹配一下<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/30.1.gif" alt="1.2"></p><p>例二：</p><p>模糊查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BR.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/31.gif" alt="2.1"></p><p>例三：通配符查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/LHB%R%60H~J5.png" alt="3"></p><p>way:</p><pre><code>=VLOOKUP("*B",C54:D57,2,0)</code></pre><p>例四：</p><p>跨工作表查询</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/X~TZP95BD3.png" alt="4.1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/JWKPYO~%O8.png" alt="4.2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/2454.gif" alt="4.3"></p><p>实战演练：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29SBW01GN.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MATCH函数"><a href="#MATCH函数" class="headerlink" title="MATCH函数"></a>MATCH函数</h3><p>返回在指定方式下与指定数值匹配的数组中元素的相应位置。如果需要找出匹配元素的位置而不是匹配元素本身，则应该使用 MATCH 函数而不是 LOOKUP 函数。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MATCH(查找值,查找区域,逻辑值)<br>查找值    为需要在数据表中查找的数值。查找值可以是数值、文本或者逻辑值。<br>查找区域    可能包含所要查找的数值的连续单元格区域。查找区域 应为数组或数组引用。<br>逻辑值    逻辑值和VLOOKUP类似，当逻辑值是FALSE或者0的时候，函数进行精确查找;当逻辑值是1或者是-1进行模糊查找。        </p><p><strong><em>注</em></strong>        ：vlookup查找的值必须在首列，升序排序        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/15.png" alt="1"></p><p>其中逻辑值<br>1  -小于<br>0  -精确匹配<br>-1  -大于</p><pre><code>=MATCH(B17,B16:B19,0)=MATCH(E23,B23:E23,0)</code></pre><h3 id="VLOOKUP函数"><a href="#VLOOKUP函数" class="headerlink" title="VLOOKUP函数"></a>VLOOKUP函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>VLOOKUP(查找值，数据区域，返回列数，逻辑值)</p><p>查找值    是需要在数据区域的第一列中查找的数值，可以为数值、文本、引用或者是公式计算出的结果。只有查找值在数据区域<br>数据区域   是包括查找值和返回值在内的区域, -般表示为”$D$23:$F$31”的形式， 以便于公式填充，也可以将区域定义为一个名<br>返回列数   在数据区域的第一列找到查找值后 ，返回查找值对应的哪一-行的第几列的单元格的内容。<br>逻辑值    指明函数 VLOOKUP返回时是精确匹配还是近似匹配。</p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BGB5URGID1M1VPS.png" alt="1"></p><p>场景1：字段对应<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.8.gif" alt="1.1"></p><p>场景2：字段不对应<br>用match函数匹配一下<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/30.1.gif" alt="1.2"></p><p>例二：</p><p>模糊查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BR.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/31.gif" alt="2.1"></p><p>例三：通配符查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/LHB%R%60H~J5.png" alt="3"></p><p>way:</p><pre><code>=VLOOKUP("*B",C54:D57,2,0)</code></pre><p>例四：</p><p>跨工作表查询</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/X~TZP95BD3.png" alt="4.1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/JWKPYO~%O8.png" alt="4.2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/2454.gif" alt="4.3"></p><p>实战演练：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29SBW01GN.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(33):MID字符串截取函数</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-33-mid-zi-fu-chuan-jie-qu-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-33-mid-zi-fu-chuan-jie-qu-han-shu/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-20T06:01:33.911Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MID函数"><a href="#MID函数" class="headerlink" title="MID函数"></a>MID函数</h3><p>从字符串中返回指定位置的的文本个数    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MID(字符串,开始位置，字符的个数)<br>MID(Text,Start_num，Num_chars)    </p><p>Text指定的字符串<br>Start_num开始的文本位置<br>Num_chars指定的文本长度    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/8786.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/789.gif" alt="way"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(34):LEFT,RIGHT,LEN,LENB函数应用</title>
+    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-34-left-right-len-lenb-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-34-left-right-len-lenb-han-shu-ying-yong/</id>
+    <published>2020-07-18T10:05:33.000Z</published>
+    <updated>2020-07-20T06:48:25.476Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="LEFT-RIGHT-LEN-LENB函数"><a href="#LEFT-RIGHT-LEN-LENB函数" class="headerlink" title="LEFT,RIGHT,LEN,LENB函数"></a>LEFT,RIGHT,LEN,LENB函数</h3><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>LEFT(TEXT,Start_num)<br>从左边返回指定文本长度的字符串</p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>RIGHT(TEXT,Start_num)<br>从右边返回指定的文本长度的字符串</p><h4 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h4><p>LEN(TEXT)<br>返回文本字符的个数</p><h4 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h4><p>LENB(TEXT)<br>返回文本字节个数</p><p>注明：汉字和全角的数字、字母占2个字节</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720140352.png" alt="1"></p><p>way:</p><p>字节数：lenb（）</p><p>字符数：len（）</p><p>汉字数：lenb()-len()</p><p>数字数：len()-(汉字数)=2*lenb()-len()</p><p>则：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720144800.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
@@ -468,119 +578,6 @@
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过数据验证技术来帮他设置下表格，让不合格的数据录入不进去，减少错误!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(18):二维数据转一维数据</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-18-er-wei-shu-ju-zhuan-yi-wei-shu-ju/</id>
-    <published>2020-07-02T11:26:23.000Z</published>
-    <updated>2020-07-02T11:49:07.485Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>1、一维表，一般是用一行来存放一条完整的数据，相同属性用一列来存放一个字段，也叫源数据表。</p><p>2、二维表，一般是通过行和列分别记录两个不同的维度，来统计数据，也叫汇总表。</p><p>3、为什么需要二维数据表转一维数据表？</p><p>因为很多时候对方给我们的表格都是二维汇总表，有时候我们又想通过其他字段分析二维汇总表，<br>比如以上二维表显示的是按地区和年份显示合计金额，如果我们想看同比值，<br>我们就需要先把二维表转成一维表进行数据透视，才能看同比值。<br>只有一维数据可以直观的分析各个字段，所以需要二维数据转一维数据。</p><h2 id="操作–power-query"><a href="#操作–power-query" class="headerlink" title="操作–power query"></a>操作–power query</h2><p>原二维表<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/18.2.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(23):四则运算</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-23-si-ze-yun-suan/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-23-si-ze-yun-suan/</id>
-    <published>2020-07-02T11:26:23.000Z</published>
-    <updated>2020-07-04T07:37:18.399Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>本节课开始函数公式入门，需要熟悉Excel的四则运算和数学四则运算写法的不同。</p><a id="more"></a><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>公式输入：由“=”开头，可以进行＋、－、×、÷等四则运算计算。</p><p>运算符号：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/22.2.png" alt="运算符号"></p><p>常见错误</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/22.1.png" alt="常见错误"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;本节课开始函数公式入门，需要熟悉Excel的四则运算和数学四则运算写法的不同。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(17):数据整理之拆分、合并转换</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-17-shu-ju-zheng-li-zhi-chai-fen-he-bing-zhuan-huan/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-17-shu-ju-zheng-li-zhi-chai-fen-he-bing-zhuan-huan/</id>
-    <published>2020-07-02T11:07:21.000Z</published>
-    <updated>2020-07-02T11:24:54.257Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="拆分数值"><a href="#拆分数值" class="headerlink" title="拆分数值"></a>拆分数值</h2><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.1.png" alt="1"></p><p><strong><em>快捷键：ctrl+e</em></strong></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.2.gif" alt="2"></p><h2 id="合并数值"><a href="#合并数值" class="headerlink" title="合并数值"></a>合并数值</h2><p>同理<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.3.gif" alt="3"></p><h2 id="转换数值"><a href="#转换数值" class="headerlink" title="转换数值"></a>转换数值</h2><p>!!同上快捷键，但至少输入两个数据<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.4.gif" alt="4"></p><h2 id="变换数值"><a href="#变换数值" class="headerlink" title="变换数值"></a>变换数值</h2><p>同上：</p><p><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/17.5.gif" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(16):导入外部数据</title>
-    <link href="www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-16-dao-ru-wai-bu-shu-ju/"/>
-    <id>www.kifroom.icu/2020/07/02/excel-shu-ju-zheng-li-yu-fen-xi-16-dao-ru-wai-bu-shu-ju/</id>
-    <published>2020-07-02T10:41:47.000Z</published>
-    <updated>2020-07-02T11:04:29.610Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、<br>网页文件数据导入。<br>通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。</p><a id="more"></a><h2 id="文本类型"><a href="#文本类型" class="headerlink" title="文本类型"></a>文本类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.1.png" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/15_1.2.png" alt="2">.</p><p>可通过分隔符分割数据<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.3.png" alt="3"></p><h2 id="网站数据-Access类型"><a href="#网站数据-Access类型" class="headerlink" title="网站数据-Access类型"></a>网站数据-Access类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.4.png" alt="4"></p><h2 id="网页数据-XML类型"><a href="#网页数据-XML类型" class="headerlink" title="网页数据-XML类型"></a>网页数据-XML类型</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/16.5.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;在上-节课我们学习了数据手工录入技巧，本节课学习常见的ACCESS数据库、文本文件、&lt;br&gt;网页文件数据导入。&lt;br&gt;通过外部数据导入到Excel工作簿，可以保持数据的实时刷新。&lt;/p&gt;
     
     </summary>
     
