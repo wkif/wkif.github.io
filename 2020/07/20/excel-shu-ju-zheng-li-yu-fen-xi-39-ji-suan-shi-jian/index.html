@@ -501,7 +501,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    157
                 </div>
                 
 
@@ -523,8 +523,13 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-bash"><code class="language-bash">
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>1-理解Exce时间段的，AM 0:00-11:59:59 PM12:00:00-23:59:59。<br>2-如果要实现时间的累加，需要自定义格式[h]:mm:ss,否则超过24小时会自动减去24,只<br>显示余值。</p>
+<p>例一：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720214210.png" alt="1"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720214950.gif" alt="2"></p>
+<p><strong><em>注</em></strong> 其中注意转换成<strong><em>时间</em></strong>格式，且h;mm;ss这种格式满24h会减24，故在总和时间的时候要自定义数据格式为<strong><em>[h]:mm:ss</em></strong></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1060,10 +1065,9 @@
                         
                             
 
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { retu
+NETWORKDAYS函数Start date是一串表示起始日期的数字
+End_ date 是一 串表示结束日期的数字
+Holidays是要从工作日历中去除的一一个或多个日期(一串数字)的可选组合，如传统假日、国家法定假日及非固定假日 
                         
                     </div>
                     <div class="publish-info">
@@ -1121,11 +1125,15 @@
                     <div class="summary block-with-text">
                         
                             
-
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { retu
+从现有的日期与时间中获得年、月、日、小时、分钟、秒数
+例如：
+获得现在的日期与时间是：
+now()2020/7/20 20:51
+获得现在的日期是：
+today()2020/7/20
+或者一个快捷键：ctrl+;
+以上两个函数无输入值
+已
                         
                     </div>
                     <div class="publish-info">
@@ -1346,7 +1354,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;破站有:&nbsp;<span
-                class="white-color">37.2k</span>&nbsp;字
+                class="white-color">37.9k</span>&nbsp;字
             
             
             

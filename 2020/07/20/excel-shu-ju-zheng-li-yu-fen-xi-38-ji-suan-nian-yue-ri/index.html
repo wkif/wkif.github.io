@@ -501,7 +501,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    359
                 </div>
                 
 
@@ -523,8 +523,38 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-bash"><code class="language-bash">
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>从现有的日期与时间中获得年、月、日、小时、分钟、秒数</p>
+<p>例如：</p>
+<p>获得现在的日期与时间是：</p>
+<h3 id="now"><a href="#now" class="headerlink" title="now()"></a>now()</h3><p>2020/7/20 20:51</p>
+<p>获得现在的日期是：</p>
+<h4 id="today"><a href="#today" class="headerlink" title="today()"></a>today()</h4><p>2020/7/20</p>
+<p>或者一个快捷键：<strong><em>ctrl+;</em></strong></p>
+<p>以上两个函数无输入值</p>
+<p>已得到now时可以通过下面几种函数分别得到年份，月份等</p>
+<p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720205524421.png" alt="1"></p>
+<p>以上函数需要输入值：时间</p>
+<h4 id="WEEKDAY-返回当周第几天"><a href="#WEEKDAY-返回当周第几天" class="headerlink" title="WEEKDAY()    返回当周第几天"></a>WEEKDAY()    返回当周第几天</h4><p> Serial number   -个表示返回值类型的数字:<br> Return_ type    从星期日=1到星期六=7.用1:从星期-=1到星期日=7，用2;  从星期一-=0到星期日=6                            时，用3      <strong><em>一般填2</em></strong></p>
+<p>例如：</p>
+<p><img src="C:%5CUsers%5C18255%5CDesktop%5C878965.gif" alt="2"></p>
+<p>即：2020年7月20日是本周周一</p>
+<h4 id="WEEKNUM-返回当年第几周"><a href="#WEEKNUM-返回当年第几周" class="headerlink" title="WEEKNUM()    返回当年第几周"></a>WEEKNUM()    返回当年第几周</h4><p>Serial number是Microsoft Excel用于日期和时间计算的日期时间代码</p>
+<p>Return type是个确定返回值类型的数值(1 或2)，具体如下图：</p>
+<p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720211022419.png" alt="3"></p>
+<p>操作同上</p>
+<h4 id="date函数"><a href="#date函数" class="headerlink" title="date函数"></a>date函数</h4><p>可对已有日期拆分，方便加减</p>
+<p>例一：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720212010.png" alt="4"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720212837.gif" alt="5"></p>
+<h4 id="Eomonth函数"><a href="#Eomonth函数" class="headerlink" title="Eomonth函数"></a>Eomonth函数</h4><p>计算本月天数</p>
+<p>Start date  是一串代表起始日期的日期</p>
+<p>Months  是start. date之前/之后的月数 如0表示当月，-1表示上个月，2表示后两个月</p>
+<p>如：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720213933.png" alt="6"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720213858.gif" alt="6"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1059,11 +1089,12 @@
                     <div class="summary block-with-text">
                         
                             
+1-理解Exce时间段的，AM 0:00-11:59:59 PM12:00:00-23:59:59。2-如果要实现时间的累加，需要自定义格式[h]:mm:ss,否则超过24小时会自动减去24,只显示余值。
+例一：
 
+way:
 
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { retu
+注 其中注
                         
                     </div>
                     <div class="publish-info">
@@ -1121,11 +1152,10 @@
                     <div class="summary block-with-text">
                         
                             
-
 TEXT函数TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。
 语法TEXT(value, format_text)
 Value数值、能够返回数值的公式，或者对数值单元格的引用
-Format. text文
+Format. text文字
                         
                     </div>
                     <div class="publish-info">
@@ -1346,7 +1376,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;破站有:&nbsp;<span
-                class="white-color">37.2k</span>&nbsp;字
+                class="white-color">37.9k</span>&nbsp;字
             
             
             
