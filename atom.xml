@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-20T11:53:18.325Z</updated>
+  <updated>2020-07-20T11:56:19.460Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,358 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel数据整理与分析-53-Excel数据分析工具应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-53-excel-shu-ju-fen-xi-gong-ju-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-53-excel-shu-ju-fen-xi-gong-ju-ying-yong/</id>
+    <published>2020-07-20T11:56:33.951Z</published>
+    <updated>2020-07-20T11:56:19.460Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(53):Excel数据分析工具应用’<br>date: 2020-07-20 15:14:47<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(53):Excel数据分析工具应用’&lt;br&gt;date: 2020-07-20 15:14:47&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-52-数据呈现术-3D全景地图展示客户分布情况</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-52-shu-ju-cheng-xian-zhu-3d-quan-jing-di-tu-zhan-shi-ke-hu-fen-bu-qing-kuang/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-52-shu-ju-cheng-xian-zhu-3d-quan-jing-di-tu-zhan-shi-ke-hu-fen-bu-qing-kuang/</id>
+    <published>2020-07-20T11:56:33.950Z</published>
+    <updated>2020-07-20T11:56:10.965Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(52):数据呈现术-3D全景地图展示客户分布情况’<br>date: 2020-07-20 15:14:35<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(52):数据呈现术-3D全景地图展示客户分布情况’&lt;br&gt;date: 2020-07-20 15:14:35&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-51-数据统计术-统计学生科目分数等级信息</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-51-shu-ju-tong-ji-zhu-tong-ji-xue-sheng-ke-mu-fen-shu-deng-ji-xin-xi/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-51-shu-ju-tong-ji-zhu-tong-ji-xue-sheng-ke-mu-fen-shu-deng-ji-xin-xi/</id>
+    <published>2020-07-20T11:56:33.948Z</published>
+    <updated>2020-07-20T11:56:02.325Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(51):数据统计术-统计学生科目分数等级信息 ‘<br>date: 2020-07-20 15:14:25<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(51):数据统计术-统计学生科目分数等级信息 ‘&lt;br&gt;date: 2020-07-20 15:14:25&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-50-数据分析术-多维度分析商业数据</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-50-shu-ju-fen-xi-zhu-duo-wei-du-fen-xi-shang-ye-shu-ju/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-50-shu-ju-fen-xi-zhu-duo-wei-du-fen-xi-shang-ye-shu-ju/</id>
+    <published>2020-07-20T11:56:33.946Z</published>
+    <updated>2020-07-20T11:55:53.519Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(50):数据分析术-多维度分析商业数据’<br>date: 2020-07-20 15:14:12<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(50):数据分析术-多维度分析商业数据’&lt;br&gt;date: 2020-07-20 15:14:12&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-49-数据对比术-快速找出差异</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-49-shu-ju-dui-bi-zhu-kuai-su-zhao-chu-chai-yi/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-49-shu-ju-dui-bi-zhu-kuai-su-zhao-chu-chai-yi/</id>
+    <published>2020-07-20T11:56:33.944Z</published>
+    <updated>2020-07-20T11:55:43.475Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(49):数据对比术-快速找出差异’<br>date: 2020-07-20 15:13:58<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(49):数据对比术-快速找出差异’&lt;br&gt;date: 2020-07-20 15:13:58&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-48-数据合并术-多表数据合并</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-48-shu-ju-he-bing-zhu-duo-biao-shu-ju-he-bing/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-48-shu-ju-he-bing-zhu-duo-biao-shu-ju-he-bing/</id>
+    <published>2020-07-20T11:56:33.942Z</published>
+    <updated>2020-07-20T11:55:36.165Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(48):数据合并术-多表数据合并 ‘<br>date: 2020-07-20 15:13:43<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(48):数据合并术-多表数据合并 ‘&lt;br&gt;date: 2020-07-20 15:13:43&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-47-商业销售数据分析实战案例</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-47-shang-ye-xiao-shou-shu-ju-fen-xi-shi-zhan-an-li/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-47-shang-ye-xiao-shou-shu-ju-fen-xi-shi-zhan-an-li/</id>
+    <published>2020-07-20T11:56:33.941Z</published>
+    <updated>2020-07-20T11:55:27.686Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(47):商业销售数据分析实战案例’<br>date: 2020-07-20 15:13:33<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(47):商业销售数据分析实战案例’&lt;br&gt;date: 2020-07-20 15:13:33&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-46-数据透视报表的筛选</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan/</id>
+    <published>2020-07-20T11:56:33.940Z</published>
+    <updated>2020-07-20T11:55:18.765Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(46):数据透视报表的筛选’<br>date: 2020-07-20 15:13:23<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(46):数据透视报表的筛选’&lt;br&gt;date: 2020-07-20 15:13:23&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-45-值字段的显示方式、计算字段、计算项</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-45-zhi-zi-duan-de-xian-shi-fang-shi-ji-suan-zi-duan-ji-suan-xiang/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-45-zhi-zi-duan-de-xian-shi-fang-shi-ji-suan-zi-duan-ji-suan-xiang/</id>
+    <published>2020-07-20T11:56:33.939Z</published>
+    <updated>2020-07-20T11:55:11.077Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(45):值字段的显示方式、计算字段、计算项’<br>date: 2020-07-20 15:13:10<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(45):值字段的显示方式、计算字段、计算项’&lt;br&gt;date: 2020-07-20 15:13:10&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-44-数据透视表字段的组合</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-44-shu-ju-tou-shi-biao-zi-duan-de-zu-he/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-44-shu-ju-tou-shi-biao-zi-duan-de-zu-he/</id>
+    <published>2020-07-20T11:56:33.937Z</published>
+    <updated>2020-07-20T11:55:02.845Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(44):数据透视表字段的组合’<br>date: 2020-07-20 15:12:57<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(44):数据透视表字段的组合’&lt;br&gt;date: 2020-07-20 15:12:57&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-43-通过数据透视表分析数据</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-43-tong-guo-shu-ju-tou-shi-biao-fen-xi-shu-ju/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-43-tong-guo-shu-ju-tou-shi-biao-fen-xi-shu-ju/</id>
+    <published>2020-07-20T11:56:33.935Z</published>
+    <updated>2020-07-20T11:54:51.420Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(43):通过数据透视表分析数据’<br>date: 2020-07-20 15:12:45<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(43):通过数据透视表分析数据’&lt;br&gt;date: 2020-07-20 15:12:45&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-42-财务函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-42-cai-wu-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-42-cai-wu-han-shu-ying-yong/</id>
+    <published>2020-07-20T11:56:33.933Z</published>
+    <updated>2020-07-20T11:54:39.540Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(42):财务函数应用’<br>date: 2020-07-20 15:12:30<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(42):财务函数应用’&lt;br&gt;date: 2020-07-20 15:12:30&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-41-DATEDIF综合日期函数</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-41-datedif-zong-he-ri-qi-han-shu/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-41-datedif-zong-he-ri-qi-han-shu/</id>
+    <published>2020-07-20T11:56:33.932Z</published>
+    <updated>2020-07-20T11:54:31.557Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(41):DATEDIF综合日期函数’<br>date: 2020-07-20 15:12:17<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(41):DATEDIF综合日期函数’&lt;br&gt;date: 2020-07-20 15:12:17&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-40-计算工作日</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/</id>
+    <published>2020-07-20T11:56:33.930Z</published>
+    <updated>2020-07-20T11:54:21.884Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(40):计算工作日’<br>date: 2020-07-20 15:12:00<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(40):计算工作日’&lt;br&gt;date: 2020-07-20 15:12:00&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-39-计算时间</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/</id>
+    <published>2020-07-20T11:56:33.927Z</published>
+    <updated>2020-07-20T11:54:10.768Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(39):计算时间’<br>date: 2020-07-20 15:11:48<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(39):计算时间’&lt;br&gt;date: 2020-07-20 15:11:48&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析-54-Excel数据可视化之图表制作</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/</id>
+    <published>2020-07-20T11:56:33.921Z</published>
+    <updated>2020-07-20T11:56:26.390Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(54):Excel数据可视化之图表制作’<br>date: 2020-07-20 15:14:57<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: ‘Excel数据整理与分析(54):Excel数据可视化之图表制作’&lt;br&gt;date: 2020-07-20 15:14:57&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
+&lt;p&gt;​—&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析-38-计算年月日</title>
@@ -101,472 +453,6 @@
     
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(32):INDEX+MATCH组合查找函数</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-32-index-match-zu-he-cha-zhao-han-shu/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-20T05:13:01.767Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>上一节课VLOOKUP+ MATCH针对源数据表组合查找函数,本节课学习INDEX+MATCH这<br>对针对汇总表组合查找函数。</p><a id="more"></a><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/R09@J.png" alt="1"></p><h3 id="INDEX函数"><a href="#INDEX函数" class="headerlink" title="INDEX函数"></a>INDEX函数</h3><p>返回指定的行与列交叉处的单元格引用。函数 INDEX() 有两种形式：数组和引用。数组形式通常返回数值或数值数组；引用形式通常返回引用。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>INDEX(数据区域,行序号或列序号)                                                   数组形式<br>INDEX(数据区域的引用,行序号,列序号,区域序号)                        引用形式</p><p>​                        </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/P%0M22.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/55.gif" alt="1"></p><p>但是行列不会主动变化，所以嵌套match函数</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/56.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;上一节课VLOOKUP+ MATCH针对源数据表组合查找函数,本节课学习INDEX+MATCH这&lt;br&gt;对针对汇总表组合查找函数。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(31):VLOOKUP+COLUMN+MATCH黄金组合查找函数</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-31-vlookup-column-match-huang-jin-zu-he-cha-zhao-han-shu/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-19T15:04:22.784Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MATCH函数"><a href="#MATCH函数" class="headerlink" title="MATCH函数"></a>MATCH函数</h3><p>返回在指定方式下与指定数值匹配的数组中元素的相应位置。如果需要找出匹配元素的位置而不是匹配元素本身，则应该使用 MATCH 函数而不是 LOOKUP 函数。                        </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MATCH(查找值,查找区域,逻辑值)<br>查找值    为需要在数据表中查找的数值。查找值可以是数值、文本或者逻辑值。<br>查找区域    可能包含所要查找的数值的连续单元格区域。查找区域 应为数组或数组引用。<br>逻辑值    逻辑值和VLOOKUP类似，当逻辑值是FALSE或者0的时候，函数进行精确查找;当逻辑值是1或者是-1进行模糊查找。        </p><p><strong><em>注</em></strong>        ：vlookup查找的值必须在首列，升序排序        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/15.png" alt="1"></p><p>其中逻辑值<br>1  -小于<br>0  -精确匹配<br>-1  -大于</p><pre><code>=MATCH(B17,B16:B19,0)=MATCH(E23,B23:E23,0)</code></pre><h3 id="VLOOKUP函数"><a href="#VLOOKUP函数" class="headerlink" title="VLOOKUP函数"></a>VLOOKUP函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>VLOOKUP(查找值，数据区域，返回列数，逻辑值)</p><p>查找值    是需要在数据区域的第一列中查找的数值，可以为数值、文本、引用或者是公式计算出的结果。只有查找值在数据区域<br>数据区域   是包括查找值和返回值在内的区域, -般表示为”$D$23:$F$31”的形式， 以便于公式填充，也可以将区域定义为一个名<br>返回列数   在数据区域的第一列找到查找值后 ，返回查找值对应的哪一-行的第几列的单元格的内容。<br>逻辑值    指明函数 VLOOKUP返回时是精确匹配还是近似匹配。</p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BGB5URGID1M1VPS.png" alt="1"></p><p>场景1：字段对应<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.8.gif" alt="1.1"></p><p>场景2：字段不对应<br>用match函数匹配一下<br>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/30.1.gif" alt="1.2"></p><p>例二：</p><p>模糊查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/BR.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/31.gif" alt="2.1"></p><p>例三：通配符查找</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/LHB%R%60H~J5.png" alt="3"></p><p>way:</p><pre><code>=VLOOKUP("*B",C54:D57,2,0)</code></pre><p>例四：</p><p>跨工作表查询</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/X~TZP95BD3.png" alt="4.1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/JWKPYO~%O8.png" alt="4.2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/2454.gif" alt="4.3"></p><p>实战演练：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29SBW01GN.png" alt="5"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(33):MID字符串截取函数</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-33-mid-zi-fu-chuan-jie-qu-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-33-mid-zi-fu-chuan-jie-qu-han-shu/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-20T06:01:33.911Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="MID函数"><a href="#MID函数" class="headerlink" title="MID函数"></a>MID函数</h3><p>从字符串中返回指定位置的的文本个数    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>MID(字符串,开始位置，字符的个数)<br>MID(Text,Start_num，Num_chars)    </p><p>Text指定的字符串<br>Start_num开始的文本位置<br>Num_chars指定的文本长度    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/8786.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/789.gif" alt="way"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(34):LEFT,RIGHT,LEN,LENB函数应用</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-34-left-right-len-lenb-han-shu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-34-left-right-len-lenb-han-shu-ying-yong/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-20T06:48:25.476Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="LEFT-RIGHT-LEN-LENB函数"><a href="#LEFT-RIGHT-LEN-LENB函数" class="headerlink" title="LEFT,RIGHT,LEN,LENB函数"></a>LEFT,RIGHT,LEN,LENB函数</h3><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>LEFT(TEXT,Start_num)<br>从左边返回指定文本长度的字符串</p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>RIGHT(TEXT,Start_num)<br>从右边返回指定的文本长度的字符串</p><h4 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h4><p>LEN(TEXT)<br>返回文本字符的个数</p><h4 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h4><p>LENB(TEXT)<br>返回文本字节个数</p><p>注明：汉字和全角的数字、字母占2个字节</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720140352.png" alt="1"></p><p>way:</p><p>字节数：lenb（）</p><p>字符数：len（）</p><p>汉字数：lenb()-len()</p><p>数字数：len()-(汉字数)=2*lenb()-len()</p><p>则：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720144800.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(29):逻辑判断函数（and or if ）</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-29-luo-ji-pan-duan-han-shu/</id>
-    <published>2020-07-18T09:14:08.000Z</published>
-    <updated>2020-07-18T10:02:26.913Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握SUMIF单条件求和用法<br>2-掌握SUMIFS多条件求和用法</p><a id="more"></a><h3 id="TRUE-FALSE"><a href="#TRUE-FALSE" class="headerlink" title="TRUE(FALSE)"></a>TRUE(FALSE)</h3><p>TRUE        逻辑值“真”<br>FALSE        逻辑值“假”                </p><h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>通过比较运算，函数运算可以得到TRUE或者FALSE值<br>当用其他数字来代替逻辑值作为函数参数时，0代表FALSE，其他数字代表TRUE                        </p><h4 id="逻辑值参与运算"><a href="#逻辑值参与运算" class="headerlink" title="逻辑值参与运算"></a>逻辑值参与运算</h4><p>2     =1+TRUE<br>1     =1<em>TRUE<br>2     =SUM(TRUE,TRUE,FALSE,0)<br>0     =TRUE</em>FALSE        </p><h3 id="AND-OR-函数"><a href="#AND-OR-函数" class="headerlink" title="AND(OR)函数"></a>AND(OR)函数</h3><p>AND    所有参数的逻辑值为真时，返回 TRUE；只要一个参数的逻辑值为假，即返回 FALSE。<br>OR    在其参数组中，任何一个参数逻辑值为 TRUE，即返回 TRUE；任何一个参数的逻辑值为 FALSE，即返回 FALSE。    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>AND(OR)(logical1,logical2, …)<br>Logical1, logical2, …    表示待检测的 1 到 30 个条件值，各条件值可为 TRUE 或 FALSE。        </p><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.1.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.2.gif" alt="2"></p><h3 id="IF函数"><a href="#IF函数" class="headerlink" title="IF函数"></a>IF函数</h3><p>执行真假值判断，根据逻辑计算的真假值，返回不同结果。可以使用函数 IF 对数值和公式进行条件检测。        </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>IF(logical_test,value_if_true,value_if_false)<br>(1) Logical_test    表示计算结果为 TRUE 或 FALSE 的任意值或表达式。<br>(2) Value_if_true    logical_test 为 TRUE 时返回的值。如果 logical_test 为 TRUE 而 value_if_true 为空，则本参数返回 0（零）。<br>(3) Value_if_false    logical_test 为 FALSE 时返回的值。如果 logical_test 为 FALSE 且忽略了 Value_if_false（即 value_if_true 后没有逗号），则会返回逻辑值 FALSE。        </p><h4 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h4><p>函数 IF 从2007版本开始可以嵌套64层，用 value_if_false 及 value_if_true 参数可以构造复杂的检测条件。<br>在计算参数 value_if_true 和 value_if_false 后，函数 IF 返回相应语句执行后的返回值。<br>如果函数 IF 的参数包含数组，则在执行 IF 语句时，数组中的每一个元素都将计算。         </p><p>例二：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.3.png" alt="3"></p><p>way:<br><img src="https:/cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.4.gif" alt="4"></p><p>例三：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.5.png" alt="5"></p><pre><code>=IF(D39&gt;=90,"优秀",IF(D39&gt;=80,"良好",IF(D39&gt;=60,"及格","不及格")))</code></pre><p>例四：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/29.6.png" alt="6"></p><pre><code>=IF(AND(C88="男",D88&gt;60),"可以",IF(AND(C88="女",D88&gt;55),“可以”,“不可以”))</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-掌握SUMIF单条件求和用法&lt;br&gt;2-掌握SUMIFS多条件求和用法&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(28):条件求和函数</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-28-tiao-jian-qiu-he-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-28-tiao-jian-qiu-he-han-shu/</id>
-    <published>2020-07-18T08:32:33.000Z</published>
-    <updated>2020-07-18T09:12:31.773Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握SUMIF单条件求和用法<br>2-掌握SUMIFS多条件求和用法</p><a id="more"></a><h3 id="SUMIF函数"><a href="#SUMIF函数" class="headerlink" title="SUMIF函数"></a>SUMIF函数</h3><p>根据指定单条件对若干单元格求和。            </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>SUMIF(range,criteria,sum_range)<br>(1) Range    为用于条件判断的单元格区域。<br>(2) Criteria    为确定哪些单元格将被相加求和的条件，其形式可以为数字、表达式或文本。例如，条件可以表示为 32、”32”、”&gt;32” 或 “apples”。<br>(3) Sum_range    是需要求和的实际单元格。            </p><h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>只有在区域中相应的单元格符合条件的情况下，sum_range 中的单元格才求和。<br>如果忽略了 sum_range，则对区域中的单元格求和。    </p><h4 id="例一："><a href="#例一：" class="headerlink" title="例一："></a>例一：</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.1.png" alt="1"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.2.gif" alt="2"></p><p>简化写法：</p><pre><code>=SUMIF(C16:C28,C16,E16:E28)</code></pre><h3 id="SUMIFS函数"><a href="#SUMIFS函数" class="headerlink" title="SUMIFS函数"></a>SUMIFS函数</h3><p>根据指定多条件对若干单元格求和。        </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>SUMIFS(SUM_range,criteria1,sum_range1,criteria2,sum_range2,…)<br>(1) SUM_Range    为用于条件判断的单元格区域。<br>(2) Criteria1    为确定哪些单元格将被相加求和的条件，其形式可以为数字、表达式或文本。例如，条件可以表示为 32、”32”、”&gt;32” 或 “apples”。<br>(3) range1    是需要求和的实际单元格。        </p><h4 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h4><p>只有在区域中相应的单元格符合条件的情况下，sum_range 中的单元格才求和。<br>如果忽略了 sum_range，则对区域中的单元格求和。        </p><p>例二：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.3.png" alt="3"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.4.gif" alt="4"></p><p>实战：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.5.png" alt="5"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/28.6.png" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-掌握SUMIF单条件求和用法&lt;br&gt;2-掌握SUMIFS多条件求和用法&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shmily</title>
-    <link href="www.kifroom.icu/2020/07/13/shmily/"/>
-    <id>www.kifroom.icu/2020/07/13/shmily/</id>
-    <published>2020-07-13T13:21:49.000Z</published>
-    <updated>2020-07-13T13:44:36.394Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="shmily"><a href="#shmily" class="headerlink" title="shmily"></a>shmily</h2><p>Sometimes some little things can teach us a lot.</p><p>My grandparents were married for over half a century, and played their own special game from the time they had met each other. The goal of their game was to write the word”shmily”in a surprise place for the other to find. They took turns leaving”shmily”around the house, and as soon as one of them discovered it, it was their turn to hide it once more. They dragged”shmily”with their fingers through the sugar and flour containers to await whoever was preparing the next meal. They smeared it in the dew on the windows overlooking the patio where my grandma always fed us warm, homemade pudding with blue food coloring.”Shmily”was written in the steam left on the mirror after a hot shower, where it would reappear bath after bath. At one point, mygrandmothereven unrolled an entire roll of toilet paper to leave”shmily”on the very last sheet. There was no end to the places”shmily”would pop up. Little notes with”shmily”scribbled hurriedly were found on dashboards and car seats, or taped to steering wheels. The notes were stuffed inside shoes and left under pillows.”Shmily”was written in the dust upon the mantel and traced in the ashes of thefireplace. Thismysteriousword was as much a part of my grandparents’house as the furniture.</p><p>It took me a long time before I was able to fullyappreciatemy grand-parents’game.Skepticismhas kept me from believing in true love-one that is pure and enduring. However, I never doubted my grandparents’relationship. They had love down pat.It was more than their flirtatious little games; it was a way of life. Their relationship was based on a devotion andpassionateaffectionwhich not everyone is lucky to experience. Grandma and Grandpa hold hands every chance they could. They stole kisses as they bumped into each other in their tiny kitchen. They finished each other’s sentences and shared the dailycrosswordpuzzle and word jumble.. My grandma whispered to me about how cute my grandpa was, how handsome and old he had grown to be. She claimed that she really knew”how to pick’em.”Before every meal they bowed their heads and gave thanks, marveling at theirblessings: a wonderful family, good fortune, and each other. But there was a dark cloud in my grandparents’life: my grandmother had breast cancer. The disease had first appeared ten years earlier. As always, Grandpa was with her every step of the way.</p><p>He comforted her in their yellow room, painted that way so that she could always be surrounded by sunshine, even when she was too sick to go outside. Now the cancer was again attacking her body. With the help of a cane and my grandfather's steady hand, they went to church every morning. But my grandmother grew steadily weaker until, finally, she could not leave the house anymore. For a while, Grandpa would go to church alone, praying to God to watch over his wife. Then one day, what we all dreaded finally happened. Grandma was gone.”Shmily.”It was scrawled in yellow on the pink ribbons of my grandmother's funeral bouquet.</p><p>As the crowd thinned and the last mourners turned to leave, my aunts, uncles, cousins and other family members came forward and gathered around Grandma one last time. Grandpa stepped up to my grandmother's casket and, taking a shaky breath and then he began to sing to her. Through his tears , the song came, deep and slow.</p><p>Thank you，grandpa and grandma，for letting me see.</p><p>S-h-m-i-l-y: See How Much I Love You.</p><p>By Laura Jeanne Allen</p><h2 id="知道我有多爱你"><a href="#知道我有多爱你" class="headerlink" title="知道我有多爱你"></a>知道我有多爱你</h2><p>我的祖父和祖母结婚已逾半个世纪，然而多少年来，他们彼此间不倦地玩着一个特殊的游戏：在一个意想不到的地方写下“Shmily”这个词留待对方来发现。他们轮换着在屋前房后留下“Shmily”，一经对方发现，就开始新的一轮。 他们用手指在糖罐和面箱里写下“Shmily”，等着准备下一餐饭的对方来发现；他们在覆着霜花的玻璃上写下“Shmily”；一次又一次的热水澡后，总可以看见雾气蒙罩的镜子上留下的“Shmily”。 有时，祖母甚至会重卷一整卷卫生纸，只为了在最后一片纸上写下“Shmily”。 没有“Shmily”不可能出现的地方。仓促间涂写的“Shmily”会出现在汽车坐垫上，或是一张贴在方向盘轴心的小纸条上。这一类的字条会被塞进鞋子里或是压在枕下。 “Shmily”会被书写在壁炉台面的薄尘上，或是勾画在炉内的灰底上。这个神秘的词，像祖父母的家具一样成了他们房间的一部分。 直到很久以后，我才能完全理解祖父母之间游戏的意义。年轻时我不懂得爱——那种纯洁且历久弥坚的爱。然而，我从未怀疑过祖父母之间的感情。他们彼此深爱。他们的小游戏已远非调情消遣，那是一种生活方式。他们之间的感情是基于一种深挚的爱和献身精神，不是每一个人都能体验到的。 祖父和祖母一有机会就彼此执手相握。他们在小厨房里错身而过时偷吻；他们说完彼此的半截句子；他们一起玩拼字和字谜游戏。祖母常忘情地对我耳语祖父有多可爱迷人，依然还是那么帅气。她骄傲地宣称自己的确懂得“如何选择”。每次餐前他们垂首祈祷时，感谢他们受到的诸多福佑：一个幸福的家庭、好运道和拥有彼此。 可是一片乌去遮蔽了祖父母的家：祖母的癌恶化了。首次发现是在10年前。跟以往一样，祖父总是跟祖母肩并肩地走过人生艰难之旅的每一步。为了安慰祖母，祖父将他们的卧房喷涂成黄色，这样在祖母病重不能出屋时，亦能感到周围的阳光。 起先，在祖父坚实的手臂和拐杖的帮扶下，他们每天清晨一起去教堂散步和默祷。但随着祖母日见虚弱，终于，祖父只能独自去教堂，祈求上帝看顾他的妻子。 然而那一天，我们担心忧惧的事终于还是发生了，祖母去世了。</p><p>“Shmily”写在祖母葬礼上花束的黄色缎带上。当人群散去，叔伯、姑姑和其他的家庭成员又走上前来最后一次围聚在祖母身旁。祖父步向祖母的灵柩，用颤抖的声音轻轻的唱起“知道我有多么爱你……”透过悲伤的泪，这歌声低沉轻柔地飘入耳来……<br>我终于明白了他们特殊小游戏的意义“S— h— m— I— l— y”：“See how much I love you（知道我多么爱你）”。 因悲伤而颤栗着，我永远无法忘记那一刻.谢谢你们，祖父祖母，是你们让我懂得了什么是爱 。</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/shmily2.jpg" alt="shmily"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;shmily&quot;&gt;&lt;a href=&quot;#shmily&quot; class=&quot;headerlink&quot; title=&quot;shmily&quot;&gt;&lt;/a&gt;shmily&lt;/h2&gt;&lt;p&gt;Sometimes some little things can teach us a lot.&lt;/p&gt;
-&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="www.kifroom.icu/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E7%94%9F%E6%B4%BB/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="情绪" scheme="www.kifroom.icu/tags/%E6%83%85%E7%BB%AA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vs code 开发微信小程序</title>
-    <link href="www.kifroom.icu/2020/07/13/vs-code-kai-fa-wei-xin-xiao-cheng-xu/"/>
-    <id>www.kifroom.icu/2020/07/13/vs-code-kai-fa-wei-xin-xiao-cheng-xu/</id>
-    <published>2020-07-13T04:00:23.000Z</published>
-    <updated>2020-07-13T04:45:33.042Z</updated>
-    
-    <content type="html"><![CDATA[<p>这里推荐大家使用号称“宇宙第一IDE”的编辑器——vscode。安装方法看博客上一篇文章，主要介绍一下几个vscode插件，在vscode中搜索插件关键字点击安装即可。</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/6.png" alt="搜索插件"></p><h3 id="小程序助手"><a href="#小程序助手" class="headerlink" title="小程序助手"></a>小程序助手</h3><p>让vscode 提供对 .wxss .wxml 文件后缀的支持<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/8.png" alt="小程序助手"></p><h3 id="minapp"><a href="#minapp" class="headerlink" title="minapp"></a>minapp</h3><p>支持微信小程序标签、属性的智能补全，并且提示中包含文档内容（同时支持原生小程序、mpvue 和 wepy 框架，并提供 snippets）。<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/9.png" alt="minapp"></p><h3 id="wechat-snippet"><a href="#wechat-snippet" class="headerlink" title="wechat-snippet"></a>wechat-snippet</h3><p>这个插件主要的功能就是代码辅助，代码片段自动完成，可以作为上个插件的补充。<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/10.png" alt="wechat-snippet"></p><h3 id="wxml"><a href="#wxml" class="headerlink" title="wxml"></a>wxml</h3><p>这款插件用于将wxml代码进行高亮显示，并且提供代码格式化的功能，可将代码格式化为较易阅读的样式。<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/11.png" alt="wxml"></p><h3 id="vscode-wxml"><a href="#vscode-wxml" class="headerlink" title="vscode wxml"></a>vscode wxml</h3><p>提供微信小程序代码的提示<br>对wxml文件进行格式化<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/12.png" alt="vscode wxml"></p><h3 id="wechat-snippet-1"><a href="#wechat-snippet-1" class="headerlink" title="wechat-snippet"></a>wechat-snippet</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/13.png" alt="wechat-snippet"></p><p>有了上面这几款插件，便可以开始高效地撸代码了。至于代码的调试以及效果的查看，当然还是得打开微信开发者工具。将编辑器隐藏，调试工具调到最大，快速找到元素的位置，修改样式，Ctrl+S，提交代码，一顿操作猛如虎。</p><p>下面这是我的界面，可以把微信开发程序仅打开模拟器，放在右边，左边用vscode写好代码后，鼠标点击到 右边，ctrl+r刷新就可以看到效果了。<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/7.png" alt="我的界面"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;这里推荐大家使用号称“宇宙第一IDE”的编辑器——vscode。安装方法看博客上一篇文章，主要介绍一下几个vscode插件，在vscode中搜索插件关键字点击安装即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wkif/CD
-      
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="win" scheme="www.kifroom.icu/tags/win/"/>
-    
-      <category term="vs code" scheme="www.kifroom.icu/tags/vs-code/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vs code下载安装</title>
-    <link href="www.kifroom.icu/2020/07/13/vs-code-xia-zai-an-zhuang/"/>
-    <id>www.kifroom.icu/2020/07/13/vs-code-xia-zai-an-zhuang/</id>
-    <published>2020-07-13T03:59:57.000Z</published>
-    <updated>2020-07-13T04:13:17.897Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文介绍Win上安装vs code方法</p><h3 id="首先下载vscode安装软件"><a href="#首先下载vscode安装软件" class="headerlink" title="首先下载vscode安装软件"></a>首先下载vscode安装软件</h3><p><a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">下载链接</a></p><h3 id="选择vscode版本（根据自己的操作系统选择相应的版本）"><a href="#选择vscode版本（根据自己的操作系统选择相应的版本）" class="headerlink" title="选择vscode版本（根据自己的操作系统选择相应的版本）"></a>选择vscode版本（根据自己的操作系统选择相应的版本）</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/1.png" alt="1"></p><h3 id="傻瓜式安装，一直下一步，直接到完成"><a href="#傻瓜式安装，一直下一步，直接到完成" class="headerlink" title="傻瓜式安装，一直下一步，直接到完成"></a>傻瓜式安装，一直下一步，直接到完成</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/2.png" alt="3"></p><h3 id="环境变量（这步骤也是默认的，因为改编辑器是微软提供的，会自动配置path）"><a href="#环境变量（这步骤也是默认的，因为改编辑器是微软提供的，会自动配置path）" class="headerlink" title="环境变量（这步骤也是默认的，因为改编辑器是微软提供的，会自动配置path）"></a>环境变量（这步骤也是默认的，因为改编辑器是微软提供的，会自动配置path）</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/3.png" alt="3"></p><h3 id="安装成功（到此步骤已经安装成功了，下面的部署式配置VSCode和简单的使用）"><a href="#安装成功（到此步骤已经安装成功了，下面的部署式配置VSCode和简单的使用）" class="headerlink" title="安装成功（到此步骤已经安装成功了，下面的部署式配置VSCode和简单的使用）"></a>安装成功（到此步骤已经安装成功了，下面的部署式配置VSCode和简单的使用）</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/4.png" alt="4"></p><h3 id="将默认英文改成中文"><a href="#将默认英文改成中文" class="headerlink" title="将默认英文改成中文"></a>将默认英文改成中文</h3><h4 id="步骤１-Ctrl-Shift-P打开搜索框输入Configure-Display-Language命令"><a href="#步骤１-Ctrl-Shift-P打开搜索框输入Configure-Display-Language命令" class="headerlink" title="步骤１.Ctrl+Shift+P打开搜索框输入Configure Display Language命令"></a>步骤１.Ctrl+Shift+P打开搜索框输入Configure Display Language命令</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/vscode/5.png" alt="5"></p><p>修改完成之后，CTRL＋Ｓ保存</p><h4 id="步骤２：要查找的语言在“扩展”视图（Ctrl-Shift-X）中搜索语言包"><a href="#步骤２：要查找的语言在“扩展”视图（Ctrl-Shift-X）中搜索语言包" class="headerlink" title="步骤２：要查找的语言在“扩展”视图（Ctrl + Shift + X）中搜索语言包"></a>步骤２：要查找的语言在“扩展”视图（Ctrl + Shift + X）中搜索语言包</h4><h4 id="步骤３：重启vscode就可以了，重启之后，就变成中文版"><a href="#步骤３：重启vscode就可以了，重启之后，就变成中文版" class="headerlink" title="步骤３：重启vscode就可以了，重启之后，就变成中文版"></a>步骤３：重启vscode就可以了，重启之后，就变成中文版</h4><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;本文介绍Win上安装vs code方法&lt;/p&gt;
-&lt;h3 id=&quot;首先下载vscode安装软件&quot;&gt;&lt;a href=&quot;#首先下载vscode安装软件&quot; class=&quot;headerlink&quot; title=&quot;首先下载vscode安装软件&quot;&gt;&lt;/a&gt;首先下载vscode安装软件&lt;/h
-      
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E8%BD%AC%E8%BD%BD/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="win" scheme="www.kifroom.icu/tags/win/"/>
-    
-      <category term="vs code" scheme="www.kifroom.icu/tags/vs-code/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(27):统计不重复数个数</title>
-    <link href="www.kifroom.icu/2020/07/07/excel-shu-ju-zheng-li-yu-fen-xi-27-tong-ji-bu-chong-fu-shu-ge-shu/"/>
-    <id>www.kifroom.icu/2020/07/07/excel-shu-ju-zheng-li-yu-fen-xi-27-tong-ji-bu-chong-fu-shu-ge-shu/</id>
-    <published>2020-07-07T13:45:00.000Z</published>
-    <updated>2020-07-07T14:10:46.801Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-通过SUM函数和COUNTIF函数来实现不重复计数。</p><a id="more"></a><h3 id="通过SUM函数和COUNTIF函数来实现不重复计数"><a href="#通过SUM函数和COUNTIF函数来实现不重复计数" class="headerlink" title="通过SUM函数和COUNTIF函数来实现不重复计数"></a>通过SUM函数和COUNTIF函数来实现不重复计数</h3><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/27.1.png" alt="1"></p><p>way:</p><h4 id="每个项目出现的次数"><a href="#每个项目出现的次数" class="headerlink" title="每个项目出现的次数"></a>每个项目出现的次数</h4><pre><code>=COUNTIF($B$4:$B$14,B4)</code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/27.2.png" alt="2"></p><h4 id="用1除以次数"><a href="#用1除以次数" class="headerlink" title="用1除以次数"></a>用1除以次数</h4><p>得到一系列小数，相同值的小数和为1<br>即：1/(COUNTIF(B4:B14,B4:B14))<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/27.3.png" alt="3"></p><h4 id="用sum函数求和"><a href="#用sum函数求和" class="headerlink" title="用sum函数求和"></a>用sum函数求和</h4><p>即：SUM(1/(COUNTIF(B4:B14,B4:B14)))<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/27.4.png" alt="4"></p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p><strong><em>ctrl+shift enter数组公式</em></strong></p><p>即=SUM(1/(COUNTIF(B4:B14,B4:B14)))</p><p>这里面countif第二个参数是多个数，因此要用ctrl+shift enter数组公式</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-通过SUM函数和COUNTIF函数来实现不重复计数。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(26):统计函数应用-条件计数函数</title>
-    <link href="www.kifroom.icu/2020/07/07/excel-shu-ju-zheng-li-yu-fen-xi-26-tong-ji-han-shu-ying-yong-tiao-jian-ji-shu-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/07/excel-shu-ju-zheng-li-yu-fen-xi-26-tong-ji-han-shu-ying-yong-tiao-jian-ji-shu-han-shu/</id>
-    <published>2020-07-07T12:51:42.000Z</published>
-    <updated>2020-07-07T13:43:51.835Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握COUNTIF单条件计数用法，特别是通配符条件、单元格弓|用条件的写法。<br>2 -掌握COUNTIFS多条件计数用法。</p><a id="more"></a><h3 id="COUNTIF函数"><a href="#COUNTIF函数" class="headerlink" title="COUNTIF函数"></a>COUNTIF函数</h3><p>计算区域中满足单个条件的单元格的个数。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><pre><code>COUNTIF(range,criteria)单条件计数            (1) Range    为需要计算其中满足条件的单元格数目的单元格区域。            (2) Criteria    为确定哪些单元格将被计算在内的条件，其形式可以为数字、表达式或文本。例如，条件可以表示为         32、"32"、"&gt;32" 或 "apples"。            </code></pre><p>例一：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.1.gif" alt="1"></p><p>例二：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.2.png" alt="2"></p><p>其中”分数低于F同学的人数“涉及到单元格引用条件<br>way：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.4.gif" alt="4"></p><p>例三：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.5.png" alt="5"></p><p>通配符：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.3.png" alt="3"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.6.gif" alt="6"></p><h3 id="COUNTIFS函数"><a href="#COUNTIFS函数" class="headerlink" title="COUNTIFS函数"></a>COUNTIFS函数</h3><p>计算区域中满足多个条件的单元格的个数。                    </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><pre><code>COUNTIFS(COUNTIF_range1,criteria1,COUNTIF_range2,criteria2...)多条件计数                    (1) COUNTIF_Range1    为需要计算其中满足条件的单元格数目的单元格区域。                    (2) Criteria1    为确定哪些单元格将被计算在内的条件，其形式可以为数字、表达式或文本。                    (3) COUNTIF_Range2    为需要计算其中满足条件的单元格数目的单元格区域。                    (4) Criteria2    为确定哪些单元格将被计算在内的条件，其形式可以为数字、表达式或文本。                    </code></pre><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.7.png" alt="7"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/26.8.gif" alt="8"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-掌握COUNTIF单条件计数用法，特别是通配符条件、单元格弓|用条件的写法。&lt;br&gt;2 -掌握COUNTIFS多条件计数用法。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(25):统计函数应用-求和函数</title>
-    <link href="www.kifroom.icu/2020/07/06/excel-shu-ju-zheng-li-yu-fen-xi-25-tong-ji-han-shu-ying-yong-qiu-he-han-shu/"/>
-    <id>www.kifroom.icu/2020/07/06/excel-shu-ju-zheng-li-yu-fen-xi-25-tong-ji-han-shu-ying-yong-qiu-he-han-shu/</id>
-    <published>2020-07-06T14:18:01.000Z</published>
-    <updated>2020-07-06T14:40:18.891Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-掌握SUM函数的高级用法。<br>2-掌握SUMPRODUCT函数用法。</p><a id="more"></a><h3 id="SUM函数交叉数据求和"><a href="#SUM函数交叉数据求和" class="headerlink" title="SUM函数交叉数据求和"></a>SUM函数交叉数据求和</h3><p>在B11单元格计算产品3、产品4与二月、四月、五月份的交叉的数据<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.1.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.2.gif" alt="2"></p><p>其中 空格合一找到行与列相交的单元格</p><h3 id="小计与合计"><a href="#小计与合计" class="headerlink" title="小计与合计"></a>小计与合计</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.3.png" alt="3"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.4.gif" alt="4"></p><h3 id="product函数"><a href="#product函数" class="headerlink" title="product函数"></a>product函数</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.5.png" alt="5"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.6.gif" alt="6"></p><h3 id="sumproduct函数"><a href="#sumproduct函数" class="headerlink" title="sumproduct函数"></a>sumproduct函数</h3><p>在给定的几组数组中，将数组间对应的元素相乘，并返回乘积之和。<br>语法：SUMPRODUCT(array1,array2,array3, …)  Array1, array2, array3, … 为 2 到 30 个数组，其相应元素需要进行<strong><em>相乘并求和</em></strong>。<br>数组参数必须具有相同的维数，否则，函数 SUMPRODUCT 将返回错误值 #VALUE!。<br>函数 SUMPRODUCT 将非数值型的数组元素作为 0 处理。<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/25.7.png" alt="7"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-掌握SUM函数的高级用法。&lt;br&gt;2-掌握SUMPRODUCT函数用法。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(24):常见函数应用</title>
-    <link href="www.kifroom.icu/2020/07/05/excel-shu-ju-zheng-li-yu-fen-xi-24-chang-jian-han-shu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/05/excel-shu-ju-zheng-li-yu-fen-xi-24-chang-jian-han-shu-ying-yong/</id>
-    <published>2020-07-05T11:59:34.000Z</published>
-    <updated>2020-07-05T15:17:49.757Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>1-初学函数要重点理解函数里面的参数，特别是参数引用的区域，如果发生变化，需要F4<br>键锁定相关行号数字和列标字母。<br>2初学函数如果不太理解参数,可以点开(FX)进行详细查看。</p><a id="more"></a><h3 id="排名"><a href="#排名" class="headerlink" title="排名"></a>排名</h3><p>RANK</p><h4 id="调出参数设置界面"><a href="#调出参数设置界面" class="headerlink" title="调出参数设置界面"></a>调出参数设置界面</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/24.1.gif" alt="1"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/24.2.png" alt="2"></p><p>Number是要查找排名的数字<br>Ref是一组数或对一个数据列表的引用。非数字值将被忽略<br>Order是在列表中排名的数字。如果为0或忽略，降序;非零值，升序.一般情况都是0，即降序<br>如：<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/24.3.gif" alt="3"></p><h3 id="最大值-MAX-最小值-MIN"><a href="#最大值-MAX-最小值-MIN" class="headerlink" title="最大值 MAX(),最小值 MIN()"></a>最大值 MAX(),最小值 MIN()</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/24.4.png" alt="4"></p><h3 id="第N大值-LARGE-区域或数组，N-第N小值-SMALL-区域或数组，N"><a href="#第N大值-LARGE-区域或数组，N-第N小值-SMALL-区域或数组，N" class="headerlink" title="第N大值 LARGE(区域或数组，N),第N小值 SMALL(区域或数组，N)"></a>第N大值 LARGE(区域或数组，N),第N小值 SMALL(区域或数组，N)</h3><h3 id="平均值-AVERAGE-区域或数组"><a href="#平均值-AVERAGE-区域或数组" class="headerlink" title="平均值 AVERAGE(区域或数组)"></a>平均值 AVERAGE(区域或数组)</h3><h3 id="COUNT函数"><a href="#COUNT函数" class="headerlink" title="COUNT函数"></a>COUNT函数</h3><p>返回包含<strong><em>数字以及包含参数列表中的数字</em></strong>的单元格的个数。利用COUNT函数可以计算单元格区域或数字数组中数字字段的输入项个数。                            </p><h3 id="COUNTA函数"><a href="#COUNTA函数" class="headerlink" title="COUNTA函数"></a>COUNTA函数</h3><p>返回参数列表中<strong><em>非空值</em></strong>的单元格个数。利用函数COUNTA可以计算单元格区域或数组中包含数据的单元格个数。                            </p><h3 id="COUNTBLANK"><a href="#COUNTBLANK" class="headerlink" title="COUNTBLANK"></a>COUNTBLANK</h3><p>返回参数列表中<strong><em>空值</em></strong>的单元格个数。利用函数COUNTBLANK可以计算单元格区域或数组中包含空格的单元格个数。                            </p><h3 id="ROUND-函数"><a href="#ROUND-函数" class="headerlink" title="ROUND 函数"></a>ROUND 函数</h3><p>可将某个数字四舍五入为指定的位数。例如，如果单元格 A1 含有 23.7825 并且希望将该数字四舍五入为小数点后两位<br><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/24.5.gif" alt="5"></p><h3 id="INT函数"><a href="#INT函数" class="headerlink" title="INT函数"></a>INT函数</h3><p>将数字向下舍入到最接近的整数。<br>INT(number)</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1-初学函数要重点理解函数里面的参数，特别是参数引用的区域，如果发生变化，需要F4&lt;br&gt;键锁定相关行号数字和列标字母。&lt;br&gt;2初学函数如果不太理解参数,可以点开(FX)进行详细查看。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(20):条件格式</title>
-    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/"/>
-    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-20-tiao-jian-ge-shi/</id>
-    <published>2020-07-03T09:39:29.000Z</published>
-    <updated>2020-07-03T10:25:31.206Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h2 id="案例一"><a href="#案例一" class="headerlink" title="案例一"></a>案例一</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.1.png" alt="例一"></p><p>要求：</p><p>操作要求：（在J9:N16区域 突出显示单元格规则、项目选取规则、图标集应用和酷炫迷你图）<br>1.用浅红填充色深红文本，突出显示出各科目不及格的成绩<br>2.用蓝色填充，突出显示总分相同的单元格数据<br>3.用红色文本，选取出总分低于平均值的单元格数据<br>4.用图标集标识出数学成绩&gt;=85、&gt;=60和不及格部分（尝试一下：仅显示图标）<br>5.分析各科目的分数的趋势走向（用红点标识出低点，蓝色标识出高点）</p><p>效果图：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.6.png" alt="1">                </p><p>way：</p><p>1.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.2.gif" alt="1"></p><p>2.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.3.png" alt="2"></p><p>颜色自定义</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.4.png" alt="2"></p><p>3.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.5.png" alt="3"></p><p>4.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.7.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.8.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.9.png" alt="4"></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.10.png" alt="4"></p><p>5.</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.11.gif" alt="5"></p><h2 id="案例二"><a href="#案例二" class="headerlink" title="案例二"></a>案例二</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.12.png" alt="例二"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/20.12.png" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(21):表格美化</title>
-    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-21-biao-ge-mei-hua/"/>
-    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-21-biao-ge-mei-hua/</id>
-    <published>2020-07-03T09:39:29.000Z</published>
-    <updated>2020-07-04T07:03:07.293Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>表格美化指南</p><p>1-表格美化前，需要确定两点内容<br>1.1给谁看？对方想看到什么？(对方感兴趣的数据必须重点标注出来，最好一眼就能看明白)<br>1.2是否需要打印？还是只是工作簿形式？(如果要打印，尽量不要用颜色深的填充色或不用填充色)</p><p>2-美化表格基本上针对的是汇总表，源数据表作为存储数据，美化与否，对其毫无影响!</p><p>3-以下技术点需要注意<br>3.1中文字体的选择尽量用无衬线字体，类似微软雅黑、微软雅黑 Light、黑体、华文细黑等。<br>3.2数字和英文用Arial、微软雅黑 Light等。<br>3.3标题字体一般10至14磅，正文字体大小一般8至10磅。重点内容需要加粗字体或边框标注出来。<br>3.4没有对齐就没有美感，同一列或统一行的数据对齐要保持一致，大多数都选择居中对齐。<br>3.5网格线一般选择关闭，避免产生过多的视觉干扰。<br>3.6单元格的颜色建议用取色器吸取公司LOGO作为主色调，边框用灰色搭配。这样既显得贴近企业特色，又显得专业。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(22):单元格区域名称管理技术应用</title>
-    <link href="www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-22-dan-yuan-ge-qu-yu-ming-cheng-guan-li-ji-zhu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/03/excel-shu-ju-zheng-li-yu-fen-xi-22-dan-yuan-ge-qu-yu-ming-cheng-guan-li-ji-zhu-ying-yong/</id>
-    <published>2020-07-03T09:39:29.000Z</published>
-    <updated>2020-07-04T07:22:21.983Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>通过Excel名称技术进行单元格区域的管理，可以快速选中数据区域、辅助数据验证应用、数据区域计算等。</p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/CDN/img/Excel/21.1.gif" alt="1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;
-      
     
     </summary>
     

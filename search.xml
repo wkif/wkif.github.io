@@ -4,6 +4,214 @@
   
     
     <entry>
+      <title>Excel数据整理与分析-53-Excel数据分析工具应用</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-53-excel-shu-ju-fen-xi-gong-ju-ying-yong/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-53-excel-shu-ju-fen-xi-gong-ju-ying-yong/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(53):Excel数据分析工具应用’<br>date: 2020-07-20 15:14:47<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-52-数据呈现术-3D全景地图展示客户分布情况</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-52-shu-ju-cheng-xian-zhu-3d-quan-jing-di-tu-zhan-shi-ke-hu-fen-bu-qing-kuang/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-52-shu-ju-cheng-xian-zhu-3d-quan-jing-di-tu-zhan-shi-ke-hu-fen-bu-qing-kuang/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(52):数据呈现术-3D全景地图展示客户分布情况’<br>date: 2020-07-20 15:14:35<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-51-数据统计术-统计学生科目分数等级信息</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-51-shu-ju-tong-ji-zhu-tong-ji-xue-sheng-ke-mu-fen-shu-deng-ji-xin-xi/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-51-shu-ju-tong-ji-zhu-tong-ji-xue-sheng-ke-mu-fen-shu-deng-ji-xin-xi/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(51):数据统计术-统计学生科目分数等级信息 ‘<br>date: 2020-07-20 15:14:25<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-50-数据分析术-多维度分析商业数据</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-50-shu-ju-fen-xi-zhu-duo-wei-du-fen-xi-shang-ye-shu-ju/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-50-shu-ju-fen-xi-zhu-duo-wei-du-fen-xi-shang-ye-shu-ju/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(50):数据分析术-多维度分析商业数据’<br>date: 2020-07-20 15:14:12<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-49-数据对比术-快速找出差异</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-49-shu-ju-dui-bi-zhu-kuai-su-zhao-chu-chai-yi/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-49-shu-ju-dui-bi-zhu-kuai-su-zhao-chu-chai-yi/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(49):数据对比术-快速找出差异’<br>date: 2020-07-20 15:13:58<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-48-数据合并术-多表数据合并</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-48-shu-ju-he-bing-zhu-duo-biao-shu-ju-he-bing/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-48-shu-ju-he-bing-zhu-duo-biao-shu-ju-he-bing/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(48):数据合并术-多表数据合并 ‘<br>date: 2020-07-20 15:13:43<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-47-商业销售数据分析实战案例</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-47-shang-ye-xiao-shou-shu-ju-fen-xi-shi-zhan-an-li/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-47-shang-ye-xiao-shou-shu-ju-fen-xi-shi-zhan-an-li/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(47):商业销售数据分析实战案例’<br>date: 2020-07-20 15:13:33<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-46-数据透视报表的筛选</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(46):数据透视报表的筛选’<br>date: 2020-07-20 15:13:23<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-45-值字段的显示方式、计算字段、计算项</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-45-zhi-zi-duan-de-xian-shi-fang-shi-ji-suan-zi-duan-ji-suan-xiang/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-45-zhi-zi-duan-de-xian-shi-fang-shi-ji-suan-zi-duan-ji-suan-xiang/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(45):值字段的显示方式、计算字段、计算项’<br>date: 2020-07-20 15:13:10<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-44-数据透视表字段的组合</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-44-shu-ju-tou-shi-biao-zi-duan-de-zu-he/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-44-shu-ju-tou-shi-biao-zi-duan-de-zu-he/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(44):数据透视表字段的组合’<br>date: 2020-07-20 15:12:57<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-43-通过数据透视表分析数据</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-43-tong-guo-shu-ju-tou-shi-biao-fen-xi-shu-ju/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-43-tong-guo-shu-ju-tou-shi-biao-fen-xi-shu-ju/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(43):通过数据透视表分析数据’<br>date: 2020-07-20 15:12:45<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-42-财务函数应用</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-42-cai-wu-han-shu-ying-yong/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-42-cai-wu-han-shu-ying-yong/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(42):财务函数应用’<br>date: 2020-07-20 15:12:30<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-41-DATEDIF综合日期函数</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-41-datedif-zong-he-ri-qi-han-shu/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-41-datedif-zong-he-ri-qi-han-shu/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(41):DATEDIF综合日期函数’<br>date: 2020-07-20 15:12:17<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-40-计算工作日</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(40):计算工作日’<br>date: 2020-07-20 15:12:00<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-39-计算时间</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(39):计算时间’<br>date: 2020-07-20 15:11:48<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel数据整理与分析-54-Excel数据可视化之图表制作</title>
+      <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/"/>
+      <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(54):Excel数据可视化之图表制作’<br>date: 2020-07-20 15:14:57<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Excel数据整理与分析-38-计算年月日</title>
       <link href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/"/>
       <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/</url>
