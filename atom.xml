@@ -325,28 +325,6 @@
   </entry>
   
   <entry>
-    <title>Excel数据整理与分析-39-计算时间</title>
-    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/"/>
-    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/</id>
-    <published>2020-07-20T11:56:33.927Z</published>
-    <updated>2020-07-20T11:54:10.768Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(39):计算时间’<br>date: 2020-07-20 15:11:48<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title: ‘Excel数据整理与分析(39):计算时间’&lt;br&gt;date: 2020-07-20 15:11:48&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
-&lt;p&gt;​—&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Excel数据整理与分析-54-Excel数据可视化之图表制作</title>
     <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/"/>
     <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/</id>
@@ -369,62 +347,21 @@
   </entry>
   
   <entry>
-    <title>Excel数据整理与分析-38-计算年月日</title>
-    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/"/>
-    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/</id>
-    <published>2020-07-20T11:27:06.507Z</published>
-    <updated>2020-07-20T11:53:18.325Z</updated>
+    <title>Excel数据整理与分析(39):计算时间</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/</id>
+    <published>2020-07-20T07:11:48.000Z</published>
+    <updated>2020-07-20T12:07:23.443Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(38):计算年月日’<br>date: 2020-07-20 15:11:26categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title: ‘Excel数据整理与分析(38):计算年月日’&lt;br&gt;date: 2020-07-20 15:11:26categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
-&lt;p&gt;​—&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析-37-TEXT函数应用</title>
-    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/</id>
-    <published>2020-07-20T07:11:09.925Z</published>
-    <updated>2020-07-20T11:53:03.012Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: ‘Excel数据整理与分析(37):TEXT函数应用’<br>date: 2020-07-20 15:11:09<br>categories:<br>    - 教程<br>    - 学习<br>tags:<br>    - Excel<br>    - 学习笔记</p><p>​—</p><pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a> <h3 id="TEXT函数"><a href="#TEXT函数" class="headerlink" title="TEXT函数"></a>TEXT函数</h3><p>TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>TEXT(value, format_text)</p><p>Value数值、能够返回数值的公式，或者对数值单元格的引用</p><p>Format. text文字形式的数字格式，文字形式来自于“单元格格式”对话框数字”选项卡的“分类”框(不是“常规”选择项卡)</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720181918.png" alt="1"></p><p>公历转农历</p><p><code>"[$-110000]e-m-d"</code></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720182233.png" alt="2"></p><p>例一：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720182323666.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183202.gif" alt="2"></p><p>例二：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183134.png" alt="3"></p><p>way:</p><p>1.切片</p><p>其中从哪儿开始切用到row函数，即：row（1：len（A1））</p><p>`</p><p>mid（A1,row（1：len（A1））,1）</p><p>`</p><p>2.屏蔽掉字母</p><p>`</p><p>TEXT（mid（A1,row（1：len（A1））,1），“0；0；0；！0”）</p><p>`</p><p>3.转换为数字比大小</p><p>`</p><p>=MAX(–TEXT(MID(A3,ROW(1:9),1),”0;;0;!0”))</p><p>`</p><p><strong><em>注</em></strong> 按ctrl + shift+enter</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720190527.gif" alt="4"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: ‘Excel数据整理与分析(37):TEXT函数应用’&lt;br&gt;date: 2020-07-20 15:11:09&lt;br&gt;categories:&lt;br&gt;    - 教程&lt;br&gt;    - 学习&lt;br&gt;tags:&lt;br&gt;    - Excel&lt;br&gt;    - 学习笔记&lt;/p&gt;
-&lt;p&gt;​—&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(35):FIND+SEARCH函数应用</title>
-    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/</id>
-    <published>2020-07-20T06:47:54.000Z</published>
-    <updated>2020-07-20T08:26:01.533Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>理解FIND和SEARCH函数的区别。<br>同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊<br>查找。</p><a id="more"></a><h3 id="FIND函数"><a href="#FIND函数" class="headerlink" title="FIND函数"></a>FIND函数</h3><p>返回某个文本在字符串中的位置，区分大小写查找    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>FIND(find_text, within_text, [start_num])    </p><p>Find_text  必需。要查找的文本。<br>Within_text  必需。包含要查找文本的文本。<br>Start_num  可选。指定要从其开始搜索的字符。within_text 中的首字符是编号为 1 的字符。如果省略 start_num，则假设其值为 1。    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720145700.png" alt="例一"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720152616.gif" alt=""></p><h3 id="SEARCH-sɝtʃ-函数"><a href="#SEARCH-sɝtʃ-函数" class="headerlink" title="SEARCH [sɝtʃ]函数"></a>SEARCH [sɝtʃ]函数</h3><p>返回某个文本在字符串中的位置，不区分大小写查找，可以实现模糊查找</p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>SEARCH(find_text,within_text,[start_num])<br>find_text  必需。要查找的文本。<br>within_text  必需。要在其中搜索 find_text 参数的值的文本。<br>start_num  可选。within_text 参数中从之开始搜索的字符编号。</p><p>例如：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720161718.png" alt=""></p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720162300.png" alt="例一"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720162539.gif" alt="例一"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;理解FIND和SEARCH函数的区别。&lt;br&gt;同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊&lt;br&gt;查找。&lt;/p&gt;
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
     
     </summary>
     
@@ -441,18 +378,109 @@
   </entry>
   
   <entry>
-    <title>Excel数据整理与分析(30):ROW+COLUMN获得行号和列标</title>
-    <link href="www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/"/>
-    <id>www.kifroom.icu/2020/07/18/excel-shu-ju-zheng-li-yu-fen-xi-30-row-column-huo-de-xing-hao-he-lie-biao/</id>
-    <published>2020-07-18T10:05:33.000Z</published>
-    <updated>2020-07-18T16:02:31.231Z</updated>
+    <title>Excel数据整理与分析(38):计算年月日</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-38-ji-suan-nian-yue-ri/</id>
+    <published>2020-07-20T07:11:26.000Z</published>
+    <updated>2020-07-20T12:07:07.293Z</updated>
     
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><a id="more"></a><h3 id="Row-Column-函数"><a href="#Row-Column-函数" class="headerlink" title="Row/Column 函数"></a>Row/Column 函数</h3><p>返回给定引用的行标(列标)。    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>ROW(reference)   COLUMN相同<br>Reference    为需要得到其行号的单元格或单元格区域。<br>如果省略 reference，则假定是对函数 ROW 所在单元格的引用。<br>如果 reference 为一个单元格区域，并且函数 ROW 作为垂直数组输入，则函数 ROW 将 reference 的行号以垂直数组的形式返回。<br>Reference 不能引用多个区域。    </p><p>例一：生成九九乘法表</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/L%60%60%5D~0787PE03_0AAA@3@Z2.png" alt="1"></p><p>way:<br><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/29.4.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(37):TEXT函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/</id>
+    <published>2020-07-20T07:11:09.000Z</published>
+    <updated>2020-07-20T12:06:03.085Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="TEXT函数"><a href="#TEXT函数" class="headerlink" title="TEXT函数"></a>TEXT函数</h3><p>TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>TEXT(value, format_text)</p><p>Value数值、能够返回数值的公式，或者对数值单元格的引用</p><p>Format. text文字形式的数字格式，文字形式来自于“单元格格式”对话框数字”选项卡的“分类”框(不是“常规”选择项卡)</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720181918.png" alt="1"></p><p>公历转农历</p><p><code>"[$-110000]e-m-d"</code></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720182233.png" alt="2"></p><p>例一：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720182323666.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183202.gif" alt="2"></p><p>例二：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183134.png" alt="3"></p><p>way:</p><p>1.切片</p><p>其中从哪儿开始切用到row函数，即：row（1：len（A1））</p><p>`</p><p>mid（A1,row（1：len（A1））,1）</p><p>`</p><p>2.屏蔽掉字母</p><p>`</p><p>TEXT（mid（A1,row（1：len（A1））,1），“0；0；0；！0”）</p><p>`</p><p>3.转换为数字比大小</p><p>`</p><p>=MAX(–TEXT(MID(A3,ROW(1:9),1),”0;;0;!0”))</p><p>`</p><p><strong><em>注</em></strong> 按ctrl + shift+enter</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720190527.gif" alt="4"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(36):SUBSTITUTE+REPLACE函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-36-substitute-replace-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-36-substitute-replace-han-shu-ying-yong/</id>
+    <published>2020-07-20T07:10:48.000Z</published>
+    <updated>2020-07-20T12:05:29.444Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>&lt;1-理解SUBSTITUTE函数可以实现字符串替换功能。<br>2-理解REPLACE函数可以在字符串中实现插入字符或字符串变换功能。</p><a id="more"></a><hr><h3 id="SUBSTITUTE函数"><a href="#SUBSTITUTE函数" class="headerlink" title="SUBSTITUTE函数"></a>SUBSTITUTE函数</h3><p>在文本字符串中用 new_text 替代 old_text。    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>SUBSTITUTE(text, old_text, new_text, [instance_num])    </p><p>Text             必需。需要替换其中字符的文本，或对含有文本（需要替换其中字符）的单元格的引用。<br>Old_text         必需。需要替换的旧文本。<br>New_text         必需。用于替换 old_text 的文本。<br>Instance_num     可选。用来指定要以 new_text 替换第几次出现的 old_text。如果指定了 instance_num，则只有满足要求的 old_text被替换；否则会将 Text 中出现的每一处           old_text 都更改为 new_text。    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720164841.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720165506.gif" alt="1"></p><p>例二：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720165445493.png" alt="2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720170205.gif" alt="2"></p><h3 id="REPLACE函数"><a href="#REPLACE函数" class="headerlink" title="REPLACE函数"></a>REPLACE函数</h3><p>使用其他文本字符串并根据所指定的字符数替换某文本字符串中的部分文本    </p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>REPLACE(old_text, start_num, num_chars, new_text)    </p><p>Old_text  必需。要替换其部分字符的文本。<br>Start_num  必需。要用 new_text 替换的 old_text 中字符的位置。<br>Num_chars  必需。希望 REPLACE 使用 new_text 替换 old_text 中字符的个数。<br>Num_bytes  必需。希望 REPLACEB 使用 new_text 替换 old_text 中字节的个数。<br>New_text  必需。将用于替换 old_text 中字符的文本。    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720173939.png" alt="2"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720174724.gif" alt="2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;1-理解SUBSTITUTE函数可以实现字符串替换功能。&lt;br&gt;2-理解REPLACE函数可以在字符串中实现插入字符或字符串变换功能。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel数据整理与分析(35):FIND+SEARCH函数应用</title>
+    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/"/>
+    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-35-find-search-han-shu-ying-yong/</id>
+    <published>2020-07-20T06:47:54.000Z</published>
+    <updated>2020-07-20T08:26:01.533Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>理解FIND和SEARCH函数的区别。<br>同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊<br>查找。</p><a id="more"></a><h3 id="FIND函数"><a href="#FIND函数" class="headerlink" title="FIND函数"></a>FIND函数</h3><p>返回某个文本在字符串中的位置，区分大小写查找    </p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>FIND(find_text, within_text, [start_num])    </p><p>Find_text  必需。要查找的文本。<br>Within_text  必需。包含要查找文本的文本。<br>Start_num  可选。指定要从其开始搜索的字符。within_text 中的首字符是编号为 1 的字符。如果省略 start_num，则假设其值为 1。    </p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720145700.png" alt="例一"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720152616.gif" alt=""></p><h3 id="SEARCH-sɝtʃ-函数"><a href="#SEARCH-sɝtʃ-函数" class="headerlink" title="SEARCH [sɝtʃ]函数"></a>SEARCH [sɝtʃ]函数</h3><p>返回某个文本在字符串中的位置，不区分大小写查找，可以实现模糊查找</p><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>SEARCH(find_text,within_text,[start_num])<br>find_text  必需。要查找的文本。<br>within_text  必需。要在其中搜索 find_text 参数的值的文本。<br>start_num  可选。within_text 参数中从之开始搜索的字符编号。</p><p>例如：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720161718.png" alt=""></p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720162300.png" alt="例一"></p><p>way：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720162539.gif" alt="例一"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;理解FIND和SEARCH函数的区别。&lt;br&gt;同样;是字符串查找函数，FIND属于精确查找，不能有? *等通配符,而SEARCH支持模糊&lt;br&gt;查找。&lt;/p&gt;
     
     </summary>
     
