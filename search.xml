@@ -346,6 +346,69 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床</title>
+    <url>/2020/07/21/ge-ren-bo-ke-da-jian-3-typora-picgo-githubgitee-da-jian-mian-fei-wen-ding-de-tu-chuang/</url>
+    <content><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<a id="more"></a>
+
+<h1 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a>PicGo</h1><p>一个用于快速上传图片并获取图片URL链接的工具</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721122645.png" alt="picgo"></p>
+<h2 id="PicGo官网：PicGo"><a href="#PicGo官网：PicGo" class="headerlink" title="PicGo官网：PicGo"></a>PicGo官网：<a href="https://picgo.github.io/PicGo-Doc/zh/" target="_blank" rel="noopener">PicGo</a></h2><h2 id="下载：仓库地址"><a href="#下载：仓库地址" class="headerlink" title="下载：仓库地址"></a>下载：<a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">仓库地址</a></h2><p>按照官方安装方法安装</p>
+<p>注：在安装的时候安装目录千万不能选<code>C:\Program Files\</code>下的任何地方，因为PicGo无法解析这一路径，如果你不知道安装在哪里的话，选择<code>仅为我安装</code>，否则在<a href="https://www.cnblogs.com/focksor/p/12402471.html#设置Typora" target="_blank" rel="noopener">设置Typora</a>时会出现错误：</p>
+<h1 id="Github仓库图床"><a href="#Github仓库图床" class="headerlink" title="Github仓库图床"></a>Github仓库图床</h1><h2 id="新建Public-Github仓库"><a href="#新建Public-Github仓库" class="headerlink" title="新建Public Github仓库"></a>新建Public Github仓库</h2><p>创建Repository<br>点击”New repository”按钮，仓库名字随意</p>
+<h3 id="新生成一个Personal-access-tokens"><a href="#新生成一个Personal-access-tokens" class="headerlink" title="新生成一个Personal access tokens"></a>新生成一个Personal access tokens</h3><p>生成一个Token用于操作GitHub repository<br><code>Settings --&gt; Developer Settings --&gt; Personal access tokens</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123236.png" alt="setting"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123320.png" alt="Developer Settings"></p>
+<p>![Personal access tokens`](<a href="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123456.png" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123456.png</a>)</p>
+<p>生成Token</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721124302.png" alt="token"></p>
+<p>会生成如上图的一串token，这串token之后不会再显示，所以第一次看到的时候，可以建个文本文件保存，忘记了只有重新生成，每次都不一样。</p>
+<h1 id="PicGo配置"><a href="#PicGo配置" class="headerlink" title="PicGo配置"></a>PicGo配置</h1><h2 id="配置Github图床"><a href="#配置Github图床" class="headerlink" title="配置Github图床"></a>配置Github图床</h2><h3 id="填写说明"><a href="#填写说明" class="headerlink" title="填写说明"></a><em>填写说明</em></h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133202.png" alt="picgo"></p>
+<p>仓库名：按照“账户名/仓库名的格式填写”，比如我的是wkif/ImageHosting</p>
+<p>分支名：填写master<br>TOKEN：Token粘贴在这里<br>路径：可留空，如需自己填写记得末尾加上/<br>设定自定义域名：自定义域名的作用是在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接，放到剪切板上，这里我用到了jsdeliver  的免费CDN加速，自定义域名需要按照这样去填写：<a href="https://cdn.jsdelivr.net/账户名/仓库名/master，比如我的是：https://cdn.jsdelivr.net/gh/wkif/ImageHosting" target="_blank" rel="noopener">https://cdn.jsdelivr.net/账户名/仓库名/master，比如我的是：https://cdn.jsdelivr.net/gh/wkif/ImageHosting</a></p>
+<h1 id="Typora配置PicGo"><a href="#Typora配置PicGo" class="headerlink" title="Typora配置PicGo"></a>Typora配置PicGo</h1><h2 id="下载Typora"><a href="#下载Typora" class="headerlink" title="下载Typora"></a>下载Typora</h2><p><a href="https://www.typora.io/" target="_blank" rel="noopener">下载地址</a></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133821.png" alt="typora"></p>
+<p>验证设置是否正确</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133924.png" alt="验证"></p>
+<h2 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a>错误解决</h2><p>错误1：</p>
+<p><code>failed to launch PicGo app: Command failed: C:\Program Files\PicGo\PicGo.exe 'C:\Program' �����ڲ����ⲿ���Ҳ���ǿ����еĳ��� ���������ļ���</code></p>
+<p>前面提到的安装的问题，不要放在c盘下</p>
+<p>错误2：</p>
+<p>`</p>
+<p>Failed to fetch</p>
+<p>`</p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721134318.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721135358.png" alt="2"></p>
+<h1 id="gitee的后续在写吧！"><a href="#gitee的后续在写吧！" class="headerlink" title="gitee的后续在写吧！"></a>gitee的后续在写吧！</h1><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>搭建</category>
+      </categories>
+      <tags>
+        <tag>Win</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Excel数据整理与分析(54):Excel数据可视化之图表制作</title>
     <url>/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/</url>
     <content><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash">

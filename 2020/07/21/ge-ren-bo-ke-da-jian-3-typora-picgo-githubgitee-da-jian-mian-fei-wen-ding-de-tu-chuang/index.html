@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Excel数据整理与分析(40):计算工作日, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
+    <meta name="keywords" content="个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床, kif,博客,开发者,程序猿,编程,代码,开源,IT网站,Java,JavaWeb,Java常用框架,Spring,SpringBoot,SpringMVC,MyBatis,数据库,MySQL,C#,.NET,开发工具,Git,GitHub,Gitee,(My)Eclipse,IDEA, Hexo,Linux,Maven,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,摄影,C#,CMD,Developer,Programmer,Coder">
     <meta name="description" content="Never Give Up">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Excel数据整理与分析(40):计算工作日 | Kif Room</title>
+    <title>个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床 | Kif Room</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -332,12 +332,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720223644.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Excel数据整理与分析(40):计算工作日</h1>
+                    <h1 class="description center-align post-title">个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床</h1>
                 </div>
             </div>
         </div>
@@ -454,12 +454,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                                <span class="chip bg-color">学习笔记</span>
+                            <a href="/tags/Win/">
+                                <span class="chip bg-color">Win</span>
                             </a>
                         
-                            <a href="/tags/Excel/">
-                                <span class="chip bg-color">Excel</span>
+                            <a href="/tags/%E6%95%99%E7%A8%8B/">
+                                <span class="chip bg-color">教程</span>
                             </a>
                         
                     </div>
@@ -470,12 +470,12 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                教程
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                博客
                             </a>
                         
-                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                学习
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/" class="post-category">
+                                搭建
                             </a>
                         
                     </div>
@@ -487,28 +487,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-20
+                    2020-07-21
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-20
+                    2020-07-21
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    239
+                    519
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -523,23 +523,39 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-bash"><code class="language-bash">
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="NETWORKDAYS函数"><a href="#NETWORKDAYS函数" class="headerlink" title="NETWORKDAYS函数"></a>NETWORKDAYS函数</h3><p>Start date是一串表示起始日期的数字</p>
-<p>End_ date 是一 串表示结束日期的数字</p>
-<p>Holidays是要从工作日历中去除的一一个或多个日期(一串数字)的可选组合，如传<br>统假日、国家法定假日及非固定假日  如果法定假期在周末，不重复减去，如果在周一都周五，自动减去</p>
-<p>例一：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720215228.png" alt="1"></p>
+                <pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<a id="more"></a>
+
+<h1 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a>PicGo</h1><p>一个用于快速上传图片并获取图片URL链接的工具</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721122645.png" alt="picgo"></p>
+<h2 id="PicGo官网：PicGo"><a href="#PicGo官网：PicGo" class="headerlink" title="PicGo官网：PicGo"></a>PicGo官网：<a href="https://picgo.github.io/PicGo-Doc/zh/" target="_blank" rel="noopener">PicGo</a></h2><h2 id="下载：仓库地址"><a href="#下载：仓库地址" class="headerlink" title="下载：仓库地址"></a>下载：<a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">仓库地址</a></h2><p>按照官方安装方法安装</p>
+<p>注：在安装的时候安装目录千万不能选<code>C:\Program Files\</code>下的任何地方，因为PicGo无法解析这一路径，如果你不知道安装在哪里的话，选择<code>仅为我安装</code>，否则在<a href="https://www.cnblogs.com/focksor/p/12402471.html#设置Typora" target="_blank" rel="noopener">设置Typora</a>时会出现错误：</p>
+<h1 id="Github仓库图床"><a href="#Github仓库图床" class="headerlink" title="Github仓库图床"></a>Github仓库图床</h1><h2 id="新建Public-Github仓库"><a href="#新建Public-Github仓库" class="headerlink" title="新建Public Github仓库"></a>新建Public Github仓库</h2><p>创建Repository<br>点击”New repository”按钮，仓库名字随意</p>
+<h3 id="新生成一个Personal-access-tokens"><a href="#新生成一个Personal-access-tokens" class="headerlink" title="新生成一个Personal access tokens"></a>新生成一个Personal access tokens</h3><p>生成一个Token用于操作GitHub repository<br><code>Settings --&gt; Developer Settings --&gt; Personal access tokens</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123236.png" alt="setting"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123320.png" alt="Developer Settings"></p>
+<p>![Personal access tokens`](<a href="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123456.png" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123456.png</a>)</p>
+<p>生成Token</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721124302.png" alt="token"></p>
+<p>会生成如上图的一串token，这串token之后不会再显示，所以第一次看到的时候，可以建个文本文件保存，忘记了只有重新生成，每次都不一样。</p>
+<h1 id="PicGo配置"><a href="#PicGo配置" class="headerlink" title="PicGo配置"></a>PicGo配置</h1><h2 id="配置Github图床"><a href="#配置Github图床" class="headerlink" title="配置Github图床"></a>配置Github图床</h2><h3 id="填写说明"><a href="#填写说明" class="headerlink" title="填写说明"></a><em>填写说明</em></h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133202.png" alt="picgo"></p>
+<p>仓库名：按照“账户名/仓库名的格式填写”，比如我的是wkif/ImageHosting</p>
+<p>分支名：填写master<br>TOKEN：Token粘贴在这里<br>路径：可留空，如需自己填写记得末尾加上/<br>设定自定义域名：自定义域名的作用是在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接，放到剪切板上，这里我用到了jsdeliver  的免费CDN加速，自定义域名需要按照这样去填写：<a href="https://cdn.jsdelivr.net/账户名/仓库名/master，比如我的是：https://cdn.jsdelivr.net/gh/wkif/ImageHosting" target="_blank" rel="noopener">https://cdn.jsdelivr.net/账户名/仓库名/master，比如我的是：https://cdn.jsdelivr.net/gh/wkif/ImageHosting</a></p>
+<h1 id="Typora配置PicGo"><a href="#Typora配置PicGo" class="headerlink" title="Typora配置PicGo"></a>Typora配置PicGo</h1><h2 id="下载Typora"><a href="#下载Typora" class="headerlink" title="下载Typora"></a>下载Typora</h2><p><a href="https://www.typora.io/" target="_blank" rel="noopener">下载地址</a></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133821.png" alt="typora"></p>
+<p>验证设置是否正确</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133924.png" alt="验证"></p>
+<h2 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a>错误解决</h2><p>错误1：</p>
+<p><code>failed to launch PicGo app: Command failed: C:\Program Files\PicGo\PicGo.exe 'C:\Program' �����ڲ����ⲿ���Ҳ���ǿ����еĳ��� ���������ļ���</code></p>
+<p>前面提到的安装的问题，不要放在c盘下</p>
+<p>错误2：</p>
+<p>`</p>
+<p>Failed to fetch</p>
+<p>`</p>
 <p>way:</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720220011.gif" alt="2"></p>
-<h3 id="workday函数"><a href="#workday函数" class="headerlink" title="workday函数"></a>workday函数</h3><p>Start date是一串表示起始日期的数字</p>
-<p>Days是start. date之前/之后非周末和非假日的天数</p>
-<p>Holidays是要从工作日历中去除的一一个或多个日期(一串数字)的可选组合，如传<br>统假日、国家法定假日及非固定假日 </p>
-<p>例二：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720215359.png" alt="2"></p>
-<p>way:</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720220346.gif" alt="4"></p>
-<script>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721134318.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721135358.png" alt="2"></p>
+<h1 id="gitee的后续在写吧！"><a href="#gitee的后续在写吧！" class="headerlink" title="gitee的后续在写吧！"></a>gitee的后续在写吧！</h1><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -582,7 +598,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/">www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-40-ji-suan-gong-zuo-ri/</a>
+                    <a href="www.kifroom.icu/2020/07/21/ge-ren-bo-ke-da-jian-3-typora-picgo-githubgitee-da-jian-mian-fei-wen-ding-de-tu-chuang/">www.kifroom.icu/2020/07/21/ge-ren-bo-ke-da-jian-3-typora-picgo-githubgitee-da-jian-mian-fei-wen-ding-de-tu-chuang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -620,12 +636,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                                    <span class="chip bg-color">学习笔记</span>
+                                <a href="/tags/Win/">
+                                    <span class="chip bg-color">Win</span>
                                 </a>
                             
-                                <a href="/tags/Excel/">
-                                    <span class="chip bg-color">Excel</span>
+                                <a href="/tags/%E6%95%99%E7%A8%8B/">
+                                    <span class="chip bg-color">教程</span>
                                 </a>
                             
                         </div>
@@ -1056,17 +1072,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一页</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-41-datedif-zong-he-ri-qi-han-shu/">
+                <a href="/2020/07/21/ge-ren-bo-ke-da-jian-3-typora-picgo-githubgitee-da-jian-mian-fei-wen-ding-de-tu-chuang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Excel数据整理与分析(41):DATEDIF综合日期函数">
+                        <img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720223644.jpg" class="responsive-img" alt="个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床">
                         
-                        <span class="card-title">Excel数据整理与分析(41):DATEDIF综合日期函数</span>
+                        <span class="card-title">个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1074,53 +1091,43 @@
                         
                             
 
-DATEDIF(开始日期，结束日期，类型值)开始日期日期或可被运算为日期的值或表达试，不能大于结束日期
-结束日期日期或可被运算为日期的值或表达试，不能小于结束日期
 
+PicGo一个用于快速上传图片并获取图片URL链接的工具
 
-
-类型值
-
-
-
-
-类型值
-说明
-
-
-y
-计算结果是两个日期间隔的年数
+PicGo官网：PicGo下载：仓库地址按照官方安装方法安装
+注：在安装的时候安装目录千万不能选C:\Program Files\下的任何地方，因为PicGo无法解析这一路径
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                    教程
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    博客
                                 </a>
                             
-                            <a href="/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2/%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    搭建
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">学习笔记</span>
+                    <a href="/tags/Win/">
+                        <span class="chip bg-color">Win</span>
                     </a>
                     
-                    <a href="/tags/Excel/">
-                        <span class="chip bg-color">Excel</span>
+                    <a href="/tags/%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">教程</span>
                     </a>
                     
                 </div>
@@ -1134,25 +1141,24 @@ y
                 下一页&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-39-ji-suan-shi-jian/">
+                <a href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720223918.jpg" class="responsive-img" alt="Excel数据整理与分析(39):计算时间">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Excel数据整理与分析(54):Excel数据可视化之图表制作">
                         
-                        <span class="card-title">Excel数据整理与分析(39):计算时间</span>
+                        <span class="card-title">Excel数据整理与分析(54):Excel数据可视化之图表制作</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-1-理解Exce时间段的，AM 0:00-11:59:59 PM12:00:00-23:59:59。2-如果要实现时间的累加，需要自定义格式[h]:mm:ss,否则超过24小时会自动减去24,只显示余值。
-例一：
 
-way:
 
-注 其中注
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { retu
                         
                     </div>
                     <div class="publish-info">
