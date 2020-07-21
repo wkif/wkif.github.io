@@ -494,21 +494,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-20
+                    2020-07-21
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -525,6 +525,111 @@
             <div id="articleContent">
                 <pre class="line-numbers language-bash"><code class="language-bash">
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="PV-函数"><a href="#PV-函数" class="headerlink" title="PV    函数"></a>PV    函数</h3><p>​<br>函数说明<br>PV 是一个财务函数，用于根据固定利率计算贷款或投资的现值<br>​        </p>
+<h4 id="函数语法"><a href="#函数语法" class="headerlink" title="函数语法"></a>函数语法</h4><p>PV(rate, nper, pmt, [fv], [type])        </p>
+<table>
+<thead>
+<tr>
+<th align="center">Rate</th>
+<th>必需</th>
+<th>各期利率。 例如，如果您获得年利率为 10% 的汽车贷款，并且每月还款一次，则每月的利率为 10%/12（即 0.83%）。 您需要在公式中输入 10%/12（即 0.83%）或 0.0083 作为利率。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Nper</td>
+<td>必需</td>
+<td>年金的付款总期数。 例如，如果您获得为期四年的汽车贷款，每月还款一次，则贷款期数为 4*12（即 48）期。 您需要在公式中输入 48 作为 nper。</td>
+</tr>
+<tr>
+<td align="center">Pmt</td>
+<td>必需</td>
+<td>每期的付款金额，在年金周期内不能更改。 通常，pmt 包括本金和利息，但不含其他费用或税金。 例如，对于金额为 ￥100,000、利率为 12% 的四年期汽车贷款，每月付款为 ￥2633.30。 您需要在公式中输入 -2633.30 作为 pmt。 如果省略 pmt，则必须包括 fv 参数。</td>
+</tr>
+<tr>
+<td align="center">类型</td>
+<td>可选</td>
+<td>数字 0 或 1，用以指定各期的付款时间是在期初还是期末。</td>
+</tr>
+</tbody></table>
+<p>例一：.<img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721115105.png" alt="1"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721115126.gif" alt="2"></p>
+<h3 id="FV-函数"><a href="#FV-函数" class="headerlink" title="FV    函数"></a>FV    函数</h3><p>​<br>函数说明<br>FV 是一个财务函数，用于根据固定利率计算投资的未来值。<br>​    </p>
+<h4 id="函数语法-1"><a href="#函数语法-1" class="headerlink" title="函数语法"></a>函数语法</h4><p>FV(rate,nper,pmt,[pv],[type])    </p>
+<p>​    </p>
+<table>
+<thead>
+<tr>
+<th align="center">Rate</th>
+<th>必需</th>
+<th>各期利率。 例如，如果您获得年利率为 10% 的汽车贷款，并且每月还款一次，则每月的利率为 10%/12（即 0.83%）。 您需要在公式中输入 10%/12（即 0.83%）或 0.0083 作为利率。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Nper</td>
+<td>必需</td>
+<td>年金的付款总期数。 例如，如果您获得为期四年的汽车贷款，每月还款一次，则贷款期数为 4*12（即 48）期。 您需要在公式中输入 48 作为 nper。</td>
+</tr>
+<tr>
+<td align="center">Pmt</td>
+<td>必需</td>
+<td>每期的付款金额，在年金周期内不能更改。 通常，pmt 包括本金和利息，但不含其他费用或税金。 例如，对于金额为 ￥100,000、利率为 12% 的四年期汽车贷款，每月付款为 ￥2633.30。 您需要在公式中输入 -2633.30 作为 pmt。 如果省略 pmt，则必须包括 fv 参数。</td>
+</tr>
+<tr>
+<td align="center">类型</td>
+<td>可选</td>
+<td>数字 0 或 1，用以指定各期的付款时间是在期初还是期末。</td>
+</tr>
+<tr>
+<td align="center">pv</td>
+<td>可选</td>
+<td>现值，或一系列未来付款的当前值的累积和。 如果省略 pv，则假定其值为 0（零），并且必须包括 pmt 参数。</td>
+</tr>
+</tbody></table>
+<p>例二：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721115204.png" alt="3"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721120449.gif" alt="4"></p>
+<h3 id="PMT函数"><a href="#PMT函数" class="headerlink" title="PMT函数"></a>PMT函数</h3><p>函数说明<br>PMT 是一个财务函数，用于根据固定付款额和固定利率计算贷款的付款额。</p>
+<h4 id="函数语法-2"><a href="#函数语法-2" class="headerlink" title="函数语法"></a>函数语法</h4><p>PMT(rate, nper, pv, [fv], [type])</p>
+<table>
+<thead>
+<tr>
+<th align="center">Rate</th>
+<th>必需</th>
+<th>各期利率。 例如，如果您获得年利率为 10% 的汽车贷款，并且每月还款一次，则每月的利率为 10%/12（即 0.83%）。 您需要在公式中输入 10%/12（即 0.83%）或 0.0083 作为利率。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Nper</td>
+<td>必需</td>
+<td>年金的付款总期数。 例如，如果您获得为期四年的汽车贷款，每月还款一次，则贷款期数为 4*12（即 48）期。 您需要在公式中输入 48 作为 nper。</td>
+</tr>
+<tr>
+<td align="center">Pmt</td>
+<td>必需</td>
+<td>每期的付款金额，在年金周期内不能更改。 通常，pmt 包括本金和利息，但不含其他费用或税金。 例如，对于金额为 ￥100,000、利率为 12% 的四年期汽车贷款，每月付款为 ￥2633.30。 您需要在公式中输入 -2633.30 作为 pmt。 如果省略 pmt，则必须包括 fv 参数。</td>
+</tr>
+<tr>
+<td align="center">类型</td>
+<td>可选</td>
+<td>数字 0 或 1，用以指定各期的付款时间是在期初还是期末。</td>
+</tr>
+<tr>
+<td align="center">pv</td>
+<td>可选</td>
+<td>现值，或一系列未来付款的当前值的累积和。 如果省略 pv，则假定其值为 0（零），并且必须包括 pmt 参数。</td>
+</tr>
+<tr>
+<td align="center">fv</td>
+<td>可选</td>
+<td>未来值，或在最后一次付款后希望得到的现金余额。</td>
+</tr>
+</tbody></table>
+<p>例三：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721120609.png" alt="5"></p>
+<p>way:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721121834.gif" alt="6"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1125,7 +1230,19 @@
 DATEDIF(开始日期，结束日期，类型值)开始日期日期或可被运算为日期的值或表达试，不能大于结束日期
 结束日期日期或可被运算为日期的值或表达试，不能小于结束日期
 
-        document.querySelectorAll('
+
+
+类型值
+
+
+
+
+类型值
+说明
+
+
+y
+计算结果是两个日期间隔的年数
                         
                     </div>
                     <div class="publish-info">
@@ -1346,7 +1463,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;破站有:&nbsp;<span
-                class="white-color">39.3k</span>&nbsp;字
+                class="white-color">40.5k</span>&nbsp;字
             
             
             
