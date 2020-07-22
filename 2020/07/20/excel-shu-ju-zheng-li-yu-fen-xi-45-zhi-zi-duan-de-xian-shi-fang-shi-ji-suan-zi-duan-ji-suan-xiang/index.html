@@ -494,14 +494,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-20
+                    2020-07-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    434
                 </div>
                 
 
@@ -525,6 +525,45 @@
             <div id="articleContent">
                 <pre class="line-numbers language-bash"><code class="language-bash">
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="利用值显示方式进行计算"><a href="#利用值显示方式进行计算" class="headerlink" title="利用值显示方式进行计算"></a>利用值显示方式进行计算</h1><h2 id="数据源"><a href="#数据源" class="headerlink" title="数据源"></a>数据源</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143457.png" alt="1"></p>
+<h2 id="汇总要求"><a href="#汇总要求" class="headerlink" title="汇总要求"></a>汇总要求</h2><p>分析要求：                    </p>
+<ol>
+<li><p>利用值显示方式，参考各分析表的效果预览图 快速做出相应的数据透视报表                    </p>
+</li>
+<li><p>小提示：                    </p>
+<p>1.深刻理解值显示方式之间的区别，温习前面数据透视表的相关基础知识<br>2.温习前面的“条件格式、对日期进行分组”等知识点                    </p>
+<h2 id="结果预览"><a href="#结果预览" class="headerlink" title="结果预览"></a>结果预览</h2></li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143551.png" alt="总计百分比"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143620.png" alt="行汇总百分比"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143703.png" alt="列汇总百分比"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143807.png" alt="同比差异"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722143832.png" alt="同比差异百分比"></p>
+<h2 id="way："><a href="#way：" class="headerlink" title="way："></a>way：</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722150020.gif" alt="zu"></p>
+<h1 id="添加计算字段"><a href="#添加计算字段" class="headerlink" title="添加计算字段"></a>添加计算字段</h1><h2 id="数据源-1"><a href="#数据源-1" class="headerlink" title="数据源"></a>数据源</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722150124.png" alt="2"></p>
+<h2 id="汇总要求-1"><a href="#汇总要求-1" class="headerlink" title="汇总要求"></a>汇总要求</h2><p>​    </p>
+<ol>
+<li>通过插入计算字段，参考各汇总表的效果预览图 快速做出相应的数据透视报表        </li>
+<li>计算销售利润率字段：利润=金额-成本销售 利润率=(利润/销售金额)*100%</li>
+<li>计算字段中插入函数<br>利润0-1000000<br>返点为10%<em>利润<br>利润1000000-2000000返点为15%</em>利润<br>利润2000000以上<br>返点为20%*利润        </li>
+</ol>
+<p>小提示：                </p>
+<p>1.熟练掌握插入计算字段与计算项的知识            </p>
+<h2 id="结果预览-1"><a href="#结果预览-1" class="headerlink" title="结果预览"></a>结果预览</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722150549.png" alt="计算字段"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722150406.png" alt="带函数的计算字段"></p>
+<h2 id="way"><a href="#way" class="headerlink" title="way:"></a>way:</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722153154.gif" alt="jszd"></p>
+<h1 id="添加计算项"><a href="#添加计算项" class="headerlink" title="添加计算项"></a>添加计算项</h1><h2 id="数据源-2"><a href="#数据源-2" class="headerlink" title="数据源"></a>数据源</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722151953.png" alt="计算项"></p>
+<h2 id="汇总要求-2"><a href="#汇总要求-2" class="headerlink" title="汇总要求"></a>汇总要求</h2><p>汇总要求：                </p>
+<ol>
+<li>通过插入计算字段或计算项，参考各汇总表的效果预览图 快速做出相应的数据透视报表                </li>
+</ol>
+<p>小提示：                </p>
+<p>1.熟练掌握插入计算字段与计算项的知识<br>2.温习IF嵌套函数的应用        </p>
+<ol start="3">
+<li>注意：实际发生额与预算额都是源数据表中的费用属性，所以在向数据透视报表拖动时只能拖动属性</li>
+</ol>
+<h2 id="结果预览-2"><a href="#结果预览-2" class="headerlink" title="结果预览"></a>结果预览</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722152029.png" alt="计算项"></p>
+<h2 id="way-1"><a href="#way-1" class="headerlink" title="way"></a>way</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200722160238.gif" alt="jsx"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1046,13 +1085,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一页</div>
             <div class="card">
-                <a href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan/">
+                <a href="/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-46-shu-ju-tou-shi-bao-biao-de-shai-xuan-shi-yong-qie-pian-qi-huo-ri-cheng-biao-jin-xing-shai-xuan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Excel数据整理与分析(46):数据透视报表的筛选">
+                        <img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720223812.jpg" class="responsive-img" alt="Excel数据整理与分析(46):数据透视报表的筛选-使用切片器或日程表进行筛选">
                         
-                        <span class="card-title">Excel数据整理与分析(46):数据透视报表的筛选</span>
+                        <span class="card-title">Excel数据整理与分析(46):数据透视报表的筛选-使用切片器或日程表进行筛选</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1122,10 +1161,9 @@
                         
                             
 
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { retu
+日期类字段的组合数据源
+汇总要求1.按“季度”对“日期”字段进行创建组，做出预览图中的效果2.按“季度”和“年份”对“日期”字段进行创建组，做出预览图中的效果                        
+小提示：          
                         
                     </div>
                     <div class="publish-info">
@@ -1346,7 +1384,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;破站有:&nbsp;<span
-                class="white-color">41k</span>&nbsp;字
+                class="white-color">42.5k</span>&nbsp;字
             
             
             
