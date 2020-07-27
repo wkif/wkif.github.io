@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.kifroom.icu/"/>
-  <updated>2020-07-23T08:44:29.435Z</updated>
+  <updated>2020-07-26T09:30:01.792Z</updated>
   <id>www.kifroom.icu/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel专家认证模拟试题笔记</title>
+    <link href="www.kifroom.icu/2020/07/26/excel-zhuan-jia-ren-zheng-mo-ni-shi-ti-bi-ji/"/>
+    <id>www.kifroom.icu/2020/07/26/excel-zhuan-jia-ren-zheng-mo-ni-shi-ti-bi-ji/</id>
+    <published>2020-07-26T07:14:57.000Z</published>
+    <updated>2020-07-26T09:30:01.792Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id=""><a href="#" class="headerlink" title=""></a></h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel数据整理与分析目录索引</title>
@@ -78,9 +108,9 @@
     <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/"/>
     <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-54-excel-shu-ju-ke-shi-hua-zhi-tu-biao-zhi-zuo/</id>
     <published>2020-07-20T07:14:57.000Z</published>
-    <updated>2020-07-23T07:38:40.094Z</updated>
+    <updated>2020-07-23T11:47:42.415Z</updated>
     
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="静态图表"><a href="#静态图表" class="headerlink" title="静态图表"></a>静态图表</h2><h3 id="制作指南"><a href="#制作指南" class="headerlink" title="制作指南"></a>制作指南</h3><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><h5 id="1、专业图表的特点分析"><a href="#1、专业图表的特点分析" class="headerlink" title="1、专业图表的特点分析"></a>1、专业图表的特点分析</h5><p>1.1专业的外观<br>他们的图表都制作精良，显得专业协调。我们或许不知道它专业在哪里，但有一点可以确定那就是在他们的图表中很少能看到Office软件中默认的颜色、字体和布局。而这些都正是构成专业外观的重要方面。<br>1.2简洁的类型<br>他们的图表都只使用一些最基本的图表类型，绝不复杂。不需要多余的解释,任何人都能看懂图表的意思，真正起到了图表的沟通作用。<br>1.3明确的观点<br>他们在图表的标题中明白无误的直陈观点，不需要读者再去猜测制图者的意思确保信息传递的高效率，不会出现偏差。<br>1.4完美的细节<br>请注意他们对每一图表元素的处理， 几乎达到完美的程度。-丝不苟之中透露出百分百的严谨好像这不是一份图表, 而是一件艺术品。在很大程度上,正是这些无微不至的细节处理，才体现出图表的专业性。而这往往是我们普通图表不会注意到的地方。</p><h5 id="2、商业图表的标杆"><a href="#2、商业图表的标杆" class="headerlink" title="2、商业图表的标杆"></a>2、商业图表的标杆</h5><p>2.1《商业周刊》、《华尔街日报》 、《纽约时报》<br>2.2罗兰贝格、麦肯锡等顶尖的咨询公司</p><h5 id="3、突破Excel默认的颜色"><a href="#3、突破Excel默认的颜色" class="headerlink" title="3、突破Excel默认的颜色"></a>3、突破Excel默认的颜色</h5><p>3.1普通用户作图表，会受Excel默认的颜色的限制，而无法使用其他颜色。这么年大家都用这套颜色作图，看得多了就太熟悉了，别人一看就知道是用Excel做的，还会感觉你挺懒的,连默认设置都懒得修改。而专业人士做图表，他们用色就透露出专业的精神。他们不管用什么软件作图,都极少会使用软件默认的颜色，而是使用他们自己选定的颜色，形成自己的风格。因此,制作专业的图表的第一步， 就是要突破Excel的默认颜色<br>3.2字体的选择<br>推荐中文字体为:微软雅黑<br>数字、英文为: Arial</p><h4 id="商业图表的布局特点"><a href="#商业图表的布局特点" class="headerlink" title="商业图表的布局特点"></a>商业图表的布局特点</h4><h4 id="如何正确的选对图表类型"><a href="#如何正确的选对图表类型" class="headerlink" title="如何正确的选对图表类型"></a>如何正确的选对图表类型</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200723152426.png" alt=""></p><h3 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h3><h3 id="条形图"><a href="#条形图" class="headerlink" title="条形图"></a>条形图</h3><h3 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h3><h3 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h3><h3 id="复合图"><a href="#复合图" class="headerlink" title="复合图"></a>复合图</h3><h2 id="动态图表"><a href="#动态图表" class="headerlink" title="动态图表"></a>动态图表</h2><h3 id="柱形图"><a href="#柱形图" class="headerlink" title="柱形图"></a>柱形图</h3><h3 id="雷达图-1"><a href="#雷达图-1" class="headerlink" title="雷达图"></a>雷达图</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="静态图表"><a href="#静态图表" class="headerlink" title="静态图表"></a>静态图表</h2><h3 id="制作指南"><a href="#制作指南" class="headerlink" title="制作指南"></a>制作指南</h3><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><h5 id="1、专业图表的特点分析"><a href="#1、专业图表的特点分析" class="headerlink" title="1、专业图表的特点分析"></a>1、专业图表的特点分析</h5><p>1.1专业的外观<br>他们的图表都制作精良，显得专业协调。我们或许不知道它专业在哪里，但有一点可以确定那就是在他们的图表中很少能看到Office软件中默认的颜色、字体和布局。而这些都正是构成专业外观的重要方面。<br>1.2简洁的类型<br>他们的图表都只使用一些最基本的图表类型，绝不复杂。不需要多余的解释,任何人都能看懂图表的意思，真正起到了图表的沟通作用。<br>1.3明确的观点<br>他们在图表的标题中明白无误的直陈观点，不需要读者再去猜测制图者的意思确保信息传递的高效率，不会出现偏差。<br>1.4完美的细节<br>请注意他们对每一图表元素的处理， 几乎达到完美的程度。-丝不苟之中透露出百分百的严谨好像这不是一份图表, 而是一件艺术品。在很大程度上,正是这些无微不至的细节处理，才体现出图表的专业性。而这往往是我们普通图表不会注意到的地方。</p><h5 id="2、商业图表的标杆"><a href="#2、商业图表的标杆" class="headerlink" title="2、商业图表的标杆"></a>2、商业图表的标杆</h5><p>2.1《商业周刊》、《华尔街日报》 、《纽约时报》<br>2.2罗兰贝格、麦肯锡等顶尖的咨询公司</p><h5 id="3、突破Excel默认的颜色"><a href="#3、突破Excel默认的颜色" class="headerlink" title="3、突破Excel默认的颜色"></a>3、突破Excel默认的颜色</h5><p>3.1普通用户作图表，会受Excel默认的颜色的限制，而无法使用其他颜色。这么年大家都用这套颜色作图，看得多了就太熟悉了，别人一看就知道是用Excel做的，还会感觉你挺懒的,连默认设置都懒得修改。而专业人士做图表，他们用色就透露出专业的精神。他们不管用什么软件作图,都极少会使用软件默认的颜色，而是使用他们自己选定的颜色，形成自己的风格。因此,制作专业的图表的第一步， 就是要突破Excel的默认颜色<br>3.2字体的选择<br>推荐中文字体为:微软雅黑<br>数字、英文为: Arial</p><h4 id="商业图表的布局特点"><a href="#商业图表的布局特点" class="headerlink" title="商业图表的布局特点"></a>商业图表的布局特点</h4><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200723190851.png" alt=""></p><h4 id="如何正确的选对图表类型"><a href="#如何正确的选对图表类型" class="headerlink" title="如何正确的选对图表类型"></a>如何正确的选对图表类型</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200723152426.png" alt=""></p><h3 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h3><h4 id="数据与预览"><a href="#数据与预览" class="headerlink" title="数据与预览"></a>数据与预览</h4><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200723190938.png" alt="数据与预览"></p><h4 id="way"><a href="#way" class="headerlink" title="way:"></a>way:</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200723194243.gif" alt=""></p><h3 id="条形图"><a href="#条形图" class="headerlink" title="条形图"></a>条形图</h3><h4 id="数据与预览-1"><a href="#数据与预览-1" class="headerlink" title="数据与预览"></a>数据与预览</h4><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200723193404.png" alt="数据与预览"></p><h4 id="way："><a href="#way：" class="headerlink" title="way："></a>way：</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200723194307.gif" alt=""></p><h3 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h3><h4 id="数据与预览-2"><a href="#数据与预览-2" class="headerlink" title="数据与预览"></a>数据与预览</h4><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200723194101.png" alt="数据与预览"></p><h4 id="way-1"><a href="#way-1" class="headerlink" title="way:"></a>way:</h4><h3 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h3><h4 id="数据与预览-3"><a href="#数据与预览-3" class="headerlink" title="数据与预览"></a>数据与预览</h4><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200723194354.png" alt="数据与预览"></p><h4 id="way-2"><a href="#way-2" class="headerlink" title="way:"></a>way:</h4><h3 id="复合图"><a href="#复合图" class="headerlink" title="复合图"></a>复合图</h3><h4 id="数据与预览-4"><a href="#数据与预览-4" class="headerlink" title="数据与预览"></a>数据与预览</h4><h4 id=""><a href="#" class="headerlink" title=""></a><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200723194625.png" alt="数据与预览"></h4><h4 id="way-3"><a href="#way-3" class="headerlink" title="way"></a>way</h4><h2 id="动态图表"><a href="#动态图表" class="headerlink" title="动态图表"></a>动态图表</h2><h3 id="柱形图"><a href="#柱形图" class="headerlink" title="柱形图"></a>柱形图</h3><h3 id="雷达图-1"><a href="#雷达图-1" class="headerlink" title="雷达图"></a>雷达图</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -576,36 +606,6 @@
     <updated>2020-07-20T13:40:16.882Z</updated>
     
     <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>从现有的日期与时间中获得年、月、日、小时、分钟、秒数</p><p>例如：</p><p>获得现在的日期与时间是：</p><h3 id="now"><a href="#now" class="headerlink" title="now()"></a>now()</h3><p>2020/7/20 20:51</p><p>获得现在的日期是：</p><h4 id="today"><a href="#today" class="headerlink" title="today()"></a>today()</h4><p>2020/7/20</p><p>或者一个快捷键：<strong><em>ctrl+;</em></strong></p><p>以上两个函数无输入值</p><p>已得到now时可以通过下面几种函数分别得到年份，月份等</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720205524421.png" alt="1"></p><p>以上函数需要输入值：时间</p><h4 id="WEEKDAY-返回当周第几天"><a href="#WEEKDAY-返回当周第几天" class="headerlink" title="WEEKDAY()    返回当周第几天"></a>WEEKDAY()    返回当周第几天</h4><p> Serial number   -个表示返回值类型的数字:<br> Return_ type    从星期日=1到星期六=7.用1:从星期-=1到星期日=7，用2;  从星期一-=0到星期日=6                            时，用3      <strong><em>一般填2</em></strong></p><p>例如：</p><p><img src="C:%5CUsers%5C18255%5CDesktop%5C878965.gif" alt="2"></p><p>即：2020年7月20日是本周周一</p><h4 id="WEEKNUM-返回当年第几周"><a href="#WEEKNUM-返回当年第几周" class="headerlink" title="WEEKNUM()    返回当年第几周"></a>WEEKNUM()    返回当年第几周</h4><p>Serial number是Microsoft Excel用于日期和时间计算的日期时间代码</p><p>Return type是个确定返回值类型的数值(1 或2)，具体如下图：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720211022419.png" alt="3"></p><p>操作同上</p><h4 id="date函数"><a href="#date函数" class="headerlink" title="date函数"></a>date函数</h4><p>可对已有日期拆分，方便加减</p><p>例一：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720212010.png" alt="4"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720212837.gif" alt="5"></p><h4 id="Eomonth函数"><a href="#Eomonth函数" class="headerlink" title="Eomonth函数"></a>Eomonth函数</h4><p>计算本月天数</p><p>Start date  是一串代表起始日期的日期</p><p>Months  是start. date之前/之后的月数 如0表示当月，-1表示上个月，2表示后两个月</p><p>如：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720213933.png" alt="6"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720213858.gif" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;pre class=&quot;line-numbers language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="学习" scheme="www.kifroom.icu/categories/%E6%95%99%E7%A8%8B/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习笔记" scheme="www.kifroom.icu/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="Excel" scheme="www.kifroom.icu/tags/Excel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Excel数据整理与分析(37):TEXT函数应用</title>
-    <link href="www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/"/>
-    <id>www.kifroom.icu/2020/07/20/excel-shu-ju-zheng-li-yu-fen-xi-37-text-han-shu-ying-yong/</id>
-    <published>2020-07-20T07:11:09.000Z</published>
-    <updated>2020-07-20T12:22:20.152Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-bash"><code class="language-bash"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="TEXT函数"><a href="#TEXT函数" class="headerlink" title="TEXT函数"></a>TEXT函数</h3><p>TEXT 函数可将数值转换为文本，并可使用户通过使用特殊格式字符串来指定显示格式。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>TEXT(value, format_text)</p><p>Value数值、能够返回数值的公式，或者对数值单元格的引用</p><p>Format. text文字形式的数字格式，文字形式来自于“单元格格式”对话框数字”选项卡的“分类”框(不是“常规”选择项卡)</p><p>例：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720181918.png" alt="1"></p><p>公历转农历</p><p><code>"[$-110000]e-m-d"</code></p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720182233.png" alt="2"></p><p>例一：</p><p><img src="C:%5CUsers%5C18255%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200720182323666.png" alt="例一"></p><p>way:</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183202.gif" alt="2"></p><p>例二：</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720183134.png" alt="3"></p><p>way:</p><p>1.切片</p><p>其中从哪儿开始切用到row函数，即：row（1：len（A1））</p><p>`</p><p>mid（A1,row（1：len（A1））,1）</p><p>`</p><p>2.屏蔽掉字母</p><p>`</p><p>TEXT（mid（A1,row（1：len（A1））,1），“0；0；0；！0”）</p><p>`</p><p>3.转换为数字比大小</p><p>`</p><p>=MAX(–TEXT(MID(A3,ROW(1:9),1),”0;;0;!0”))</p><p>`</p><p><strong><em>注</em></strong> 按ctrl + shift+enter</p><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200720190527.gif" alt="4"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
