@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/essay/index.html</loc>
+    <loc>http://example.com/movies/index.html</loc>
     
     <lastmod>2020-11-30</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/movies/index.html</loc>
+    <loc>http://example.com/essay/index.html</loc>
     
     <lastmod>2020-11-30</lastmod>
     
