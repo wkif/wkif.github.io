@@ -3865,10 +3865,10 @@ function bot_ui_ini() {
                 botui.action.button({
                     delay: 1600,
                     action: [{
-                        text: "so？ ðŸ˜ƒ",
+                        text: "so？",
                         value: "sure"
                     }, {
-                        text: "少废话 ðŸ™„",
+                        text: "少废话",
                         value: "skip"
                     }]
                 }).then(function (a) {
