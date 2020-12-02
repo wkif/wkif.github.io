@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.kifroom.icu/messageboard/index.html</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.kifroom.icu/about/index.html</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.kifroom.icu/Gallery/index.html</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.kifroom.icu/movies/index.html</loc>
     
     <lastmod>2020-12-02</lastmod>
@@ -37,30 +58,9 @@
   </url>
   
   <url>
-    <loc>http://www.kifroom.icu/about/index.html</loc>
-    
-    <lastmod>2020-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kifroom.icu/messageboard/index.html</loc>
-    
-    <lastmod>2020-11-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.kifroom.icu/link/index.html</loc>
     
     <lastmod>2020-11-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kifroom.icu/Gallery/index.html</loc>
-    
-    <lastmod>2020-11-28</lastmod>
     
   </url>
   
