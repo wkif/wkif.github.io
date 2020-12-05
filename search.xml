@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Kali linux Vmware安装</title>
+      <link href="posts/56b3.html"/>
+      <url>posts/56b3.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、kalilinux下载"><a href="#一、kalilinux下载" class="headerlink" title="一、kalilinux下载"></a>一、kalilinux下载</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212509.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212535.png"></p><p>根据电脑配置选择合适的版本，在这里我选择的是64位版本，</p><h2 id="二、vmware安装"><a href="#二、vmware安装" class="headerlink" title="二、vmware安装"></a>二、vmware安装</h2><p>打开VMware 创建适合KALI的虚拟机，使用自定义的配置方法，点击下一步</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212640.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212723.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212737.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212806.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212845.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212905.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212923.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212942.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205212956.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213014.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213029.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213053.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213127.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213302.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213337.png"></p><h2 id="三、激活"><a href="#三、激活" class="headerlink" title="三、激活"></a>三、激活</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213440.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213813.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205213907.png"></p><p>语言设置汉语就可</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214054.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214111.png" alt="域名为空"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214232.png" alt="用户名"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214306.png" alt="密码设置"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214356.png" alt="使用整个磁盘"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214426.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214445.png" alt="同一个"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214509.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205214528.png" alt="是"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205221757.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205221848.png" alt="选择/dev/sda"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205222103.png" alt="ok"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201205222151.png" alt="登陆"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> kali </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>埃式筛法</title>
       <link href="posts/fdf6.html"/>
       <url>posts/fdf6.html</url>
