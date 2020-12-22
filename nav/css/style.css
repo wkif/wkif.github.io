@@ -38,7 +38,7 @@ ul {
 
 @media (min-width: 768px) { /*大屏*/
 	#main {
-		background: url(../img/bg.jpg) no-repeat;
+		/* background: url(../img/bg.jpg) no-repeat; */
 		background-attachment: fixed;
 		background-size: cover;
 	}
@@ -246,7 +246,7 @@ ul {
 
 .folder-item-box p {
 	font-size: 12px;
-	color: #000000;
+	color: #EDEDED;
 	width: 100%;
 	margin: 10px 0 0 0;
 	text-align: center;

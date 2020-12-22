@@ -2,7 +2,7 @@
  * @Author: kif 
  * @Date: 2020-12-22 18:15:12 
  * @Last Modified by: kif
- * @Last Modified time: 2020-12-22 18:42:42
+ * @Last Modified time: 2020-12-23 01:25:49
  */
 /*
  * ALL RIGHTS RESERVED.
@@ -82,150 +82,152 @@ function rgb2hex(rgb) {
 $(function () {
   var bookmark = {
     data: [{
-      name: '湘潭大学官网',
-      link: 'https://www.xtu.edu.cn/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    }, 
-    {
-      name: '湘潭大学信息门户',
-      link: 'http://jwxt.xtu.edu.cn/jsxsd/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },{
-      name: 'EASY CONNECT',
-      link: 'https://vpn.xtu.edu.cn/portal/#!/login',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    }, 
-    {
-      name: '湘大信息公开网',
-      link: 'hhttp://xxgk.xtu.edu.cn/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大后勤服务平台',
-      link: 'http://hqgl.xtu.edu.cn/repairmanager/login.t',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大教务处',
-      link: 'http://jwc.xtu.edu.cn/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大校园一卡通系统',
-      link: 'http://ecard.xtu.edu.cn/homeLogin.action',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大邮箱',
-      link: 'hhttp://fitnesstest.diankexuexi.com/fitnesstest/login.jsp',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '网银自助缴费平台',
-      link: 'http://ecard.xtu.edu.cn/homeLogin.action',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '综合教务管理系统',
-      link: 'http://jwxt.xtu.edu.cn/jsxsd/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大文库',
-      link: 'https://doc.sky31.com/',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-    {
-      name: '湘大课程中心（学习通）',
-      link: 'http://kczx.xtu.edu.cn/portal/courseNetwork/index',
-      box_shadow: '#0078D8',
-      icon: 'img/xtulogo.png',
-    },
-   
-      
-      
+        name: '湘潭大学官网',
+        link: 'https://www.xtu.edu.cn/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
       {
-      name: 'Via插件',
-      link: 'http://via-app.cn',
-      box_shadow: '#FA7199',
-      icon: 'img/via.png',
-    }, {
-      name: '今日热榜',
-      link: 'https://tophub.today/',
-      box_shadow: '#F2584A',
-      icon: 'img/headline.png',
-    }, {
-      name: '知乎',
-      link: 'https://www.zhihu.com/',
-      box_shadow: '#0078D8',
-      icon: 'img/zhihulogo.png',
-    }, {
-      name: '小米商城',
-      link: 'https://www.mi.com/',
-      box_shadow: '#F57923',
-      icon: 'img/mi.png',
-    }, {
-      name: 'unsplash',
-      link: 'https://unsplash.com/',
-      box_shadow: '#2C2C2C',
-      icon: 'img/unsplash.png',
-    }, {
-      name: '豆瓣',
-      link: 'https://www.douban.com/',
-      box_shadow: '#37bf4c',
-      icon: 'img/douban.png',
-    }, {
-      name: '虎扑',
-      link: 'https://www.hupu.com/',
-      box_shadow: '#c01d2f',
-      icon: 'img/hupu.png',
-    }, {
-      name: '斗鱼',
-      link: 'https://www.douyu.com/',
-      box_shadow: '#fe7700',
-      icon: 'img/douyu.png',
-    }, {
-      name: 'XDA',
-      link: 'https://www.xda-developers.com/',
-      box_shadow: '#AC6E2F',
-      icon: 'img/xda.png',
-    }, {
-      name: '少数派',
-      link: 'https://sspai.com/',
-      box_shadow: '#D7191A',
-      icon: 'img/sspai.png',
-    }, {
-      name: '小众软件',
-      link: 'https://www.appinn.com/',
-      box_shadow: '#3279ea',
-      icon: 'img/xiaozhong.png',
-    }, {
-      name: '数字尾巴',
-      link: 'https://www.dgtle.com/',
-      box_shadow: '#62677b',
-      icon: 'img/shuziweiba.png',
-    }, {
-      name: '疫情跟踪',
-      link: 'https://ncov.dxy.cn/ncovh5/view/pneumonia',
-      box_shadow: '#7C5DC7',
-      icon: 'img/ding.png',
-    }, {
-      name: '疫情辟谣',
-      link: 'https://vp.fact.qq.com/home',
-      box_shadow: '#00A0E9',
-      icon: 'img/true.png',
-    }]
+        name: '湘潭大学信息门户',
+        link: 'http://jwxt.xtu.edu.cn/jsxsd/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      }, {
+        name: 'EASY CONNECT',
+        link: 'https://vpn.xtu.edu.cn/portal/#!/login',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大信息公开网',
+        link: 'hhttp://xxgk.xtu.edu.cn/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大后勤服务平台',
+        link: 'http://hqgl.xtu.edu.cn/repairmanager/login.t',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大教务处',
+        link: 'http://jwc.xtu.edu.cn/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大校园一卡通系统',
+        link: 'http://ecard.xtu.edu.cn/homeLogin.action',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大邮箱',
+        link: 'hhttp://fitnesstest.diankexuexi.com/fitnesstest/login.jsp',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '网银自助缴费平台',
+        link: 'http://ecard.xtu.edu.cn/homeLogin.action',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '综合教务管理系统',
+        link: 'http://jwxt.xtu.edu.cn/jsxsd/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+
+        name: '湘大文库',
+        link: 'https://doc.sky31.com/',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+      {
+        name: '湘大课程中心（学习通）',
+        link: 'http://kczx.xtu.edu.cn/portal/courseNetwork/index',
+        box_shadow: '#0078D8',
+        icon: 'img/xtulogo.png',
+      },
+
+
+
+      {
+        name: 'Via插件',
+        link: 'http://via-app.cn',
+        box_shadow: '#FA7199',
+        icon: 'img/via.png',
+      }, {
+        name: '今日热榜',
+        link: 'https://tophub.today/',
+        box_shadow: '#F2584A',
+        icon: 'img/headline.png',
+      }, {
+        name: '知乎',
+        link: 'https://www.zhihu.com/',
+        box_shadow: '#0078D8',
+        icon: 'img/zhihulogo.png',
+      }, {
+        name: '小米商城',
+        link: 'https://www.mi.com/',
+        box_shadow: '#F57923',
+        icon: 'img/mi.png',
+      }, {
+        name: 'unsplash',
+        link: 'https://unsplash.com/',
+        box_shadow: '#2C2C2C',
+        icon: 'img/unsplash.png',
+      }, {
+        name: '豆瓣',
+        link: 'https://www.douban.com/',
+        box_shadow: '#37bf4c',
+        icon: 'img/douban.png',
+      }, {
+        name: '虎扑',
+        link: 'https://www.hupu.com/',
+        box_shadow: '#c01d2f',
+        icon: 'img/hupu.png',
+      }, {
+        name: '斗鱼',
+        link: 'https://www.douyu.com/',
+        box_shadow: '#fe7700',
+        icon: 'img/douyu.png',
+      }, {
+        name: 'XDA',
+        link: 'https://www.xda-developers.com/',
+        box_shadow: '#AC6E2F',
+        icon: 'img/xda.png',
+      }, {
+        name: '少数派',
+        link: 'https://sspai.com/',
+        box_shadow: '#D7191A',
+        icon: 'img/sspai.png',
+      }, {
+        name: '小众软件',
+        link: 'https://www.appinn.com/',
+        box_shadow: '#3279ea',
+        icon: 'img/xiaozhong.png',
+      }, {
+        name: '数字尾巴',
+        link: 'https://www.dgtle.com/',
+        box_shadow: '#62677b',
+        icon: 'img/shuziweiba.png',
+      }, {
+        name: '疫情跟踪',
+        link: 'https://ncov.dxy.cn/ncovh5/view/pneumonia',
+        box_shadow: '#7C5DC7',
+        icon: 'img/ding.png',
+      }, {
+        name: '疫情辟谣',
+        link: 'https://vp.fact.qq.com/home',
+        box_shadow: '#00A0E9',
+        icon: 'img/true.png',
+      }
+    ]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
     if (bookmark.data[i].name == 'Via插件') {
@@ -417,12 +419,16 @@ $(function () {
   })
   // 搜索相关结束
 
+
+  
+
   // 夜间模式
   $('#night').click(function () {
     if (rgb2hex($('#main').css('background-color')) == '#ffffff') {
       $('#main').css('background-color', '#2f2f33'); //主界面
       $('#menu').css('background-color', '#5C5C5C'); //侧栏
       document.getElementById("night").innerHTML = "日间模式";
+      document.getElementById("main").style.backgroundImage = 'url(./img/bg-night.jpg)';
       li.css({
         "background-color": "#575757",
         "color": "#DBDBDB"
@@ -432,6 +438,9 @@ $(function () {
       $('#main').css('background-color', '#ffffff'); //主界面
       $('#menu').css('background-color', '#EDEDED'); //侧栏
       document.getElementById("night").innerHTML = "夜间模式";
+      document.getElementById("main").style.backgroundImage = 'url(./img/bg.jpg)';
+
+
       li.css({
         "background-color": "#E3E3E3",
         "color": "black"
@@ -480,17 +489,22 @@ function check() {
 //title问候语
 var d = new Date();
 var time = d.getHours();
-if (time < 24) {
+
+if (time < 24 && time >18) {
   document.getElementById("title").innerHTML = "kif导航 | Good evening";
+  nightbg();
 }
-if (time < 18) {
+if (time < 18 && time >12) {
   document.getElementById("title").innerHTML = "kif导航 | Good afternoon";
+  daybg();
 }
-if (time < 12) {
+if (time < 12 && time > 5) {
   document.getElementById("title").innerHTML = "kif导航 | Good morning";
+  daybg();
 }
 if (time < 5) {
   document.getElementById("title").innerHTML = "kif导航 | Stay up late again";
+  nightbg();
 }
 //title问候语结束
 
@@ -498,6 +512,17 @@ if (time < 5) {
 function select() {
   $('#folder').css('display') == 'block' ? ($('#folder').css('display', 'none'), $('#nav').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>搜索引擎 <img src='img/search-change.svg?v=2ae7ab8'>") : ($('#nav').css('display', 'none'), $('#folder').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>书签 <img src='img/search-change.svg?v=2ae7ab8'>");
 }
+
+
+// 根据时间切换夜间模式
+function nightbg()
+  {
+    document.getElementById("main").style.backgroundImage = 'url(./img/bg-night.jpg)';
+  };
+ function daybg()
+  {
+    document.getElementById("main").style.backgroundImage = 'url(./img/bg.jpg)';
+  }
 
 // 天气插件
 (function (a, h, g, f, e, d, c, b) {
@@ -577,7 +602,8 @@ class searchHint {
     $(document).click(function () { //点击其他地方隐藏#searchlist
       $('#searchlist').css("display", "none");
     });
-  }
+  };
+  
 }
 const jsonp = new searchHint();
 
