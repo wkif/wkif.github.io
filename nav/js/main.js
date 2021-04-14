@@ -2,7 +2,7 @@
  * @Author: kif 
  * @Date: 2020-12-22 18:15:12 
  * @Last Modified by: kif
- * @Last Modified time: 2020-12-23 01:25:49
+ * @Last Modified time: 2021-04-14 15:14:01
  */
 /*
  * ALL RIGHTS RESERVED.
@@ -438,7 +438,7 @@ $(function () {
       $('#main').css('background-color', '#ffffff'); //主界面
       $('#menu').css('background-color', '#EDEDED'); //侧栏
       document.getElementById("night").innerHTML = "夜间模式";
-      document.getElementById("main").style.backgroundImage = 'url(./img/bg.jpg)';
+      document.getElementById("main").style.backgroundImage = 'url(https://haoduck.com/demo/bing/index.php)';
 
 
       li.css({
@@ -470,7 +470,7 @@ $(function () {
 // 显示/干掉壁纸
 var width = $(document).width();
 $('#bg').click(function () {
-  width < 768 ? ($('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(img/bg-xs.jpg)')) : ($('#main').css('background-image', 'none'))) : $('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(img/bg.jpg)')) : ($('#main').css('background-image', 'none'));
+  width < 768 ? ($('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(img/bg-xs.jpg)')) : ($('#main').css('background-image', 'none'))) : $('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(https://haoduck.com/demo/bing/index.php)')) : ($('#main').css('background-image', 'none'));
   var background = $('#main').css('background-image');
   storage.bg = [background];
 })
@@ -521,7 +521,7 @@ function nightbg()
   };
  function daybg()
   {
-    document.getElementById("main").style.backgroundImage = 'url(./img/bg.jpg)';
+    document.getElementById("main").style.backgroundImage = 'url(https://haoduck.com/demo/bing/index.php)';
   }
 
 // 天气插件
