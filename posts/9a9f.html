@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>计算机网络--重传时间计算 | KifRoom</title><meta name="keywords" content="计算机网络"><meta name="author" content="kif"><meta name="copyright" content="kif"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机网络--重传时间计算">
+<meta property="og:url" content="http://www.kifroom.icu/posts/9a9f.html">
+<meta property="og:site_name" content="KifRoom">
+<meta property="og:description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg">
+<meta property="article:published_time" content="2021-06-22T05:48:00.000Z">
+<meta property="article:modified_time" content="2021-06-22T05:52:42.517Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="计算机网络">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://www.kifroom.icu/posts/9a9f"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f795c845a79731e0fe5281787ff0c485";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-GYVHCQ3E2F"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GYVHCQ3E2F');
+</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  ClickShowText: {"text":"kif,is,cool","fontSize":"15px"},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-06-22 13:52:42'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = '2'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><link href="https://cdn.bootcdn.net/ajax/libs/botui/0.3.9/botui-theme-default.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/font-awesome-animation.min.css" rel="stylesheet"><div class="aplayer" data-id="5108936342" data-server="netease" data-type="playlist" data-fixed="true" data-listFolded="false" data-order="random" data-preload="auto"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lete114/CDN/music/APlayer/APlayer.min.css"><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/music/APlayer/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201127203438.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">29</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/nav/"><i class="fa-fw fa fa-heartbeat"></i><span> 导航</span></a></div><div class="menus_item"><a class="site-page" href="/Main/"><i class="fa-fw fa fa-user"></i><span> 介绍页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/video/"><i class="fa-fw fa fa-music"></i><span> 视频</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fa fa-sign-language"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li><li><a class="site-page" href="/Nobaidu/"><i class="fa-fw fa fa-th-list"></i><span> 帮你百度一下</span></a></li><li><a class="site-page" href="/musicDownload/"><i class="fa-fw fa fa-play-circle"></i><span> 网易云音乐解析</span></a></li><li><a class="site-page" href="/Video-resolution/"><i class="fa-fw fa fa-play-circle"></i><span> 短视屏解析</span></a></li><li><a class="site-page" href="/designer/"><i class="fa-fw fa fa-graduation-cap"></i><span> kif的设计美学</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-link"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-link"></i><span> 留言板</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">KifRoom</a></span><span id="menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/nav/"><i class="fa-fw fa fa-heartbeat"></i><span> 导航</span></a></div><div class="menus_item"><a class="site-page" href="/Main/"><i class="fa-fw fa fa-user"></i><span> 介绍页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/video/"><i class="fa-fw fa fa-music"></i><span> 视频</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fa fa-sign-language"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li><li><a class="site-page" href="/Nobaidu/"><i class="fa-fw fa fa-th-list"></i><span> 帮你百度一下</span></a></li><li><a class="site-page" href="/musicDownload/"><i class="fa-fw fa fa-play-circle"></i><span> 网易云音乐解析</span></a></li><li><a class="site-page" href="/Video-resolution/"><i class="fa-fw fa fa-play-circle"></i><span> 短视屏解析</span></a></li><li><a class="site-page" href="/designer/"><i class="fa-fw fa fa-graduation-cap"></i><span> kif的设计美学</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-link"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-link"></i><span> 留言板</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><h1 class="post-title">计算机网络--重传时间计算</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-06-22T05:48:00.000Z" title="发表于 2021-06-22 13:48:00">2021-06-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-06-22T05:52:42.517Z" title="更新于 2021-06-22 13:52:42">2021-06-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？</p>
+<p>TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必要的重传，使网络负荷增大。但若把超时重传时间设置的太长，那么网络空闲时间会增大，极大的降低了网络的效率</p>
+<p>到底应该设置为多大呢？？？？</p>
+<p>TCP采用了一种自适应算法，它记录一个报文段发出的时间，以及收到相应的确认的时间。这两个时间之差就是报文段的往返时间RTT。TCP保留了RTT的一个加权平均往返时间RTTs（这又成为平滑的往返时间，S表示Smoothed。因为进行的是加权平均，因此获得的结果更加平滑，也就是让我们计算出的结果更加合理）。每回的第一次测量到RTT样本时，RTTs值就取为所测量到的RTT样本值，但以后每次测量到一个新的RTT样本，就按下面的公式重新计算一次RTTs：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135042.png" alt="image-20210622135042562" /></p>
+<p>在上式中：（阿尔法 的值介于0到1，若很接近0，则表示旧的RTTs值和新的RTTs值相比变化不大，也就是说，新的RTT样本不太影响RTTs; 若很接近1，则表明新的RTTs值，受当前采集的RTT样本影响较大，跟上次的RTTs差距大）</p>
+<p>RFC 2988：推荐的阿尔法值为1/8,也就是0.125 （这种方式得出的值更为平滑）</p>
+<p>显然：超时计数器设置的超时重传时间RTO（Retransmission Time-Out）应略大于上面计算的结果。同样的：</p>
+<p>RFC  2988：建议使用下面的公式计算RTO：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135115.png" alt="image-20210622135115160" /></p>
+<p>RTTd是RTT的偏差的加权平均值，与RTTs和新的RTT样本之差有关。RFC 2988建议这样计算RTTd。当第一次测量时，RTTd值取为RTT样本值的一半。在以后的测量中，则使用下式计算加权平均RTTd：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135139.png" alt="image-20210622135139430" /></p>
+<p>这里的（贝塔）是一个小于1的系数，它的推荐值是1/4，即就是0。125</p>
+<p>好了，通过上面这些东西：我们就可以求出超时计数器所要设置的时间问题了，但是，但是，但是，新的问题也来了？？？？</p>
+<p>发送一个报文段，设定的重传时间到了，还没有收到确认。于是重传报文段，经过一段时间后：收到了确认报文段。</p>
+<p>现在的问题是：如何判定此报文段是对先发送的报文段的确认，还是对后来重传的报文段的确认？？？由于重传的报文段和原来的报文段完全一样，所以源主机在接受到确认后，无法做出正确的判断，而正确的判断对确定加权平均RTTs的值关系很大。</p>
+<p>1，若收到的是对重传报文段的确认，但却被源主机当作是对原来报文段的确认，则计算出的RTTs和超时重传时间RTO就会偏大。若后面再发送的报文段又是经过重传后才收到的确认报文段，则RTO这个时间会越来越长。直接影响效率</p>
+<p>2，若收到的是对原来的报文段的确认，但被当作是对重传报文段的确认，则由此计算出的RTTs和RTO都会偏小，这样就会导致过多的重传，使的RTO越来越小</p>
+<p>根据以上所说：Karn提出了一个算法：在计算加权平均RTTs时，只要报文段重传了，就不采用其往返时间样本。这样得出的加权平均RTTs和RTO就相对比较准确了。</p>
+<p>但是，但是，要是出现这样的情况呢？？：报文段的时延突然增大了很多。因此在原来得出的重传时间内，不会收到确认报文段。于是就重传报文段。但根据Karn算法，不考虑重传的报文段的往返时间样本。这样：超时重传时间就无法更新。</p>
+<p>因此：要对Karn算法进行修正：方法是：报文段每重传一次，就把超时冲传时间RTO增大一些。典型的做法是：取新的重传时间为2倍的旧的重传时间。当不再发生报文段的重传时，才根据上面给出公式计算超时重传时间。。。。</p>
+<p>转自;<a target="_blank" rel="noopener" href="https://blog.csdn.net/msdnwolaile/article/details/51227491">https://blog.csdn.net/msdnwolaile/article/details/51227491</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">kif</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://www.kifroom.icu/posts/9a9f.html">http://www.kifroom.icu/posts/9a9f.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://www.kifroom.icu" target="_blank">KifRoom</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></div><div class="post_share"><div class="social-share" data-image="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/wechat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/9108.html"><img class="next-cover" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">后端框架学习-Django</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">gitalk</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div></div></div></div></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201127203438.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">kif</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">29</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/wkif"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/wkif" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kif101001000@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">kifroom 改版重生  <img src="http://api.molure.cn/netcard/api.php"/></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/9a9f.html" title="计算机网络--重传时间计算"><img data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络--重传时间计算"/></a><div class="content"><a class="title" href="/posts/9a9f.html" title="计算机网络--重传时间计算">计算机网络--重传时间计算</a><time datetime="2021-06-22T05:48:00.000Z" title="发表于 2021-06-22 13:48:00">2021-06-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/9108.html" title="后端框架学习-Django"><img data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="后端框架学习-Django"/></a><div class="content"><a class="title" href="/posts/9108.html" title="后端框架学习-Django">后端框架学习-Django</a><time datetime="2021-05-05T14:16:00.000Z" title="发表于 2021-05-05 22:16:00">2021-05-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/dc7f.html" title="微信小程序云开发实现图片的上传、存储、访问"><img data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201127204955.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="微信小程序云开发实现图片的上传、存储、访问"/></a><div class="content"><a class="title" href="/posts/dc7f.html" title="微信小程序云开发实现图片的上传、存储、访问">微信小程序云开发实现图片的上传、存储、访问</a><time datetime="2021-04-10T13:36:00.000Z" title="发表于 2021-04-10 21:36:00">2021-04-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/a542.html" title="XTU每日打卡"><img data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201127205025.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="XTU每日打卡"/></a><div class="content"><a class="title" href="/posts/a542.html" title="XTU每日打卡">XTU每日打卡</a><time datetime="2021-02-03T16:07:00.000Z" title="发表于 2021-02-04 00:07:00">2021-02-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/fd6b.html" title="2021C.S.N 冬令营 微信小程序教学提纲"><img data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201202142901.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2021C.S.N 冬令营 微信小程序教学提纲"/></a><div class="content"><a class="title" href="/posts/fd6b.html" title="2021C.S.N 冬令营 微信小程序教学提纲">2021C.S.N 冬令营 微信小程序教学提纲</a><time datetime="2021-01-18T05:43:00.000Z" title="发表于 2021-01-18 13:43:00">2021-01-18</time></div></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505220817.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By kif</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">时间再拉长一点，让我有时间收拾一下心情。</div><div class="icp"><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn/"><img class="icp-icon" src="/img/icp.png" alt="ICP"/><span>陕ICP 备 200110168-1 号</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> {preloader.endLoading()})</script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+      appKey: 'JF83orivlt2mgqGaX2p829bo',
+      placeholder: '我什么都知道,但还是想听你娓娓道来。',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign({}, initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script><script src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20201130111231.js"></script><script src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20201130110904.js"></script><script src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20201130114118.js"></script><script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" async="async" mobile="false"></script><script>(function(){
+  const bp = document.createElement('script');
+  const curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https'){
+  bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  bp.dataset.pjax = ''
+  const s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})()</script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":350},"mobile":{"show":false},"log":false});</script></body></html>
