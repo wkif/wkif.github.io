@@ -15,7 +15,7 @@
     <meta name="description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计算机网络--重传时间计算">
-<meta property="og:url" content="https://wkif.github.io/posts/9a9f.html">
+<meta property="og:url" content="http://wkif.github.io/posts/9a9f.html">
 <meta property="og:site_name" content="Kifroom">
 <meta property="og:description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
 <meta property="og:locale" content="zh_CN">
@@ -28,13 +28,13 @@
 <meta property="article:tag" content="计算机网络">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135042.png">
-    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648614920128">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648615102340">
     
-    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648614920128">
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648614920128">
-    <link rel="stylesheet" href="/css/style.css?v=1648614920128">
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648615102340">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648615102340">
+    <link rel="stylesheet" href="/css/style.css?v=1648615102340">
     
-        <link rel="stylesheet" href="/css/dark.css?v=1648614920128">
+        <link rel="stylesheet" href="/css/dark.css?v=1648615102340">
      
     
 <meta name="generator" content="Hexo 6.1.0"></head>
@@ -253,7 +253,7 @@
       
     <div class="nexmoe-post-copyright">
         <strong>本文作者：</strong>kif<br>
-        <strong>本文链接：</strong><a href="https://wkif.github.io/posts/9a9f.html" title="https:&#x2F;&#x2F;wkif.github.io&#x2F;posts&#x2F;9a9f.html" target="_blank" rel="noopener">https:&#x2F;&#x2F;wkif.github.io&#x2F;posts&#x2F;9a9f.html</a><br>
+        <strong>本文链接：</strong><a href="http://wkif.github.io/posts/9a9f.html" title="http:&#x2F;&#x2F;wkif.github.io&#x2F;posts&#x2F;9a9f.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;wkif.github.io&#x2F;posts&#x2F;9a9f.html</a><br>
         
             <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
         
@@ -324,10 +324,10 @@
 
  
 
-<script async src="/js/app.js?v=1648614920129"></script>
+<script async src="/js/app.js?v=1648615102342"></script>
 
 
-	<script async src="/js/search.js?v=1648614920129"></script>
+	<script async src="/js/search.js?v=1648615102342"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
