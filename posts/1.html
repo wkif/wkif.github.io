@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>Excel数据整理与分析 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Excel数据整理与分析">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Excel数据整理与分析">
+<meta property="og:url" content="http://www.kifroom.icu/posts/1.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="Excel数据整理与分析">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104845.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104859.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104904.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104907.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104913.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104919.gif">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104928.gif">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114232453.png">
+<meta property="article:published_time" content="2020-11-10T12:52:48.000Z">
+<meta property="article:modified_time" content="2020-11-14T15:25:06.183Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="Excel">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104845.png">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613882035">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613882035">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613882035">
+    <link rel="stylesheet" href="/css/style.css?v=1648613882035">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613882035">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 62.5%;"> 
+              <img data-src="https://s1.ax1x.com/2020/06/13/tvha3F.jpg" data-sizes="auto" alt="Excel数据整理与分析" class="lazyload">
+              <h1>Excel数据整理与分析</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年11月10日</a>
+</div>
+
+      
+
+      <p>Excel数据整理与分析</p>
+<span id="more"></span>
+
+<h2 id="应用层工作流程"><a href="#应用层工作流程" class="headerlink" title="应用层工作流程"></a>应用层工作流程</h2><h3 id="知识点部分"><a href="#知识点部分" class="headerlink" title="知识点部分"></a>知识点部分</h3><p>需要掌握以下基本知识点:<br>Excel的基本工作流程及工作簿、工作表、行与列、鼠标状态、单元格的相关参数。为后面章节打牢基础!</p>
+<h3 id="基本工作流程"><a href="#基本工作流程" class="headerlink" title="基本工作流程"></a>基本工作流程</h3><p>数据的存储—-》 数据的处理———》数据的分析———》数据的呈现</p>
+<h3 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析"></a>名词解析</h3><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104845.png"></p>
+<p><strong>enter image description here</strong></p>
+<h4 id="工作簿"><a href="#工作簿" class="headerlink" title="工作簿"></a>工作簿</h4><p>即一个Excel文件；</p>
+<h4 id="工作表"><a href="#工作表" class="headerlink" title="工作表"></a>工作表</h4><p>分为当前活动工作表和非活动工作表；</p>
+<p>如Sheet1 是当前活动工作表；其他的是非活动工作表</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104859.png" alt="Alt text" class="lazyload"></p>
+<p><strong>Alt text</strong></p>
+<p>一个工作簿可容纳<strong>255</strong>个工作表；</p>
+<h4 id="行与列"><a href="#行与列" class="headerlink" title="行与列"></a>行与列</h4><p>CTRL+Down 可下滑至最后一行，即<strong>1048576</strong>行；</p>
+<p>CTRL+Right 可右滑至最右列，<strong>文件-选项-公式-R1C1引用样式勾选-确定</strong>，可看到有<strong>16384</strong>列；</p>
+<h4 id="单元格"><a href="#单元格" class="headerlink" title="单元格"></a>单元格</h4><p>每个单元格可村<strong>32767</strong>个字符</p>
+<h4 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h4><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104904.png" alt="enter image description here" class="lazyload"></p>
+<p><strong>enter image description here</strong></p>
+<p><strong>选项-自定义功能区</strong> 可以更改</p>
+<h4 id="编辑栏"><a href="#编辑栏" class="headerlink" title="编辑栏"></a>编辑栏</h4><p><strong>选项卡-视图</strong>可选择显示与否编辑栏</p>
+<h4 id="名称框"><a href="#名称框" class="headerlink" title="名称框"></a>名称框</h4><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104907.png" alt="enter image description here" class="lazyload"></p>
+<p><strong>enter image description here</strong></p>
+<p>可对一个区域命名；</p>
+<p>鼠标三大状态</p>
+<p>选挥柄：</p>
+<p>用于选择单元格区域</p>
+<h4 id="移动柄："><a href="#移动柄：" class="headerlink" title="移动柄："></a>移动柄：</h4><p>用于移动或配合ctrH键盘复制单元格区域</p>
+<h4 id="填充柄："><a href="#填充柄：" class="headerlink" title="填充柄："></a>填充柄：</h4><p>复制、填充单元格区域，包括数据、公式等，双击有惊喜!</p>
+<h5 id="实例："><a href="#实例：" class="headerlink" title="实例："></a>实例：</h5><p>一.快速添加序号<br>1.序号栏输入1 2；</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104913.png" alt="enter image description here" class="lazyload"></p>
+<p><strong>enter image description here</strong></p>
+<p>2.选中1 2这两框，鼠标移到右下角。向下拖动</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104919.gif" alt="Alt text" class="lazyload"></p>
+<p><strong>Alt text</strong></p>
+<p>二.快速复制属性</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114104928.gif" alt="enter image description here" class="lazyload"></p>
+<h3 id="单元格-1"><a href="#单元格-1" class="headerlink" title="单元格"></a>单元格</h3><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201114232453.png"></p>
+<h1 id="回顾笔记整理"><a href="#回顾笔记整理" class="headerlink" title="回顾笔记整理"></a>回顾笔记整理</h1><p>1、Excel的基本 工作流程是数据存储数据整理-数据分析-数据呈现<br>2、一个工作簿默认最多能建255个工作表，内存大的可以更多<br>3、一个工作表有1048576行、16384列”<br>4、一个工作表约172亿个单元格，-个单元格能存放32767个字符<br>5、鼠标三大状态:选择柄、移动柄、填充柄。双击填充柄快速填充需要临近列有数据。<br>下一节我们将学习1.2 Excel规范制表之经典的三表结构</p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/1.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;1.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;1.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E8%AF%BE%E9%A2%98/">课题</a><a class="nexmoefont icon-appstore-fill -link" href="/categories/%E8%AF%BE%E9%A2%98/%E5%AD%A6%E4%B9%A0/">学习</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/Excel/" rel="tag">Excel</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%B1%82%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text">应用层工作流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%A5%E8%AF%86%E7%82%B9%E9%83%A8%E5%88%86"><span class="toc-number">1.1.</span> <span class="toc-text">知识点部分</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B"><span class="toc-number">1.2.</span> <span class="toc-text">基本工作流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E8%A7%A3%E6%9E%90"><span class="toc-number">1.3.</span> <span class="toc-text">名词解析</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E7%B0%BF"><span class="toc-number">1.3.1.</span> <span class="toc-text">工作簿</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E8%A1%A8"><span class="toc-number">1.3.2.</span> <span class="toc-text">工作表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%8C%E4%B8%8E%E5%88%97"><span class="toc-number">1.3.3.</span> <span class="toc-text">行与列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%95%E5%85%83%E6%A0%BC"><span class="toc-number">1.3.4.</span> <span class="toc-text">单元格</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="toc-number">1.3.5.</span> <span class="toc-text">选项卡</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E8%BE%91%E6%A0%8F"><span class="toc-number">1.3.6.</span> <span class="toc-text">编辑栏</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8D%E7%A7%B0%E6%A1%86"><span class="toc-number">1.3.7.</span> <span class="toc-text">名称框</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A7%BB%E5%8A%A8%E6%9F%84%EF%BC%9A"><span class="toc-number">1.3.8.</span> <span class="toc-text">移动柄：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A1%AB%E5%85%85%E6%9F%84%EF%BC%9A"><span class="toc-number">1.3.9.</span> <span class="toc-text">填充柄：</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%9E%E4%BE%8B%EF%BC%9A"><span class="toc-number">1.3.9.1.</span> <span class="toc-text">实例：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E5%85%83%E6%A0%BC-1"><span class="toc-number">1.4.</span> <span class="toc-text">单元格</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9E%E9%A1%BE%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86"><span class="toc-number"></span> <span class="toc-text">回顾笔记整理</span></a>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613882037"></script>
+
+
+	<script async src="/js/search.js?v=1648613882037"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

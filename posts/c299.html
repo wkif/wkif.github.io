@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>操作系统之信号量、P、V操作 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="信号量是最早出现的用来解决进程同步与互斥问题的机制(也可实现进程通信)，包括一个称为信 号量的变量及对它进行的两个原语操作。信号量为一个整数，我们设这个信号量为：sem。很显然，我们规定在sem大于等于零的时候代表可供并发进程使用的 资源实体数，sem小于零的时候，表示正在等待使用临界区的进程的个数。根据这个原则，在给信号量附初值的时候，我们显然就要设初值大于零。 p操作和v操作是不可中断的程序段">
+<meta property="og:type" content="article">
+<meta property="og:title" content="操作系统之信号量、P、V操作">
+<meta property="og:url" content="http://www.kifroom.icu/posts/c299.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="信号量是最早出现的用来解决进程同步与互斥问题的机制(也可实现进程通信)，包括一个称为信 号量的变量及对它进行的两个原语操作。信号量为一个整数，我们设这个信号量为：sem。很显然，我们规定在sem大于等于零的时候代表可供并发进程使用的 资源实体数，sem小于零的时候，表示正在等待使用临界区的进程的个数。根据这个原则，在给信号量附初值的时候，我们显然就要设初值大于零。 p操作和v操作是不可中断的程序段">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-12-09T07:43:00.000Z">
+<meta property="article:modified_time" content="2020-12-09T13:40:48.261Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="操作系统">
+<meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613881970">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613881970">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613881970">
+    <link rel="stylesheet" href="/css/style.css?v=1648613881970">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613881970">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="操作系统之信号量、P、V操作" class="lazyload">
+              <h1>操作系统之信号量、P、V操作</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年12月09日</a>
+</div>
+
+      
+
+      <p>信号量是最早出现的用来解决进程同步与互斥问题的机制(也可实现进程通信)，包括一个称为信 号量的变量及对它进行的两个原语操作。信号量为一个整数，我们设这个信号量为：sem。很显然，我们规定在sem大于等于零的时候代表可供并发进程使用的 资源实体数，sem小于零的时候，表示正在等待使用临界区的进程的个数。根据这个原则，在给信号量附初值的时候，我们显然就要设初值大于零。</p>
+<p>p操作和v操作是不可中断的程序段，称为原语。<strong>P,V原语中P是荷兰语的Passeren，相当于英文的pass, V是荷兰语的Verhoog,相当于英文中的incremnet。</strong></p>
+<p>且在P,V愿语执行期间不允许有中断的发生。</p>
+<p>对于具体的实现，方法非常多，可以用硬件实现，也可以用软件实现。<strong>这种信号量机制必须有公共内存，不能用于分布式操作系统，这是它最大的弱点。</strong></p>
+<p>首先应弄清PV操作的含义：PV操作由P操作原语和V操作原语组成（原语是不可中断的过程），对信号量进行操作，具体定义如下：</p>
+<p>​       P（S）：①将信号量S的值减1，即S&#x3D;S-1；</p>
+<p>​          ②如果S&gt;&#x3D;0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。</p>
+<p>​       V（S）：①将信号量S的值加1，即S&#x3D;S+1；</p>
+<p>​          ②如果S&gt;0，则该进程继续执行；否则释放队列中第一个等待信号量的进程。</p>
+<p><strong>PV操作的意义：我们用信号量及PV操作来实现进程的同步和互斥。PV操作属于进程的低级通信。</strong></p>
+<p>什么是信号量？信号量（semaphore）的数据结构为一个值和一个指针，指针指向等待该 信号量的下一个进程。信号量的值与相应资源的使用情况有关。当它的值大于0时，表示当前可用资源的数量；当它的值小于0时，其绝对值表示等待使用该资源的 进程个数。注意，信号量的值仅能由PV操作来改变。</p>
+<p>一般来说，信号量S&gt;&#x3D;0时，S表示可用资源的数量。执行一次P操作意味着请求分配一个单位资源，因此S的值减1；</p>
+<p>当S&lt;0时，表示已经没有可用资源，请求者必须等待别的进程释放该类资源，它才能运行下去。而执行一个V操作意味着释放一个单位资源，因此S的值加1；</p>
+<p>若S&lt;&#x3D;0，表示有某些进程正在等待该资源，因此要唤醒一个等待状态的进程，使之运行下去</p>
+<h3 id="利用信号量和PV操作实现进程互斥的一般模型是："><a href="#利用信号量和PV操作实现进程互斥的一般模型是：" class="headerlink" title="利用信号量和PV操作实现进程互斥的一般模型是："></a>利用信号量和PV操作实现进程互斥的一般模型是：</h3><p>进程P1          进程P2        ……        进程Pn</p>
+<p>……           ……         ……</p>
+<p>P（S）；         P（S）；                 P（S）；</p>
+<p>临界区；         临界区；                 临界区；</p>
+<p>V（S）；         V（S）；                 V（S）；</p>
+<p>……           ……         ……        ……</p>
+<p>其中信号量S用于互斥，初值为1</p>
+<p>使用PV操作实现进程互斥时应该注意的是：</p>
+<p>（1）每个程序中用户实现互斥的P、V操作必须成对出现，先做P操作，进临界区，后做V操作，出临界区。若有多个分支，要认真检查其成对性。</p>
+<p>（2）P、V操作应分别紧靠临界区的头尾部，临界区的代码应尽可能短，不能有死循环。</p>
+<p>（3）互斥信号量的初值一般为1。</p>
+<h3 id="利用信号量和PV操作实现进程同步"><a href="#利用信号量和PV操作实现进程同步" class="headerlink" title="利用信号量和PV操作实现进程同步"></a>利用信号量和PV操作实现进程同步</h3><p>PV操作是典型的同步机制之一。用一个信号量与一个消息联系起来，当信号量的值为0时，表示期望的消息尚未产生；当信号量的值非0时，表示期望的消息已经存在。用PV操作实现进程同步时，调用P操作测试消息是否到达，调用V操作发送消息。</p>
+<p>利用信号量和PV操作实现进程互斥的一般模型是：</p>
+<p>进程A              进程B</p>
+<p> ….                        ….</p>
+<p>L: P(信号量)           L2:V(信号量）</p>
+<p> ….                           ….</p>
+<p>使用PV操作实现进程同步时应该注意的是：</p>
+<p>（1）分析进程间的制约关系，确定信号量种类。在保持进程间有正确的同步关系情况下，哪个进程先执行，哪些进程后执行，彼此间通过什么资源（信号量）进行协调，从而明确要设置哪些信号量。</p>
+<p>（2）信号量的初值与相应资源的数量有关，也与P、V操作在程序代码中出现的位置有关。</p>
+<p>（3）同一信号量的P、V操作要成对出现，但它们分别在不同的进程代码中。</p>
+<h3 id="【例1】"><a href="#【例1】" class="headerlink" title="【例1】"></a>【例1】</h3><p>生产者-消费者问题</p>
+<p>在多道程序环境下，进程同步是一个十分重要又令人感兴趣的问题，而生产者-消费者问题是其中一个有代表性的进程同步问题。下面我们给出了各种情况下的生产者-消费者问题，深入地分析和透彻地理解这个例子，对于全面解决操作系统内的同步、互斥问题将有很大帮助。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">（1）一个生产者，一个消费者，公用一个缓冲区。</span><br><span class="line">定义两个同步信号量：</span><br><span class="line">empty——表示缓冲区是否为空，初值为1。</span><br><span class="line">full——表示缓冲区中是否为满，初值为0。</span><br><span class="line"></span><br><span class="line">生产者进程</span><br><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">       生产一个产品;</span><br><span class="line"></span><br><span class="line">       P(empty);</span><br><span class="line"></span><br><span class="line">       产品送往Buffer;</span><br><span class="line"></span><br><span class="line">       V(full);</span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">消费者进程</span><br><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">       P(full);</span><br><span class="line"></span><br><span class="line">      从Buffer取出一个产品;</span><br><span class="line"></span><br><span class="line">       V(empty);</span><br><span class="line"></span><br><span class="line">       消费该产品;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+
+<p>（2）一个生产者，一个消费者，公用n个环形缓冲区。</p>
+<p>定义两个同步信号量：</p>
+<p>empty——表示缓冲区是否为空，初值为n。</p>
+<p>full——表示缓冲区中是否为满，初值为0。</p>
+<p>​       设缓冲区的编号为1～n&amp;61485;1，定义两个指针in和out，分别是生产者进程和消费者进程使用的指针，指向下一个可用的缓冲区。</p>
+<p>生产者进程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">       生产一个产品;</span><br><span class="line"></span><br><span class="line">       P(empty);</span><br><span class="line"></span><br><span class="line">        产品送往buffer(in);</span><br><span class="line"></span><br><span class="line">        in=(in+1)mod n;</span><br><span class="line"></span><br><span class="line">        V(full);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<p>消费者进程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">P(full);</span><br><span class="line"></span><br><span class="line">  从buffer(out)中取出产品;</span><br><span class="line"></span><br><span class="line">  out=(out+1)mod n;</span><br><span class="line"></span><br><span class="line">  V(empty);</span><br><span class="line"></span><br><span class="line">  消费该产品;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>（3）一组生产者，一组消费者，公用n个环形缓冲区</p>
+<p>​       在这个问题中，不仅生产者与消费者之间要同步，而且各个生产者之间、各个消费者之间还必须互斥地访问缓冲区。</p>
+<p>定义四个信号量：</p>
+<p>empty——表示缓冲区是否为空，初值为n。</p>
+<p>full——表示缓冲区中是否为满，初值为0。</p>
+<p>mutex1——生产者之间的互斥信号量，初值为1。</p>
+<p>mutex2——消费者之间的互斥信号量，初值为1。</p>
+<p>​       设缓冲区的编号为1～n&amp;61485;1，定义两个指针in和out，分别是生产者进程和消费者进程使用的指针，指向下一个可用的缓冲区。</p>
+<p>生产者进程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">        生产一个产品;</span><br><span class="line"></span><br><span class="line">        P(empty);</span><br><span class="line"></span><br><span class="line">        P(mutex1);</span><br><span class="line"></span><br><span class="line">        产品送往buffer(in);</span><br><span class="line"></span><br><span class="line">        in=(in+1)mod n;</span><br><span class="line"></span><br><span class="line">        V(mutex1);</span><br><span class="line"></span><br><span class="line">        V(full);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<p>消费者进程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">while(TRUE)&#123;</span><br><span class="line"></span><br><span class="line">P(full);</span><br><span class="line"></span><br><span class="line">  P(mutex2);</span><br><span class="line"></span><br><span class="line">  从buffer(out)中取出产品;</span><br><span class="line"></span><br><span class="line">  out=(out+1)mod n;</span><br><span class="line"></span><br><span class="line">  V(mutex2);</span><br><span class="line"></span><br><span class="line">  V(empty);</span><br><span class="line"></span><br><span class="line">  消费该产品;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>需要注意的是无论在生产者进程中还是在消费者进程中，两个P操作的次序不能颠倒。应先执行同步信号量的P操作，然后再执行互斥信号量的P操作，否则可能造成进程死锁。</p>
+<h3 id="【例2】"><a href="#【例2】" class="headerlink" title="【例2】"></a>【例2】</h3><p>桌上有一空盘，允许存放一只水果。爸爸可向盘中放苹果，也可向盘中放桔子，儿子专等吃盘中的桔子，女儿专等吃盘中的苹果。规定当盘空时一次只能放一只水果供吃者取用，请用P、V原语实现爸爸、儿子、女儿三个并发进程的同步。</p>
+<p>分析 在本题中，爸爸、儿子、女儿共用一个盘子，盘中一次只能放一个水果。当盘子为空时，爸爸可将一个水果放入果盘中。若放入果盘中的是桔子，则允许儿子吃，女 儿必须等待；若放入果盘中的是苹果，则允许女儿吃，儿子必须等待。本题实际上是生产者-消费者问题的一种变形。这里，生产者放入缓冲区的产品有两类，消费 者也有两类，每类消费者只消费其中固定的一类产品。</p>
+<p>​       解：在本题中，应设置三个信号量S、So、Sa，信号量S表示盘子是否为空，其初值为l；信号量So表示盘中是否有桔子，其初值为0；信号量Sa表示盘中是否有苹果，其初值为0。同步描述如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">int S＝1;</span><br><span class="line"></span><br><span class="line">int Sa＝0;</span><br><span class="line"></span><br><span class="line">int So＝0;</span><br><span class="line">main()</span><br><span class="line"> &#123;</span><br><span class="line">	cobegin</span><br><span class="line">	father();        /*父亲进程*/</span><br><span class="line">	son();         /*儿子进程*/</span><br><span class="line">	daughter();       /*女儿进程*/</span><br><span class="line">	coend</span><br><span class="line">&#125;</span><br><span class="line">father()</span><br><span class="line">&#123;</span><br><span class="line">	 while(1)</span><br><span class="line">		&#123;</span><br><span class="line">			 P(S);</span><br><span class="line">            将水果放入盘中;</span><br><span class="line">            if（放入的是桔子）</span><br><span class="line">            	V(So);</span><br><span class="line">            else </span><br><span class="line">            	V(Sa);</span><br><span class="line">         &#125;</span><br><span class="line">&#125;</span><br><span class="line">son()</span><br><span class="line"> &#123;</span><br><span class="line">	while(1)</span><br><span class="line">		&#123;</span><br><span class="line">			 P(So);</span><br><span class="line">            从盘中取出桔子;</span><br><span class="line">            V(S);</span><br><span class="line">            吃桔子;</span><br><span class="line">          &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">daughter()</span><br><span class="line">&#123;</span><br><span class="line">	while(1)</span><br><span class="line">		 &#123;</span><br><span class="line">             P(Sa);</span><br><span class="line">             从盘中取出苹果;</span><br><span class="line">             V(S);</span><br><span class="line">             吃苹果;</span><br><span class="line">          &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="例题3"><a href="#例题3" class="headerlink" title="例题3"></a>例题3</h3><p>设公交车上,司机和售票员的活动如下：司机;启动车辆;正常行使,到站停车. 售票员;关车门,售票 开车门. 在汽车不断到站 停车 行驶过程中这两个活动有什么同步关系? 用信号量和pv操作实现。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">设信号量为s1(是否开车)和s2(是否停车),s1=1,s2=0;</span><br><span class="line"></span><br><span class="line">司机进程：           售票员进程：</span><br><span class="line"></span><br><span class="line">begin              begin</span><br><span class="line"></span><br><span class="line">L1:               L2:</span><br><span class="line"></span><br><span class="line">P(S1);             关闭车门；</span><br><span class="line"></span><br><span class="line">启动车辆；           V(s1); </span><br><span class="line"></span><br><span class="line">正常行驶；           售票；</span><br><span class="line"></span><br><span class="line">V(s2）；            P(s2);</span><br><span class="line"></span><br><span class="line">goto L1;            开车门；</span><br><span class="line"></span><br><span class="line">end；              goto L2;</span><br><span class="line"></span><br><span class="line">                 end；</span><br></pre></td></tr></table></figure>
+
+<h3 id="思考题："><a href="#思考题：" class="headerlink" title="思考题："></a>思考题：</h3><p>四个进程A、B、C、D都要读一个共享文件F，系统允许多个进程同时读文件F。但限制是进程A和进程C不能同时读文件F，进程B和进程D也不能同时读文件F。为了使这四个进程并发执行时能按系统要求使用文件，现用PV操作进行管理，请回答下面的问题：</p>
+<p>（1）应定义的信号量及初值：               。</p>
+<p>（2）在下列的程序中填上适当的P、V操作，以保证它们能正确并发工作：</p>
+<p>  A()       B()      C()        D()</p>
+<p> {       {        {         {</p>
+<p>  [1];      [3];      [5];        [7];</p>
+<p>  read F;     read F;    read F;      read F;</p>
+<p>  [2];      [4];     [6];         [8];</p>
+<p>  }       }       }          }</p>
+<h3 id="思考题解答："><a href="#思考题解答：" class="headerlink" title="思考题解答："></a>思考题解答：</h3><p>（1）定义二个信号量S1、S2，初值均为1，即：S1&#x3D;1，S2&#x3D;1。其中进程A和C使用信号量S1，进程B和D使用信号量S2。</p>
+<p>（2）从[1]到[8]分别为：P(S1) V(S1) P(S2) V(S2) P(S1) V(S1) P(S2) V(S2)</p>
+<p>信号量、PV操作是解决进程间的同步与互斥问题的。</p>
+<p>★   做题时尤其要注意隐藏的同步、互斥问题。这些问题通常可以归入生产者－消费者问题和阅读者－写入者问题。</p>
+<p>★   PV操作一定是成对出现的，但是这不意味着它会在一个进程内成对出现。</p>
+<p>★   在互斥关系中，PV操作一定是在一个进程内成对出现。而且，信号一定大于0,具体多少视情况而定。而对于同步关系，则一对PV操作在两个进程或者更多的进程中出现。</p>
+<p>★   对于同步关系，信号量可能为0，也可能不为0；用于同步的信号个数可能1个，也可能是多个。</p>
+<p>★   对信号量为1的，应该先执行V操作。</p>
+<p>★   在生产者－消费者问题中，要设置三个信号量：empty－空闲的缓存区数量，初值为n；full－已填充的缓存区数量，初值为0；mutex－保证只有一个进程在写入缓存区，初值为1。</p>
+<p>★   在阅读者－写入者问题中，设置两个信号量：信号量access－控制写入互斥，初值为1；信号量rc－控制对共享变量ReadCount（读者统计值）的互斥访问。<br>转自：<a target="_blank" rel="noopener" href="http://hongti88.blog.163.com/blog/static/38276487200882733818688/">http://hongti88.blog.163.com/blog/static/38276487200882733818688/</a></p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/c299.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;c299.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;c299.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="tag">操作系统</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A9%E7%94%A8%E4%BF%A1%E5%8F%B7%E9%87%8F%E5%92%8CPV%E6%93%8D%E4%BD%9C%E5%AE%9E%E7%8E%B0%E8%BF%9B%E7%A8%8B%E4%BA%92%E6%96%A5%E7%9A%84%E4%B8%80%E8%88%AC%E6%A8%A1%E5%9E%8B%E6%98%AF%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">利用信号量和PV操作实现进程互斥的一般模型是：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A9%E7%94%A8%E4%BF%A1%E5%8F%B7%E9%87%8F%E5%92%8CPV%E6%93%8D%E4%BD%9C%E5%AE%9E%E7%8E%B0%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5"><span class="toc-number">2.</span> <span class="toc-text">利用信号量和PV操作实现进程同步</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%90%E4%BE%8B1%E3%80%91"><span class="toc-number">3.</span> <span class="toc-text">【例1】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%90%E4%BE%8B2%E3%80%91"><span class="toc-number">4.</span> <span class="toc-text">【例2】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%8B%E9%A2%983"><span class="toc-number">5.</span> <span class="toc-text">例题3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%9D%E8%80%83%E9%A2%98%EF%BC%9A"><span class="toc-number">6.</span> <span class="toc-text">思考题：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%9D%E8%80%83%E9%A2%98%E8%A7%A3%E7%AD%94%EF%BC%9A"><span class="toc-number">7.</span> <span class="toc-text">思考题解答：</span></a></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613881973"></script>
+
+
+	<script async src="/js/search.js?v=1648613881973"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

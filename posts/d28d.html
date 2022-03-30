@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>2021C.S.N夏令营VUE班级讲义 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="一、课程安排1.学前基础html、css、javascript、ajax 2.开发工具2.1 下载安装Vscode 前端VUE项目，原先的开发工具是HBuilderX（上手快捷，使用方便），但是随着项目规模的增大，随之而来的是维护和管理成本的不可控（手下码农或者是实习生随性而发的编写格式，代码习惯，维护起来简直就是地狱！！！）。这个问题目前看来最优解就是引入ESLINT，参考其他大厂前端编码规范，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2021C.S.N夏令营VUE班级讲义">
+<meta property="og:url" content="http://www.kifroom.icu/posts/d28d.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="一、课程安排1.学前基础html、css、javascript、ajax 2.开发工具2.1 下载安装Vscode 前端VUE项目，原先的开发工具是HBuilderX（上手快捷，使用方便），但是随着项目规模的增大，随之而来的是维护和管理成本的不可控（手下码农或者是实习生随性而发的编写格式，代码习惯，维护起来简直就是地狱！！！）。这个问题目前看来最优解就是引入ESLINT，参考其他大厂前端编码规范，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112448.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112538.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112726.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112743.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112825.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210623113014.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626155050.jpg">
+<meta property="og:image" content="g:/ten/1825565000/Image/C2C/6DE76B3CC2EC52C43EB4340443239283.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150104.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150143.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150604.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151245.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151404.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151536.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151623.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626152205.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626152242.png">
+<meta property="og:image" content="c:/Users/18255/AppData/Roaming/Typora/typora-user-images/image-20210626152449455.png">
+<meta property="og:image" content="c:/Users/18255/AppData/Roaming/Typora/typora-user-images/image-20210626152501378.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153027.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153805.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153937.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154057.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154206.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154225.png">
+<meta property="og:image" content="c:/Users/18255/AppData/Roaming/Typora/typora-user-images/image-20210626155314993.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626161928.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162441.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162553.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162614.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162930.png">
+<meta property="og:image" content="c:/Users/18255/AppData/Roaming/Typora/typora-user-images/image-20210626162944896.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626163146.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/wkif/ImageHosting/master/kif_img/20210813193212.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002705.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234204.gif">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234457.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234521.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626235844.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627001334.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002032.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002318.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627005559.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627005608.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627010821.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627010803.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627011810.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012201.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012302.gif">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012409.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012531.gif">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704154427.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704155712.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704160039.png">
+<meta property="og:image" content="c:/Users/18255/AppData/Roaming/Typora/typora-user-images/image-20210626164328384.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626164649.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626165136.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626230336.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626232428.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626232450.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706190644.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706190758.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191119.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191258.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191420.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191458.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153027.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153805.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153937.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154057.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154206.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154225.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706213649.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706214203.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706224420.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234457.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234521.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626235844.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707173434.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707174248.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707174427.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707180400.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210707210025.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708142836.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708142714.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708194815.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708201308.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708201643.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711210921.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711211112.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711211239.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212343.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212226.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212752.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212909.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213151.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213103.gif">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213449.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213927.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213944.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215122.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711214454.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215904.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215954.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711220447.png">
+<meta property="article:published_time" content="2021-10-04T06:57:00.000Z">
+<meta property="article:modified_time" content="2021-10-04T07:08:28.100Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="C.S.N">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112448.png">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613881812">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613881812">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613881812">
+    <link rel="stylesheet" href="/css/style.css?v=1648613881812">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613881812">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="2021C.S.N夏令营VUE班级讲义" class="lazyload">
+              <h1>2021C.S.N夏令营VUE班级讲义</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年10月04日</a>
+</div>
+
+      
+
+      <h1 id="一、课程安排"><a href="#一、课程安排" class="headerlink" title="一、课程安排"></a>一、课程安排</h1><h2 id="1-学前基础"><a href="#1-学前基础" class="headerlink" title="1.学前基础"></a>1.学前基础</h2><p>html、css、javascript、ajax</p>
+<h2 id="2-开发工具"><a href="#2-开发工具" class="headerlink" title="2.开发工具"></a>2.开发工具</h2><h3 id="2-1-下载安装"><a href="#2-1-下载安装" class="headerlink" title="2.1 下载安装"></a>2.1 下载安装</h3><p>Vscode</p>
+<p>前端VUE项目，原先的开发工具是HBuilderX（上手快捷，使用方便），但是随着项目规模的增大，随之而来的是维护和管理成本的不可控（手下码农或者是实习生随性而发的编写格式，代码习惯，维护起来简直就是地狱！！！）。这个问题目前看来最优解就是引入ESLINT，参考其他大厂前端编码规范，制定一套符合自己的前端编码规范（并硬性地要求开发在编程时严格准守这套规范，甚至是不符合规范就无法正常启动项目的程度）。无奈HBuilder引入eslint问题多多，最终放弃。之前刚学习vue的时候使用vscode感觉他eslint插件就很符合现在的情况，一点小格式错误就直接报错了，给初学者的我都整蒙了，一气之下直接关了eslint。所以现在重回VScode，整理一套搭建前端开发环境的流程，供大家参考学习。</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://code.visualstudio.com/Download#">https://code.visualstudio.com/Download#</a></p>
+<p>按照自己实际情况选择下载安装包（一般是Windows System Installer 64bit）</p>
+<p>以及在选择附加任务的时候，建议选中“添加到PATH（重启后生效）”。</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112448.png"></p>
+<h3 id="2-2-插件安装"><a href="#2-2-插件安装" class="headerlink" title="2.2 插件安装"></a>2.2 插件安装</h3><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112538.png"></p>
+<p>点击左侧倒数第二个Extensions按钮，进入插件市场，安装如图所示插件：</p>
+<p>Chinese (Simplified) Language Pack for Visual Studio Code<br>ESLint<br>GitLens — Git supercharged<br>Vetur<br>Prettier - Code formatter<br>第一个中文语言包可选，第二个ESLint代码校验插件，第三个git管理工具，第四个vue开发插件，第五个代码格式化插件</p>
+<h3 id="2-3-环境校验"><a href="#2-3-环境校验" class="headerlink" title="2.3 环境校验"></a>2.3 环境校验</h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112726.png" alt="image-20210623112726426" class="lazyload"></p>
+<p>打开内置控制台，分步输入以下指令，检查环境是否已安装。<br>node -v （检查node是否已安装）<br>npm -v （检查npm 是否已安装）<br>vue （检查vue是否已安装）</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112743.png" alt="image-20210623112743614" class="lazyload"></p>
+<h2 id="3-课程安排"><a href="#3-课程安排" class="headerlink" title="3.课程安排"></a>3.课程安排</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210623112825.png" alt="image-20210623112824943" class="lazyload"></p>
+<h1 id="二、Vue简介"><a href="#二、Vue简介" class="headerlink" title="二、Vue简介"></a>二、Vue简介</h1><h2 id="1-官网"><a href="#1-官网" class="headerlink" title="1. 官网"></a>1. 官网</h2><p><a target="_blank" rel="noopener" href="https://cn.vuejs.org/">https://cn.vuejs.org/</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210623113014.png"></p>
+<p>Vue.js（读音 &#x2F;vjuː&#x2F;, 类似于 view） 是一套构建用户界面的渐进式框架。</p>
+<p>Vue 只关注视图层， 采用自底向上增量开发的设计。</p>
+<p>Vue 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。</p>
+<h2 id="2-作者"><a href="#2-作者" class="headerlink" title="2.作者"></a>2.作者</h2><p>尤雨溪，前端框架<a target="_blank" rel="noopener" href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=168021260&ss_c=ssc.citiao.link">Vue.js</a>的作者，<a target="_blank" rel="noopener" href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=7893267&ss_c=ssc.citiao.link">HTML5</a>版Clear的打造人，独立开源开发者。曾就职于Google Creative Labs和Meteor Development Group。由于工作中大量接触开源的<a target="_blank" rel="noopener" href="https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=2484&ss_c=ssc.citiao.link">JavaScript</a>项目，最后自己也走上了开源之路，现全职开发和维护Vue.js。</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626155050.jpg" alt="img" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="G:\ten\1825565000\Image\C2C\6DE76B3CC2EC52C43EB4340443239283.jpg" alt="img" class="lazyload"></p>
+<h1 id="三、Node安装"><a href="#三、Node安装" class="headerlink" title="三、Node安装"></a>三、Node安装</h1><h2 id="Windows-上安装-Node-js"><a href="#Windows-上安装-Node-js" class="headerlink" title="Windows 上安装 Node.js"></a>Windows 上安装 Node.js</h2><p>Node.js 安装包及源码下载地址为：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/%E3%80%82">https://nodejs.org/en/download/。</a></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150104.png" alt="image-20210626150104369" class="lazyload"></p>
+<p>检测PATH环境变量是否配置了Node.js，点击开始&#x3D;》运行&#x3D;》输入”cmd” &#x3D;&gt; 输入命令”path”，输出如下结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PATH=C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Windows\system32;</span><br><span class="line">C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;</span><br><span class="line">c:\python32\python;C:\MinGW\bin;C:\Program Files\GTK2-Runtime\lib;</span><br><span class="line">C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\nodejs\;</span><br><span class="line">C:\Users\rg\AppData\Roaming\npm</span><br></pre></td></tr></table></figure>
+
+<p>我们可以看到环境变量中已经包含了C:\Program Files\nodejs\</p>
+<p>检查Node.js版本</p>
+<p>node –version</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150143.png" alt="image-20210626150143273" class="lazyload"></p>
+<h2 id="用处"><a href="#用处" class="headerlink" title="用处"></a>用处</h2><p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/vue2/vue-install.html">https://www.runoob.com/vue2/vue-install.html</a></p>
+<h1 id="四、Vue安装"><a href="#四、Vue安装" class="headerlink" title="四、Vue安装"></a>四、Vue安装</h1><h2 id="1、独立版本"><a href="#1、独立版本" class="headerlink" title="1、独立版本"></a>1、独立版本</h2><p>我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 script 标签引入。</p>
+<p><a target="_blank" rel="noopener" href="https://vuejs.org/js/vue.min.js">https://vuejs.org/js/vue.min.js</a></p>
+<h2 id="2、使用-CDN-方法"><a href="#2、使用-CDN-方法" class="headerlink" title="2、使用 CDN 方法"></a>2、使用 CDN 方法</h2><p>以下推荐国外比较稳定的两个 CDN，国内还没发现哪一家比较好，目前还是建议下载到本地。</p>
+<ul>
+<li><strong>Staticfile CDN（国内）</strong> : <a target="_blank" rel="noopener" href="https://cdn.staticfile.org/vue/2.2.2/vue.min.js">https://cdn.staticfile.org/vue/2.2.2/vue.min.js</a></li>
+<li><strong>unpkg</strong>：<a target="_blank" rel="noopener" href="https://unpkg.com/vue/dist/vue.js">https://unpkg.com/vue/dist/vue.js</a>, 会保持和 npm 发布的最新的版本一致。</li>
+<li><strong>cdnjs</strong> : <a target="_blank" rel="noopener" href="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js">https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js</a></li>
+</ul>
+<h2 id="3、NPM-方法"><a href="#3、NPM-方法" class="headerlink" title="3、NPM 方法"></a>3、NPM 方法</h2><p><strong>npm: nodejs 下的包管理器。</strong></p>
+<p><strong>webpack: 它主要用途是通过CommonJS 的语法把所有浏览器端需要发布的静态资源作相应的准备，比如资源的合并和打包。</strong></p>
+<p><strong>vue-cli: 用户生成Vue工程模板。（帮你快速开始一个vue的项目，也就是给你一套vue的结构，包含基础的依赖库，只需要npm install 就可以安装。</strong></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626150604.png" alt="image-20210626150604359" class="lazyload"></p>
+<h3 id="npm配置"><a href="#npm配置" class="headerlink" title="npm配置"></a>npm配置</h3><p>模块路径、cache路径</p>
+<p>先配置npm的全局模块的存放路径以及cache的路径</p>
+<p>具体方法：在NodeJs下建立”node_global”及”node_cache”两个文件夹。如下图</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151245.png" alt="image-20210626151245867" class="lazyload"></p>
+<p>然后运行以下2条命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix &quot;D:\program files\nodejs\node_global&quot;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set cache &quot;D:\program files\nodejs\node_cache&quot;</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151404.png" alt="image-20210626151404005" class="lazyload"></p>
+<p>输入命令配置镜像站</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry=http://registry.npm.taobao.org </span><br></pre></td></tr></table></figure>
+
+<p>输入命令显示所有配置信息</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config list </span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151536.png" alt="image-20210626151536462" class="lazyload"></p>
+<p>检查一下镜像站行不行命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm info vue</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626151623.png"></p>
+<p>注意，此时，默认的模块D:\program files\nodejs\node_modules目录</p>
+<p>将会改变为D:\program files\nodejs\node_global\node_modules 目录，</p>
+<p>如果直接运行npm install等命令会报错的。</p>
+<p>我们需要做1件事情：增加环境变量NODE_PATH 内容是：D:\program files\nodejs\node_global\node_modules，</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626152205.png" alt="image-20210626152205275" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626152242.png" alt="image-20210626152242487" class="lazyload"></p>
+<p><strong>注意，一下操作需要重新打开CMD让上面的环境变量生效</strong></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://www.php.cn/js-tutorial-414607.html">https://www.php.cn/js-tutorial-414607.html</a></p>
+<h3 id="全局安装-vue-cli"><a href="#全局安装-vue-cli" class="headerlink" title="全局安装 vue-cli"></a>全局安装 vue-cli</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --global vue-cli</span><br></pre></td></tr></table></figure>
+
+<p><img src="C:\Users\18255\AppData\Roaming\Typora\typora-user-images\image-20210626152449455.png"></p>
+<p><img src="C:\Users\18255\AppData\Roaming\Typora\typora-user-images\image-20210626152501378.png"></p>
+<h3 id="创建一个基于-webpack-模板的新项目"><a href="#创建一个基于-webpack-模板的新项目" class="headerlink" title="创建一个基于 webpack 模板的新项目"></a>创建一个基于 webpack 模板的新项目</h3><p>路径！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue init webpack my-project</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153027.png" alt="image-20210626153027058" class="lazyload"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153805.png"></p>
+<p>Vue build &#x3D;&#x3D;&gt; 打包方式，回车即可；</p>
+<p>Install vue-router &#x3D;&#x3D;&gt; 是否要安装 vue-router，项目中肯定要使用到 所以Y 回车；</p>
+<p>Use ESLint to lint your code &#x3D;&#x3D;&gt; 是否需要 js 语法检测 目前我们不需要 所以 n 回车；</p>
+<p>Set up unit tests &#x3D;&#x3D;&gt; 是否安装 单元测试工具 目前我们不需要 所以 n 回车；</p>
+<p>Setup e2e tests with Nightwatch &#x3D;&#x3D;&gt; 是否需要 端到端测试工具 目前我们不需要 所以 n 回车；</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153937.png" alt="image-20210626153937317" class="lazyload"></p>
+<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd my-projectnpm i</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154057.png" alt="image-20210626154057549" class="lazyload"></p>
+<h3 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154206.png" alt="image-20210626154206666" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154225.png" alt="image-20210626154225349" class="lazyload"></p>
+<p>ctrl c结束</p>
+<p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/hellman/p/10985377.html">https://www.cnblogs.com/hellman/p/10985377.html</a></p>
+<h1 id="五、vue项目目录讲解"><a href="#五、vue项目目录讲解" class="headerlink" title="五、vue项目目录讲解"></a>五、vue项目目录讲解</h1><p><img data-fancybox="gallery" data-sizes="auto" data-src="C:\Users\18255\AppData\Roaming\Typora\typora-user-images\image-20210626155314993.png" alt="image-20210626155314993" class="lazyload"></p>
+<p>　1、build：构建脚本目录</p>
+<p>　　　　1）build.js  &#x3D;&#x3D;&gt; 生产环境构建脚本；&#96;&#96;</p>
+<p>　　　　2）check-versions.js  &#x3D;&#x3D;&gt; 检查npm，node.js版本；</p>
+<p>　　　　3）utils.js  &#x3D;&#x3D;&gt; 构建相关工具方法；</p>
+<p>　　　　4）vue-loader.conf.js  &#x3D;&#x3D;&gt; 配置了css加载器以及编译css之后自动添加前缀；</p>
+<p>　　　　5）webpack.base.conf.js  &#x3D;&#x3D;&gt; webpack基本配置；</p>
+<p>　　　　6）webpack.dev.conf.js  &#x3D;&#x3D;&gt; webpack开发环境配置；</p>
+<p>　　　　7）webpack.prod.conf.js  &#x3D;&#x3D;&gt; webpack生产环境配置；</p>
+<p>　　2、config：项目配置</p>
+<p>　　　　1）dev.env.js  &#x3D;&#x3D;&gt; 开发环境变量；</p>
+<p>　　　　2）index.js  &#x3D;&#x3D;&gt; 项目配置文件；</p>
+<p>　　　　3）prod.env.js  &#x3D;&#x3D;&gt; 生产环境变量；</p>
+<p>　　3、node_modules：npm 加载的项目依赖模块</p>
+<p>　　4、src：这里是我们要开发的目录，基本上要做的事情都在这个目录里。里面包含了几个目录及文件：</p>
+<p>　　　　1）assets：资源目录，放置一些图片或者公共js、公共css。这里的资源会被webpack构建；</p>
+<p>　　　　2）components：组件目录，我们写的组件就放在这个目录里面；</p>
+<p>　　　　3）router：前端路由，我们需要配置的路由路径写在index.js里面；</p>
+<p>　　　　4）App.vue：根组件；</p>
+<p>　　　　5）main.js：入口js文件；</p>
+<p>　　5、static：静态资源目录，如图片、字体等。不会被webpack构建</p>
+<p>　　6、index.html：首页入口文件，可以添加一些 meta 信息等</p>
+<p>　　7、package.json：npm包配置文件，定义了项目的npm脚本，依赖包等信息&#96;&#96;</p>
+<p>　　8、README.md：项目的说明文档，markdown 格式</p>
+<p>　　9、.xxxx文件：这些是一些配置文件，包括语法配置，git配置等</p>
+<h2 id="router-x2F-index-js"><a href="#router-x2F-index-js" class="headerlink" title="router&#x2F;index.js"></a>router&#x2F;index.js</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//引入Vueimport Vue from &#x27;vue&#x27;;  //引入vue-router              import Router from &#x27;vue-router&#x27;;//引入根目录下的HelloWorld.vue组件import HelloWorld from &#x27;@/components/HelloWorld&#x27;;//Vue全局使用RouterVue.use(Router);export default new Router(&#123;  //配置路由，这里是个数组  routes: [    &#123;                           //每一个链接都是一个对象      path: &#x27;/&#x27;,                //链接路径      name: &#x27;HelloWorld&#x27;,       //路由名称，可以在router-link和router.push中使用，就相当于这个组件了      component: HelloWorld     //对应的组件模板    &#125;  ]&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+<h1 id="六、开始我们的第一个vue项目"><a href="#六、开始我们的第一个vue项目" class="headerlink" title="六、开始我们的第一个vue项目"></a>六、<strong>开始我们的第一个vue项目</strong></h1><h2 id="1-使用vscode，新建-vue文件，自动生成vue文件代码块模板"><a href="#1-使用vscode，新建-vue文件，自动生成vue文件代码块模板" class="headerlink" title="1.使用vscode，新建.vue文件，自动生成vue文件代码块模板"></a>1.使用vscode，新建.vue文件，自动生成vue文件代码块模板</h2><h3 id="文件-–-gt-首选项-–-gt-用户代码片段-–-gt-输入vue，选择vue-json-–-gt-复制下面代码内容并保存"><a href="#文件-–-gt-首选项-–-gt-用户代码片段-–-gt-输入vue，选择vue-json-–-gt-复制下面代码内容并保存" class="headerlink" title="文件 –&gt; 首选项 –&gt; 用户代码片段 –&gt; 输入vue，选择vue.json –&gt;复制下面代码内容并保存"></a><strong>文件 –&gt; 首选项 –&gt; 用户代码片段 –&gt; 输入vue，选择vue.json –&gt;复制下面代码内容并保存</strong></h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626161928.png" alt="image-20210626161928035" class="lazyload"></p>
+<p>无vue.json 的选vue-html</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162441.png" alt="image-20210626162441300" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;  &quot;Print to console&quot;: &#123;    &quot;prefix&quot;: &quot;Vue模板&quot;,    &quot;body&quot;: [      &quot;&lt;template&gt;&quot;,      &quot;\t&lt;div&gt;\n&quot;,      &quot;\t&lt;/div&gt;&quot;,      &quot;&lt;/template&gt;\n&quot;,      &quot;&lt;script&gt;&quot;,      &quot;\texport default &#123;&quot;,      &quot;\t\tprops: &#123;\n&quot;,      &quot;\t\t&#125;,&quot;,      &quot;\t\tcomponents: &#123;\n&quot;,      &quot;\t\t&#125;,&quot;,      &quot;\t\tdata()&#123;&quot;,      &quot;\t\t\treturn &#123;\n\t\t\t\t$0&quot;,      &quot;\t\t\t&#125;&quot;,      &quot;\t\t&#125;,&quot;,      &quot;\t\tmethods: &#123;\n&quot;,      &quot;\t\t&#125;&quot;,      &quot;\t&#125;&quot;,      &quot;&lt;/script&gt;\n&quot;,      &quot;&lt;style lang=\&quot;scss\&quot;&gt;\n&quot;,      &quot;&lt;/style&gt;&quot;    ],    &quot;description&quot;: &quot;Vue模板&quot;  &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="添加配置，让vscode允许自定义的代码片段提示出来"><a href="#添加配置，让vscode允许自定义的代码片段提示出来" class="headerlink" title="添加配置，让vscode允许自定义的代码片段提示出来"></a>添加配置，让vscode允许自定义的代码片段提示出来</h3><p><strong>文件 –&gt; 首选项 –&gt; 设置 —&gt; 添加这2项</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">“editor.snippetSuggestions”: “top”,“editor.formatOnPaste”: true</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162553.png" alt="image-20210626162553875" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162614.png" alt="image-20210626162614583" class="lazyload"></p>
+<p><strong>测试是否添加成功</strong><br><strong>测试方法： 新建vue后缀文件，在空白文件内输入vue会出现提示，利用上下箭头选择第二个”vue模板“按下回车，如下面第二张就OK了</strong></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626162930.png" alt="image-20210626162930349" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="C:\Users\18255\AppData\Roaming\Typora\typora-user-images\image-20210626162944896.png" alt="image-20210626162944896" class="lazyload"></p>
+<p>1、在components目录下新建一个views目录，里面写我们的vue组件</p>
+<p>　　　　1）开始我们的第一个组件：</p>
+<p>　　　　a：在views目录下新建First.vue</p>
+<p>　　　　b：在router目录下的index.js里面配置路由路径</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626163146.png" alt="image-20210626163146003" class="lazyload"></p>
+<p>预定报错</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://raw.githubusercontent.com/wkif/ImageHosting/master/kif_img/20210813193212.png" alt="image-20210813193212671" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install less@3.12.2 less-loader@4.1.0 --save-dev</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-自动打开浏览器"><a href="#2-自动打开浏览器" class="headerlink" title="2.自动打开浏览器"></a>2.自动打开浏览器</h2><p>　1）打开config &#x3D;&#x3D;&gt; index.js</p>
+<p>　2）module.exports配置中找到autoOpenBrowser，默认设置的是false</p>
+<p>3）将autoOpenBrowser改为true</p>
+<p>为了避免端口冲突，也可以修改port，打开目录同上</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002705.png"></p>
+<h1 id="作业1："><a href="#作业1：" class="headerlink" title="作业1："></a>作业1：</h1><p>去除链接中的#</p>
+<p>一、vue项目携带一个#会对开发造成一定的影响：</p>
+<p>1、微信三方登录回调地址，有#号时，接收不到code参数</p>
+<p>2、微信H5支付的回调地址，不允许有#</p>
+<p>3、App分享，处理特殊字符时，可能会对#进行编译</p>
+<p>4、有点影响美观</p>
+<p>现在网站大多有三方登录，支付等功能，存在#，项目开发就存在很大的障碍。话不多说，开始去掉#吧。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:8081/#/first</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mode: &#x27;history&#x27;,</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="七、使用路由搭建单页应用"><a href="#七、使用路由搭建单页应用" class="headerlink" title="七、使用路由搭建单页应用"></a>七、使用路由搭建单页应用</h1><p>新建一个Second.vue组件</p>
+<p>路由跳转：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;router-link to=&quot;/second&quot;&gt;去第二个页面&lt;/router-link&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;  &lt;div&gt;    &lt;h1&gt;kif&lt;/h1&gt;    &lt;topView text=&quot;注册&quot; @message=&quot;getmessage&quot;&gt;&lt;/topView&gt; &lt;p&gt;&lt;router-link to=&quot;/second&quot;&gt;去第二个页面&lt;/router-link&gt;&lt;/p&gt;   &lt;/div&gt;&lt;/template&gt;&lt;script&gt; import topView from &#x27;../components/mod/topView&#x27;export default &#123;   props: &#123;&#125;,  components: &#123;    topView  &#125;,  data() &#123;    return &#123;        &#125;;  &#125;,  methods: &#123;    getmessage(val)    &#123;      console.log(val)    &#125;      &#125;,&#125;;&lt;/script&gt;&lt;style&gt;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234204.gif" alt="1" class="lazyload"></p>
+<h1 id="八、用less写样式"><a href="#八、用less写样式" class="headerlink" title="八、用less写样式"></a>八、用less写样式</h1><h2 id="什么是LESS？"><a href="#什么是LESS？" class="headerlink" title="什么是LESS？"></a>什么是LESS？</h2><p>LESS是一个CSS预处理器，可以为网站启用可自定义，可管理和可重用的样式表。 LESS是一种动态样式表语言，扩展了CSS的功能。 LESS也是跨浏览器友好。</p>
+<p>CSS预处理器是一种脚本语言，可扩展CSS并将其编译为常规CSS语法，以便可以通过Web浏览器读取。 它提供诸如变量，函数， mixins 和操作等功能，可以构建动态CSS。</p>
+<p><a target="_blank" rel="noopener" href="https://less.bootcss.com/#%E6%A6%82%E8%A7%88">https://less.bootcss.com/#%E6%A6%82%E8%A7%88</a></p>
+<h2 id="安装less依赖："><a href="#安装less依赖：" class="headerlink" title="安装less依赖："></a>安装less依赖：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install less less-loader --save</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234457.png" alt="image-20210626234457608" class="lazyload"></p>
+<p>安装成功之后，可在package.json中看到，多增加了2个模块：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234521.png"></p>
+<p>在main.js</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import less from &#x27;less&#x27;Vue.use(less)</span><br></pre></td></tr></table></figure>
+
+<p>编写less</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<p>报错：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626235844.png"></p>
+<p>解决：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_44617099/article/details/114973132">https://blog.csdn.net/qq_44617099/article/details/114973132</a></p>
+<p>原因</p>
+<p>less-loader版本过高<br>解决办法</p>
+<p>卸载原来的less和less-loader</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall less-loader  npm uninstall less </span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install less@3.12.2 less-loader@4.1.0 --save-dev</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-多层嵌套"><a href="#1-多层嵌套" class="headerlink" title="1.多层嵌套"></a>1.多层嵌套</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;mainView&quot;&gt;    &lt;h1&gt;kif&lt;/h1&gt;    &lt;topView text=&quot;注册&quot; @message=&quot;getmessage&quot;&gt;&lt;/topView&gt;    &lt;div class=&quot;firstView&quot;&gt;      View1      &lt;div class=&quot;secondView&quot;&gt;        view2      &lt;/div&gt;    &lt;/div&gt;&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;#mainView&#123;  height: 200px;  width: 200px;  background-color: antiquewhite;  .firstView&#123;    height: 100px;    width: 100px;    background-color: aqua;    .secondView    &#123;      width: 50px;      height: 50px;      background-color: aliceblue;    &#125;  &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-less中变量的使用"><a href="#2-less中变量的使用" class="headerlink" title="2.less中变量的使用"></a>2.less中变量的使用</h2><p>在less，允许我们使用以变量的形式来定义，定义方式：@k:v; 使用方式：@k;</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;@mycolor : #FFCA28;#mainView&#123;  height: 200px;  width: 200px;  background-color: antiquewhite;  .firstView&#123;    height: 100px;    width: 100px;    background-color: aqua;    .secondView    &#123;      width: 50px;      height: 50px;      background-color: @mycolor;    &#125;  &#125;&#125;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627001334.png"></p>
+<h2 id="3-字符串拼接变量使用方式；"><a href="#3-字符串拼接变量使用方式；" class="headerlink" title="3.字符串拼接变量使用方式；"></a>3.字符串拼接变量使用方式；</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;@mycolor : #FFCA28;@static :&#x27;../assets/&#x27;;#mainView&#123;  height: 200px;  width: 200px;  background-color: antiquewhite;  .firstView&#123;    height: 100px;    width: 100px;   background: url(&quot;@&#123;static&#125;bac.png&quot;);    .secondView    &#123;      width: 50px;      height: 50px;      background-color: @mycolor;    &#125;  &#125;&#125;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意：路径需要用””包裹，@{img}这种凡是把变量引进来才能生效；</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002032.png"></p>
+<h2 id="4-混合-x3D-函数"><a href="#4-混合-x3D-函数" class="headerlink" title="4.混合 &#x3D; 函数"></a>4.混合 &#x3D; 函数</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;box1&quot;&gt;我是box1&lt;/div&gt;&lt;div class=&quot;box2&quot;&gt;我是box2&lt;/div&gt; &lt;style lang=&quot;less&quot;&gt;//定义一个函数；.test(@color:red,@size:14px)&#123;    background: @color;    font-size:@size;&#125;.box1&#123;//  不传参，使用默认的；    .test()&#125;.box2&#123;//  给函数传参；    .test(@color:green,@size:30px)&#125;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627002318.png"></p>
+<p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/779ed2c368a3">https://www.jianshu.com/p/779ed2c368a3</a></p>
+<h1 id="九、Vue-js-模板语法"><a href="#九、Vue-js-模板语法" class="headerlink" title="九、Vue.js 模板语法"></a>九、Vue.js 模板语法</h1><p>Vue.js 使用了基于 HTML 的模板语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。</p>
+<p>Vue.js 的核心是一个允许你采用简洁的模板语法来声明式的将数据渲染进 DOM 的系统。</p>
+<p>结合响应系统，在应用状态改变时， Vue 能够智能地计算出重新渲染组件的最小代价并应用到 DOM 操作上。</p>
+<h2 id="1-插值"><a href="#1-插值" class="headerlink" title="1.插值"></a>1.插值</h2><h3 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h3><p>数据绑定最常见的形式就是使用</p>
+<p><code> &#123;&#123;...&#125;&#125;</code></p>
+<p>（双大括号）的文本插值</p>
+<h3 id="Html"><a href="#Html" class="headerlink" title="Html"></a>Html</h3><p>使用 v-html 指令用于输出 html 代码：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627005559.png"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627005608.png"></p>
+<h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><p>HTML 属性中的值应使用 v-bind 指令。</p>
+<p>以下实例判断 use 的值，如果为 true 使用 class1 类的样式，否则不使用该类：</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627010821.png" alt="image-20210627010821497" class="lazyload"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627010803.png"></p>
+<h3 id="表达式"><a href="#表达式" class="headerlink" title="表达式"></a>表达式</h3><p>Vue.js 都提供了完全的 JavaScript 表达式支持。</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627011810.png"></p>
+<h2 id="2-指令"><a href="#2-指令" class="headerlink" title="2.指令"></a>2.指令</h2><p>指令是带有 v- 前缀的特殊属性。</p>
+<p>指令用于在表达式的值改变时，将某些行为应用到 DOM 上。</p>
+<h3 id="v-if"><a href="#v-if" class="headerlink" title="v-if"></a>v-if</h3><h3 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h3><p>在 input 输入框中我们可以使用 v-model 指令来实现双向数据绑定：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012201.png"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012302.gif"></p>
+<p><strong>v-model</strong> 指令用来在 input、select、textarea、checkbox、radio 等表单控件元素上创建双向数据绑定，根据表单上的值，自动更新绑定的元素的值。</p>
+<p>按钮的事件我们可以使用 v-on 监听事件，并对用户的输入进行响应。</p>
+<p>以下实例在用户点击按钮后对字符串进行反转操作：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012409.png"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210627012531.gif"></p>
+<h2 id="3-缩写"><a href="#3-缩写" class="headerlink" title="3.缩写"></a>3.缩写</h2><h3 id="v-bind-缩写"><a href="#v-bind-缩写" class="headerlink" title="v-bind 缩写"></a>v-bind 缩写</h3><p>Vue.js 为两个最为常用的指令提供了特别的缩写：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 完整语法 --&gt;&lt;a v-bind:href=&quot;url&quot;&gt;&lt;/a&gt;&lt;!-- 缩写 --&gt;&lt;a :href=&quot;url&quot;&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="v-on-缩写"><a href="#v-on-缩写" class="headerlink" title="v-on 缩写"></a>v-on 缩写</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 完整语法 --&gt;&lt;a v-on:click=&quot;doSomething&quot;&gt;&lt;/a&gt;&lt;!-- 缩写 --&gt;&lt;a @click=&quot;doSomething&quot;&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="十、Vue-js-条件语句"><a href="#十、Vue-js-条件语句" class="headerlink" title="十、Vue.js 条件语句"></a>十、Vue.js 条件语句</h1><h2 id="1-条件判断"><a href="#1-条件判断" class="headerlink" title="1.条件判断"></a>1.条件判断</h2><h3 id="v-if-1"><a href="#v-if-1" class="headerlink" title="v-if"></a>v-if</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>    <span class="tag">&lt;<span class="name">p</span> <span class="attr">v-if</span>=<span class="string">&quot;seen&quot;</span>&gt;</span>现在你看到我了<span class="tag">&lt;/<span class="name">p</span>&gt;</span>    <span class="tag">&lt;<span class="name">div</span> <span class="attr">v-if</span>=<span class="string">&quot;ok&quot;</span>&gt;</span>      <span class="tag">&lt;<span class="name">p</span>&gt;</span>哈哈哈，打字辛苦啊！！！<span class="tag">&lt;/<span class="name">p</span>&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;  <span class="attr">el</span>: <span class="string">&#x27;#app&#x27;</span>,  <span class="attr">data</span>: &#123;    <span class="attr">seen</span>: <span class="literal">true</span>,    <span class="attr">ok</span>: <span class="literal">true</span>  &#125;&#125;)</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="v-else"><a href="#v-else" class="headerlink" title="v-else"></a>v-else</h3><p>可以用 v-else 指令给 v-if 添加一个 “else” 块：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">v-if</span>=<span class="string">&quot;Math.random()&gt;0.5&quot;</span>&gt;</span>      <span class="tag">&lt;<span class="name">p</span>&gt;</span>fasf111111111<span class="tag">&lt;/<span class="name">p</span>&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>    <span class="tag">&lt;<span class="name">div</span> <span class="attr">v-else</span>&gt;</span>      <span class="tag">&lt;<span class="name">p</span>&gt;</span>qwerq3433333333333<span class="tag">&lt;/<span class="name">p</span>&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="v-show"><a href="#v-show" class="headerlink" title="v-show"></a>v-show</h3><p>我们也可以使用 v-show 指令来根据条件展示元素：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span> <span class="attr">v-show</span>=<span class="string">&quot;ok&quot;</span>&gt;</span>Hello!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="十一-Vue-js-循环语句"><a href="#十一-Vue-js-循环语句" class="headerlink" title="十一.Vue.js 循环语句"></a>十一.Vue.js 循环语句</h1><h2 id="v-for"><a href="#v-for" class="headerlink" title="v-for"></a>v-for</h2><p>v-for 指令需要以 <strong>site in sites</strong> 形式的特殊语法， sites 是源数据数组并且 site 是数组元素迭代的别名。</p>
+<p>v-for 可以绑定数据到数组来渲染一个列表：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">v-for</span>=<span class="string">&quot;item in arr&quot;</span>&gt;</span>      <span class="tag">&lt;<span class="name">p</span>&gt;</span>&#123;&#123;item&#125;&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&quot;axios&quot;</span>;<span class="keyword">export</span> <span class="keyword">default</span> &#123;  <span class="attr">props</span>: &#123;&#125;,  <span class="attr">components</span>: &#123;&#125;,  <span class="title function_">data</span>(<span class="params"></span>) &#123;    <span class="keyword">return</span> &#123;      <span class="attr">arr</span>:[        <span class="string">&#x27;12&#x27;</span>,        <span class="string">&#x27;123&#x27;</span>,        <span class="string">&#x27;1234&#x27;</span>,        <span class="string">&#x27;12345&#x27;</span>      ]    &#125;;  &#125;,  <span class="attr">methods</span>: &#123;     &#125;,&#125;;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">ul</span>&gt;</span>    <span class="tag">&lt;<span class="name">li</span> <span class="attr">v-for</span>=<span class="string">&quot;(value, key, index) in object&quot;</span>&gt;</span>     &#123;&#123; index &#125;&#125;. &#123;&#123; key &#125;&#125; : &#123;&#123; value &#125;&#125;    <span class="tag">&lt;/<span class="name">li</span>&gt;</span>  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;  <span class="attr">el</span>: <span class="string">&#x27;#app&#x27;</span>,  <span class="attr">data</span>: &#123;    <span class="attr">object</span>:&#123;        <span class="attr">name</span>:<span class="string">&quot;kif2&quot;</span>,        <span class="attr">age</span>:<span class="number">12</span>,        <span class="attr">sex</span>:<span class="string">&quot;man&quot;</span>,        <span class="attr">class</span>:<span class="number">7</span>      &#125;  &#125;&#125;)</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>你也可以提供第二个的参数为键名,第三个参数为索引.</p>
+<h1 id="十二、Vue-js-计算属性"><a href="#十二、Vue-js-计算属性" class="headerlink" title="十二、Vue.js 计算属性"></a>十二、Vue.js 计算属性</h1><p>计算属性关键词: <strong>computed</strong>。</p>
+<p>计算属性在处理一些复杂逻辑时是很有用的。</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704154427.png" alt="位置" class="lazyload"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>&#123;&#123;message&#125;&#125;<span class="tag">&lt;/<span class="name">h2</span>&gt;</span><span class="tag">&lt;<span class="name">h2</span>&gt;</span>&#123;&#123;remessage&#125;&#125;<span class="tag">&lt;/<span class="name">h2</span>&gt;</span> <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&quot;axios&quot;</span>;<span class="keyword">export</span> <span class="keyword">default</span> &#123;  <span class="attr">props</span>: &#123;&#125;,  <span class="attr">components</span>: &#123;&#125;,  <span class="title function_">data</span>(<span class="params"></span>) &#123;    <span class="keyword">return</span> &#123;       <span class="attr">message</span>: <span class="string">&quot;kif is cool&quot;</span>,    &#125;;  &#125;, <span class="attr">computed</span>: &#123;   <span class="attr">remessage</span>:<span class="keyword">function</span> (<span class="params"></span>) &#123;     <span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">message</span>.<span class="title function_">split</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">reverse</span>().<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>)   &#125;  &#125;,  <span class="attr">methods</span>: &#123;   &#125;,&#125;;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>中声明了一个计算属性 remessage 。</p>
+<p>提供的函数将用作属性 vm.remessage 的 getter 。</p>
+<p>vm.remessage 依赖于 vm.message，在 vm.message 发生改变时，vm.remessage 也会更新。</p>
+<h2 id="computed-vs-methods"><a href="#computed-vs-methods" class="headerlink" title="computed vs methods"></a>computed vs methods</h2><p>我们可以使用 methods 来替代 computed，效果上两个都是一样的，但是 computed 是基于它的依赖缓存，只有相关依赖发生改变时才会重新取值。而使用 methods ，在重新渲染的时候，函数总会重新调用执行。</p>
+<p>可以说使用 computed 性能会更好，但是如果你不希望缓存，你可以使用 methods 属性。</p>
+<h1 id="十三、Vue-js-监听属性"><a href="#十三、Vue-js-监听属性" class="headerlink" title="十三、Vue.js 监听属性"></a>十三、Vue.js 监听属性</h1><h2 id="Vue-js-监听属性-watch"><a href="#Vue-js-监听属性-watch" class="headerlink" title="Vue.js 监听属性 watch"></a>Vue.js 监听属性 watch</h2><p>我们可以通过 watch 来响应数据的变化。</p>
+<p>以下实例通过使用 watch 实现计数器：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span> = <span class="string">&quot;font-size:25px;&quot;</span>&gt;</span>计数器: &#123;&#123; counter &#125;&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span> <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span> = <span class="string">&quot;counter++&quot;</span> <span class="attr">style</span> = <span class="string">&quot;font-size:25px;&quot;</span>&gt;</span>点我<span class="tag">&lt;/<span class="name">button</span>&gt;</span>   <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&quot;axios&quot;</span>;<span class="keyword">export</span> <span class="keyword">default</span> &#123;  <span class="attr">props</span>: &#123;&#125;,  <span class="attr">components</span>: &#123;&#125;,  <span class="title function_">data</span>(<span class="params"></span>) &#123;    <span class="keyword">return</span> &#123;       <span class="attr">counter</span>:<span class="number">10</span>,    &#125;;  &#125;,  <span class="attr">watch</span>:&#123;    <span class="attr">counter</span>:<span class="keyword">function</span> (<span class="params">newValue,oldValue</span>) &#123;      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;新值:&quot;</span>+newValue+<span class="string">&quot;-----旧值&quot;</span>+oldValue)    &#125;  &#125;,  <span class="attr">methods</span>: &#123;      &#125;,&#125;;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704155712.png"></p>
+<h1 id="十四、Vue-js-表单"><a href="#十四、Vue-js-表单" class="headerlink" title="十四、Vue.js 表单"></a>十四、Vue.js 表单</h1><h2 id="v-model-1"><a href="#v-model-1" class="headerlink" title="v-model"></a>v-model</h2><p>指令在表单控件元素上创建双向数据绑定。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p&gt;input 元素：&lt;/p&gt;  &lt;input v-model=&quot;message&quot; placeholder=&quot;编辑我……&quot;&gt;  &lt;p&gt;消息是: &#123;&#123; message &#125;&#125;&lt;/p&gt;      &lt;p&gt;textarea 元素：&lt;/p&gt;  &lt;p style=&quot;white-space: pre&quot;&gt;&#123;&#123; message2 &#125;&#125;&lt;/p&gt;  &lt;textarea v-model=&quot;message2&quot; placeholder=&quot;多行文本输入……&quot;&gt;&lt;/textarea&gt;      &lt;script&gt;new Vue(&#123;  el: &#x27;#app&#x27;,  data: &#123;     message: &quot;kif is cool&quot;,       message2:&quot;C.S.N&quot;,  &#125;&#125;)&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210704160039.png"></p>
+<h1 id="案例一：图片轮播"><a href="#案例一：图片轮播" class="headerlink" title="案例一：图片轮播"></a>案例一：图片轮播</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span>&gt;</span>    <span class="tag">&lt;<span class="name">div</span>&gt;</span>      <span class="tag">&lt;<span class="name">img</span> <span class="attr">:src</span>=<span class="string">&quot;imgArr[index].src&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 200px&quot;</span> /&gt;</span>      <span class="tag">&lt;<span class="name">a</span> @<span class="attr">click</span>=<span class="string">&quot;shang()&quot;</span>&gt;</span>上一张<span class="tag">&lt;/<span class="name">a</span>&gt;</span>      <span class="tag">&lt;<span class="name">a</span> @<span class="attr">click</span>=<span class="string">&quot;next()&quot;</span>&gt;</span>下一张<span class="tag">&lt;/<span class="name">a</span>&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">template</span>&gt;</span><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&quot;axios&quot;</span>;<span class="keyword">export</span> <span class="keyword">default</span> &#123;  <span class="attr">props</span>: &#123;&#125;,  <span class="attr">components</span>: &#123;&#125;,  <span class="title function_">data</span>(<span class="params"></span>) &#123;    <span class="keyword">return</span> &#123;      <span class="attr">imgArr</span>: [        &#123;          <span class="attr">src</span>: <span class="string">&quot;https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626155050.jpg&quot;</span>,          <span class="attr">id</span>: <span class="number">0</span>,        &#125;,        &#123;          <span class="attr">src</span>: <span class="string">&quot;https://gitee.com/wkkif/PicGoimg/raw/master/img/20210613163532.jpg&quot;</span>,          <span class="attr">id</span>: <span class="number">1</span>,        &#125;,        &#123;          <span class="attr">src</span>: <span class="string">&quot;https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505221033.jpg&quot;</span>,          <span class="attr">id</span>: <span class="number">2</span>,        &#125;,        &#123;          <span class="attr">src</span>: <span class="string">&quot;https://gitee.com/wkkif/PicGoimg/raw/master/img/20210505221026.jpg&quot;</span>,          <span class="attr">id</span>: <span class="number">3</span>,        &#125;,      ],      <span class="attr">index</span>: <span class="number">0</span>,    &#125;;  &#125;,  <span class="attr">watch</span>: &#123;  &#125;,  <span class="attr">computed</span>: &#123;   &#125;,  <span class="attr">methods</span>: &#123;    <span class="attr">next</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;      <span class="keyword">if</span> (<span class="variable language_">this</span>.<span class="property">index</span> == <span class="number">3</span>) &#123;        <span class="variable language_">this</span>.<span class="property">index</span> = <span class="number">0</span>;      &#125; <span class="keyword">else</span> &#123;        <span class="variable language_">this</span>.<span class="property">index</span>++;      &#125;    &#125;,    <span class="attr">shang</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;      <span class="keyword">if</span> (<span class="variable language_">this</span>.<span class="property">index</span> == <span class="number">0</span>) &#123;        <span class="variable language_">this</span>.<span class="property">index</span> = <span class="number">3</span>;      &#125; <span class="keyword">else</span> &#123;        <span class="variable language_">this</span>.<span class="property">index</span>--;      &#125;    &#125;,  &#125;,&#125;;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="作业2：自动播放轮播图"><a href="#作业2：自动播放轮播图" class="headerlink" title="作业2：自动播放轮播图"></a>作业2：自动播放轮播图</h1><h1 id="十五、父子组件"><a href="#十五、父子组件" class="headerlink" title="十五、父子组件"></a>十五、父子组件</h1><h2 id="1）创建子组件"><a href="#1）创建子组件" class="headerlink" title="1）创建子组件"></a>1）创建子组件</h2><p>在components目录下新建mod文件夹，用于存放一下可以复用的子组件。比如新建一个topView.vue组件</p>
+<p><img src="C:\Users\18255\AppData\Roaming\Typora\typora-user-images\image-20210626164328384.png"></p>
+<h2 id="2）在父组件中引入子组件"><a href="#2）在父组件中引入子组件" class="headerlink" title="2）在父组件中引入子组件"></a>2）在父组件中引入子组件</h2><p>　　　　引入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import topView from &#x27;../components/mod/topView&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>　　　　注册：在<code>&lt;script&gt;&lt;/script&gt;</code>标签内的 name代码块后面加上 </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">components: &#123;topView &#125;</span><br></pre></td></tr></table></figure>
+
+<p>　　　　使用：在<code>&lt;template&gt;&lt;/template&gt;</code>内加上</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;topView&gt;&lt;/topView&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626164649.png"></p>
+<p>效果：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626165136.png"></p>
+<h2 id="3）父子组件通信"><a href="#3）父子组件通信" class="headerlink" title="3）父子组件通信"></a>3）父子组件通信</h2><p>　子组件：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626230336.png"></p>
+<p>父组件：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626232428.png"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626232450.png"></p>
+<h1 id="十六、项目实战"><a href="#十六、项目实战" class="headerlink" title="十六、项目实战"></a>十六、项目实战</h1><h1 id="一、项目概述"><a href="#一、项目概述" class="headerlink" title="一、项目概述"></a>一、项目概述</h1><h2 id="1-学习目标"><a href="#1-学习目标" class="headerlink" title="1.学习目标"></a>1.学习目标</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706190644.png" alt="image-20210706190643774" class="lazyload"></p>
+<h2 id="2-项目结构"><a href="#2-项目结构" class="headerlink" title="2.项目结构"></a>2.项目结构</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706190758.png" alt="image-20210706190758050" class="lazyload"></p>
+<h2 id="3-项目概述"><a href="#3-项目概述" class="headerlink" title="3.项目概述"></a>3.项目概述</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191119.png"></p>
+<h2 id="4-功能"><a href="#4-功能" class="headerlink" title="4.功能"></a>4.功能</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191258.png" alt="image-20210706191258541" class="lazyload"></p>
+<h2 id="5-开发模式"><a href="#5-开发模式" class="headerlink" title="5.开发模式"></a>5.开发模式</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191420.png" alt="image-20210706191420076" class="lazyload"></p>
+<h2 id="6-前端技术栈"><a href="#6-前端技术栈" class="headerlink" title="6.前端技术栈"></a>6.前端技术栈</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706191458.png" alt="image-20210706191458057" class="lazyload"></p>
+<h1 id="二、项目创建"><a href="#二、项目创建" class="headerlink" title="二、项目创建"></a>二、项目创建</h1><h3 id="2-2-1创建一个基于-webpack-模板的新项目"><a href="#2-2-1创建一个基于-webpack-模板的新项目" class="headerlink" title="2.2.1创建一个基于 webpack 模板的新项目"></a>2.2.1创建一个基于 webpack 模板的新项目</h3><p>路径！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue init webpack my-project</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153027.png" alt="image-20210626153027058" class="lazyload"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153805.png"></p>
+<p>Vue build &#x3D;&#x3D;&gt; 打包方式，回车即可；</p>
+<p>Install vue-router &#x3D;&#x3D;&gt; 是否要安装 vue-router，项目中肯定要使用到 所以Y 回车；</p>
+<p>Use ESLint to lint your code &#x3D;&#x3D;&gt; 是否需要 js 语法检测 目前我们不需要 所以 n 回车；</p>
+<p>Set up unit tests &#x3D;&#x3D;&gt; 是否安装 单元测试工具 目前我们不需要 所以 n 回车；</p>
+<p>Setup e2e tests with Nightwatch &#x3D;&#x3D;&gt; 是否需要 端到端测试工具 目前我们不需要 所以 n 回车；</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626153937.png" alt="image-20210626153937317" class="lazyload"></p>
+<h3 id="2-2-2安装依赖"><a href="#2-2-2安装依赖" class="headerlink" title="2.2.2安装依赖"></a>2.2.2安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd my-projectnpm i</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154057.png" alt="image-20210626154057549" class="lazyload"></p>
+<h3 id="2-2-3启动项目"><a href="#2-2-3启动项目" class="headerlink" title="2.2.3启动项目"></a>2.2.3启动项目</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154206.png" alt="image-20210626154206666" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210626154225.png" alt="image-20210626154225349" class="lazyload"></p>
+<p>ctrl c结束</p>
+<p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/hellman/p/10985377.html">https://www.cnblogs.com/hellman/p/10985377.html</a></p>
+<h2 id="2-3-ElementUI"><a href="#2-3-ElementUI" class="headerlink" title="2.3 ElementUI"></a>2.3 ElementUI</h2><p><a target="_blank" rel="noopener" href="https://element.eleme.cn/#/zh-CN">https://element.eleme.cn/#/zh-CN</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706213649.png"></p>
+<h3 id="2-3-1-npm-安装"><a href="#2-3-1-npm-安装" class="headerlink" title="2.3.1 npm 安装"></a>2.3.1 npm 安装</h3><p>推荐使用 npm 的方式安装，它能更好地和 <a target="_blank" rel="noopener" href="https://webpack.js.org/">webpack</a> 打包工具配合使用。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i element-ui -S</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706214203.png" alt="image-20210706214203210" class="lazyload"></p>
+<h3 id="2-3-2-引入Element"><a href="#2-3-2-引入Element" class="headerlink" title="2.3.2 引入Element"></a>2.3.2 引入Element</h3><p>引入整个 Element，或是根据需要仅引入部分组件。我们先介绍如何引入完整的 Element。</p>
+<p>在 main.js 中写入以下内容：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">Vue</span> <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;<span class="keyword">import</span> <span class="title class_">ElementUI</span> <span class="keyword">from</span> <span class="string">&#x27;element-ui&#x27;</span>;<span class="keyword">import</span> <span class="string">&#x27;element-ui/lib/theme-chalk/index.css&#x27;</span>;<span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span>;<span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">ElementUI</span>);<span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;  <span class="attr">el</span>: <span class="string">&#x27;#app&#x27;</span>,  <span class="attr">render</span>: <span class="function"><span class="params">h</span> =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>)&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>以上代码便完成了 Element 的引入。需要注意的是，样式文件需要单独引入。</p>
+<h3 id="2-3-3-全局配置"><a href="#2-3-3-全局配置" class="headerlink" title="2.3.3 全局配置"></a>2.3.3 全局配置</h3><p>在引入 Element 时，可以传入一个全局配置对象。该对象目前支持 <code>size</code> 与 <code>zIndex</code> 字段。<code>size</code> 用于改变组件的默认尺寸，<code>zIndex</code> 设置弹框的初始 z-index（默认值：2000）。按照引入 Element 的方式，具体操作如下：</p>
+<p>完整引入 Element：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">Vue</span> <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;<span class="keyword">import</span> <span class="title class_">Element</span> <span class="keyword">from</span> <span class="string">&#x27;element-ui&#x27;</span>;<span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Element</span>, &#123; <span class="attr">size</span>: <span class="string">&#x27;small&#x27;</span>, <span class="attr">zIndex</span>: <span class="number">3000</span> &#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-4-Axios"><a href="#2-4-Axios" class="headerlink" title="2.4 Axios"></a>2.4 Axios</h2><ul>
+<li><strong>Axios是一个基于promise的HTTP库（类似于jQuery的Ajax，用于HTTP请求）</strong></li>
+</ul>
+<h3 id="2-4-1-使用-npm"><a href="#2-4-1-使用-npm" class="headerlink" title="2.4.1 使用 npm:"></a>2.4.1 <strong>使用 npm:</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install axios</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210706224420.png"></p>
+<h3 id="2-4-2-使用-cdn"><a href="#2-4-2-使用-cdn" class="headerlink" title="2.4.2.使用 cdn:"></a>2.4.2.使用 cdn:</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-5、用less写样式"><a href="#2-5、用less写样式" class="headerlink" title="2.5、用less写样式"></a>2.5、用less写样式</h2><h3 id="2-5-1什么是LESS？"><a href="#2-5-1什么是LESS？" class="headerlink" title="2.5.1什么是LESS？"></a>2.5.1什么是LESS？</h3><p>LESS是一个CSS预处理器，可以为网站启用可自定义，可管理和可重用的样式表。 LESS是一种动态样式表语言，扩展了CSS的功能。 LESS也是跨浏览器友好。</p>
+<p>CSS预处理器是一种脚本语言，可扩展CSS并将其编译为常规CSS语法，以便可以通过Web浏览器读取。 它提供诸如变量，函数， mixins 和操作等功能，可以构建动态CSS。</p>
+<p><a target="_blank" rel="noopener" href="https://less.bootcss.com/#%E6%A6%82%E8%A7%88">https://less.bootcss.com/#%E6%A6%82%E8%A7%88</a></p>
+<h3 id="2-5-2安装less依赖："><a href="#2-5-2安装less依赖：" class="headerlink" title="2.5.2安装less依赖："></a>2.5.2安装less依赖：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install less less-loader --save</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234457.png" alt="image-20210626234457608" class="lazyload"></p>
+<p>安装成功之后，可在package.json中看到，多增加了2个模块：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626234521.png"></p>
+<p>在main.js</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import less from &#x27;less&#x27;Vue.use(less)</span><br></pre></td></tr></table></figure>
+
+<p>编写less</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<p>报错：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210626235844.png"></p>
+<p>解决：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_44617099/article/details/114973132">https://blog.csdn.net/qq_44617099/article/details/114973132</a></p>
+<p>原因</p>
+<p>less-loader版本过高<br>解决办法</p>
+<p>卸载原来的less和less-loader</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall less-loader  npm uninstall less </span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install less@3.12.2 less-loader@4.1.0 --save-dev</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-5-3-多层嵌套"><a href="#2-5-3-多层嵌套" class="headerlink" title="2.5.3.多层嵌套"></a>2.5.3.多层嵌套</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;mainView&quot;&gt;    &lt;h1&gt;kif&lt;/h1&gt;    &lt;topView text=&quot;注册&quot; @message=&quot;getmessage&quot;&gt;&lt;/topView&gt;    &lt;div class=&quot;firstView&quot;&gt;      View1      &lt;div class=&quot;secondView&quot;&gt;        view2      &lt;/div&gt;    &lt;/div&gt;&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;#mainView&#123;  height: 200px;  width: 200px;  background-color: antiquewhite;  .firstView&#123;    height: 100px;    width: 100px;    background-color: aqua;    .secondView    &#123;      width: 50px;      height: 50px;      background-color: aliceblue;    &#125;  &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="三、后端接口"><a href="#三、后端接口" class="headerlink" title="三、后端接口"></a>三、后端接口</h1><p>电商管理后台 API 接口文档</p>
+<h2 id="3-1-API-V1-接口说明"><a href="#3-1-API-V1-接口说明" class="headerlink" title="3.1. API V1 接口说明"></a>3.1. API V1 接口说明</h2><ul>
+<li>接口基准地址：<a target="_blank" rel="noopener" href="http://timemeetyou.com:8889/api/private/v1/">http://timemeetyou.com:8889/api/private/v1/</a></li>
+<li>服务端已开启 CORS 跨域支持</li>
+<li>API V1 认证统一使用 Token 认证</li>
+<li>需要授权的 API ，必须在请求头中使用 <code>Authorization</code> 字段提供 <code>token</code> 令牌</li>
+<li>使用 HTTP Status Code 标识状态</li>
+<li>数据返回格式统一使用 JSON</li>
+</ul>
+<h3 id="3-1-1-支持的请求方法"><a href="#3-1-1-支持的请求方法" class="headerlink" title="3.1.1. 支持的请求方法"></a>3.1.1. 支持的请求方法</h3><ul>
+<li>GET（SELECT）：从服务器取出资源（一项或多项）。</li>
+<li>POST（CREATE）：在服务器新建一个资源。</li>
+<li>PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。</li>
+<li>PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。</li>
+<li>DELETE（DELETE）：从服务器删除资源。</li>
+<li>HEAD：获取资源的元数据。</li>
+<li>OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。</li>
+</ul>
+<h3 id="3-1-2-通用返回状态说明"><a href="#3-1-2-通用返回状态说明" class="headerlink" title="3.1.2. 通用返回状态说明"></a>3.1.2. 通用返回状态说明</h3><table>
+<thead>
+<tr>
+<th><em>状态码</em></th>
+<th><em>含义</em></th>
+<th><em>说明</em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>200</td>
+<td>OK</td>
+<td>请求成功</td>
+</tr>
+<tr>
+<td>201</td>
+<td>CREATED</td>
+<td>创建成功</td>
+</tr>
+<tr>
+<td>204</td>
+<td>DELETED</td>
+<td>删除成功</td>
+</tr>
+<tr>
+<td>400</td>
+<td>BAD REQUEST</td>
+<td>请求的地址不存在或者包含不支持的参数</td>
+</tr>
+<tr>
+<td>401</td>
+<td>UNAUTHORIZED</td>
+<td>未授权</td>
+</tr>
+<tr>
+<td>403</td>
+<td>FORBIDDEN</td>
+<td>被禁止访问</td>
+</tr>
+<tr>
+<td>404</td>
+<td>NOT FOUND</td>
+<td>请求的资源不存在</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Unprocesable entity</td>
+<td>[POST&#x2F;PUT&#x2F;PATCH] 当创建一个对象时，发生一个验证错误</td>
+</tr>
+<tr>
+<td>500</td>
+<td>INTERNAL SERVER ERROR</td>
+<td>内部错误</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="3-1-3-postman测试"><a href="#3-1-3-postman测试" class="headerlink" title="3.1.3 postman测试"></a>3.1.3 postman测试</h3><p>Postman：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707173434.png"></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span>    <span class="attr">&quot;data&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span>        <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">500</span><span class="punctuation">,</span>        <span class="attr">&quot;rid&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span>        <span class="attr">&quot;username&quot;</span><span class="punctuation">:</span> <span class="string">&quot;admin&quot;</span><span class="punctuation">,</span>        <span class="attr">&quot;mobile&quot;</span><span class="punctuation">:</span> <span class="string">&quot;13113344444&quot;</span><span class="punctuation">,</span>        <span class="attr">&quot;email&quot;</span><span class="punctuation">:</span> <span class="string">&quot;arthur.cao@icloud.com&quot;</span><span class="punctuation">,</span>        <span class="attr">&quot;token&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MjU2NTA0NTEsImV4cCI6MTYyNTczNjg1MX0.T0d5W_HNtLsOtSlz5eD5kGHHIGvCMQ4YFN4Ye7oa7FU&quot;</span>    <span class="punctuation">&#125;</span><span class="punctuation">,</span>    <span class="attr">&quot;meta&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span>        <span class="attr">&quot;msg&quot;</span><span class="punctuation">:</span> <span class="string">&quot;登录成功&quot;</span><span class="punctuation">,</span>        <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="number">200</span>    <span class="punctuation">&#125;</span><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="四、登录"><a href="#四、登录" class="headerlink" title="四、登录"></a>四、登录</h1><h2 id="4-1-登录业务流程"><a href="#4-1-登录业务流程" class="headerlink" title="4.1.登录业务流程"></a>4.1.登录业务流程</h2><p>①在登录页面输入用户名和密码<br>②调用后台接口进行验证<br>③通过验证之后，根据后台的响应状态跳转到项目主页</p>
+<h2 id="4-2-登录业务的相关技术点"><a href="#4-2-登录业务的相关技术点" class="headerlink" title="4.2.登录业务的相关技术点"></a>4.2.登录业务的相关技术点</h2><p>●http是无状态的</p>
+<p>●通过cookie在客户端记录状态</p>
+<p>●通过session在服务器端记录状态</p>
+<p>●通过token方式维持状态（跨域时）</p>
+<h2 id="4-3-token"><a href="#4-3-token" class="headerlink" title="4.3 token"></a>4.3 token</h2><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707174248.png"></p>
+<h2 id="4-4-实现登录功能"><a href="#4-4-实现登录功能" class="headerlink" title="4.4 实现登录功能"></a>4.4 实现登录功能</h2><h3 id="4-4-1-布局"><a href="#4-4-1-布局" class="headerlink" title="4.4.1 布局"></a>4.4.1 布局</h3><p><img src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707174427.png"></p>
+<h3 id="4-4-2-创建页面"><a href="#4-4-2-创建页面" class="headerlink" title="4.4.2 创建页面"></a>4.4.2 创建页面</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;    &lt;div&gt;       &lt;div class=&quot;login_box&quot;&gt;       &lt;/div&gt;    &lt;/div&gt;&lt;/template&gt;&lt;script&gt;    export default &#123;        props: &#123;        &#125;,        components: &#123;        &#125;,        data()&#123;            return &#123;                            &#125;        &#125;,        methods: &#123;        &#125;    &#125;&lt;/script&gt;&lt;style&gt;.login_box&#123;    width: 450px;    height: 300px;    position: absolute;    left: 50%;    top: 50%;    transform: translate(-50%,-50%);        background-color: aquamarine;&#125;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/video/20210707180400.png" alt="image-20210707180359905" class="lazyload"></p>
+<h4 id="1-logo"><a href="#1-logo" class="headerlink" title="1.logo"></a>1.logo</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;  &lt;div class=&quot;main&quot;&gt;    &lt;div class=&quot;login_box&quot;&gt;                      &lt;div class=&quot;avatar_box&quot;&gt;        &lt;img src=&quot;../assets/logo.png&quot; /&gt;      &lt;/div&gt;                    &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt; &lt;script&gt;export default &#123;  props: &#123;&#125;,  components: &#123;&#125;,  data() &#123;    return &#123;&#125;;  &#125;,  methods: &#123;&#125;,&#125;;&lt;/script&gt;&lt;style lang=&quot;less&quot; rel=&quot;stylesheet/less&quot; scoped&gt;    .main &#123;  .login_box &#123;    background-color: white;    width: 450px;    height: 300px;    position: absolute;    left: 50%;    top: 50%;    transform: translate(-50%, -50%);  &#125;  .avatar_box &#123;    height: 130px;    width: 130px;    border: 1px solid #eee;    background-color: white;    border-radius: 50%;    padding: 10px;    position: absolute;    left: 50%;    transform: translate(-50%,-50%);    img &#123;      height: 100%;      width: 100%;      border-radius: 50%;      background-color: #eee;    &#125;  &#125;&#125;    &lt;/style&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-输入框"><a href="#2-输入框" class="headerlink" title="2.输入框"></a>2.输入框</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form :model=&quot;from&quot; label-width=&quot;80px&quot; class=&quot;loginFrom&quot;&gt;        &lt;el-form-item label=&quot;用户名&quot;&gt;          &lt;el-input            prefix-icon=&quot;el-icon-user&quot;            v-model=&quot;from.username&quot;          &gt;&lt;/el-input&gt;        &lt;/el-form-item&gt;        &lt;el-form-item label=&quot;密码&quot;&gt;          &lt;el-input            prefix-icon=&quot;el-icon-help&quot;            v-model=&quot;from.password&quot;            show-password          &gt;&lt;/el-input&gt;        &lt;/el-form-item&gt;        &lt;el-form-item class=&quot;btn&quot;&gt;          &lt;el-button type=&quot;primary&quot; @click=&quot;login()&quot;&gt;登录&lt;/el-button&gt;          &lt;el-button type=&quot;primary&quot;&gt;注册&lt;/el-button&gt;        &lt;/el-form-item&gt;      &lt;/el-form&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-数据绑定"><a href="#3-数据绑定" class="headerlink" title="3.数据绑定"></a>3.数据绑定</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form :model=&quot;from&quot; label-width=&quot;80px&quot; class=&quot;loginFrom&quot;&gt;        &lt;el-form-item label=&quot;用户名&quot;&gt;          &lt;el-input            prefix-icon=&quot;el-icon-user&quot;            v-model=&quot;from.username&quot;          &gt;&lt;/el-input&gt;        &lt;/el-form-item&gt;        &lt;el-form-item label=&quot;密码&quot;&gt;          &lt;el-input            prefix-icon=&quot;el-icon-help&quot;            v-model=&quot;from.password&quot;            show-password          &gt;&lt;/el-input&gt;        &lt;/el-form-item&gt;        &lt;el-form-item class=&quot;btn&quot;&gt;          &lt;el-button type=&quot;primary&quot; @click=&quot;login()&quot;&gt;登录&lt;/el-button&gt;          &lt;el-button type=&quot;primary&quot;&gt;注册&lt;/el-button&gt;        &lt;/el-form-item&gt;      &lt;/el-form&gt;                         data() &#123;    return &#123;      from: &#123;        username: &quot;&quot;,        password: &quot;&quot;,      &#125;,    &#125;;  &#125;,</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-验证规则"><a href="#4-验证规则" class="headerlink" title="4.验证规则"></a>4.验证规则</h4><p>from：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form  :rules=&quot;loginRule&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>item:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form-item  prop=&quot;password&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>data:</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">loginRule<span class="punctuation">:</span><span class="punctuation">&#123;</span>          password<span class="punctuation">:</span><span class="punctuation">[</span>              <span class="punctuation">&#123;</span> min<span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span> max<span class="punctuation">:</span> <span class="number">5</span><span class="punctuation">,</span> message<span class="punctuation">:</span> &#x27;长度在 <span class="number">3</span> 到 <span class="number">5</span> 个字符&#x27;<span class="punctuation">,</span> trigger<span class="punctuation">:</span> &#x27;blur&#x27; <span class="punctuation">&#125;</span>          <span class="punctuation">]</span>      <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="5-登陆预验证"><a href="#5-登陆预验证" class="headerlink" title="5.登陆预验证"></a>5.登陆预验证</h4><p>from：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form ref=&quot;loginFromref&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>method:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">login</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;      <span class="keyword">var</span> flag;      <span class="variable language_">this</span>.<span class="property">$refs</span>.<span class="property">loginFromref</span>.<span class="title function_">validate</span>(<span class="function">(<span class="params">valid</span>) =&gt;</span> &#123;            flag = valid;      &#125;);            <span class="keyword">if</span> (flag) &#123;        <span class="keyword">var</span> username = <span class="variable language_">this</span>.<span class="property">from</span>.<span class="property">username</span>;        <span class="keyword">var</span> password = <span class="variable language_">this</span>.<span class="property">from</span>.<span class="property">password</span>;        <span class="variable language_">console</span>.<span class="title function_">log</span>(username);      &#125;    &#125;,</span><br></pre></td></tr></table></figure>
+
+<h4 id="6-axios"><a href="#6-axios" class="headerlink" title="6.axios"></a>6.axios</h4><p>(1)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">axios.post(&quot;http://timemeetyou.com:8889/api/private/v1/login&quot;, this.from).then((res) =&gt; &#123;          console.log(&quot;数据：&quot;, res);        &#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>(2).全局设置</p>
+<p>main.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&quot;axios&quot;</span>axios.<span class="property">defaults</span>.<span class="property">baseURL</span> = <span class="string">&quot;http://timemeetyou.com:8889/api/private/v1/&quot;</span>; <span class="comment">// 关键步骤–填写后台请求统一的地址axios.defaults.headers.post[&#x27;Content-Type&#x27;] = &#x27;application/x-www-form-urlencoded&#x27;; //设置全局数据发送格式Vue.config.productionTip = false;Vue.prototype.$axios = axios;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>vue:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">this</span>.<span class="property">$axios</span>          .<span class="title function_">post</span>(<span class="string">&quot;login&quot;</span>, <span class="variable language_">this</span>.<span class="property">from</span>)          .<span class="title function_">then</span>(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;            <span class="variable language_">console</span>.<span class="title function_">log</span>(res.<span class="property">data</span>);            <span class="keyword">if</span> (res.<span class="property">data</span>.<span class="property">meta</span>.<span class="property">status</span> == <span class="number">200</span>) &#123;              <span class="variable language_">this</span>.<span class="property">$router</span>.<span class="title function_">push</span>(&#123; <span class="attr">path</span>: <span class="string">&quot;/index&quot;</span> &#125;);              <span class="variable language_">this</span>.$message(&#123;                <span class="attr">message</span>: <span class="string">&quot;恭喜你，这是一条成功消息&quot;</span>,                <span class="attr">type</span>: <span class="string">&quot;success&quot;</span>,              &#125;);            &#125;            <span class="keyword">else</span>            &#123;                <span class="keyword">if</span>(res.<span class="property">data</span>.<span class="property">meta</span>.<span class="property">status</span>==<span class="number">400</span>)                &#123;                     <span class="variable language_">this</span>.<span class="property">$message</span>.<span class="title function_">error</span>(<span class="string">&#x27;密码错误&#x27;</span>);                &#125;            &#125;          &#125;)          .<span class="title function_">catch</span>(<span class="function">(<span class="params">err</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(err));</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210707210025.png" alt="image-20210707210025512" class="lazyload"></p>
+<h3 id="4-4-3-token"><a href="#4-4-3-token" class="headerlink" title="4.4.3 token"></a>4.4.3 token</h3><p> 1.将登录成功之后的token,保存到客户端的sessionStorage 中</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">window.sessionStorage.setItem(&quot;token&quot;,res.data.data.token)</span><br></pre></td></tr></table></figure>
+
+<p> 1.1 项目中出了登录之外的其他API接口，必须在登录之后才能访问</p>
+<p>1.2 token 只应在当前网站打开期间生效，所以将token保存在sessionStorage 中</p>
+<p> 2.通过编程式导航跳转到后台主页，路由地址是&#x2F;index</p>
+<h5 id="4-5-实现导航守卫"><a href="#4-5-实现导航守卫" class="headerlink" title="4.5 实现导航守卫"></a>4.5 实现导航守卫</h5><p>如果用户没有登录，但是直接通过URL访问特定页面，需要重新导航到登录页面。</p>
+<p>修改router</p>
+<p>router:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const router= new Router(&#123;  routes: [    &#123;      path: &#x27;/&#x27;,      name: &#x27;login&#x27;,      component: login    &#125;,    &#123;      path: &#x27;/index&#x27;,      name: &#x27;index&#x27;,      component: index    &#125;,  ]&#125;)   // 挂载router.beforeEach((to,from,next)=&gt;&#123;  		// to将要访问的路径		// from 代表从哪个路径跳转而来		// next是一个函数，表示放行        // next()放行   next(&#x27; /login&#x27;)强制跳转         if(to.path===&#x27;/&#x27;) return next()  const tokenStr = window.sessionStorage.getItem(&quot;token&quot;)  if(!tokenStr) return (&quot;/&quot;)  next()&#125;)export default router</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-5-退出登录"><a href="#4-5-退出登录" class="headerlink" title="4.5 退出登录"></a>4.5 退出登录</h2><h3 id="4-5-1-退出功能实现原理"><a href="#4-5-1-退出功能实现原理" class="headerlink" title="4.5.1 退出功能实现原理"></a>4.5.1 退出功能实现原理</h3><p>基于token的方式实现退出比较简单，只需要销毁本地的token即可。这样，后续的请求就不会携带<br>token，必须重新登录生成一个新的token之后才可以访问页面。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//清空tokenwindow.sessionStorage.clear ()//跳转到登录页this.$router.push(&#x27;/&#x27;)</span><br></pre></td></tr></table></figure>
+
+<h1 id="五、主页"><a href="#五、主页" class="headerlink" title="五、主页"></a>五、主页</h1><h2 id="5-1-布局"><a href="#5-1-布局" class="headerlink" title="5.1 布局"></a>5.1 布局</h2><p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708142836.png"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708142714.png" alt="image-20210708142713764" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-container&gt;  &lt;el-header&gt;Header&lt;/el-header&gt;  &lt;el-container&gt;    &lt;el-aside width=&quot;200px&quot;&gt;Aside&lt;/el-aside&gt;    &lt;el-main&gt;Main&lt;/el-main&gt;  &lt;/el-container&gt;&lt;/el-container&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="5-2-css"><a href="#5-2-css" class="headerlink" title="5.2 css"></a>5.2 css</h2><p><a target="_blank" rel="noopener" href="https://uigradients.com/#PiggyPink">https://uigradients.com/#PiggyPink</a></p>
+<h3 id="1-三块颜色"><a href="#1-三块颜色" class="headerlink" title="1.三块颜色"></a>1.三块颜色</h3><p>2.撑满全屏</p>
+<p>.index-container</p>
+<p>{</p>
+<p> height: 100%;</p>
+<p>}</p>
+<h2 id="5-3-header"><a href="#5-3-header" class="headerlink" title="5.3 header"></a>5.3 header</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-header class=&quot;index-header&quot;&gt;      &lt;div class=&quot;hea&quot;&gt;        &lt;img class=&quot;logo&quot; src=&quot;../assets/logo.png&quot; /&gt;        &lt;span class=&quot;shopname&quot;&gt;河东小卖部&lt;/span&gt;      &lt;/div&gt;      &lt;el-button @click=&quot;loginout()&quot; class=&quot;loginout&quot;&gt;退出&lt;/el-button&gt;    &lt;/el-header&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.el-header</span> &#123;  <span class="attribute">background-color</span>: <span class="number">#202124</span>;  <span class="attribute">display</span>: flex;  <span class="attribute">justify-content</span>: space-between;  <span class="attribute">padding-left</span>: <span class="number">0</span>;  <span class="attribute">align-items</span>: center;  <span class="attribute">color</span>: white;&#125;<span class="selector-class">.el-aside</span> &#123;  <span class="attribute">background-color</span>: <span class="number">#20385E</span>;&#125;<span class="selector-class">.logo</span> &#123;  <span class="attribute">width</span>: <span class="number">60px</span>;&#125;<span class="selector-class">.shopname</span> &#123;  <span class="attribute">top</span>: <span class="number">9px</span>;  <span class="attribute">margin-left</span>: <span class="number">20px</span>;&#125;<span class="selector-class">.hea</span> &#123;  <span class="attribute">text-align</span>: center;&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="5-4-aside"><a href="#5-4-aside" class="headerlink" title="5.4 aside"></a>5.4 aside</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708194815.png" alt="image-20210708194815090" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-menu          default-active=&quot;2&quot;          class=&quot;el-menu-vertical-demo&quot;          @open=&quot;handleOpen&quot;          @close=&quot;handleClose&quot;          background-color=&quot;#545c64&quot;          text-color=&quot;#fff&quot;          active-text-color=&quot;#ffd04b&quot;        &gt;          &lt;el-submenu index=&quot;1&quot;&gt;            &lt;template slot=&quot;title&quot;&gt;              &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;              &lt;span&gt;导航一&lt;/span&gt;            &lt;/template&gt;            &lt;el-menu-item index=&quot;1-1&quot;&gt;选项1&lt;/el-menu-item&gt;            &lt;el-menu-item index=&quot;1-2&quot;&gt;选项2&lt;/el-menu-item&gt;          &lt;/el-submenu&gt;          &lt;el-submenu index=&quot;2&quot;&gt;            &lt;template slot=&quot;title&quot;&gt;              &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;              &lt;span&gt;导航二&lt;/span&gt;            &lt;/template&gt;            &lt;el-menu-item index=&quot;2-1&quot;&gt;选项1&lt;/el-menu-item&gt;            &lt;el-menu-item index=&quot;2-2&quot;&gt;选项2&lt;/el-menu-item&gt;          &lt;/el-submenu&gt;          &lt;el-submenu index=&quot;3&quot;&gt;            &lt;template slot=&quot;title&quot;&gt;              &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;              &lt;span&gt;导航三&lt;/span&gt;            &lt;/template&gt;            &lt;el-menu-item index=&quot;3-1&quot;&gt;选项1&lt;/el-menu-item&gt;            &lt;el-menu-item index=&quot;3-2&quot;&gt;选项2&lt;/el-menu-item&gt;          &lt;/el-submenu&gt;        &lt;/el-menu&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="5-5-获取菜单数据"><a href="#5-5-获取菜单数据" class="headerlink" title="5.5 获取菜单数据"></a>5.5 获取菜单数据</h2><h3 id="5-5-1-Axios添加Authorization"><a href="#5-5-1-Axios添加Authorization" class="headerlink" title="5.5.1 Axios添加Authorization"></a>5.5.1 Axios添加<code>Authorization</code></h3><p>需要授权的 API ，必须在请求头中使用 <code>Authorization</code> 字段提供 <code>token</code> 令牌</p>
+<p>通过axios请求拦截器添加token,保证拥有获取数据的权限。</p>
+<p>main.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">axios.<span class="property">interceptors</span>.<span class="property">request</span>.<span class="title function_">use</span>(<span class="function"><span class="params">config</span>=&gt;</span>  &#123;    <span class="variable language_">console</span>.<span class="title function_">log</span>(config)    config.<span class="property">headers</span>.<span class="property">Authorization</span> = <span class="variable language_">window</span>.<span class="property">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;token&#x27;</span>)    <span class="keyword">return</span> config;  &#125;)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708201308.png"></p>
+<h3 id="5-5-2-api获取数据"><a href="#5-5-2-api获取数据" class="headerlink" title="5.5.2 api获取数据"></a>5.5.2 api获取数据</h3><ul>
+<li>请求路径：menus</li>
+<li>请求方法：get</li>
+<li>响应数据</li>
+</ul>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span>    <span class="attr">&quot;data&quot;</span><span class="punctuation">:</span>        <span class="punctuation">&#123;</span>            <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">101</span><span class="punctuation">,</span>            <span class="attr">&quot;authName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;商品管理&quot;</span><span class="punctuation">,</span>            <span class="attr">&quot;path&quot;</span><span class="punctuation">:</span> <span class="keyword">null</span><span class="punctuation">,</span>            <span class="attr">&quot;children&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span>                <span class="punctuation">&#123;</span>                    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">104</span><span class="punctuation">,</span>                    <span class="attr">&quot;authName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;商品列表&quot;</span><span class="punctuation">,</span>                    <span class="attr">&quot;path&quot;</span><span class="punctuation">:</span> <span class="keyword">null</span><span class="punctuation">,</span>                    <span class="attr">&quot;children&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span>                <span class="punctuation">&#125;</span>            <span class="punctuation">]</span>        <span class="punctuation">&#125;</span>    <span class="attr">&quot;meta&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span>        <span class="attr">&quot;msg&quot;</span><span class="punctuation">:</span> <span class="string">&quot;获取菜单列表成功&quot;</span><span class="punctuation">,</span>        <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="number">200</span>    <span class="punctuation">&#125;</span><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>生命周期函数</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">created（） &#123;&#125;,</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210708201643.png" alt="image-20210708201643293" class="lazyload"></p>
+<p>data：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data() &#123;    return &#123;          menu: [],    &#125;;  &#125;,</span><br></pre></td></tr></table></figure>
+
+<p>created：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">created() &#123;    this.getmenuData();  &#125;,</span><br></pre></td></tr></table></figure>
+
+<p>methods：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//  获取左侧菜单数据    getmenuData() &#123;      this.$axios        .get(&quot;menus&quot;)        .then((res) =&gt; &#123;          // if(rea.data)          console.log(res.data.meta.status);          if (res.data.meta.status == 200) &#123;            this.menu = res.data.data;            console.log(this.menu);          &#125;        &#125;)        .catch((err) =&gt; console.log(err));    &#125;,</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-5-3-渲染到页面"><a href="#5-5-3-渲染到页面" class="headerlink" title="5.5.3 渲染到页面"></a>5.5.3 渲染到页面</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-submenu  v-for=&quot;item in menu&quot; :key=&quot;item.id+&#x27;&#x27;&quot; :index=&quot;item.id&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p> :index&#x3D;”item.id”</p>
+<p>：表示动态数据</p>
+<p>:key+’’</p>
+<p>因为index泵为数字，所以+‘’转换为字符</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-menu          background-color=&quot;#545c64&quot;          text-color=&quot;#fff&quot;          active-text-color=&quot;#ffd04b&quot;          @open=&quot;handleOpen&quot;          @close=&quot;handleClose&quot;          unique-opened          :collapse=&quot;isCollapse&quot;        &gt;          &lt;el-submenu :index=&quot;item.id + &#x27;&#x27;&quot; v-for=&quot;item in menu&quot; :key=&quot;item.id&quot;&gt;            &lt;template slot=&quot;title&quot;&gt;              &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;              &lt;span&gt;&#123;&#123; item.authName &#125;&#125;&lt;/span&gt;            &lt;/template&gt;            &lt;el-menu-item              v-for=&quot;item2 in item.children&quot;              :index=&quot;item2.id + &#x27;&#x27;&quot;              :key=&quot;item2.id&quot;            &gt;              &lt;template slot=&quot;title&quot;&gt;                &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;                &lt;span&gt;&#123;&#123; item2.authName &#125;&#125;&lt;/span&gt;              &lt;/template&gt;            &lt;/el-menu-item&gt;          &lt;/el-submenu&gt;        &lt;/el-menu&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="六、首页路由重定向"><a href="#六、首页路由重定向" class="headerlink" title="六、首页路由重定向"></a>六、首页路由重定向</h1><h2 id="6-1-定义组件welcome"><a href="#6-1-定义组件welcome" class="headerlink" title="6.1 定义组件welcome"></a>6.1 定义组件welcome</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711210921.png" alt="image-20210711210920959" class="lazyload"></p>
+<h2 id="6-2-在index中设置作为子页面"><a href="#6-2-在index中设置作为子页面" class="headerlink" title="6.2 在index中设置作为子页面"></a>6.2 在index中设置作为子页面</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711211112.png" alt="image-20210711211112206" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;      path: &#x27;/index&#x27;,      name: &#x27;index&#x27;,      component: index,      redirect:&#x27;/welcome&#x27;,      //打开时重定向到welcome      children:[        &#123;          path:&#x27;/welcome&#x27;,          components:welcome        &#125;      ]      //子路由    &#125;,</span><br></pre></td></tr></table></figure>
+
+<p>6.3 在index相应区域通过下面标签引入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;router-view&gt;&lt;/router-view&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711211239.png" alt="image-20210711211239825" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212343.png" alt="image-20210711212343384" class="lazyload"></p>
+<h5 id="出错点："><a href="#出错点：" class="headerlink" title="出错点："></a>出错点：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cannot read property &#x27;$createElement&#x27; of undefined</span><br></pre></td></tr></table></figure>
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212226.png" alt="image-20210711212226138" class="lazyload"></p>
+<p>其实就是路由配置里的component，要记住是component，不是components,就这么简单</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;      path: &#x27;/index&#x27;,           component: index,      redirect:&#x27;/welcome&#x27;,      children:[        &#123;          path:&#x27;/welcome&#x27;,          component:welcome        &#125;      ]    &#125;,</span><br></pre></td></tr></table></figure>
+
+<h1 id="七、侧边栏路由链接"><a href="#七、侧边栏路由链接" class="headerlink" title="七、侧边栏路由链接"></a>七、侧边栏路由链接</h1><h2 id="7-1-router属性"><a href="#7-1-router属性" class="headerlink" title="7.1 router属性"></a>7.1 router属性</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212752.png" alt="image-20210711212752103" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711212909.png" alt="image-20210711212909372" class="lazyload"></p>
+<p>点击后会跳转到相应index的地方</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213151.png" alt="image-20210711213151004" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213103.gif" alt="2" class="lazyload"></p>
+<p>但是以ID跳转不合适，所以改为以path为依据</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213449.png"></p>
+<p>同时前面加上斜线，即</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:index=&quot;&#x27;/&#x27;+item.path&quot;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>注意是二级菜单</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213927.png" alt="image-20210711213927435" class="lazyload"></p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711213944.png"></p>
+<h1 id="八、用户管理模块"><a href="#八、用户管理模块" class="headerlink" title="八、用户管理模块"></a>八、用户管理模块</h1><h2 id="8-1-用户列表"><a href="#8-1-用户列表" class="headerlink" title="8.1 用户列表"></a>8.1 用户列表</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215122.png" alt="image-20210711215122416" class="lazyload"></p>
+<h3 id="8-1-1-新建users界面"><a href="#8-1-1-新建users界面" class="headerlink" title="8.1.1 新建users界面"></a>8.1.1 新建users界面</h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711214454.png" alt="image-20210711214454360" class="lazyload"></p>
+<h3 id="8-1-2-index-js导入"><a href="#8-1-2-index-js导入" class="headerlink" title="8.1.2 index.js导入"></a>8.1.2 index.js导入</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import users from &#x27;@/components/users/users&#x27;&#123;      path: &#x27;/index&#x27;,           component: index,      redirect:&#x27;/welcome&#x27;,      children:[        &#123;          path:&#x27;/welcome&#x27;,          component:welcome        &#125;,         &#123;          path:&#x27;/users&#x27;,          component:users        &#125;      ]    &#125;,</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意：path要和上面:index的一致</strong></p>
+<h2 id="8-2-绘制用户列表"><a href="#8-2-绘制用户列表" class="headerlink" title="8.2 绘制用户列表"></a>8.2 绘制用户列表</h2><h3 id="8-2-1-头部面包屑"><a href="#8-2-1-头部面包屑" class="headerlink" title="8.2.1 头部面包屑"></a>8.2.1 头部面包屑</h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215904.png" alt="image-20210711215903902" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-breadcrumb separator-class=&quot;el-icon-arrow-right&quot;&gt;      &lt;el-breadcrumb-item :to=&quot;&#123; path: &#x27;/&#x27; &#125;&quot;&gt;首页&lt;/el-breadcrumb-item&gt;      &lt;el-breadcrumb-item&gt;用户管理&lt;/el-breadcrumb-item&gt;      &lt;el-breadcrumb-item&gt;用户列表&lt;/el-breadcrumb-item&gt;    &lt;/el-breadcrumb&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-2-2-面板"><a href="#8-2-2-面板" class="headerlink" title="8.2.2 面板"></a>8.2.2 面板</h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711215954.png" alt="image-20210711215954076" class="lazyload"></p>
+<h3 id="8-2-3-搜索框"><a href="#8-2-3-搜索框" class="headerlink" title="8.2.3 搜索框"></a>8.2.3 搜索框</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;search&quot;&gt;        &lt;div style=&quot;margin-top: 15px&quot;&gt;          &lt;el-input            placeholder=&quot;请输入内容&quot;            v-model=&quot;input3&quot;            class=&quot;input-with-select&quot;          &gt;            &lt;el-button slot=&quot;append&quot; icon=&quot;el-icon-search&quot;&gt;&lt;/el-button&gt;          &lt;/el-input&gt;        &lt;/div&gt;      &lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>布局</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210711220447.png" alt="image-20210711220447715" class="lazyload"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-row&gt;        &lt;el-col :span=&quot;7&quot;&gt;          &lt;div style=&quot;margin-top: 15px&quot;&gt;            &lt;el-input              placeholder=&quot;请输入内容&quot;              v-model=&quot;input3&quot;              class=&quot;input-with-select&quot;            &gt;              &lt;el-button slot=&quot;append&quot; icon=&quot;el-icon-search&quot;&gt;&lt;/el-button&gt;            &lt;/el-input&gt;          &lt;/div&gt;        &lt;/el-col&gt;        &lt;el-col :span=&quot;4&quot;&gt;&lt;/el-col&gt;      &lt;/el-row&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>：span每行元素宽总的是24</strong></p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/d28d.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;d28d.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;d28d.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/C-S-N/" rel="tag">C.S.N</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92"><span class="toc-number">1.</span> <span class="toc-text">一、课程安排</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AD%A6%E5%89%8D%E5%9F%BA%E7%A1%80"><span class="toc-number">1.1.</span> <span class="toc-text">1.学前基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-number">1.2.</span> <span class="toc-text">2.开发工具</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 下载安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 插件安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-%E7%8E%AF%E5%A2%83%E6%A0%A1%E9%AA%8C"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 环境校验</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92"><span class="toc-number">1.3.</span> <span class="toc-text">3.课程安排</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Vue%E7%AE%80%E4%BB%8B"><span class="toc-number">2.</span> <span class="toc-text">二、Vue简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AE%98%E7%BD%91"><span class="toc-number">2.1.</span> <span class="toc-text">1. 官网</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%9C%E8%80%85"><span class="toc-number">2.2.</span> <span class="toc-text">2.作者</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81Node%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">三、Node安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Windows-%E4%B8%8A%E5%AE%89%E8%A3%85-Node-js"><span class="toc-number">3.1.</span> <span class="toc-text">Windows 上安装 Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E5%A4%84"><span class="toc-number">3.2.</span> <span class="toc-text">用处</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81Vue%E5%AE%89%E8%A3%85"><span class="toc-number">4.</span> <span class="toc-text">四、Vue安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E7%8B%AC%E7%AB%8B%E7%89%88%E6%9C%AC"><span class="toc-number">4.1.</span> <span class="toc-text">1、独立版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E4%BD%BF%E7%94%A8-CDN-%E6%96%B9%E6%B3%95"><span class="toc-number">4.2.</span> <span class="toc-text">2、使用 CDN 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81NPM-%E6%96%B9%E6%B3%95"><span class="toc-number">4.3.</span> <span class="toc-text">3、NPM 方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#npm%E9%85%8D%E7%BD%AE"><span class="toc-number">4.3.1.</span> <span class="toc-text">npm配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85-vue-cli"><span class="toc-number">4.3.2.</span> <span class="toc-text">全局安装 vue-cli</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E-webpack-%E6%A8%A1%E6%9D%BF%E7%9A%84%E6%96%B0%E9%A1%B9%E7%9B%AE"><span class="toc-number">4.3.3.</span> <span class="toc-text">创建一个基于 webpack 模板的新项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96"><span class="toc-number">4.3.4.</span> <span class="toc-text">安装依赖</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="toc-number">4.3.5.</span> <span class="toc-text">启动项目</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81vue%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E8%AE%B2%E8%A7%A3"><span class="toc-number">5.</span> <span class="toc-text">五、vue项目目录讲解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#router-x2F-index-js"><span class="toc-number">5.1.</span> <span class="toc-text">router&#x2F;index.js</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%BC%80%E5%A7%8B%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAvue%E9%A1%B9%E7%9B%AE"><span class="toc-number">6.</span> <span class="toc-text">六、开始我们的第一个vue项目</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8vscode%EF%BC%8C%E6%96%B0%E5%BB%BA-vue%E6%96%87%E4%BB%B6%EF%BC%8C%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90vue%E6%96%87%E4%BB%B6%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A8%A1%E6%9D%BF"><span class="toc-number">6.1.</span> <span class="toc-text">1.使用vscode，新建.vue文件，自动生成vue文件代码块模板</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6-%E2%80%93-gt-%E9%A6%96%E9%80%89%E9%A1%B9-%E2%80%93-gt-%E7%94%A8%E6%88%B7%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5-%E2%80%93-gt-%E8%BE%93%E5%85%A5vue%EF%BC%8C%E9%80%89%E6%8B%A9vue-json-%E2%80%93-gt-%E5%A4%8D%E5%88%B6%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E5%86%85%E5%AE%B9%E5%B9%B6%E4%BF%9D%E5%AD%98"><span class="toc-number">6.1.1.</span> <span class="toc-text">文件 –&gt; 首选项 –&gt; 用户代码片段 –&gt; 输入vue，选择vue.json –&gt;复制下面代码内容并保存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E9%85%8D%E7%BD%AE%EF%BC%8C%E8%AE%A9vscode%E5%85%81%E8%AE%B8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E6%8F%90%E7%A4%BA%E5%87%BA%E6%9D%A5"><span class="toc-number">6.1.2.</span> <span class="toc-text">添加配置，让vscode允许自定义的代码片段提示出来</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="toc-number">6.2.</span> <span class="toc-text">2.自动打开浏览器</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%9C%E4%B8%9A1%EF%BC%9A"><span class="toc-number">7.</span> <span class="toc-text">作业1：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E4%BD%BF%E7%94%A8%E8%B7%AF%E7%94%B1%E6%90%AD%E5%BB%BA%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8"><span class="toc-number">8.</span> <span class="toc-text">七、使用路由搭建单页应用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E7%94%A8less%E5%86%99%E6%A0%B7%E5%BC%8F"><span class="toc-number">9.</span> <span class="toc-text">八、用less写样式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFLESS%EF%BC%9F"><span class="toc-number">9.1.</span> <span class="toc-text">什么是LESS？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85less%E4%BE%9D%E8%B5%96%EF%BC%9A"><span class="toc-number">9.2.</span> <span class="toc-text">安装less依赖：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%A4%9A%E5%B1%82%E5%B5%8C%E5%A5%97"><span class="toc-number">9.3.</span> <span class="toc-text">1.多层嵌套</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-less%E4%B8%AD%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">9.4.</span> <span class="toc-text">2.less中变量的使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8B%BC%E6%8E%A5%E5%8F%98%E9%87%8F%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%EF%BC%9B"><span class="toc-number">9.5.</span> <span class="toc-text">3.字符串拼接变量使用方式；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%B7%B7%E5%90%88-x3D-%E5%87%BD%E6%95%B0"><span class="toc-number">9.6.</span> <span class="toc-text">4.混合 &#x3D; 函数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B9%9D%E3%80%81Vue-js-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95"><span class="toc-number">10.</span> <span class="toc-text">九、Vue.js 模板语法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%8F%92%E5%80%BC"><span class="toc-number">10.1.</span> <span class="toc-text">1.插值</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E6%9C%AC"><span class="toc-number">10.1.1.</span> <span class="toc-text">文本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Html"><span class="toc-number">10.1.2.</span> <span class="toc-text">Html</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B1%9E%E6%80%A7"><span class="toc-number">10.1.3.</span> <span class="toc-text">属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">10.1.4.</span> <span class="toc-text">表达式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%8C%87%E4%BB%A4"><span class="toc-number">10.2.</span> <span class="toc-text">2.指令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#v-if"><span class="toc-number">10.2.1.</span> <span class="toc-text">v-if</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#v-model"><span class="toc-number">10.2.2.</span> <span class="toc-text">v-model</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E7%BC%A9%E5%86%99"><span class="toc-number">10.3.</span> <span class="toc-text">3.缩写</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#v-bind-%E7%BC%A9%E5%86%99"><span class="toc-number">10.3.1.</span> <span class="toc-text">v-bind 缩写</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#v-on-%E7%BC%A9%E5%86%99"><span class="toc-number">10.3.2.</span> <span class="toc-text">v-on 缩写</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E3%80%81Vue-js-%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5"><span class="toc-number">11.</span> <span class="toc-text">十、Vue.js 条件语句</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD"><span class="toc-number">11.1.</span> <span class="toc-text">1.条件判断</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#v-if-1"><span class="toc-number">11.1.1.</span> <span class="toc-text">v-if</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#v-else"><span class="toc-number">11.1.2.</span> <span class="toc-text">v-else</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#v-show"><span class="toc-number">11.1.3.</span> <span class="toc-text">v-show</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E4%B8%80-Vue-js-%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">12.</span> <span class="toc-text">十一.Vue.js 循环语句</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#v-for"><span class="toc-number">12.1.</span> <span class="toc-text">v-for</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E4%BA%8C%E3%80%81Vue-js-%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7"><span class="toc-number">13.</span> <span class="toc-text">十二、Vue.js 计算属性</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#computed-vs-methods"><span class="toc-number">13.1.</span> <span class="toc-text">computed vs methods</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E4%B8%89%E3%80%81Vue-js-%E7%9B%91%E5%90%AC%E5%B1%9E%E6%80%A7"><span class="toc-number">14.</span> <span class="toc-text">十三、Vue.js 监听属性</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Vue-js-%E7%9B%91%E5%90%AC%E5%B1%9E%E6%80%A7-watch"><span class="toc-number">14.1.</span> <span class="toc-text">Vue.js 监听属性 watch</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E5%9B%9B%E3%80%81Vue-js-%E8%A1%A8%E5%8D%95"><span class="toc-number">15.</span> <span class="toc-text">十四、Vue.js 表单</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#v-model-1"><span class="toc-number">15.1.</span> <span class="toc-text">v-model</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B%E4%B8%80%EF%BC%9A%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD"><span class="toc-number">16.</span> <span class="toc-text">案例一：图片轮播</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%9C%E4%B8%9A2%EF%BC%9A%E8%87%AA%E5%8A%A8%E6%92%AD%E6%94%BE%E8%BD%AE%E6%92%AD%E5%9B%BE"><span class="toc-number">17.</span> <span class="toc-text">作业2：自动播放轮播图</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E4%BA%94%E3%80%81%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">18.</span> <span class="toc-text">十五、父子组件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%EF%BC%89%E5%88%9B%E5%BB%BA%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">18.1.</span> <span class="toc-text">1）创建子组件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%EF%BC%89%E5%9C%A8%E7%88%B6%E7%BB%84%E4%BB%B6%E4%B8%AD%E5%BC%95%E5%85%A5%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">18.2.</span> <span class="toc-text">2）在父组件中引入子组件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%EF%BC%89%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1"><span class="toc-number">18.3.</span> <span class="toc-text">3）父子组件通信</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E5%85%AD%E3%80%81%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98"><span class="toc-number">19.</span> <span class="toc-text">十六、项目实战</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0"><span class="toc-number">20.</span> <span class="toc-text">一、项目概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="toc-number">20.1.</span> <span class="toc-text">1.学习目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84"><span class="toc-number">20.2.</span> <span class="toc-text">2.项目结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0"><span class="toc-number">20.3.</span> <span class="toc-text">3.项目概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%8A%9F%E8%83%BD"><span class="toc-number">20.4.</span> <span class="toc-text">4.功能</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F"><span class="toc-number">20.5.</span> <span class="toc-text">5.开发模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E6%A0%88"><span class="toc-number">20.6.</span> <span class="toc-text">6.前端技术栈</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E9%A1%B9%E7%9B%AE%E5%88%9B%E5%BB%BA"><span class="toc-number">21.</span> <span class="toc-text">二、项目创建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-1%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E-webpack-%E6%A8%A1%E6%9D%BF%E7%9A%84%E6%96%B0%E9%A1%B9%E7%9B%AE"><span class="toc-number">21.0.1.</span> <span class="toc-text">2.2.1创建一个基于 webpack 模板的新项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-2%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96"><span class="toc-number">21.0.2.</span> <span class="toc-text">2.2.2安装依赖</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-3%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="toc-number">21.0.3.</span> <span class="toc-text">2.2.3启动项目</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-ElementUI"><span class="toc-number">21.1.</span> <span class="toc-text">2.3 ElementUI</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-npm-%E5%AE%89%E8%A3%85"><span class="toc-number">21.1.1.</span> <span class="toc-text">2.3.1 npm 安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-2-%E5%BC%95%E5%85%A5Element"><span class="toc-number">21.1.2.</span> <span class="toc-text">2.3.2 引入Element</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-3-%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE"><span class="toc-number">21.1.3.</span> <span class="toc-text">2.3.3 全局配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-Axios"><span class="toc-number">21.2.</span> <span class="toc-text">2.4 Axios</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-1-%E4%BD%BF%E7%94%A8-npm"><span class="toc-number">21.2.1.</span> <span class="toc-text">2.4.1 使用 npm:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-2-%E4%BD%BF%E7%94%A8-cdn"><span class="toc-number">21.2.2.</span> <span class="toc-text">2.4.2.使用 cdn:</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5%E3%80%81%E7%94%A8less%E5%86%99%E6%A0%B7%E5%BC%8F"><span class="toc-number">21.3.</span> <span class="toc-text">2.5、用less写样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-1%E4%BB%80%E4%B9%88%E6%98%AFLESS%EF%BC%9F"><span class="toc-number">21.3.1.</span> <span class="toc-text">2.5.1什么是LESS？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-2%E5%AE%89%E8%A3%85less%E4%BE%9D%E8%B5%96%EF%BC%9A"><span class="toc-number">21.3.2.</span> <span class="toc-text">2.5.2安装less依赖：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-3-%E5%A4%9A%E5%B1%82%E5%B5%8C%E5%A5%97"><span class="toc-number">21.3.3.</span> <span class="toc-text">2.5.3.多层嵌套</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%90%8E%E7%AB%AF%E6%8E%A5%E5%8F%A3"><span class="toc-number">22.</span> <span class="toc-text">三、后端接口</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-API-V1-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E"><span class="toc-number">22.1.</span> <span class="toc-text">3.1. API V1 接口说明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E6%94%AF%E6%8C%81%E7%9A%84%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95"><span class="toc-number">22.1.1.</span> <span class="toc-text">3.1.1. 支持的请求方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-%E9%80%9A%E7%94%A8%E8%BF%94%E5%9B%9E%E7%8A%B6%E6%80%81%E8%AF%B4%E6%98%8E"><span class="toc-number">22.1.2.</span> <span class="toc-text">3.1.2. 通用返回状态说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-3-postman%E6%B5%8B%E8%AF%95"><span class="toc-number">22.1.3.</span> <span class="toc-text">3.1.3 postman测试</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E7%99%BB%E5%BD%95"><span class="toc-number">23.</span> <span class="toc-text">四、登录</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-%E7%99%BB%E5%BD%95%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B"><span class="toc-number">23.1.</span> <span class="toc-text">4.1.登录业务流程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-%E7%99%BB%E5%BD%95%E4%B8%9A%E5%8A%A1%E7%9A%84%E7%9B%B8%E5%85%B3%E6%8A%80%E6%9C%AF%E7%82%B9"><span class="toc-number">23.2.</span> <span class="toc-text">4.2.登录业务的相关技术点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-3-token"><span class="toc-number">23.3.</span> <span class="toc-text">4.3 token</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-4-%E5%AE%9E%E7%8E%B0%E7%99%BB%E5%BD%95%E5%8A%9F%E8%83%BD"><span class="toc-number">23.4.</span> <span class="toc-text">4.4 实现登录功能</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-1-%E5%B8%83%E5%B1%80"><span class="toc-number">23.4.1.</span> <span class="toc-text">4.4.1 布局</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-2-%E5%88%9B%E5%BB%BA%E9%A1%B5%E9%9D%A2"><span class="toc-number">23.4.2.</span> <span class="toc-text">4.4.2 创建页面</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-logo"><span class="toc-number">23.4.2.1.</span> <span class="toc-text">1.logo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E8%BE%93%E5%85%A5%E6%A1%86"><span class="toc-number">23.4.2.2.</span> <span class="toc-text">2.输入框</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A"><span class="toc-number">23.4.2.3.</span> <span class="toc-text">3.数据绑定</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E9%AA%8C%E8%AF%81%E8%A7%84%E5%88%99"><span class="toc-number">23.4.2.4.</span> <span class="toc-text">4.验证规则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E7%99%BB%E9%99%86%E9%A2%84%E9%AA%8C%E8%AF%81"><span class="toc-number">23.4.2.5.</span> <span class="toc-text">5.登陆预验证</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-axios"><span class="toc-number">23.4.2.6.</span> <span class="toc-text">6.axios</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-3-token"><span class="toc-number">23.4.3.</span> <span class="toc-text">4.4.3 token</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-5-%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB"><span class="toc-number">23.4.3.0.1.</span> <span class="toc-text">4.5 实现导航守卫</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-5-%E9%80%80%E5%87%BA%E7%99%BB%E5%BD%95"><span class="toc-number">23.5.</span> <span class="toc-text">4.5 退出登录</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-5-1-%E9%80%80%E5%87%BA%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86"><span class="toc-number">23.5.1.</span> <span class="toc-text">4.5.1 退出功能实现原理</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E4%B8%BB%E9%A1%B5"><span class="toc-number">24.</span> <span class="toc-text">五、主页</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E5%B8%83%E5%B1%80"><span class="toc-number">24.1.</span> <span class="toc-text">5.1 布局</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-css"><span class="toc-number">24.2.</span> <span class="toc-text">5.2 css</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%B8%89%E5%9D%97%E9%A2%9C%E8%89%B2"><span class="toc-number">24.2.1.</span> <span class="toc-text">1.三块颜色</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-3-header"><span class="toc-number">24.3.</span> <span class="toc-text">5.3 header</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-4-aside"><span class="toc-number">24.4.</span> <span class="toc-text">5.4 aside</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-5-%E8%8E%B7%E5%8F%96%E8%8F%9C%E5%8D%95%E6%95%B0%E6%8D%AE"><span class="toc-number">24.5.</span> <span class="toc-text">5.5 获取菜单数据</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-5-1-Axios%E6%B7%BB%E5%8A%A0Authorization"><span class="toc-number">24.5.1.</span> <span class="toc-text">5.5.1 Axios添加Authorization</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-5-2-api%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE"><span class="toc-number">24.5.2.</span> <span class="toc-text">5.5.2 api获取数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-5-3-%E6%B8%B2%E6%9F%93%E5%88%B0%E9%A1%B5%E9%9D%A2"><span class="toc-number">24.5.3.</span> <span class="toc-text">5.5.3 渲染到页面</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E9%A6%96%E9%A1%B5%E8%B7%AF%E7%94%B1%E9%87%8D%E5%AE%9A%E5%90%91"><span class="toc-number">25.</span> <span class="toc-text">六、首页路由重定向</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#6-1-%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6welcome"><span class="toc-number">25.1.</span> <span class="toc-text">6.1 定义组件welcome</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-2-%E5%9C%A8index%E4%B8%AD%E8%AE%BE%E7%BD%AE%E4%BD%9C%E4%B8%BA%E5%AD%90%E9%A1%B5%E9%9D%A2"><span class="toc-number">25.2.</span> <span class="toc-text">6.2 在index中设置作为子页面</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%87%BA%E9%94%99%E7%82%B9%EF%BC%9A"><span class="toc-number">25.2.0.0.1.</span> <span class="toc-text">出错点：</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E4%BE%A7%E8%BE%B9%E6%A0%8F%E8%B7%AF%E7%94%B1%E9%93%BE%E6%8E%A5"><span class="toc-number">26.</span> <span class="toc-text">七、侧边栏路由链接</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#7-1-router%E5%B1%9E%E6%80%A7"><span class="toc-number">26.1.</span> <span class="toc-text">7.1 router属性</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97"><span class="toc-number">27.</span> <span class="toc-text">八、用户管理模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#8-1-%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8"><span class="toc-number">27.1.</span> <span class="toc-text">8.1 用户列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#8-1-1-%E6%96%B0%E5%BB%BAusers%E7%95%8C%E9%9D%A2"><span class="toc-number">27.1.1.</span> <span class="toc-text">8.1.1 新建users界面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-1-2-index-js%E5%AF%BC%E5%85%A5"><span class="toc-number">27.1.2.</span> <span class="toc-text">8.1.2 index.js导入</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-2-%E7%BB%98%E5%88%B6%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8"><span class="toc-number">27.2.</span> <span class="toc-text">8.2 绘制用户列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#8-2-1-%E5%A4%B4%E9%83%A8%E9%9D%A2%E5%8C%85%E5%B1%91"><span class="toc-number">27.2.1.</span> <span class="toc-text">8.2.1 头部面包屑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-2-2-%E9%9D%A2%E6%9D%BF"><span class="toc-number">27.2.2.</span> <span class="toc-text">8.2.2 面板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-2-3-%E6%90%9C%E7%B4%A2%E6%A1%86"><span class="toc-number">27.2.3.</span> <span class="toc-text">8.2.3 搜索框</span></a></li></ol></li></ol></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613881858"></script>
+
+
+	<script async src="/js/search.js?v=1648613881858"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

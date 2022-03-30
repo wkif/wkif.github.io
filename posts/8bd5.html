@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="PicGo一个用于快速上传图片并获取图片URL链接的工具  PicGo官网：PicGo下载：仓库地址按照官方安装方法安装 注：在安装的时候安装目录千万不能选C:\Program Files\下的任何地方，因为PicGo无法解析这一路径，如果你不知道安装在哪里的话，选择仅为我安装，否则在设置Typora时会出现错误： Github仓库图床新建Public Github仓库创建Repository点击">
+<meta property="og:type" content="article">
+<meta property="og:title" content="个人博客搭建（3）:Typora+PicGo+Github&#x2F;Gitee搭建免费稳定的图床">
+<meta property="og:url" content="http://www.kifroom.icu/posts/8bd5.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="PicGo一个用于快速上传图片并获取图片URL链接的工具  PicGo官网：PicGo下载：仓库地址按照官方安装方法安装 注：在安装的时候安装目录千万不能选C:\Program Files\下的任何地方，因为PicGo无法解析这一路径，如果你不知道安装在哪里的话，选择仅为我安装，否则在设置Typora时会出现错误： Github仓库图床新建Public Github仓库创建Repository点击">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721122645.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123236.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123320.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721124302.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133202.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133821.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133924.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721134318.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721135358.png">
+<meta property="article:published_time" content="2020-07-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-11-27T03:21:43.768Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721122645.png">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613882064">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613882064">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613882064">
+    <link rel="stylesheet" href="/css/style.css?v=1648613882064">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613882064">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床" class="lazyload">
+              <h1>个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年07月21日</a>
+</div>
+
+      
+
+      <h1 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a><a href="#PicGo" title="PicGo"></a>PicGo</h1><p>一个用于快速上传图片并获取图片URL链接的工具</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721122645.png" alt="picgo" class="lazyload"></p>
+<h2 id="PicGo官网：PicGo"><a href="#PicGo官网：PicGo" class="headerlink" title="PicGo官网：PicGo"></a><a href="#PicGo%E5%AE%98%E7%BD%91%EF%BC%9APicGo" title="PicGo官网：PicGo"></a>PicGo官网：<a target="_blank" rel="noopener" href="https://picgo.github.io/PicGo-Doc/zh/">PicGo</a></h2><h2 id="下载：仓库地址"><a href="#下载：仓库地址" class="headerlink" title="下载：仓库地址"></a><a href="#%E4%B8%8B%E8%BD%BD%EF%BC%9A%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80" title="下载：仓库地址"></a>下载：<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">仓库地址</a></h2><p>按照官方安装方法安装</p>
+<p>注：在安装的时候安装目录千万不能选<code>C:\Program Files\</code>下的任何地方，因为PicGo无法解析这一路径，如果你不知道安装在哪里的话，选择<code>仅为我安装</code>，否则在<a target="_blank" rel="noopener" href="https://www.cnblogs.com/focksor/p/12402471.html#%E8%AE%BE%E7%BD%AETypora">设置Typora</a>时会出现错误：</p>
+<h1 id="Github仓库图床"><a href="#Github仓库图床" class="headerlink" title="Github仓库图床"></a><a href="#Github%E4%BB%93%E5%BA%93%E5%9B%BE%E5%BA%8A" title="Github仓库图床"></a>Github仓库图床</h1><h2 id="新建Public-Github仓库"><a href="#新建Public-Github仓库" class="headerlink" title="新建Public Github仓库"></a><a href="#%E6%96%B0%E5%BB%BAPublic-Github%E4%BB%93%E5%BA%93" title="新建Public Github仓库"></a>新建Public Github仓库</h2><p>创建Repository<br>点击”New repository”按钮，仓库名字随意</p>
+<h3 id="新生成一个Personal-access-tokens"><a href="#新生成一个Personal-access-tokens" class="headerlink" title="新生成一个Personal access tokens"></a><a href="#%E6%96%B0%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AAPersonal-access-tokens" title="新生成一个Personal access tokens"></a>新生成一个Personal access tokens</h3><p>生成一个Token用于操作GitHub repository<br><code>Settings --&amp;gt; Developer Settings --&amp;gt; Personal access tokens</code></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123236.png" alt="setting" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123320.png" alt="Developer Settings" class="lazyload"></p>
+<p>![Personal access tokens&#96;](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721123456.png">https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img&#x2F;20200721123456.png</a>)</p>
+<p>生成Token</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721124302.png" alt="token" class="lazyload"></p>
+<p>会生成如上图的一串token，这串token之后不会再显示，所以第一次看到的时候，可以建个文本文件保存，忘记了只有重新生成，每次都不一样。</p>
+<h1 id="PicGo配置"><a href="#PicGo配置" class="headerlink" title="PicGo配置"></a><a href="#PicGo%E9%85%8D%E7%BD%AE" title="PicGo配置"></a>PicGo配置</h1><h2 id="配置Github图床"><a href="#配置Github图床" class="headerlink" title="配置Github图床"></a><a href="#%E9%85%8D%E7%BD%AEGithub%E5%9B%BE%E5%BA%8A" title="配置Github图床"></a>配置Github图床</h2><h3 id="填写说明"><a href="#填写说明" class="headerlink" title="填写说明"></a><a href="#%E5%A1%AB%E5%86%99%E8%AF%B4%E6%98%8E" title="填写说明"></a><em>填写说明</em></h3><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133202.png" alt="picgo" class="lazyload"></p>
+<p>仓库名：按照“账户名&#x2F;仓库名的格式填写”，比如我的是wkif&#x2F;ImageHosting</p>
+<p>分支名：填写master<br>TOKEN：Token粘贴在这里<br>路径：可留空，如需自己填写记得末尾加上&#x2F;<br>设定自定义域名：自定义域名的作用是在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接，放到剪切板上，这里我用到了jsdeliver  的免费CDN加速，自定义域名需要按照这样去填写：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/%E8%B4%A6%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D/master%EF%BC%8C%E6%AF%94%E5%A6%82%E6%88%91%E7%9A%84%E6%98%AF%EF%BC%9Ahttps://cdn.jsdelivr.net/gh/wkif/ImageHosting">https://cdn.jsdelivr.net/账户名/仓库名/master，比如我的是：https://cdn.jsdelivr.net/gh/wkif/ImageHosting</a></p>
+<h1 id="Typora配置PicGo"><a href="#Typora配置PicGo" class="headerlink" title="Typora配置PicGo"></a><a href="#Typora%E9%85%8D%E7%BD%AEPicGo" title="Typora配置PicGo"></a>Typora配置PicGo</h1><h2 id="下载Typora"><a href="#下载Typora" class="headerlink" title="下载Typora"></a><a href="#%E4%B8%8B%E8%BD%BDTypora" title="下载Typora"></a>下载Typora</h2><p><a target="_blank" rel="noopener" href="https://www.typora.io/">下载地址</a></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a><a href="#%E9%85%8D%E7%BD%AE" title="配置"></a>配置</h2><p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133821.png" alt="typora" class="lazyload"></p>
+<p>验证设置是否正确</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721133924.png" alt="验证" class="lazyload"></p>
+<h2 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a><a href="#%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3" title="错误解决"></a>错误解决</h2><p>错误1：</p>
+<p><code>failed to launch PicGo app: Command failed: C:\Program Files\PicGo\PicGo.exe &#39;C:\Program&#39; �����ڲ����ⲿ���Ҳ���ǿ����еĳ��� ���������ļ���</code></p>
+<p>前面提到的安装的问题，不要放在c盘下</p>
+<p>错误2：</p>
+<p>&#96;</p>
+<p>Failed to fetch</p>
+<p>&#96;</p>
+<p>way:</p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721134318.png" alt="1" class="lazyload"></p>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/kif_img/20200721135358.png" alt="2" class="lazyload"></p>
+<h1 id="gitee的后续在写吧！"><a href="#gitee的后续在写吧！" class="headerlink" title="gitee的后续在写吧！"></a><a href="#gitee%E7%9A%84%E5%90%8E%E7%BB%AD%E5%9C%A8%E5%86%99%E5%90%A7%EF%BC%81" title="gitee的后续在写吧！"></a>gitee的后续在写吧！</h1>
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/8bd5.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;8bd5.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;8bd5.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/hexo/" rel="tag">hexo</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PicGo"><span class="toc-number">1.</span> <span class="toc-text">PicGo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo%E5%AE%98%E7%BD%91%EF%BC%9APicGo"><span class="toc-number">1.1.</span> <span class="toc-text">PicGo官网：PicGo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%EF%BC%9A%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80"><span class="toc-number">1.2.</span> <span class="toc-text">下载：仓库地址</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Github%E4%BB%93%E5%BA%93%E5%9B%BE%E5%BA%8A"><span class="toc-number">2.</span> <span class="toc-text">Github仓库图床</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E5%BB%BAPublic-Github%E4%BB%93%E5%BA%93"><span class="toc-number">2.1.</span> <span class="toc-text">新建Public Github仓库</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B0%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AAPersonal-access-tokens"><span class="toc-number">2.1.1.</span> <span class="toc-text">新生成一个Personal access tokens</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PicGo%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">PicGo配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEGithub%E5%9B%BE%E5%BA%8A"><span class="toc-number">3.1.</span> <span class="toc-text">配置Github图床</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A1%AB%E5%86%99%E8%AF%B4%E6%98%8E"><span class="toc-number">3.1.1.</span> <span class="toc-text">填写说明</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Typora%E9%85%8D%E7%BD%AEPicGo"><span class="toc-number">4.</span> <span class="toc-text">Typora配置PicGo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BDTypora"><span class="toc-number">4.1.</span> <span class="toc-text">下载Typora</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE"><span class="toc-number">4.2.</span> <span class="toc-text">配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3"><span class="toc-number">4.3.</span> <span class="toc-text">错误解决</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#gitee%E7%9A%84%E5%90%8E%E7%BB%AD%E5%9C%A8%E5%86%99%E5%90%A7%EF%BC%81"><span class="toc-number">5.</span> <span class="toc-text">gitee的后续在写吧！</span></a></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613882066"></script>
+
+
+	<script async src="/js/search.js?v=1648613882066"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

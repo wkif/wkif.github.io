@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>vue axios传中文参数导致乱码的解决方案 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="问题描述1234567891011121314151617181920var that &#x3D; this;         var name &#x3D; that.signform.signname;         var username &#x3D; that.signform.signusername;         var password &#x3D; that.signform.signpassword;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue axios传中文参数导致乱码的解决方案">
+<meta property="og:url" content="http://www.kifroom.icu/posts/33d0.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="问题描述1234567891011121314151617181920var that &#x3D; this;         var name &#x3D; that.signform.signname;         var username &#x3D; that.signform.signusername;         var password &#x3D; that.signform.signpassword;">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225180537.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225180735.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225181426.png">
+<meta property="article:published_time" content="2020-12-25T09:59:00.000Z">
+<meta property="article:modified_time" content="2020-12-25T10:15:28.383Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="Vue">
+<meta property="article:tag" content="Axios">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225180537.png">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613881962">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613881962">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613881962">
+    <link rel="stylesheet" href="/css/style.css?v=1648613881962">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613881962">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="vue axios传中文参数导致乱码的解决方案" class="lazyload">
+              <h1>vue axios传中文参数导致乱码的解决方案</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年12月25日</a>
+</div>
+
+      
+
+      <h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">var that = this;</span><br><span class="line">         var name = that.signform.signname;</span><br><span class="line">         var username = that.signform.signusername;</span><br><span class="line">         var password = that.signform.signpassword;</span><br><span class="line">         var user_type = that.sign_user_type;</span><br><span class="line">         var email = that.signform.mailAddress;</span><br><span class="line">         var studentid = that.signform.studentid;</span><br><span class="line">         this.$axios(&#123;</span><br><span class="line">           method: &quot;post&quot;,</span><br><span class="line">           url:</span><br><span class="line">             this.$api +</span><br><span class="line">             `/Register/?name=$&#123;name&#125;&amp;username=$&#123;username&#125;&amp;password=$&#123;password&#125;&amp;user_type=$&#123;user_type&#125;&amp;email=$&#123;email&#125;&amp;studentid=$&#123;studentid&#125;`, //利用了字符串模板来携带id</span><br><span class="line">         &#125;)</span><br><span class="line">           .then((res) =&gt; &#123;</span><br><span class="line">             console.log(res);</span><br><span class="line">             this.changeCode();</span><br><span class="line">           &#125;)</span><br><span class="line">           .catch((req) =&gt; &#123;</span><br><span class="line">             // console.log(req);</span><br><span class="line">           &#125;);</span><br></pre></td></tr></table></figure>
+
+<p>在vue axios post 请求注册用户时，刚开始通过如上字符拼接形式调用api时，在服务器后端出现了utf-8汉语乱码：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225180537.png"></p>
+<p>图中name字段本是中文，服务器后端出现了utf-8汉语乱码，</p>
+<p>查询bing后有如下几种解决办法：</p>
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225180735.png"></p>
+<p>其中有添加</p>
+<ol>
+<li>headers: {</li>
+<li>​            “Content-Type”: “application&#x2F;x-www-form-urlencoded;charset&#x3D;UTF-8”</li>
+<li>​                                    },</li>
+</ol>
+<p>但个人实验了一下没有解决问题，</p>
+<p>之后又试了下js函数把字符转换，没有解决问题。</p>
+<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>使用vue axios推荐的vue-axios的使用及其get与post网络请求</p>
+<p>即：</p>
+<p>get请求时用如下方式代替字符拼接方式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">// Optionally the request above could also be done as</span><br><span class="line">axios.get(&#x27;/user&#x27;, &#123;</span><br><span class="line">    params: &#123;</span><br><span class="line">      ID: 12345</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  .then(function (response) &#123;</span><br><span class="line">    console.log(response);</span><br><span class="line">  &#125;)</span><br><span class="line">  .catch(function (error) &#123;</span><br><span class="line">    console.log(error);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+
+<p>post请求时一样：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">axios.post(&#x27;/user&#x27;, &#123;</span><br><span class="line">    firstName: &#x27;Fred&#x27;,</span><br><span class="line">    lastName: &#x27;Flintstone&#x27;</span><br><span class="line">  &#125;)</span><br><span class="line">  .then(function (response) &#123;</span><br><span class="line">    console.log(response);</span><br><span class="line">  &#125;)</span><br><span class="line">  .catch(function (error) &#123;</span><br><span class="line">    console.log(error);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<p>所以项目中最终采取的代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">let data = new FormData();</span><br><span class="line">data.append(&quot;name&quot;, this.signform.signname);</span><br><span class="line">data.append(&quot;username&quot;, this.signform.signusername);</span><br><span class="line">data.append(&quot;password&quot;, this.signform.signpassword);</span><br><span class="line">data.append(&quot;user_type&quot;, this.sign_user_type);</span><br><span class="line">data.append(&quot;email&quot;, this.signform.mailAddress);</span><br><span class="line">data.append(&quot;studentid&quot;, this.signform.studentid);</span><br><span class="line">console.log(data);</span><br><span class="line">var that = this;</span><br><span class="line">axios</span><br><span class="line">  .post(this.$api + &quot;/Register/&quot;, data) //以slash结尾</span><br><span class="line">  .then(function (response) &#123;</span><br><span class="line">    console.log(response.data);</span><br><span class="line">  &#125;)</span><br><span class="line">  .catch((err) =&gt; &#123;&#125;);</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20201225181426.png"></p>
+<p>注意的时此时后台时没有显示字段的，但是数据库里已经加入了（注册功能哈）。</p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/33d0.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;33d0.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;33d0.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/Axios/" rel="tag">Axios</a> <a class="nexmoefont icon-tag-fill -none-link" href="/tags/Vue/" rel="tag">Vue</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">问题描述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">方法：</span></a></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613881966"></script>
+
+
+	<script async src="/js/search.js?v=1648613881966"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

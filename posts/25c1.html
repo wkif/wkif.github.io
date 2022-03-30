@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>玩机汇总（一）：刷机常识，双清，BL，REC，TWRP - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="本文介绍手机刷机常识，双清，BL，REC，TWRP  前排提示：本文转载自一加社区：http:&#x2F;&#x2F;www.oneplusbbs.com&#x2F;thread-3851619-1-1.html 对于刷机里面一些概念的理解首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释： BL锁BL锁就是bootloader锁，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="玩机汇总（一）：刷机常识，双清，BL，REC，TWRP">
+<meta property="og:url" content="http://www.kifroom.icu/posts/25c1.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="本文介绍手机刷机常识，双清，BL，REC，TWRP  前排提示：本文转载自一加社区：http:&#x2F;&#x2F;www.oneplusbbs.com&#x2F;thread-3851619-1-1.html 对于刷机里面一些概念的理解首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释： BL锁BL锁就是bootloader锁，">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-06-15T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-11-27T03:35:15.763Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="玩机">
+<meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613882083">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613882083">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613882083">
+    <link rel="stylesheet" href="/css/style.css?v=1648613882083">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613882084">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="玩机汇总（一）：刷机常识，双清，BL，REC，TWRP" class="lazyload">
+              <h1>玩机汇总（一）：刷机常识，双清，BL，REC，TWRP</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年06月16日</a>
+</div>
+
+      
+
+      <p>  本文介绍手机刷机常识，双清，BL，REC，TWRP</p>
+<p><a id="more"></a></p>
+<p>前排提示：<br>本文转载自一加社区：<a target="_blank" rel="noopener" href="http://www.oneplusbbs.com/thread-3851619-1-1.html">http://www.oneplusbbs.com/thread-3851619-1-1.html</a></p>
+<h1 id="对于刷机里面一些概念的理解"><a href="#对于刷机里面一些概念的理解" class="headerlink" title="对于刷机里面一些概念的理解"></a><a href="#%E5%AF%B9%E4%BA%8E%E5%88%B7%E6%9C%BA%E9%87%8C%E9%9D%A2%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5%E7%9A%84%E7%90%86%E8%A7%A3" title="对于刷机里面一些概念的理解"></a>对于刷机里面一些概念的理解</h1><p>首先，小白们的手机出了问题，论坛里的大佬们提出了解决方法，小白们却还是不会操作，根目录是什么呢，双清又是啥？下面我就对一些操作做一些简单的解释：</p>
+<h2 id="BL锁"><a href="#BL锁" class="headerlink" title="BL锁"></a><a href="#BL%E9%94%81" title="BL锁　　"></a>BL锁</h2><p>BL锁就是bootloader锁，BL从安卓问世以来一直存在，它的功能在我看来应该是限制用户刷第三方ROM和降级系统。在锁住bl的情况下，用户是根本不可能刷第三方ROM和第三方recovery的，最多也就是刷个基于官方的精简包。bl还有一个恶心的限制就是root，所有要root的机器，都必须解锁才能获取。那有人就问了，为什么以前的老机器和安卓4点几的机子都可以一键root呢，这是因为以前的机器bl锁等级低，我们可以利用bl锁的漏洞，绕过bl解锁。然而现在的系统BL等级比较高，自然就无法绕过BL锁去root了。</p>
+<h2 id="REC"><a href="#REC" class="headerlink" title="REC"></a><a href="#REC" title="REC　　"></a>REC</h2><p>REC是Recovery的缩写，是每部安卓机出厂时自带的恢复模式，不过那都是官方的Recovery。Recovery就是像是电脑上的小型winPE系统，winPE可以在电脑上安装操作系统，或者做些备份、管理的工作。如果把手机比喻成房屋，那么地皮就像手机的硬件，房子像手机系统，建房子的各种工具就是就是Recovery了。官方Recovery只能用来刷入官方的系统，如果你想刷入别的系统，只能通过第三方Recovery来实现，但是，你平时所用到的在线升级也就是OTA升级，是基于官方Rec的，如果你刷入了第三方Rec，OTA升级就会失败。</p>
+<h2 id="TWRP"><a href="#TWRP" class="headerlink" title="TWRP"></a><a href="#TWRP" title="TWRP"></a>TWRP</h2><p>TWRP是国外android爱好者开发的一个第三方REC，全名是：TeamWin Recovery Project，也是我们现在刷第三方ROM通常用到的REC。</p>
+<h2 id="双清"><a href="#双清" class="headerlink" title="双清"></a><a href="#%E5%8F%8C%E6%B8%85" title="双清"></a>双清</h2><pre>`  　wipe data/factory reset：清除用户数据并恢复出厂设置
+  　wipecache partition：清除系统缓存 ，
+  　一般刷机前执行，具体看资源发布者的要求。`</pre>
+
+<h2 id="三清"><a href="#三清" class="headerlink" title="三清"></a><a href="#%E4%B8%89%E6%B8%85" title="三清"></a>三清</h2><pre>` 　 wipe data/factory reset：清除用户数据并恢复出厂设置
+  　wipe cache partition：清除系统缓存
+  　wipe dalvik cache：清除安卓虚拟机缓存
+  　具体看资源发布者的要求。
+
+## [](#四清 "四清")四清
+
+　　wipe data/factory reset：清除用户数据并恢复出厂设置
+　　wipe cache partition：清除系统缓存
+　　wipe dalvik cache：清除安卓虚拟机缓存
+　　wipe system：清除系统
+　　该操作可以更干净地刷入新系统，但并不建议也尽量不要四清，具体看资源发布者的要求。
+　　在这里我要说一下，很多人会觉得四清五清等多清会让刷入的系统更干净，其实这是一种误区，这样子很容易引起手机卡信号基带异常，例如电信卡无法出现4G+等情况出现，内存卡异常等问题，很多人说刷机过后信号没了，就是刷机多清的问题，除了首次刷机需要格式化内存卡，刷回官方固件的时候会自动清卡以外，其他时候完全没必要多清。
+       System这个分区基本包含了整个安卓操作系统，包括安卓用户界面、和所有预装的系统应用程序。擦除这个分区，会删除整个安卓系统，但不会导致不能启动。你可以通过进入Recovery程序，安装一个新ROM，也就是新的安卓系统。双清三清四清会清空个人的用户数据包括 ：应用程序、短信信息、联系人、通讯录、应用数据等等…，但不会清空内置卡如 图片、音乐、个人文件等等（此话来源于DK大佬……懒得打直接复制了）。
+
+## [](#根目录 "根目录　　")根目录　　
+
+楼主想了一下，觉得有必要为小白们科普一下什么是根目录。根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。点开手机内部储存看到的就是手机的根目录，同理，在电脑上也是一样，打开“我的电脑”，双击C盘就进入C盘的根目录，双击D盘就进入D盘的根目录，点开游戏文件夹看到的就是游戏的根目录。
+
+# [](#刷机过程和图文操作详解 "刷机过程和图文操作详解")刷机过程和图文操作详解
+
+## [](#如何在无需解BL锁不ROOT的情况下刷官方系统？ "如何在无需解BL锁不ROOT的情况下刷官方系统？")如何在无需解BL锁不ROOT的情况下刷官方系统？
+
+直接官方REC刷入官方ROM（全量包）：把官方刷机包放到手机根目录，进入设置-系统升级，点一下系统升级右上角的齿轮。选择本地升级，选择你刚才放入的官方刷机包，就跟平时升级一样的，不过降级建议恢复出厂设置。
+
+## [](#如何ROOT以及刷入第三方系统？ "如何ROOT以及刷入第三方系统？")如何ROOT以及刷入第三方系统？
+
+这两种操作的前提都是解BL锁和刷入第三方REC：TWRP。
+
+第一次ROOT和刷机需要电脑，看到这里，如果你的手机没有解过BL锁而且身边没有电脑，那么你现在可以暂时放弃学习这篇帖子了。
+
+ROOT：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把ROOT包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面安装ROOT包。（注意，安卓8.0系统的ROOT包只能选Magisk。)
+
+最常见的ROOT包有两种：supersu和Magisk。
+
+如果想卸载，直接卡刷卸载包
+
+刷入第三方系统：（第一次的话解BL锁→刷入第三方REC：TWRP，以后不用进行此操作）→把系统ROM包放在手机根目录，长按音量减和电源键，进入REC（recovery mode）,也就是TWRP界面，安装下载的系统ROM。
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/25c1.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;25c1.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;25c1.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E7%8E%A9%E6%9C%BA/" rel="tag">玩机</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%B9%E4%BA%8E%E5%88%B7%E6%9C%BA%E9%87%8C%E9%9D%A2%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">1.</span> <span class="toc-text">对于刷机里面一些概念的理解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#BL%E9%94%81"><span class="toc-number">1.1.</span> <span class="toc-text">BL锁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#REC"><span class="toc-number">1.2.</span> <span class="toc-text">REC</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#TWRP"><span class="toc-number">1.3.</span> <span class="toc-text">TWRP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E6%B8%85"><span class="toc-number">1.4.</span> <span class="toc-text">双清</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E6%B8%85"><span class="toc-number">1.5.</span> <span class="toc-text">三清</span></a></li></ol></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613882085"></script>
+
+
+	<script async src="/js/search.js?v=1648613882085"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>

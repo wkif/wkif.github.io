@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>计算机网络--重传时间计算 - Kifroom</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机网络--重传时间计算">
+<meta property="og:url" content="http://www.kifroom.icu/posts/9a9f.html">
+<meta property="og:site_name" content="Kifroom">
+<meta property="og:description" content="我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？ TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135042.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135115.png">
+<meta property="og:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135139.png">
+<meta property="article:published_time" content="2021-06-22T05:48:00.000Z">
+<meta property="article:modified_time" content="2021-06-22T05:52:42.517Z">
+<meta property="article:author" content="kif">
+<meta property="article:tag" content="计算机网络">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135042.png">
+    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css?v=1648613881763">
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1648613881763">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1648613881763">
+    <link rel="stylesheet" href="/css/style.css?v=1648613881763">
+    
+        <link rel="stylesheet" href="/css/dark.css?v=1648613881763">
+     
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://unsplash.it/1600/900?random)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="kif" class="mdui-btn mdui-btn-icon"><img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="kif">
+            <img src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" alt="kif" alt="kif">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>44</div>
+        <div><span>标签</span>30</div>
+        <div><span>分类</span>8</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://github.com/wkif" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/学习/">学习</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/">学习笔记</a>
+          <span class="category-list-count">15</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/推荐/">推荐</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/提纲/">提纲</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">16</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/课题/">课题</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习笔记/转载/">转载</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Axios/" style="font-size: 10px;">Axios</a> <a href="/tags/C/" style="font-size: 10px;">C</a> <a href="/tags/C-S-N/" style="font-size: 15px;">C.S.N</a> <a href="/tags/CSN/" style="font-size: 12.5px;">CSN</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 12.5px;">C语言</a> <a href="/tags/Django/" style="font-size: 10px;">Django</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/MIUI/" style="font-size: 12.5px;">MIUI</a> <a href="/tags/Oracle/" style="font-size: 10px;">Oracle</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/SQL/" style="font-size: 10px;">SQL</a> <a href="/tags/VS-CODE/" style="font-size: 10px;">VS CODE</a> <a href="/tags/VS-code/" style="font-size: 10px;">VS code</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/Win/" style="font-size: 15px;">Win</a> <a href="/tags/XTU/" style="font-size: 10px;">XTU</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/kali/" style="font-size: 10px;">kali</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/matery/" style="font-size: 12.5px;">matery</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">前端</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 17.5px;">微信小程序</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/%E6%B9%98%E5%A4%A7/" style="font-size: 10px;">湘大</a> <a href="/tags/%E7%8E%A9%E6%9C%BA/" style="font-size: 20px;">玩机</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 12.5px;">计算机网络</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 kif
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+              <img data-src="https://unsplash.it/1600/900?random" data-sizes="auto" alt="计算机网络--重传时间计算" class="lazyload">
+              <h1>计算机网络--重传时间计算</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年06月22日</a>
+</div>
+
+      
+
+      <p>我们都知道，TCP发送方在规定时间内没有收到确认就要重传已发送的报文段（里面有一个超时计数器），这个逻辑很简单，但是这个超时计数器的值每次都是不一样的，也就是说：重传时间的选择是不一样的，它是如何确定的呢？？？</p>
+<p>TCP下层是互联网环境，发送的报文段可能只经过一个高速率的局域网，也可能经过多个低速率的网络，并且每个IP数据报所选择的路由还可能不同。如果把超时重传时间设置太短，就会引起很多报文段的不必要的重传，使网络负荷增大。但若把超时重传时间设置的太长，那么网络空闲时间会增大，极大的降低了网络的效率</p>
+<p>到底应该设置为多大呢？？？？</p>
+<p>TCP采用了一种自适应算法，它记录一个报文段发出的时间，以及收到相应的确认的时间。这两个时间之差就是报文段的往返时间RTT。TCP保留了RTT的一个加权平均往返时间RTTs（这又成为平滑的往返时间，S表示Smoothed。因为进行的是加权平均，因此获得的结果更加平滑，也就是让我们计算出的结果更加合理）。每回的第一次测量到RTT样本时，RTTs值就取为所测量到的RTT样本值，但以后每次测量到一个新的RTT样本，就按下面的公式重新计算一次RTTs：</p>
+<p>           <img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135042.png" alt="image-20210622135042562" class="lazyload"></p>
+<p>在上式中：（阿尔法 的值介于0到1，若很接近0，则表示旧的RTTs值和新的RTTs值相比变化不大，也就是说，新的RTT样本不太影响RTTs; 若很接近1，则表明新的RTTs值，受当前采集的RTT样本影响较大，跟上次的RTTs差距大）</p>
+<p>RFC 2988：推荐的阿尔法值为1&#x2F;8,也就是0.125 （这种方式得出的值更为平滑）</p>
+<p>显然：超时计数器设置的超时重传时间RTO（Retransmission Time-Out）应略大于上面计算的结果。同样的：</p>
+<p>RFC  2988：建议使用下面的公式计算RTO：</p>
+<p>          <img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135115.png" alt="image-20210622135115160" class="lazyload"></p>
+<p>RTTd是RTT的偏差的加权平均值，与RTTs和新的RTT样本之差有关。RFC 2988建议这样计算RTTd。当第一次测量时，RTTd值取为RTT样本值的一半。在以后的测量中，则使用下式计算加权平均RTTd：</p>
+<p>          <img data-fancybox="gallery" data-sizes="auto" data-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20210622135139.png" alt="image-20210622135139430" class="lazyload"></p>
+<p>这里的（贝塔）是一个小于1的系数，它的推荐值是1&#x2F;4，即就是0。125</p>
+<p>好了，通过上面这些东西：我们就可以求出超时计数器所要设置的时间问题了，但是，但是，但是，新的问题也来了？？？？</p>
+<p>发送一个报文段，设定的重传时间到了，还没有收到确认。于是重传报文段，经过一段时间后：收到了确认报文段。</p>
+<p>现在的问题是：如何判定此报文段是对先发送的报文段的确认，还是对后来重传的报文段的确认？？？由于重传的报文段和原来的报文段完全一样，所以源主机在接受到确认后，无法做出正确的判断，而正确的判断对确定加权平均RTTs的值关系很大。</p>
+<p>1，若收到的是对重传报文段的确认，但却被源主机当作是对原来报文段的确认，则计算出的RTTs和超时重传时间RTO就会偏大。若后面再发送的报文段又是经过重传后才收到的确认报文段，则RTO这个时间会越来越长。直接影响效率</p>
+<p>2，若收到的是对原来的报文段的确认，但被当作是对重传报文段的确认，则由此计算出的RTTs和RTO都会偏小，这样就会导致过多的重传，使的RTO越来越小</p>
+<p>根据以上所说：Karn提出了一个算法：在计算加权平均RTTs时，只要报文段重传了，就不采用其往返时间样本。这样得出的加权平均RTTs和RTO就相对比较准确了。</p>
+<p>但是，但是，要是出现这样的情况呢？？：报文段的时延突然增大了很多。因此在原来得出的重传时间内，不会收到确认报文段。于是就重传报文段。但根据Karn算法，不考虑重传的报文段的往返时间样本。这样：超时重传时间就无法更新。</p>
+<p>因此：要对Karn算法进行修正：方法是：报文段每重传一次，就把超时冲传时间RTO增大一些。典型的做法是：取新的重传时间为2倍的旧的重传时间。当不再发生报文段的重传时，才根据上面给出公式计算超时重传时间。。。。</p>
+<p>转自;<a target="_blank" rel="noopener" href="https://blog.csdn.net/msdnwolaile/article/details/51227491">https://blog.csdn.net/msdnwolaile/article/details/51227491</a></p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>kif<br>
+        <strong>本文链接：</strong><a href="http://www.kifroom.icu/posts/9a9f.html" title="http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;9a9f.html" target="_blank" rel="noopener">http:&#x2F;&#x2F;www.kifroom.icu&#x2F;posts&#x2F;9a9f.html</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" rel="tag">计算机网络</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'HgaelgOgs6foTaNPVsDMOBto-MdYXbMMI',
+        appKey: 'JF83orivlt2mgqGaX2p829bo'
+    })
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1648613881765"></script>
+
+
+	<script async src="/js/search.js?v=1648613881765"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>
