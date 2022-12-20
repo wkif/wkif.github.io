@@ -52,15 +52,9 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: archives.md
-        label: 文章归档
-        file: source\archives.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: about-index.md
-        label: 关于我
-        file: source\about\index.md
+      - name: message-board-index.md
+        label: 留下你的想法~
+        file: source\message-board\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -70,9 +64,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: message-board-index.md
-        label: 留下你的想法~
-        file: source\message-board\index.md
+      - name: archives.md
+        label: 文章归档
+        file: source\archives.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: 关于我
+        file: source\about\index.md
         editor:
           preview: true
         fields: *ref_0
