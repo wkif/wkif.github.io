@@ -76,3 +76,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: tags-index.md
+        label: tags
+        file: source\tags\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: categories
+        file: source\categories\index.md
+        editor:
+          preview: true
+        fields: *ref_0

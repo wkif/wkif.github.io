@@ -1,1 +1,797 @@
-<!DOCTYPE html><html lang="en"><head><!-- hexo injector head_begin start --><meta name="description" content="kif的树洞"></meta><meta name="keywords" content="Frontend, Web development, Blog，kif"></meta><meta name="author" content="kif"></meta><!-- hexo injector head_begin end --><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><link href="/static/css/chunk-libs.eebac533.css" rel="stylesheet"><link href="/static/css/app.0d31776f.css" rel="stylesheet"><!-- hexo injector head_end start --><script rel="prefetch" async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-core.js" data-manual></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/themes/prism.min.css"/><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"/><link rel="stylesheet" href="https://fonts.loli.net/css?family=Rubik" /><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.9/Valine.min.js"></script><script rel="preload" src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body id="body-container"><noscript><strong>We're sorry but Aurora Blog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>(function(e){function t(t){for(var a,n,u=t[0],i=t[1],c=t[2],l=0,p=[];l<u.length;l++)n=u[l],Object.prototype.hasOwnProperty.call(o,n)&&o[n]&&p.push(o[n][0]),o[n]=0;for(a in i)Object.prototype.hasOwnProperty.call(i,a)&&(e[a]=i[a]);f&&f(t);while(p.length)p.shift()();return s.push.apply(s,c||[]),r()}function r(){for(var e,t=0;t<s.length;t++){for(var r=s[t],a=!0,n=1;n<r.length;n++){var u=r[n];0!==o[u]&&(a=!1)}a&&(s.splice(t--,1),e=i(i.s=r[0]))}return e}var a={},n={runtime:0},o={runtime:0},s=[];function u(e){return i.p+"static/js/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"00d640a8",about:"024aacd1",archives:"574ac664",categories:"90aa5475",page:"a02618ad",post:"cebfbaa4",result:"39470350",tags:"2ad613f5"}[e]+".js"}function i(t){if(a[t])return a[t].exports;var r=a[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r={404:1,about:1,archives:1,categories:1,page:1,post:1,result:1,tags:1};n[e]?t.push(n[e]):0!==n[e]&&r[e]&&t.push(n[e]=new Promise((function(t,r){for(var a="static/css/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"1a6cd5bd",about:"32dfa3b0",archives:"c0d49bd5",categories:"10e2be12",page:"749ad047",post:"9f951a60",result:"10e2be12",tags:"10e2be12"}[e]+".css",o=i.p+a,s=document.getElementsByTagName("link"),u=0;u<s.length;u++){var c=s[u],l=c.getAttribute("data-href")||c.getAttribute("href");if("stylesheet"===c.rel&&(l===a||l===o))return t()}var p=document.getElementsByTagName("style");for(u=0;u<p.length;u++){c=p[u],l=c.getAttribute("data-href");if(l===a||l===o)return t()}var f=document.createElement("link");f.rel="stylesheet",f.type="text/css",f.onload=t,f.onerror=function(t){var a=t&&t.target&&t.target.src||o,s=new Error("Loading CSS chunk "+e+" failed.\n("+a+")");s.code="CSS_CHUNK_LOAD_FAILED",s.request=a,delete n[e],f.parentNode.removeChild(f),r(s)},f.href=o;var d=document.getElementsByTagName("head")[0];d.appendChild(f)})).then((function(){n[e]=0})));var a=o[e];if(0!==a)if(a)t.push(a[2]);else{var s=new Promise((function(t,r){a=o[e]=[t,r]}));t.push(a[2]=s);var c,l=document.createElement("script");l.charset="utf-8",l.timeout=120,i.nc&&l.setAttribute("nonce",i.nc),l.src=u(e);var p=new Error;c=function(t){l.onerror=l.onload=null,clearTimeout(f);var r=o[e];if(0!==r){if(r){var a=t&&("load"===t.type?"missing":t.type),n=t&&t.target&&t.target.src;p.message="Loading chunk "+e+" failed.\n("+a+": "+n+")",p.name="ChunkLoadError",p.type=a,p.request=n,r[1](p)}o[e]=void 0}};var f=setTimeout((function(){c({type:"timeout",target:l})}),12e4);l.onerror=l.onload=c,document.head.appendChild(l)}return Promise.all(t)},i.m=e,i.c=a,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)i.d(r,a,function(t){return e[t]}.bind(null,a));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e["default"]}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/",i.oe=function(e){throw console.error(e),e};var c=window["webpackJsonp"]=window["webpackJsonp"]||[],l=c.push.bind(c);c.push=t,c=c.slice();for(var p=0;p<c.length;p++)t(c[p]);var f=l;r()})([]);</script><script src="/static/js/chunk-libs.dc6146cd.js"></script><script src="/static/js/app.6d2c358d.js"></script><!-- hexo injector body_end start -->-<script ="h:/dn.jelvgym@15aku>fow<!-- hexo injector body_end end --></body></html>
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>lerna+yarn workspace+monorepo项目的最佳实践 | Kifroom</title><meta name="keywords" content="lerna,workspace,monorepo"><meta name="author" content="kif"><meta name="copyright" content="kif"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="lerna+yarn workspace+monorepo项目的最佳实践"><meta name="application-name" content="lerna+yarn workspace+monorepo项目的最佳实践"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="lerna+yarn workspace+monorepo项目的最佳实践"><meta property="og:url" content="https://wkif.gitee.io/post/f788.html"><meta property="og:site_name" content="Kifroom"><meta property="og:description" content="1.monorepo 管理对于维护过多个package(功能相近)的同学来说，都会遇到一个选择题，这些 package 是放在一个仓库里维护还是放在多个仓库里单独维护。Multirepo 是比较传统的做法，即每一个 package 都单独用一个仓库来进行管理。Monorepo 是管理项目代码的一个方"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png"><meta property="article:author" content="kif"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png"><meta name="description" content="1.monorepo 管理对于维护过多个package(功能相近)的同学来说，都会遇到一个选择题，这些 package 是放在一个仓库里维护还是放在多个仓库里单独维护。Multirepo 是比较传统的做法，即每一个 package 都单独用一个仓库来进行管理。Monorepo 是管理项目代码的一个方"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://wkif.gitee.io/post/f788"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: {"mode":"api","api":"https://img2color-go.vercel.app/api?img=","cover_change":true},
+  authorStatus: {"skills":null},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: kif","link":"链接: ","source":"来源: Kifroom","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#3b70fc","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Kifroom',
+  title: 'lerna+yarn workspace+monorepo项目的最佳实践',
+  postAI: '',
+  pageFillDescription: '1.monorepo 管理, 2. Lerna, 2.1 安装, 2.2 初始化项目, 2.3 创建 npm 包, 2.4 增加模块依赖, 2.5 发布, 2.6 依赖包管理, 3. Lerna + Monorepo 最佳实践, 3.1 yarn workspace, 3.1.1 搭建环境, 3.1.2 清理环境, 3.1.3 安装|删除依赖, 3.1.4 项目构建, 3.1.5 版本升级及发包, 3.2 优雅的提交, 3.2.1 commitizen ampamp cz-lerna-changelog, 3.2.2 commitlint ampamp husky, 3.2.3 eslint ampamp lint-staged, 3.3 发布自动生成日志, 3.3.1 lerna version 更新版本, 3.3.2 使用 npm publish 将新版本推送到 npm, 3.4 完善的测试用例, 4 实践总结管理对于维护过多个功能相近的同学来说都会遇到一个选择题这些是放在一个仓库里维护还是放在多个仓库里单独维护是比较传统的做法即每一个都单独用一个仓库来进行管理是管理项目代码的一个方式指在一个项目仓库中管理多个模块包不同于常见的每个模块建一个目前有不少大型开源项目采用了这种方式如还有等几乎我们熟知的仓库都无一例外的采用了的方式可以看到这些项目的第一级目录的内容以脚手架为主主要内容都在目录中分多个进行管理目录结构如下最主要的好处是统一的工作流和比如我想看一个的代码了解某段逻辑不需要找它的直接就在当前当某个需求要修改多个时不需要分别到各自的进行修改测试发版或者直接在当前修改统一测试统一发版只要搭建一套脚手架就能管理构建测试发布多个一图胜千言当然到底哪一种管理方式更好仁者见仁智者见智前者允许多元化发展各项目可以有自己的构建工具依赖管理策略单元测试方法后者希望集中管理减少项目间的差异带来的沟通成本虽然拆分子仓库拆分子包是进行项目隔离的天然方案但当仓库内容出现关联时没有任何一种调试方式比源码放在一起更高效结合门户的实际场景和业务需要天然的一个理想的开发环境可以抽象成这样只关心业务代码可以直接跨业务复用而不关心复用方式调试时所有代码都在源码中在前端开发环境中多多则是这个理想的阻力它们导致复用要关心版本号调试需要而这些是最大的优势上图中提到的利用相关工具就是今天的主角是业界知名度最高的管理工具功能完整是一个管理多个模块的工具是自己用来维护自己的并开源出的一个项目优化维护多包的工作流解决多个包互相依赖且发布需要手动维护多个包的问题安装推荐全局安装因为会经常用到命令初始化项目其中如下私有的不会被发布是管理整个项目与要发布到的解耦创建包增加两个增加模块依赖分别给相应的增加依赖模块为所有增加模块为增加模块增加内部模块之间的依赖发布依赖包管理上述步已经包含了整个生命周期的过程了但当我们维护这个项目时新拉下来仓库的代码后需要为各个安装依赖包我们在第步时也发现了为某个安装的包被放到了这个目录下的目录下这样对于多个都依赖的包会被多个安装多次并且每个下都维护也不清爽于是我们使用来把每个下的依赖包都提升到工程根目录来降低安装以及管理的成本为了省去每次都输入参数的麻烦可以在配置配置好后对于之前依赖包已经被安装到各个下的情况我们只需要清理一下安装的依赖即可然后执行即可看到的依赖都被安装到根目录下的中了最佳实践不负责构建测试等任务它提出了一种集中管理的目录模式提供了一套自动化管理程序让开发者不必再深耕到具体的组件里维护内容在项目根目录就可以全局掌控基于使用者可以很好地完成组件构建代码格式化等操作接下来我们就来看看如果基于并结合其它工具来搭建项目的最佳实践目前最常见的解决方案是和的特性基于和的工作流由于和在功能上有较多的重叠我们采用官方推荐的做法用来处理依赖问题用来处理发布问题能用做的就用做吧搭建环境普通项目下来后通过即可搭建完项目有时需要配合来进行自动编译或者其他设置各个库之间存在依赖如依赖于因此我们通常需要将到的里一旦仓库很多的话手动的管理这些操作负担很大因此需要自动化的操作按照拓扑排序将各个依赖进行解决方式通过使用会自动的帮忙解决安装和问题等价于清理环境在依赖乱掉或者工程混乱的情况下清理依赖普通项目直接删除以及编译后的产物不仅需要删除的的编译产物还需要删除各个里的以及编译产物解决方式使用来删除所有的使用来执行所有的清理工作清理所有的执行所有的操作安装删除依赖普通项目通过和即可简单姐解决依赖库的安装和删除问题一般分为三种场景给某个安装依赖将作为的依赖进行安装给所有的安装依赖使用给所有的安装依赖给安装依赖一般的公用的开发工具都是安装在里如我们使用来给安装依赖对应的三种场景删除依赖如下项目构建普通项目建立一个的使用即可完成项目构建区别于普通项目之处在于各个之间存在相互依赖如只有在构建完之后才能进行构建否则就会出错这实际上要求我们以一种拓扑排序的规则进行构建我们可以自己构建拓扑排序规则很不幸的是的暂时并未支持按照拓扑排序规则执行命令虽然该已经被但是尚未实现幸运的是支持按照拓扑排序规则执行命令参数可以控制以拓扑排序规则执行命令版本升级及发包项目测试完成后就涉及到版本发布版本发布一般涉及到如下一些步骤条件验证如验证测试是否通过是否存在未提交的代码是否在主分支上进行版本发布操作发版的时候需要更新版本号这时候如何更新版本号就是个问题一般大家都会遵循语义生成为了方便查看每个每个版本解决了哪些功能我们需要给每个都生成一份方便用户查看各个版本的功能变化生成为了方便后续回滚问题及问题排查通常需要给每个版本创建一个发布版本每次发版我们都需要单独生成一个记录来标记发布包发布完后我们还需要将更新的版本发布到上以便外部用户使用我们发现手动的执行这些操作是很麻烦的且及其容易出错幸运的是可以帮助我们解决这些问题官方并不打算支持发布流程只是想做好包管理工具因此这部分还是需要通过支持提供了和来支持版本的升级和发布的功能可以即包含的工作也可以单纯的只做发布操作优雅的提交是用来格式化的工具它提供了一种问询式的方式去获取所需的提交信息是专门为项目量身定制的提交规范在问询的过程会有类似影响哪些的选择如下我们使用和来规范提交为后面自动生成日志作好准备因为这是整个工程的开发依赖所以在根目录安装安装完成后在中增加字段把配置给同时因为不是全局安全的所以需要添加脚本来执行之后在常规的开发中就可以使用来根据提示一步一步输入来完成代码的提交上面我们使用了来规范提交但这个要靠开发自觉使用万一忘记了或者直接使用提交怎么办答案就是在提交时对提交信息进行校验如果不符合要求就不让提交并提示校验的工作由来完成校验的时机则由来指定继承了下所有的钩子在触发钩子的时候可以阻止不合法的等等安装以及要遵守的规范在工程根目录为增加配置文件为指定相应的规范安装在中增加如下配置是提交时校验提交信息的钩子当触发时便会使用来校验安装配置完成后想通过或者其它第三方工具提交时只要提交信息不符合规范就无法提交从而约束开发者使用来提交除了规范提交信息代码本身肯定也少了靠规范来统一风格安装就是整的一套代码规范自带代码自动修正自动格式化代码并修正提前发现风格以及程序问题同时也支持的代码规范校验配置是里的概念表示暂存区表示只检查并矫正暂存区中的文件一来提高校验效率二来可以为老的项目带去巨大的方便配置安装完成后在增加配置如上所示表示对暂存区中的文件执行校验并自动修复那什么时候去校验呢就又用到了上面安装的的配置中增加的钩子用来执行的校验操作此时提交文件时便会自动修正并校验错误即保证了代码风格统一又能提高代码质量发布自动生成日志有了之前的规范提交自动生成日志便水到渠成了再详细看下时做了哪些事情更新版本找出从上一个版本发布以来有过变更的提示开发者确定要发布的版本号将所有更新过的的中的的字段更新将依赖更新过的的包中的依赖版本号更新更新中的字段提交上述修改并打一个推送到仓库使用将新版本推送到很明显是和一一对应的所以需要在中想办法查看命令的详细说明后会看到一个配置参数没错只要我们按规范提交后在的过程中会便会自动生成当前这个版本的为了方便不用每次输入参数可以配置在中如下会检测从上一个版本发布以来的变动但有一些文件的提交我们不希望触发版本的变动譬如文件的修改并没有实际引起逻辑的变化不应该触发版本的变更可以通过配置排除如上实际很少直接使用因为它包含在中了直接使用就好了完善的测试用例项目测试有两种方式使用统一的测试配置这样方便全局的跑即可好处是可以方便统计所有代码的测试覆盖率坏处是如果比较异构如小程序前端服务端等统一的测试配置不太好编写每个单独支持命令使用坏处是不好统一收集所有代码的测试覆盖率如果采用编写测试用例支持的话需要初始化配置实践总结到这里基本上已经构建了基于和的项目的最佳实践了该有的功能都有完善的工作流支持风格统一的编码完整的单元测试一键式的发布机制完美的更新日志当然构建一套完善的仓库管理机制可能它的收益不是一些量化的指标可以衡量出来的也没有直接的价值输出但它能在日常的工作中极大的提高工作效率解放生产力节省大量的人力成本转载自',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-01-26 19:06:33',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.kifroom.icu/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ico.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://kifnav.kifroom.icu/" title="kifNav"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifnav.kifroom.icu/favicon.ico" alt="kifNav"/><span class="back-menu-item-text">kifNav</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">Kifroom</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/links/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/message-board/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Axios/" style="font-size: 1.05rem;">Axios<sup>3</sup></a><a href="/tags/C-S-N/" style="font-size: 1.05rem;">C.S.N<sup>1</sup></a><a href="/tags/Ckeditor4/" style="font-size: 1.05rem;">Ckeditor4<sup>1</sup></a><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 1.05rem;">C语言<sup>3</sup></a><a href="/tags/Django/" style="font-size: 1.05rem;">Django<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 1.05rem;">Excel<sup>1</sup></a><a href="/tags/Oracle/" style="font-size: 1.05rem;">Oracle<sup>1</sup></a><a href="/tags/Python/" style="font-size: 1.05rem;">Python<sup>1</sup></a><a href="/tags/RSA/" style="font-size: 1.05rem;">RSA<sup>1</sup></a><a href="/tags/SQL/" style="font-size: 1.05rem;">SQL<sup>1</sup></a><a href="/tags/VS-code/" style="font-size: 1.05rem;">VS code<sup>1</sup></a><a href="/tags/Vue-js/" style="font-size: 1.05rem;">Vue.js<sup>2</sup></a><a href="/tags/Win/" style="font-size: 1.05rem;">Win<sup>3</sup></a><a href="/tags/dom-to-image/" style="font-size: 1.05rem;">dom-to-image<sup>1</sup></a><a href="/tags/express/" style="font-size: 1.05rem;">express<sup>1</sup></a><a href="/tags/git/" style="font-size: 1.05rem;">git<sup>1</sup></a><a href="/tags/hexo/" style="font-size: 1.05rem;">hexo<sup>5</sup></a><a href="/tags/javascript/" style="font-size: 1.05rem;">javascript<sup>7</sup></a><a href="/tags/kali/" style="font-size: 1.05rem;">kali<sup>1</sup></a><a href="/tags/leetcode/" style="font-size: 1.05rem;">leetcode<sup>1</sup></a><a href="/tags/lerna/" style="font-size: 1.05rem;">lerna<sup>1</sup></a><a href="/tags/linux/" style="font-size: 1.05rem;">linux<sup>1</sup></a><a href="/tags/matery/" style="font-size: 1.05rem;">matery<sup>2</sup></a><a href="/tags/monorepo/" style="font-size: 1.05rem;">monorepo<sup>1</sup></a><a href="/tags/node-js/" style="font-size: 1.05rem;">node.js<sup>2</sup></a><a href="/tags/pinia/" style="font-size: 1.05rem;">pinia<sup>1</sup></a><a href="/tags/pyqt/" style="font-size: 1.05rem;">pyqt<sup>1</sup></a><a href="/tags/this/" style="font-size: 1.05rem;">this<sup>1</sup></a><a href="/tags/vite/" style="font-size: 1.05rem;">vite<sup>2</sup></a><a href="/tags/vue3/" style="font-size: 1.05rem;">vue3<sup>3</sup></a><a href="/tags/webpack/" style="font-size: 1.05rem;">webpack<sup>1</sup></a><a href="/tags/workspace/" style="font-size: 1.05rem;">workspace<sup>1</sup></a><a href="/tags/%E5%85%BC%E5%AE%B9%E6%80%A7/" style="font-size: 1.05rem;">兼容性<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 1.05rem;">前端<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" style="font-size: 1.05rem;">开发规范<sup>2</sup></a><a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 1.05rem;">微信小程序<sup>4</sup></a><a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 1.05rem;">操作系统<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 1.05rem;">数组<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%AB%99%E4%BE%BF%E7%AD%BE/" style="font-size: 1.05rem;">网站便签<sup>1</sup></a><a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 1.05rem;">面试<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/01/"><span class="card-archive-list-date">一月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">九月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" itemprop="url">开发笔记</a><i class="anzhiyufont anzhiyu-icon-angle-right post-meta-separator"></i><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/%E8%BD%AC%E8%BD%BD/" itemprop="url">转载</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/lerna/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>lerna</span></a><a class="article-meta__tags" href="/tags/workspace/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>workspace</span></a><a class="article-meta__tags" href="/tags/monorepo/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>monorepo</span></a></span></div></div><h1 class="post-title" itemprop="name headline">lerna+yarn workspace+monorepo项目的最佳实践</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2023-01-26T11:01:00.000Z" title="发表于 2023-01-26 19:01:00">2023-01-26</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2023-01-26T11:06:33.710Z" title="更新于 2023-01-26 19:06:33">2023-01-26</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">4.4k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator"></span><span class="leancloud_visitors" id="/post/f788.html" data-flag-title="lerna+yarn workspace+monorepo项目的最佳实践"><i class="anzhiyufont anzhiyu-icon-fw-eye post-meta-icon"></i><span class="post-meta-label" title="阅读量">阅读量:</span><span class="leancloud-visitors-count" title="访问量"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://wkif.gitee.io/post/f788.html"><header><a class="post-meta-categories" href="/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" itemprop="url">开发笔记</a><a class="post-meta-categories" href="/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/%E8%BD%AC%E8%BD%BD/" itemprop="url">转载</a><a href="/tags/lerna/" tabindex="-1" itemprop="url">lerna</a><a href="/tags/workspace/" tabindex="-1" itemprop="url">workspace</a><a href="/tags/monorepo/" tabindex="-1" itemprop="url">monorepo</a><h1 id="CrawlerTitle" itemprop="name headline">lerna+yarn workspace+monorepo项目的最佳实践</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">kif</span><time itemprop="dateCreated datePublished" datetime="2023-01-26T11:01:00.000Z" title="发表于 2023-01-26 19:01:00">2023-01-26</time><time itemprop="dateCreated datePublished" datetime="2023-01-26T11:06:33.710Z" title="更新于 2023-01-26 19:06:33">2023-01-26</time></header><h1 id="1-monorepo-管理"><a href="#1-monorepo-管理" class="headerlink" title="1.monorepo 管理"></a>1.monorepo 管理</h1><p>对于维护过多个<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=package&spm=1001.2101.3001.7020">package</a>(<strong>功能相近</strong>)的同学来说，都会遇到一个选择题，这些 package 是放在一个仓库里维护还是放在多个仓库里单独维护。Multirepo 是比较传统的做法，即每一个 package 都单独用一个仓库来进行管理。Monorepo 是管理项目代码的一个方式，指在一个项目仓库 (repo) 中管理多个模块&#x2F;包 (package)，不同于常见的每个模块建一个 repo。</p>
+<p>目前有不少大型开源项目采用了这种方式，如 <code>Babel</code>，<code>React</code>, <code>Meteor</code>, <code>Ember</code>, <code>Angular</code>,<code>Jest</code>, <code>Umijs</code>, <code>Vue</code>, 还有 <code>create-react-app</code>, <code>react-router</code> 等。几乎我们熟知的仓库，都无一例外的采用了 monorepo 的方式，可以看到这些项目的第一级目录的内容以脚手架为主，主要内容都在 packages 目录中、分多个 package 进行管理。</p>
+<p>目录结构如下:</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">├── packages
+<span class="token operator">|</span>   ├── pkg1
+<span class="token operator">|</span>   <span class="token operator">|</span>   ├── package.json
+<span class="token operator">|</span>   ├── pkg2
+<span class="token operator">|</span>   <span class="token operator">|</span>   ├── package.json
+├── package.json
+<span class="token number">123456</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>monorepo 最主要的好处是<strong>统一的工作流</strong>和<strong>Code Sharing</strong>。比如我想看一个 pacakge 的代码、了解某段逻辑，不需要找它的 repo，直接就在当前 repo；当某个需求要修改多个 pacakge 时，不需要分别到各自的 repo 进行修改、测试、发版或者 npm link，直接在当前 repo 修改，统一测试、统一发版。只要搭建一套脚手架，就能管理（构建、测试、发布）多个 package。</p>
+<p>一图胜千言:</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAxOS84LzE4LzE2Y2EyOThmNTYwZDgxZDg" alt="img"><br>当然到底哪一种管理方式更好，仁者见仁，智者见智。前者允许多元化发展（各项目可以有自己的构建工具、依赖管理策略、单元测试方法），后者希望集中管理，减少项目间的差异带来的沟通成本。</p>
+<p>虽然拆分子仓库、拆分子 npm 包是进行项目隔离的天然方案，但当仓库内容出现关联时，没有任何一种调试方式比源码放在一起更高效。</p>
+<p>结合 shop-service 门户的实际场景和业务需要，天然的 MonoRepo ! 一个理想的开发环境可以抽象成这样：</p>
+<blockquote><span class="custom-blockquote-svg"><svg width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+<path fill="" d="M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z" undefined="1"></path>
+<path fill="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z" undefined="1"></path>
+<path fill="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z" undefined="1"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z"></path>
+</svg>
+</span><p>“只关心业务代码，可以直接跨业务复用而不关心复用方式，调试时所有代码都在源码中。”</p></blockquote>
+<p>在前端开发环境中，多 Git Repo，多 npm 则是这个理想的阻力，它们导致复用要关心版本号，调试需要 npm link。而这些是 MonoRepo 最大的优势。</p>
+<p>上图中提到的利用相关工具就是今天的主角 Lerna ! Lerna 是业界知名度最高的 Monorepo 管理工具，功能完整。</p>
+<h1 id="2-Lerna"><a href="#2-Lerna" class="headerlink" title="2. Lerna"></a>2. Lerna</h1><p>Lerna 是一个管理多个 npm 模块的工具，是 Babel 自己用来维护自己的 Monorepo 并开源出的一个项目。优化维护多包的工作流，解决多个包互相依赖，且发布需要手动维护多个包的问题。</p>
+<h2 id="2-1-安装"><a href="#2-1-安装" class="headerlink" title="2.1 安装"></a>2.1 安装</h2><p>推荐全局安装，因为会经常用到 lerna 命令</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token function">npm</span> i -g lerna<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="2-2-初始化项目"><a href="#2-2-初始化项目" class="headerlink" title="2.2 初始化项目"></a>2.2 初始化项目</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">lerna init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904362.png" alt="img"></p>
+<p>其中 package.json &amp; lerna.json 如下:</p>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;&#x2F; package.json
+&#123;
+  &quot;name&quot;: &quot;root&quot;,
+  &quot;private&quot;: true, &#x2F;&#x2F; 私有的，不会被发布，是管理整个项目，与要发布到npm的解耦
+  &quot;devDependencies&quot;: &#123;
+    &quot;lerna&quot;: &quot;^3.15.0&quot;
+  &#125;
+&#125;
+
+&#x2F;&#x2F; lerna.json
+&#123;
+  &quot;packages&quot;: [
+    &quot;packages&#x2F;*&quot;
+  ],
+  &quot;version&quot;: &quot;0.0.0&quot;
+&#125;
+12345678910111213141516<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="2-3-创建-npm-包"><a href="#2-3-创建-npm-包" class="headerlink" title="2.3 创建 npm 包"></a>2.3 创建 npm 包</h2><p>增加两个 packages</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">lerna create @mo-demo/cli
+lerna create @mo-demo/cli-shared-utils<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904303.png" alt="img"></p>
+<h2 id="2-4-增加模块依赖"><a href="#2-4-增加模块依赖" class="headerlink" title="2.4 增加模块依赖"></a>2.4 增加模块依赖</h2><p>分别给相应的 package 增加依赖模块</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">lerna <span class="token function">add</span> chalk // 为所有 package 增加 chalk 模块
+lerna <span class="token function">add</span> semver --scope @mo-demo/cli-shared-utils // 为 @mo-demo/cli-shared-utils 增加 semver 模块
+lerna <span class="token function">add</span> @mo-demo/cli-shared-utils --scope @mo-demo/cli // 增加内部模块之间的依赖<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904194.png" alt="img"></p>
+<h2 id="2-5-发布"><a href="#2-5-发布" class="headerlink" title="2.5 发布"></a>2.5 发布</h2><pre class="line-numbers language-none"><code class="language-none">lerna publish<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904515.png" alt="img"></p>
+<h2 id="2-6-依赖包管理"><a href="#2-6-依赖包管理" class="headerlink" title="2.6 依赖包管理"></a>2.6 依赖包管理</h2><p>上述 1-5 步已经包含了 Lerna 整个生命周期的过程了，但当我们维护这个项目时，新拉下来仓库的代码后，需要为各个 package 安装依赖包。</p>
+<p>我们在第 4 步 lerna add 时也发现了，为某个 package 安装的包被放到了这个 package 目录下的 <code>node_modules</code> 目录下。这样对于多个 package 都依赖的包，会被多个 package 安装多次，并且每个 package 下都维护 <code>node_modules</code> ，也不清爽。于是我们使用 –hoist 来把每个 package 下的依赖包都提升到工程根目录，来降低安装以及管理的成本。</p>
+<pre class="line-numbers language-none"><code class="language-none">lerna bootstrap --hoist<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904358.png" alt="img"><br>为了省去每次都输入 –hoist 参数的麻烦，可以在 lerna.json 配置：</p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;
+  &quot;packages&quot;: [
+    &quot;packages&#x2F;*&quot;
+  ],
+  &quot;command&quot;: &#123;
+    &quot;bootstrap&quot;: &#123;
+      &quot;hoist&quot;: true
+    &#125;
+  &#125;,
+  &quot;version&quot;: &quot;0.0.1-alpha.0&quot;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>配置好后，对于之前依赖包已经被安装到各个 package 下的情况，我们只需要清理一下安装的依赖即可：</p>
+<pre class="line-numbers language-none"><code class="language-none">lerna clean<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904400.png" alt="img"><br>然后执行 lerna bootstrap 即可看到 package 的依赖都被安装到根目录下的 <code>node_modules</code> 中了。</p>
+<h1 id="3-Lerna-Monorepo-最佳实践"><a href="#3-Lerna-Monorepo-最佳实践" class="headerlink" title="3. Lerna + Monorepo 最佳实践"></a>3. Lerna + Monorepo 最佳实践</h1><blockquote><span class="custom-blockquote-svg"><svg width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+<path fill="" d="M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z" undefined="1"></path>
+<path fill="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z" undefined="1"></path>
+<path fill="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z" undefined="1"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z"></path>
+</svg>
+</span><p>lerna 不负责构建，测试等任务，它提出了一种集中管理 package 的目录模式，提供了一套自动化管理程序，让开发者不必再深耕到具体的组件里维护内容，在项目根目录就可以全局掌控，基于 npm scripts，使用者可以很好地完成组件构建，代码格式化等操作。接下来我们就来看看，如果基于 Lerna，并结合其它工具来搭建 Monorepo 项目的最佳实践。</p></blockquote>
+<p>目前最常见的 monorepo 解决方案是 Lerna 和 <a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=yarn&spm=1001.2101.3001.7020">yarn</a> 的 workspaces 特性，基于 lerna 和 yarn workspace 的 monorepo 工作流。由于 yarn 和 lerna 在功能上有较多的重叠,我们采用 yarn 官方推荐的做法,用 yarn 来处理依赖问题，用 lerna 来处理发布问题。能用 yarn 做的就用 yarn 做吧</p>
+<h2 id="3-1-yarn-workspace"><a href="#3-1-yarn-workspace" class="headerlink" title="3.1 yarn workspace"></a>3.1 yarn workspace</h2><h3 id="3-1-1-搭建环境"><a href="#3-1-1-搭建环境" class="headerlink" title="3.1.1 搭建环境"></a>3.1.1 搭建环境</h3><ul>
+<li>普通项目：clone 下来后通过 yarn install,即可搭建完项目，有时需要配合 postinstall hooks,来进行自动编译，或者其他设置。</li>
+<li>monorepo: 各个库之间存在依赖，如 A 依赖于 B，因此我们通常需要将 B link 到 A 的 node_module 里，一旦仓库很多的话，手动的管理这些 link 操作负担很大，因此需要自动化的 link 操作，按照拓扑排序将各个依赖进行 link</li>
+</ul>
+<p>解决方式：通过使用 workspace，yarn install 会自动的帮忙解决安装和 link 问题</p>
+<pre class="line-numbers language-none"><code class="language-none">yarn install # 等价于 lerna bootstrap --npm-client yarn --use-workspaces<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="3-1-2-清理环境"><a href="#3-1-2-清理环境" class="headerlink" title="3.1.2 清理环境"></a>3.1.2 清理环境</h3><p>在依赖乱掉或者工程混乱的情况下，清理依赖</p>
+<ul>
+<li>普通项目： 直接删除 node_modules 以及编译后的产物。</li>
+<li>monorepo： 不仅需要删除 root 的 node_modules 的编译产物还需要删除各个 package 里的 node_modules 以及编译产物</li>
+</ul>
+<p>解决方式：使用 lerna clean 来删除所有的 node_modules，使用 yarn workspaces run clean 来执行所有 package 的清理工作</p>
+<pre class="line-numbers language-none"><code class="language-none">lerna clean # 清理所有的node_modules
+yarn workspaces run clean # 执行所有package的clean操作<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h3 id="3-1-3-安装-删除依赖"><a href="#3-1-3-安装-删除依赖" class="headerlink" title="3.1.3 安装|删除依赖"></a>3.1.3 安装|删除依赖</h3><ul>
+<li>普通项目： 通过 yarn add 和 yarn remove 即可简单姐解决依赖库的安装和删除问题</li>
+<li>monorepo: 一般分为三种场景<ul>
+<li>给某个 package 安装依赖：yarn workspace packageB add packageA 将 packageA 作为 packageB 的依赖进行安装</li>
+<li>给所有的 package 安装依赖: 使用 yarn workspaces add lodash 给所有的 package 安装依赖</li>
+<li>给 root 安装依赖：一般的公用的开发工具都是安装在 root 里，如 typescript,我们使用 yarn add -W -D typescript 来给 root 安装依赖</li>
+</ul>
+</li>
+</ul>
+<p>对应的三种场景删除依赖如下</p>
+<pre class="line-numbers language-none"><code class="language-none">yarn workspace packageB remove packageA
+yarn workspaces remove lodash
+yarn remove -W -D typescript<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-1-4-项目构建"><a href="#3-1-4-项目构建" class="headerlink" title="3.1.4 项目构建"></a>3.1.4 项目构建</h3><ul>
+<li>普通项目：建立一个 build 的 npm script，使用 yarn build 即可完成项目构建</li>
+<li>monorepo:区别于普通项目之处在于各个 package 之间存在相互依赖，如 packageB 只有在 packageA 构建完之后才能进行构建，否则就会出错，这实际上要求我们以一种拓扑排序的规则进行构建。</li>
+</ul>
+<p>我们可以自己构建拓扑排序规则，很不幸的是 yarn 的 workspace 暂时并未支持按照拓扑排序规则执行命令,虽然该 rfc 已经被 accepted，但是尚未实现, 幸运的是 lerna 支持按照拓扑排序规则执行命令, –sort 参数可以控制以拓扑排序规则执行命令</p>
+<pre class="line-numbers language-none"><code class="language-none">lerna run --stream --sort build<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="3-1-5-版本升级及发包"><a href="#3-1-5-版本升级及发包" class="headerlink" title="3.1.5 版本升级及发包"></a>3.1.5 版本升级及发包</h3><p>项目测试完成后，就涉及到版本发布，版本发布一般涉及到如下一些步骤</p>
+<ul>
+<li><strong>条件验证</strong>: 如验证测试是否通过，是否存在未提交的代码，是否在主分支上进行版本发布操作</li>
+<li><strong>version_bump</strong>:发版的时候需要更新版本号，这时候如何更新版本号就是个问题，一般大家都会遵循 semVer 语义，</li>
+<li><strong>生成 changelog</strong>: 为了方便查看每个 package 每个版本解决了哪些功能，我们需要给每个 package 都生成一份 changelog 方便用户查看各个版本的功能变化。</li>
+<li><strong>生成 git tag</strong>：为了方便后续回滚问题及问题排查通常需要给每个版本创建一个 git tag</li>
+<li><strong>git 发布版本</strong>：每次发版我们都需要单独生成一个 commit 记录来标记 milestone</li>
+<li><strong>发布 npm 包</strong>：发布完 git 后我们还需要将更新的版本发布到 npm 上，以便外部用户使用</li>
+</ul>
+<p>我们发现手动的执行这些操作是很麻烦的且及其容易出错，幸运的是 lerna 可以帮助我们解决这些问题</p>
+<p>yarn 官方并不打算支持发布流程，只是想做好包管理工具，因此这部分还是需要通过 lerna 支持</p>
+<p>lerna 提供了 publish 和 version 来支持版本的升级和发布, publish 的功能可以即包含 version 的工作，也可以单纯的只做发布操作。</p>
+<h2 id="3-2-优雅的提交"><a href="#3-2-优雅的提交" class="headerlink" title="3.2 优雅的提交"></a>3.2 优雅的提交</h2><h3 id="3-2-1-commitizen-amp-amp-cz-lerna-changelog"><a href="#3-2-1-commitizen-amp-amp-cz-lerna-changelog" class="headerlink" title="3.2.1 commitizen &amp;&amp; cz-lerna-changelog"></a>3.2.1 commitizen &amp;&amp; cz-lerna-changelog</h3><p><code>commitizen</code> 是用来格式化 git commit message 的工具，它提供了一种问询式的方式去获取所需的提交信息。</p>
+<p><code>cz-lerna-changelog</code> 是专门为 Lerna 项目量身定制的提交规范，在问询的过程，会有类似影响哪些 package 的选择。如下：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261904381.png" alt="img"><br>我们使用 <code>commitizen</code> 和 <code>cz-lerna-changelog</code> 来规范提交，为后面自动生成日志作好准备。</p>
+<p>因为这是整个工程的开发依赖，所以在根目录安装：</p>
+<pre class="line-numbers language-none"><code class="language-none">yarn add  -D commitizen
+yarn add  -D cz-lerna-changelog<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>安装完成后，在 <code>package.json</code> 中增加 config 字段，把 <code>cz-lerna-changelog</code> 配置给 <code>commitizen</code>。同时因为<code>commitizen</code>不是全局安全的，所以需要添加 scripts 脚本来执行 git-cz</p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;
+  &quot;name&quot;: &quot;root&quot;,
+  &quot;private&quot;: true,
+  &quot;scripts&quot;: &#123;
+    &quot;commit&quot;: &quot;git-cz&quot;
+  &#125;,
+  &quot;config&quot;: &#123;
+    &quot;commitizen&quot;: &#123;
+      &quot;path&quot;: &quot;.&#x2F;node_modules&#x2F;cz-lerna-changelog&quot;
+    &#125;
+  &#125;,
+  &quot;devDependencies&quot;: &#123;
+    &quot;commitizen&quot;: &quot;^3.1.1&quot;,
+    &quot;cz-lerna-changelog&quot;: &quot;^2.0.2&quot;,
+    &quot;lerna&quot;: &quot;^3.15.0&quot;
+  &#125;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>之后在常规的开发中就可以使用 <code>yarn run commit</code> 来根据提示一步一步输入，来完成代码的提交。</p>
+<h3 id="3-2-2-commitlint-amp-amp-husky"><a href="#3-2-2-commitlint-amp-amp-husky" class="headerlink" title="3.2.2 commitlint &amp;&amp; husky"></a>3.2.2 commitlint &amp;&amp; husky</h3><p>上面我们使用了 commitizen 来规范提交，但这个要靠开发自觉使用<code>yarn run commit</code> 。万一忘记了，或者直接使用 git commit 提交怎么办？答案就是在提交时对提交信息进行校验，如果不符合要求就不让提交，并提示。校验的工作由 commitlint 来完成，校验的时机则由 husky 来指定。husky 继承了 Git 下所有的钩子，在触发钩子的时候，husky 可以阻止不合法的 commit,push 等等。</p>
+<p>安装 commitlint 以及要遵守的规范</p>
+<pre class="line-numbers language-none"><code class="language-none">yarn add -D @commitlint&#x2F;cli @commitlint&#x2F;config-conventional<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在工程根目录为 commitlint 增加配置文件 <code>commitlint.config.js</code> 为<code>commitlint</code> 指定相应的规范</p>
+<pre class="line-numbers language-none"><code class="language-none">module.exports &#x3D; &#123;
+	extends: [&#39;@commitlint&#x2F;config-conventional&#39;]
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>安装 <code>husky</code></p>
+<pre class="line-numbers language-none"><code class="language-none">yarn add -D husky<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在 <code>package.json</code> 中增加如下配置</p>
+<pre class="line-numbers language-none"><code class="language-none">&quot;husky&quot;: &#123;
+		&quot;hooks&quot;: &#123;
+   		&quot;commit-msg&quot;: &quot;commitlint -E HUSKY_GIT_PARAMS&quot;
+    &#125;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>“commit-msg”是 git 提交时校验提交信息的钩子，当触发时便会使用 commitlit 来校验。安装配置完成后，想通过 git commit 或者其它第三方工具提交时，只要提交信息不符合规范就无法提交。从而约束开发者使用 yarn run commit 来提交。</p>
+<h3 id="3-2-3-eslint-amp-amp-lint-staged"><a href="#3-2-3-eslint-amp-amp-lint-staged" class="headerlink" title="3.2.3 eslint &amp;&amp; lint-staged"></a>3.2.3 eslint &amp;&amp; lint-staged</h3><p>除了规范提交信息，代码本身肯定也少了靠规范来统一风格。</p>
+<p>安装</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token function">yarn</span> <span class="token function">add</span>  -D standard lint-staged<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>eslint 就是整的一套 JavaScript（typescript） 代码规范，自带 linter &amp; 代码自动修正。自动格式化代码并修正，提前发现风格以及程序问题, 同时也支持 typescript 的代码规范校验，<code>eslintrc.json</code>配置：</p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;
+    &quot;extends&quot;: [
+        &quot;yayajing&quot;,
+        &quot;plugin:@typescript-eslint&#x2F;recommended&quot;
+    ],
+    &quot;parser&quot;: &quot;typescript-eslint-parser&quot;,
+    &quot;plugins&quot;: [&quot;@typescript-eslint&quot;],
+    &quot;rules&quot;: &#123;
+        &quot;eqeqeq&quot;:&quot;off&quot;,
+        &quot;@typescript-eslint&#x2F;explicit-function-return-type&quot;: &quot;off&quot;,
+        &quot;no-template-curly-in-string&quot;: &quot;off&quot;
+    &#125;
+  &#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><code>lint-staged staged</code> 是 Git 里的概念，表示暂存区，<code>lint-staged</code> 表示只检查并矫正暂存区中的文件。一来提高校验效率，二来可以为老的项目带去巨大的方便。</p>
+<p>package.json 配置</p>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;&#x2F; package.json
+&#123;
+  &quot;name&quot;: &quot;root&quot;,
+  &quot;private&quot;: true,
+  &quot;scripts&quot;: &#123;
+    &quot;c&quot;: &quot;git-cz&quot;
+  &#125;,
+  &quot;config&quot;: &#123;
+    &quot;commitizen&quot;: &#123;
+      &quot;path&quot;: &quot;.&#x2F;node_modules&#x2F;cz-lerna-changelog&quot;
+    &#125;
+  &#125;,
+  &quot;husky&quot;: &#123;
+    &quot;hooks&quot;: &#123;
+      &quot;pre-commit&quot;: &quot;lint-staged&quot;,
+      &quot;commit-msg&quot;: &quot;commitlint -E HUSKY_GIT_PARAMS&quot;
+    &#125;
+  &#125;,
+  &quot;lint-staged&quot;: &#123;
+    &quot;*.ts&quot;: [
+      &quot;eslint --fix&quot;,
+      &quot;git add&quot;
+    ]
+  &#125;,
+  &quot;devDependencies&quot;: &#123;
+    &quot;@commitlint&#x2F;cli&quot;: &quot;^8.1.0&quot;,
+    &quot;@commitlint&#x2F;config-conventional&quot;: &quot;^8.1.0&quot;,
+    &quot;commitizen&quot;: &quot;^3.1.1&quot;,
+    &quot;cz-lerna-changelog&quot;: &quot;^2.0.2&quot;,
+    &quot;husky&quot;: &quot;^3.0.0&quot;,
+    &quot;lerna&quot;: &quot;^3.15.0&quot;,
+    &quot;lint-staged&quot;: &quot;^9.2.0&quot;
+  &#125;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>安装完成后，在 <code>package.json</code> 增加 lint-staged 配置，如上所示表示对暂存区中的 js 文件执行 <code>eslint --fix</code> 校验并自动修复。那什么时候去校验呢，就又用到了上面安装的 husky ，husky 的配置中增加<code>pre-commit</code>的钩子用来执行 lint-staged 的校验操作。</p>
+<p>此时提交 ts 文件时，便会自动修正并校验错误。即保证了代码风格统一，又能提高代码质量。</p>
+<h2 id="3-3-发布自动生成日志"><a href="#3-3-发布自动生成日志" class="headerlink" title="3.3 发布自动生成日志"></a>3.3 发布自动生成日志</h2><p>有了之前的规范提交，自动生成日志便水到渠成了。再详细看下 <code>lerna publish</code> 时做了哪些事情：</p>
+<h3 id="3-3-1-lerna-version-更新版本"><a href="#3-3-1-lerna-version-更新版本" class="headerlink" title="3.3.1 lerna version 更新版本"></a>3.3.1 lerna version 更新版本</h3><ul>
+<li>找出从上一个版本发布以来有过变更的 package</li>
+<li>提示开发者确定要发布的版本号</li>
+<li>将所有更新过的的 package 中的 package.json 的 version 字段更新</li>
+<li>将依赖更新过的 package 的 包中的依赖版本号更新</li>
+<li>更新 lerna.json 中的 version 字段</li>
+<li>提交上述修改，并打一个 tag</li>
+<li>推送到 git 仓库</li>
+</ul>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261905340.png" alt="img"></p>
+<h3 id="3-3-2-使用-npm-publish-将新版本推送到-npm"><a href="#3-3-2-使用-npm-publish-将新版本推送到-npm" class="headerlink" title="3.3.2 使用 npm publish 将新版本推送到 npm"></a>3.3.2 使用 npm publish 将新版本推送到 npm</h3><p><code>CHANGELOG</code> 很明显是和 version 一一对应的，所以需要在 lerna version 中想办法，查看 lerna version 命令的详细说明后，会看到一个配置参数 <code>--conventional-commits</code>。没错，只要我们按规范提交后，在 lerna version 的过程中会便会自动生成当前这个版本的 CHANGELOG。为了方便，不用每次输入参数，可以配置在 <code>lerna.json</code>中，如下：</p>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">&#123;</span>
+  <span class="token property">"packages"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"packages/*"</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"command"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+    <span class="token property">"bootstrap"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+      <span class="token property">"hoist"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+      <span class="token property">"conventionalCommits"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">&#125;</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token property">"ignoreChanges"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"**/*.md"</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.0.1-alpha.1"</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><code>lerna version</code> 会检测从上一个版本发布以来的变动，但有一些文件的提交，我们不希望触发版本的变动，譬如 .md 文件的修改，并没有实际引起 package 逻辑的变化，不应该触发版本的变更。可以通过 <code>ignoreChanges</code> 配置排除。如上。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAxOS84LzE4LzE2Y2EyYTM3NTQwN2Y0MzY" alt="img"><br>实际 <code>lerna version</code>很少直接使用，因为它包含在 <code>lerna publish</code> 中了，直接使用 <code>lerna publish</code>就好了。</p>
+<h2 id="3-4-完善的测试用例"><a href="#3-4-完善的测试用例" class="headerlink" title="3.4 完善的测试用例"></a>3.4 完善的测试用例</h2><p>monorepo 项目：测试有两种方式</p>
+<ul>
+<li>使用统一的 jest 测试配置这样方便全局的跑 jest 即可，好处是可以方便统计所有代码的测试覆盖率，坏处是如果 package 比较异构（如小程序，前端，node 服务端等），统一的测试配置不太好编写</li>
+<li>每个 package 单独支持 test 命令，使用 yarn workspace run test，坏处是不好统一收集所有代码的测试覆盖率</li>
+</ul>
+<p>如果采用 jest 编写测试用例，支持 typescript 的话，需要初始化配置 jest.config.js：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+  <span class="token literal-property property">preset</span><span class="token operator">:</span> <span class="token string">"ts-jest"</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">moduleFileExtensions</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"ts"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">testEnvironment</span><span class="token operator">:</span> <span class="token string">"node"</span><span class="token punctuation">,</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="4-实践总结"><a href="#4-实践总结" class="headerlink" title="4 实践总结"></a>4 实践总结</h1><p>到这里，基本上已经构建了基于<code>lerna</code>和<code>yarn workspace</code>的 monorepo 项目的最佳实践了，该有的功能都有：</p>
+<ul>
+<li>完善的工作流</li>
+<li>typescript 支持</li>
+<li>风格统一的编码</li>
+<li>完整的单元测试</li>
+<li>一键式的发布机制</li>
+<li>完美的更新日志</li>
+</ul>
+<p>……</p>
+<p><strong>当然，构建一套完善的仓库管理机制，可能它的收益不是一些量化的指标可以衡量出来的，也没有直接的价值输出，但它能在日常的工作中极大的提高工作效率，解放生产力，节省大量的人力成本。</strong></p>
+<p>转载自：<a target="_blank" rel="noopener" href="https://juejin.cn/post/6844903918279852046">https://juejin.cn/post/6844903918279852046</a></p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">kif</div><div class="post-copyright__author_desc">梅虽逊雪三分白，雪却输梅一段香</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://wkif.gitee.io/post/f788.html">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://wkif.gitee.io/post/f788.html')">lerna+yarn workspace+monorepo项目的最佳实践</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://wkif.gitee.io/post/f788.html"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=lerna+yarn workspace+monorepo项目的最佳实践&amp;url=https://wkif.gitee.io/post/f788.html&amp;pic=https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="rm.copyPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://wkif.gitee.io" target="_blank">Kifroom</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/lerna/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>lerna<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/workspace/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>workspace<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/monorepo/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>monorepo<span class="tagsPageCount">1</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/post/e4e8.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301101122188.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">js 数组详细操作方法及解析</div></div></a></div><div class="next-post pull-right"><a href="/post/5fbb.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202304191057671.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">win11中powershell设置v2ray代理</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" ait="status"/></div></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">kif</h1><div class="author-info__desc">梅虽逊雪三分白，雪却输梅一段香</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/wkif" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来看我的博客鸭~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-monorepo-%E7%AE%A1%E7%90%86"><span class="toc-number">1.</span> <span class="toc-text">1.monorepo 管理</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Lerna"><span class="toc-number">2.</span> <span class="toc-text">2. Lerna</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-%E5%AE%89%E8%A3%85"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 初始化项目</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%88%9B%E5%BB%BA-npm-%E5%8C%85"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 创建 npm 包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-%E5%A2%9E%E5%8A%A0%E6%A8%A1%E5%9D%97%E4%BE%9D%E8%B5%96"><span class="toc-number">2.4.</span> <span class="toc-text">2.4 增加模块依赖</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5-%E5%8F%91%E5%B8%83"><span class="toc-number">2.5.</span> <span class="toc-text">2.5 发布</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-6-%E4%BE%9D%E8%B5%96%E5%8C%85%E7%AE%A1%E7%90%86"><span class="toc-number">2.6.</span> <span class="toc-text">2.6 依赖包管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-Lerna-Monorepo-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-number">3.</span> <span class="toc-text">3. Lerna + Monorepo 最佳实践</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-yarn-workspace"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 yarn workspace</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83"><span class="toc-number">3.1.1.</span> <span class="toc-text">3.1.1 搭建环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-%E6%B8%85%E7%90%86%E7%8E%AF%E5%A2%83"><span class="toc-number">3.1.2.</span> <span class="toc-text">3.1.2 清理环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-3-%E5%AE%89%E8%A3%85-%E5%88%A0%E9%99%A4%E4%BE%9D%E8%B5%96"><span class="toc-number">3.1.3.</span> <span class="toc-text">3.1.3 安装|删除依赖</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-4-%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA"><span class="toc-number">3.1.4.</span> <span class="toc-text">3.1.4 项目构建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-5-%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7%E5%8F%8A%E5%8F%91%E5%8C%85"><span class="toc-number">3.1.5.</span> <span class="toc-text">3.1.5 版本升级及发包</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E4%BC%98%E9%9B%85%E7%9A%84%E6%8F%90%E4%BA%A4"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 优雅的提交</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-1-commitizen-amp-amp-cz-lerna-changelog"><span class="toc-number">3.2.1.</span> <span class="toc-text">3.2.1 commitizen &amp;&amp; cz-lerna-changelog</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-2-commitlint-amp-amp-husky"><span class="toc-number">3.2.2.</span> <span class="toc-text">3.2.2 commitlint &amp;&amp; husky</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-3-eslint-amp-amp-lint-staged"><span class="toc-number">3.2.3.</span> <span class="toc-text">3.2.3 eslint &amp;&amp; lint-staged</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E5%8F%91%E5%B8%83%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%97%A5%E5%BF%97"><span class="toc-number">3.3.</span> <span class="toc-text">3.3 发布自动生成日志</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-1-lerna-version-%E6%9B%B4%E6%96%B0%E7%89%88%E6%9C%AC"><span class="toc-number">3.3.1.</span> <span class="toc-text">3.3.1 lerna version 更新版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-2-%E4%BD%BF%E7%94%A8-npm-publish-%E5%B0%86%E6%96%B0%E7%89%88%E6%9C%AC%E6%8E%A8%E9%80%81%E5%88%B0-npm"><span class="toc-number">3.3.2.</span> <span class="toc-text">3.3.2 使用 npm publish 将新版本推送到 npm</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-%E5%AE%8C%E5%96%84%E7%9A%84%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B"><span class="toc-number">3.4.</span> <span class="toc-text">3.4 完善的测试用例</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E5%AE%9E%E8%B7%B5%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">4 实践总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/kif1.html" title="Math.toFixed中的四舍五入问题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kiftravel.oss-cn-beijing.aliyuncs.com/img/202308280943672.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Math.toFixed中的四舍五入问题"/></a><div class="content"><a class="title" href="/post/kif1.html" title="Math.toFixed中的四舍五入问题">Math.toFixed中的四舍五入问题</a><time datetime="2023-08-28T03:09:00.000Z" title="发表于 2023-08-28 11:09:00">2023-08-28</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/post/8a59.html" title="React系列：Rematch">React系列：Rematch</a><time datetime="2023-08-05T03:31:00.000Z" title="发表于 2023-08-05 11:31:00">2023-08-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/9aee.html" title="kif的neovim设置"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202304191059908.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="kif的neovim设置"/></a><div class="content"><a class="title" href="/post/9aee.html" title="kif的neovim设置">kif的neovim设置</a><time datetime="2023-04-19T02:58:00.000Z" title="发表于 2023-04-19 10:58:00">2023-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/5fbb.html" title="win11中powershell设置v2ray代理"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202304191057671.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="win11中powershell设置v2ray代理"/></a><div class="content"><a class="title" href="/post/5fbb.html" title="win11中powershell设置v2ray代理">win11中powershell设置v2ray代理</a><time datetime="2023-04-19T02:54:00.000Z" title="发表于 2023-04-19 10:54:00">2023-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/f788.html" title="lerna+yarn workspace+monorepo项目的最佳实践"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="lerna+yarn workspace+monorepo项目的最佳实践"/></a><div class="content"><a class="title" href="/post/f788.html" title="lerna+yarn workspace+monorepo项目的最佳实践">lerna+yarn workspace+monorepo项目的最佳实践</a><time datetime="2023-01-26T11:01:00.000Z" title="发表于 2023-01-26 19:01:00">2023-01-26</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2023 By <a class="footer-bar-link" href="/" title="kif" target="_blank">kif</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">48</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">17</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.kifroom.icu/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ico.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://kifnav.kifroom.icu/" title="kifNav"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifnav.kifroom.icu/favicon.ico" alt="kifNav"/><span class="back-menu-item-text">kifNav</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/links/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/message-board/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Axios/" style="font-size: 0.88rem;">Axios<sup>3</sup></a><a href="/tags/C-S-N/" style="font-size: 0.88rem;">C.S.N<sup>1</sup></a><a href="/tags/Ckeditor4/" style="font-size: 0.88rem;">Ckeditor4<sup>1</sup></a><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 0.88rem;">C语言<sup>3</sup></a><a href="/tags/Django/" style="font-size: 0.88rem;">Django<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 0.88rem;">Excel<sup>1</sup></a><a href="/tags/Oracle/" style="font-size: 0.88rem;">Oracle<sup>1</sup></a><a href="/tags/Python/" style="font-size: 0.88rem;">Python<sup>1</sup></a><a href="/tags/RSA/" style="font-size: 0.88rem;">RSA<sup>1</sup></a><a href="/tags/SQL/" style="font-size: 0.88rem;">SQL<sup>1</sup></a><a href="/tags/VS-code/" style="font-size: 0.88rem;">VS code<sup>1</sup></a><a href="/tags/Vue-js/" style="font-size: 0.88rem;">Vue.js<sup>2</sup></a><a href="/tags/Win/" style="font-size: 0.88rem;">Win<sup>3</sup></a><a href="/tags/dom-to-image/" style="font-size: 0.88rem;">dom-to-image<sup>1</sup></a><a href="/tags/express/" style="font-size: 0.88rem;">express<sup>1</sup></a><a href="/tags/git/" style="font-size: 0.88rem;">git<sup>1</sup></a><a href="/tags/hexo/" style="font-size: 0.88rem;">hexo<sup>5</sup></a><a href="/tags/javascript/" style="font-size: 0.88rem;">javascript<sup>7</sup></a><a href="/tags/kali/" style="font-size: 0.88rem;">kali<sup>1</sup></a><a href="/tags/leetcode/" style="font-size: 0.88rem;">leetcode<sup>1</sup></a><a href="/tags/lerna/" style="font-size: 0.88rem;">lerna<sup>1</sup></a><a href="/tags/linux/" style="font-size: 0.88rem;">linux<sup>1</sup></a><a href="/tags/matery/" style="font-size: 0.88rem;">matery<sup>2</sup></a><a href="/tags/monorepo/" style="font-size: 0.88rem;">monorepo<sup>1</sup></a><a href="/tags/node-js/" style="font-size: 0.88rem;">node.js<sup>2</sup></a><a href="/tags/pinia/" style="font-size: 0.88rem;">pinia<sup>1</sup></a><a href="/tags/pyqt/" style="font-size: 0.88rem;">pyqt<sup>1</sup></a><a href="/tags/this/" style="font-size: 0.88rem;">this<sup>1</sup></a><a href="/tags/vite/" style="font-size: 0.88rem;">vite<sup>2</sup></a><a href="/tags/vue3/" style="font-size: 0.88rem;">vue3<sup>3</sup></a><a href="/tags/webpack/" style="font-size: 0.88rem;">webpack<sup>1</sup></a><a href="/tags/workspace/" style="font-size: 0.88rem;">workspace<sup>1</sup></a><a href="/tags/%E5%85%BC%E5%AE%B9%E6%80%A7/" style="font-size: 0.88rem;">兼容性<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 0.88rem;">前端<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" style="font-size: 0.88rem;">开发规范<sup>2</sup></a><a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 0.88rem;">微信小程序<sup>4</sup></a><a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 0.88rem;">操作系统<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 0.88rem;">数组<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%AB%99%E4%BE%BF%E7%AD%BE/" style="font-size: 0.88rem;">网站便签<sup>1</sup></a><a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 0.88rem;">面试<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.4/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.5",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 kif 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script>(() => {
+  const initValine = () => {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'b7AAVOuWhWIEQsQfviV12FRp-gzGzoHsz',
+      appKey: 'TYFSaiPIN5WAmTU3nv8wG8wb',
+      avatar: 'mp',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  const loadValine = async () => {
+    if (typeof Valine === 'function') initValine()
+    else {
+      await getScript('https://cdn.cbd.int/valine@1.5.1/dist/Valine.min.js')
+      initValine()
+    }
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script src="https://cdn.cbd.int/blueimp-md5@2.19.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getIcon = (icon, mail) => {
+    if (icon) return icon
+    let defaultIcon = '?d=mp'
+    let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const getComment = () => {
+    const serverURL = 'https://b7AAVOuW.api.lncldglobal.com'
+
+    var settings = {
+      "method": "GET",
+      "headers": {
+        "X-LC-Id": 'b7AAVOuWhWIEQsQfviV12FRp-gzGzoHsz',
+        "X-LC-Key": 'TYFSaiPIN5WAmTU3nv8wG8wb',
+        "Content-Type": "application/json"
+      },
+    }
+
+    fetch(`${serverURL}/1.1/classes/Comment?limit=6&order=-createdAt`,settings)
+      .then(response => response.json())
+      .then(data => {
+        const valineArray = data.results.map(function (e) {
+          return {
+            'avatar': getIcon(e.QQAvatar, e.mail),
+            'content': changeContent(e.comment),
+            'nick': e.nick,
+            'url': e.url + '#' + e.objectId,
+            'date': e.updatedAt,
+          }
+        })
+        saveToLocal.set('valine-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+        generateHtml(valineArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      }) 
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('valine-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "kif101001000@163.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>

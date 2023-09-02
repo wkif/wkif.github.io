@@ -1,1 +1,642 @@
-<!DOCTYPE html><html lang="en"><head><!-- hexo injector head_begin start --><meta name="description" content="kif的树洞"></meta><meta name="keywords" content="Frontend, Web development, Blog，kif"></meta><meta name="author" content="kif"></meta><!-- hexo injector head_begin end --><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><link href="/static/css/chunk-libs.eebac533.css" rel="stylesheet"><link href="/static/css/app.0d31776f.css" rel="stylesheet"><!-- hexo injector head_end start --><script rel="prefetch" async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-core.js" data-manual></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/themes/prism.min.css"/><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"/><link rel="stylesheet" href="https://fonts.loli.net/css?family=Rubik" /><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.9/Valine.min.js"></script><script rel="preload" src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body id="body-container"><noscript><strong>We're sorry but Aurora Blog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>(function(e){function t(t){for(var a,n,u=t[0],i=t[1],c=t[2],l=0,p=[];l<u.length;l++)n=u[l],Object.prototype.hasOwnProperty.call(o,n)&&o[n]&&p.push(o[n][0]),o[n]=0;for(a in i)Object.prototype.hasOwnProperty.call(i,a)&&(e[a]=i[a]);f&&f(t);while(p.length)p.shift()();return s.push.apply(s,c||[]),r()}function r(){for(var e,t=0;t<s.length;t++){for(var r=s[t],a=!0,n=1;n<r.length;n++){var u=r[n];0!==o[u]&&(a=!1)}a&&(s.splice(t--,1),e=i(i.s=r[0]))}return e}var a={},n={runtime:0},o={runtime:0},s=[];function u(e){return i.p+"static/js/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"00d640a8",about:"024aacd1",archives:"574ac664",categories:"90aa5475",page:"a02618ad",post:"cebfbaa4",result:"39470350",tags:"2ad613f5"}[e]+".js"}function i(t){if(a[t])return a[t].exports;var r=a[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r={404:1,about:1,archives:1,categories:1,page:1,post:1,result:1,tags:1};n[e]?t.push(n[e]):0!==n[e]&&r[e]&&t.push(n[e]=new Promise((function(t,r){for(var a="static/css/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"1a6cd5bd",about:"32dfa3b0",archives:"c0d49bd5",categories:"10e2be12",page:"749ad047",post:"9f951a60",result:"10e2be12",tags:"10e2be12"}[e]+".css",o=i.p+a,s=document.getElementsByTagName("link"),u=0;u<s.length;u++){var c=s[u],l=c.getAttribute("data-href")||c.getAttribute("href");if("stylesheet"===c.rel&&(l===a||l===o))return t()}var p=document.getElementsByTagName("style");for(u=0;u<p.length;u++){c=p[u],l=c.getAttribute("data-href");if(l===a||l===o)return t()}var f=document.createElement("link");f.rel="stylesheet",f.type="text/css",f.onload=t,f.onerror=function(t){var a=t&&t.target&&t.target.src||o,s=new Error("Loading CSS chunk "+e+" failed.\n("+a+")");s.code="CSS_CHUNK_LOAD_FAILED",s.request=a,delete n[e],f.parentNode.removeChild(f),r(s)},f.href=o;var d=document.getElementsByTagName("head")[0];d.appendChild(f)})).then((function(){n[e]=0})));var a=o[e];if(0!==a)if(a)t.push(a[2]);else{var s=new Promise((function(t,r){a=o[e]=[t,r]}));t.push(a[2]=s);var c,l=document.createElement("script");l.charset="utf-8",l.timeout=120,i.nc&&l.setAttribute("nonce",i.nc),l.src=u(e);var p=new Error;c=function(t){l.onerror=l.onload=null,clearTimeout(f);var r=o[e];if(0!==r){if(r){var a=t&&("load"===t.type?"missing":t.type),n=t&&t.target&&t.target.src;p.message="Loading chunk "+e+" failed.\n("+a+": "+n+")",p.name="ChunkLoadError",p.type=a,p.request=n,r[1](p)}o[e]=void 0}};var f=setTimeout((function(){c({type:"timeout",target:l})}),12e4);l.onerror=l.onload=c,document.head.appendChild(l)}return Promise.all(t)},i.m=e,i.c=a,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)i.d(r,a,function(t){return e[t]}.bind(null,a));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e["default"]}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/",i.oe=function(e){throw console.error(e),e};var c=window["webpackJsonp"]=window["webpackJsonp"]||[],l=c.push.bind(c);c.push=t,c=c.slice();for(var p=0;p<c.length;p++)t(c[p]);var f=l;r()})([]);</script><script src="/static/js/chunk-libs.dc6146cd.js"></script><script src="/static/js/app.6d2c358d.js"></script><!-- hexo injector body_end start -->-<script ="h:/dn.jelvgym@15aku>fow<!-- hexo injector body_end end --></body></html>
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Win好软推荐 | Kifroom</title><meta name="keywords" content="Win"><meta name="author" content="kif"><meta name="copyright" content="kif"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Win好软推荐"><meta name="application-name" content="Win好软推荐"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="Win好软推荐"><meta property="og:url" content="https://wkif.gitee.io/post/3a62.html"><meta property="og:site_name" content="Kifroom"><meta property="og:description" content="这期推荐一些个人在电脑使用中用到的提高工作（游戏）效率的好软件 前排提醒：所有软件资源均来自网络。 关闭Win自带definderwindows 10中自带杀毒软件Windows Defender，但是对于下面分向的大多是第三方软件，自带的杀毒软件往往会删掉软件，使用者或者不喜欢安装杀毒软件的用户怎"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png"><meta property="article:author" content="kif"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png"><meta name="description" content="这期推荐一些个人在电脑使用中用到的提高工作（游戏）效率的好软件 前排提醒：所有软件资源均来自网络。 关闭Win自带definderwindows 10中自带杀毒软件Windows Defender，但是对于下面分向的大多是第三方软件，自带的杀毒软件往往会删掉软件，使用者或者不喜欢安装杀毒软件的用户怎"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://wkif.gitee.io/post/3a62"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: {"mode":"api","api":"https://img2color-go.vercel.app/api?img=","cover_change":true},
+  authorStatus: {"skills":null},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: kif","link":"链接: ","source":"来源: Kifroom","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#3b70fc","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Kifroom',
+  title: 'Win好软推荐',
+  postAI: '',
+  pageFillDescription: '关闭Win自带definder, 解压工具, Winrar, 去广告, 弹窗广告, 火绒, 浏览器广告, ADGUARD, 电脑管家, wisecare 365, Ccleaner, 浏览器, 谷歌浏览器（Chrome）, chrome网上应用店, 1.AdGuard浏览器助手Beta 1.0.13计划, 2.哔哩哔哩助手 bilibili.com 综合辅助扩展1.2.21, 3.Momentum 1.17. 41, 音乐下载, MusicTools, 护眼软件, FluxPortable 4.118, PDF文件浏览器, PDFelement, 工具集, utools, 本地文件搜索软件, everthing, 哔哩哔哩, 哔哩uwp这期推荐一些个人在电脑使用中用到的提高工作游戏效率的好软件前排提醒所有软件资源均来自网络关闭自带中自带杀毒软件但是对于下面分向的大多是第三方软件自带的杀毒软件往往会删掉软件使用者或者不喜欢安装杀毒软件的用户怎么关闭它成为了难题这篇文章会告诉你如何临时关闭或者永久关闭它选择开始按钮然后选择设置更新和安全安全中心打开了操作界面依次打开病毒和威胁防护病毒和威胁防护设置在病毒和威胁防护设置界面关闭实时保护关闭云提供的保护关闭自动提交样本这三项如果按钮是灰色无法修改那么可能你的第三方软件已通过其他方式为您已经关闭了之后可以安装火绒等管家替代管理电脑解压工具解压工具是用来解压压缩包压力太大不适合用这个建议去捏方便面是一款强大的压缩文件管理器它提供了和文件的完整支持能解压格式文件下面的大部分软件会用压缩包的形式分享所以下载下挺方便的下载链接使用自带解压工具解压教程下载解压后会得到一下文件双击打开后缀文件即可运行之后解压压缩包会自动使用此软件去广告弹窗广告火绒去除电脑弹窗广告首选火绒呀下载链接点击下载安装免费版在弹窗拦截方面已经很厉害了打开方式对于没有自动识别的弹窗也可以使用截图拦截功能在弹窗出现的时候使用此功能选择弹窗对其拦截之后就再也不担心突然弹出令人尴尬的广告了浏览器广告这里推荐浏览器使用电脑自带的或者谷歌浏览器火狐浏览器这三款浏览器比较简约其余浏览器之类的都是用的他们的浏览器内核是对这几个浏览器的包装而且这三款浏览器可以安装一款神器游猴插件游猴里面的好多插件可以使电脑拥有好多功能例如破解付费视屏去广告这部分在后面再提这里给大家推荐的软件是作为号称是世界上最高级的广告拦截程序是摆脱恼人广告在线跟踪保护您远离恶意软件的最佳方式使您网络冲浪更快速更安全更安逸版不只是一款广告拦截软件它还组合了可获取最佳网络体验所需功能的多用途工具其可拦截广告和危险网站加速网页载入保护儿童的在线安全轻松阻挡比隐藏过滤更高效更彻底广告减少页面加载时间富媒体或其他非标准类型的广告在对网页垃圾信息进行屏蔽后可加快页面载入速度同时还支持反钓鱼并对反恶意软件以及网站进行过滤官方网站购买价格网络下载链接使用教程下载后解压在一固定目录下此软件是免安装版所以删除后就不能用了哦解压打开后会有如下文件双击打开启用保护打开设置安装浏览器助手就可以在浏览器里除掉广告了打开浏览器就可以在右上角看到这个图标电脑管家提到电脑管家可能大家首先想到电脑管家或者腾讯的但在使用中大家会发现当下载电脑管家之后过几天你就拥有了浏览器解压等等全家桶这种捆绑式很让人头疼甚至于卸载都卸载不干净这里给大家推荐两款专业的软件官网网络资源激活教程解压之后会得到如下文件注册信息里面提供了一些激活码当现实未激活时可以用这些激活码激活软件提供了很多功能其中计划任务可以定时清理电脑垃圾官网是由英国工作室开发的最著名且广受好评的系统清理优化及隐私保护软件也是该工作室的主打和首发产品支持自定义清理规则增强了应用程序清理范围和效果可以有效清除各种系统垃圾文件及应用程序垃圾同时具备系统优化功能可以对临时文件夹历史记录注册表冗余条目等进行垃圾清理附带启动项管理软件卸载功能不含任何间谍软件和垃圾程序支持包括简体中文在内的国语言界面是一款免费的系统优化和隐私保护工具主要用来清除系统不再使用的垃圾文件以腾出更多硬盘空间它的另一大功能是清除使用者的上网记录感谢大神的修改和分享特点如下去除了无用文件语言文件夹去除了版本检测自动更新去除了许可证验证集成了许可证文件无需注册运行即为专业版不再卡顿不再提示新版本更新许可证永久有效此破解版绿色原生便携配置信息不写注册表技术员增强版和专业增强版相比技术员增强版清理功能更多而且多了很多自定义选项为专业版为商业版为技术员版网络资源浏览器这部分前面也提到了推荐浏览器使用电脑自带的或者谷歌浏览器火狐浏览器谷歌浏览器下载浏览器除了前面提到的游猴以外还可以安装很多扩展程序下载扩展程序可以到网上应用店打开方法网上应用店网址下面给大家推荐一些扩展程序浏览器助手计划这个就是前面的插件哔哩哔哩助手综合辅助扩展下载哔哩哔哩助手点击添加到即可功能点击浏览器右上角图标即可设置下载功能大家新标签页时显示更美观的标签页音乐下载全网付费音乐免费下载软件前排提醒低调使用下载地址搜索后可免费下载软件设置里设置下载目录下载的歌曲会存在目录下护眼软件是款功能简单实用的电脑护眼神器这款软件非常的小巧是您眼睛的健康专家使您的眼睛受到的辐射减少软件主要的功能就是为了帮助用户快速的调节您的电脑显示屏的亮度而且换是根据室内的光线来进行快速的调节使您的眼睛一直处于舒服的状态等当然我还是推荐护眼神器大家可以在网站搜索获取这个软件网络资源解压后会得到如下文件双击打开文件浏览器一款功能强大的阅读器解锁多种功能方便电脑打开教材文件学习网络资源免安装版本下载之后打开文件即可工具集强烈安利集成了好多工具方便使用是一个极简插件化跨平台的现代化桌面软件通过自由选配丰富的插件打造你得心应手的工具集合通过快捷键默认就可以快速呼出这个搜索框它相当聪明可以支持输入拖拽自动粘贴等作为输入源相应的插件也早已准备就绪统一的设计风格和操作方式助你高效的得到结果当你熟悉它后能够为你节约大量时间让你可以更加专注地改变世界官网使用方法使用快捷键空格键快速打开在输入框里输入小工具名如剪贴板按打开点击右边图标可以打开主面板可以安装插件工具本地文件搜索软件下载链接当我们要找某一个文件却忘记放到哪儿的时候一般会使用自带的搜索工具当然上个也有搜索的功能可以选择那个但这个方法搜索速度非常慢搜索明显速度快了好多哔哩哔哩哔哩是第三方开发者开发的哔哩哔哩玩的应用界面个人感觉很清新功能也相对完整之前一般都是在浏览器上看现在用上这个感觉还可以下载使用下载后会得到以下文件打开就可以开始安装设置里面可以切换模式提供了两种模式',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2020-11-27 13:10:58',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.kifroom.icu/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ico.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://kifnav.kifroom.icu/" title="kifNav"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifnav.kifroom.icu/favicon.ico" alt="kifNav"/><span class="back-menu-item-text">kifNav</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">Kifroom</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/links/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/message-board/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Axios/" style="font-size: 1.05rem;">Axios<sup>3</sup></a><a href="/tags/C-S-N/" style="font-size: 1.05rem;">C.S.N<sup>1</sup></a><a href="/tags/Ckeditor4/" style="font-size: 1.05rem;">Ckeditor4<sup>1</sup></a><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 1.05rem;">C语言<sup>3</sup></a><a href="/tags/Django/" style="font-size: 1.05rem;">Django<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 1.05rem;">Excel<sup>1</sup></a><a href="/tags/Oracle/" style="font-size: 1.05rem;">Oracle<sup>1</sup></a><a href="/tags/Python/" style="font-size: 1.05rem;">Python<sup>1</sup></a><a href="/tags/RSA/" style="font-size: 1.05rem;">RSA<sup>1</sup></a><a href="/tags/SQL/" style="font-size: 1.05rem;">SQL<sup>1</sup></a><a href="/tags/VS-code/" style="font-size: 1.05rem;">VS code<sup>1</sup></a><a href="/tags/Vue-js/" style="font-size: 1.05rem;">Vue.js<sup>2</sup></a><a href="/tags/Win/" style="font-size: 1.05rem;">Win<sup>3</sup></a><a href="/tags/dom-to-image/" style="font-size: 1.05rem;">dom-to-image<sup>1</sup></a><a href="/tags/express/" style="font-size: 1.05rem;">express<sup>1</sup></a><a href="/tags/git/" style="font-size: 1.05rem;">git<sup>1</sup></a><a href="/tags/hexo/" style="font-size: 1.05rem;">hexo<sup>5</sup></a><a href="/tags/javascript/" style="font-size: 1.05rem;">javascript<sup>7</sup></a><a href="/tags/kali/" style="font-size: 1.05rem;">kali<sup>1</sup></a><a href="/tags/leetcode/" style="font-size: 1.05rem;">leetcode<sup>1</sup></a><a href="/tags/lerna/" style="font-size: 1.05rem;">lerna<sup>1</sup></a><a href="/tags/linux/" style="font-size: 1.05rem;">linux<sup>1</sup></a><a href="/tags/matery/" style="font-size: 1.05rem;">matery<sup>2</sup></a><a href="/tags/monorepo/" style="font-size: 1.05rem;">monorepo<sup>1</sup></a><a href="/tags/node-js/" style="font-size: 1.05rem;">node.js<sup>2</sup></a><a href="/tags/pinia/" style="font-size: 1.05rem;">pinia<sup>1</sup></a><a href="/tags/pyqt/" style="font-size: 1.05rem;">pyqt<sup>1</sup></a><a href="/tags/this/" style="font-size: 1.05rem;">this<sup>1</sup></a><a href="/tags/vite/" style="font-size: 1.05rem;">vite<sup>2</sup></a><a href="/tags/vue3/" style="font-size: 1.05rem;">vue3<sup>3</sup></a><a href="/tags/webpack/" style="font-size: 1.05rem;">webpack<sup>1</sup></a><a href="/tags/workspace/" style="font-size: 1.05rem;">workspace<sup>1</sup></a><a href="/tags/%E5%85%BC%E5%AE%B9%E6%80%A7/" style="font-size: 1.05rem;">兼容性<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 1.05rem;">前端<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" style="font-size: 1.05rem;">开发规范<sup>2</sup></a><a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 1.05rem;">微信小程序<sup>4</sup></a><a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 1.05rem;">操作系统<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 1.05rem;">数组<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%AB%99%E4%BE%BF%E7%AD%BE/" style="font-size: 1.05rem;">网站便签<sup>1</sup></a><a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 1.05rem;">面试<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/01/"><span class="card-archive-list-date">一月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">九月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8E%A8%E8%8D%90/" itemprop="url">推荐</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Win/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Win</span></a></span></div></div><h1 class="post-title" itemprop="name headline">Win好软推荐</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2020-08-11T16:00:00.000Z" title="发表于 2020-08-12 00:00:00">2020-08-12</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2020-11-27T05:10:58.317Z" title="更新于 2020-11-27 13:10:58">2020-11-27</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">2.6k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator"></span><span class="leancloud_visitors" id="/post/3a62.html" data-flag-title="Win好软推荐"><i class="anzhiyufont anzhiyu-icon-fw-eye post-meta-icon"></i><span class="post-meta-label" title="阅读量">阅读量:</span><span class="leancloud-visitors-count" title="访问量"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src=""></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://wkif.gitee.io/post/3a62.html"><header><a class="post-meta-categories" href="/categories/%E6%8E%A8%E8%8D%90/" itemprop="url">推荐</a><a href="/tags/Win/" tabindex="-1" itemprop="url">Win</a><h1 id="CrawlerTitle" itemprop="name headline">Win好软推荐</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">kif</span><time itemprop="dateCreated datePublished" datetime="2020-08-11T16:00:00.000Z" title="发表于 2020-08-12 00:00:00">2020-08-12</time><time itemprop="dateCreated datePublished" datetime="2020-11-27T05:10:58.317Z" title="更新于 2020-11-27 13:10:58">2020-11-27</time></header><p>这期推荐一些个人在电脑使用中用到的提高工作（游戏）效率的好软件</p>
+<p>前排提醒：所有软件资源均来自网络。</p>
+<h1 id="关闭Win自带definder"><a href="#关闭Win自带definder" class="headerlink" title="关闭Win自带definder"></a><a href="#%E5%85%B3%E9%97%ADWin%E8%87%AA%E5%B8%A6definder" title="关闭Win自带definder"></a>关闭Win自带definder</h1><p>windows 10中自带杀毒软件Windows Defender，但是对于下面分向的大多是第三方软件，自带的杀毒软件往往会删掉软件，使用者或者不喜欢安装杀毒软件的用户怎么关闭它成为了难题，这篇文章会告诉你如何临时关闭windows defender或者永久关闭它。</p>
+<p>1.选择“<strong>开始</strong>”按钮 ，然后选择“<strong>设置</strong>” &gt;“<strong>更新和安全</strong>” &gt;“<strong>Windows 安全中心</strong>”。打开了Windows Defender操作界面，依次打开“病毒和威胁防护”-“病毒和威胁防护设置”</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812191444.png" alt="image-20200812191443974"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812191517.png" alt="image-20200812191517672"></p>
+<p>2.在“病毒和威胁防护”设置界面，关闭“实时保护”，关闭“云提供的保护”，关闭“自动提交样本”这三项。</p>
+<p>如果按钮是灰色无法修改，那么可能你的第三方软件已通过其他方式为您已经关闭了。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812191641.png" alt="4b626771fe1d96d8d3320b942ccd0c6efaf2e183"></p>
+<p>之后可以安装火绒等管家替代definder管理电脑。</p>
+<h1 id="解压工具"><a href="#解压工具" class="headerlink" title="解压工具"></a><a href="#%E8%A7%A3%E5%8E%8B%E5%B7%A5%E5%85%B7" title="解压工具"></a>解压工具</h1><p>解压工具是用来解压压缩包， 压力太大不适合用这个，建议去捏方便面</p>
+<h3 id="Winrar"><a href="#Winrar" class="headerlink" title="Winrar"></a><a href="#Winrar" title="Winrar"></a>Winrar</h3><p>[WinRAR]是一款强大的压缩文件管理器，它提供了<a target="_blank" rel="noopener" href="https://www.mpyit.com/rarlab.html">RAR和ZIP</a>文件的完整支持，能解压ARJ、CAB、LZH、ACE、TAR、GZ、UUE、BZ2、JAR、ISO格式文件。</p>
+<p>下面的大部分软件会用Zip压缩包的形式分享，所以下载下挺方便的</p>
+<p>下载链接：</p>
+<p><a target="_blank" rel="noopener" href="https://wws.lanzous.com/iYmNvfjqeqf">https://wws.lanzous.com/iYmNvfjqeqf</a></p>
+<p>使用自带解压工具解压教程：</p>
+<p><a target="_blank" rel="noopener" href="https://jingyan.baidu.com/article/a378c960d0cb10b328283002.html">https://jingyan.baidu.com/article/a378c960d0cb10b328283002.html</a></p>
+<p>下载解压后会得到一下文件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812150321.png" alt="image-20200812150320996"></p>
+<p>双击打开EXE后缀文件即可运行</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812150238.png" alt="image-20200812150238856"></p>
+<p>之后解压压缩包会自动使用此软件</p>
+<h1 id="去广告"><a href="#去广告" class="headerlink" title="去广告"></a><a href="#%E5%8E%BB%E5%B9%BF%E5%91%8A" title="去广告"></a>去广告</h1><h2 id="弹窗广告"><a href="#弹窗广告" class="headerlink" title="弹窗广告"></a><a href="#%E5%BC%B9%E7%AA%97%E5%B9%BF%E5%91%8A" title="弹窗广告"></a>弹窗广告</h2><h3 id="火绒"><a href="#火绒" class="headerlink" title="火绒"></a><a href="#%E7%81%AB%E7%BB%92" title="火绒"></a>火绒</h3><p>去除电脑弹窗广告首选 火绒 呀！</p>
+<p><a target="_blank" rel="noopener" href="https://www.huorong.cn/person5.html">下载链接</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812114804.png" alt="火绒"></p>
+<p>点击下载安装，免费版在弹窗拦截方面已经很厉害了，</p>
+<p>打开方式：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812115002.png" alt="1"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812115021.png" alt="2"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812115050.png" alt="3"></p>
+<p>对于没有自动识别的弹窗也可以使用截图拦截功能，在弹窗出现的时候，使用此功能选择弹窗，对其拦截！</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812115145.png" alt="截图拦截"></p>
+<p>之后就再也不担心突然弹出令人尴尬的广告了。</p>
+<h2 id="浏览器广告"><a href="#浏览器广告" class="headerlink" title="浏览器广告"></a><a href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B9%BF%E5%91%8A" title="浏览器广告"></a>浏览器广告</h2><p>这里推荐浏览器使用 电脑自带的  Microsoft Edge或者 <a target="_blank" rel="noopener" href="https://www.google.cn/chrome/index.html">谷歌浏览器（Chrome）</a>，<a target="_blank" rel="noopener" href="https://www.firefox.com.cn/">火狐浏览器（Firefox）</a></p>
+<p>这三款浏览器比较简约，其余360 UC浏览器之类的都是用的他们的浏览器内核，是对这几个浏览器的包装，而且这三款浏览器可以安装一款神器—<strong>游猴插件</strong></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812120141.png" alt="游猴"></p>
+<p>游猴里面的好多插件可以使电脑拥有好多功能，例如破解付费vip视屏，去广告，这部分在后面再提。</p>
+<p>这里给大家推荐的软件是</p>
+<h3 id="ADGUARD"><a href="#ADGUARD" class="headerlink" title="ADGUARD"></a><a href="#ADGUARD" title="ADGUARD"></a>ADGUARD</h3><p>作为号称是世界上最高级的广告拦截程序！Adguard Premium 是摆脱恼人广告，在线跟踪，保护您远离恶意软件的最佳方式。AdGuard 使您网络冲浪更快速，更安全，更安逸！</p>
+<p>AdGuard for Windows PC版 不只是一款广告拦截软件，它还组合了可获取最佳网络体验所需功能的多用途工具。其可拦截广告和危险网站，加速网页载入，保护儿童的在线安全。轻松阻挡 (比“隐藏过滤”更高效更彻底) 广告、减少页面加载时间、富媒体或其他非标准类型的广告，在对网页垃圾信息进行屏蔽后可加快页面载入速度。同时 Adguard 还支持反钓鱼并对反恶意软件以及网站进行过滤。</p>
+<p><a target="_blank" rel="noopener" href="https://adguard.com/zh_cn/welcome.html">官方网站</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812120721.png" alt="image-20200812120721782"></p>
+<p>购买价格：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812120813.png" alt="image-20200812120813379"></p>
+<p><a target="_blank" rel="noopener" href="https://wws.lanzous.com/iQpUqfjh85e">网络下载链接</a></p>
+<p>使用教程：</p>
+<p>下载后解压在一固定目录下,此软件是免安装版，所以删除后就不能用了哦。</p>
+<p>解压打开后会有如下文件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812121457.png" alt="image-20200812121457707"></p>
+<p>双击打开AdguardPortable.exe</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812121527.png" alt="image-20200812121526922"></p>
+<p>启用保护</p>
+<p>打开设置</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812121614.png" alt="image-20200812121614082"></p>
+<p>安装浏览器助手就可以在浏览器里除掉广告了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812121738.png" alt="image-20200812121738189"></p>
+<p>打开浏览器就可以在右上角看到这个图标</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812121825.png" alt="image-20200812121825029"></p>
+<h1 id="电脑管家"><a href="#电脑管家" class="headerlink" title="电脑管家"></a><a href="#%E7%94%B5%E8%84%91%E7%AE%A1%E5%AE%B6" title="电脑管家"></a>电脑管家</h1><p>提到电脑管家，可能大家首先想到360电脑管家或者腾讯的，但在使用中大家会发现当下载360电脑管家之后过几天你就拥有了360浏览器，360解压等等360全家桶，这种捆绑式很让人头疼，甚至于卸载都卸载不干净。这里给大家推荐两款专业的软件。</p>
+<h3 id="wisecare-365"><a href="#wisecare-365" class="headerlink" title="wisecare 365"></a><a href="#wisecare-365" title="wisecare 365"></a>wisecare 365</h3><p><a target="_blank" rel="noopener" href="https://www.wisecleaner.com.cn/wise-care-365.html">官网</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812125400.png" alt="image-20200812125400261"></p>
+<p>网络资源 <a target="_blank" rel="noopener" href="https://wws.lanzous.com/iLVDRfjjjqd">https://wws.lanzous.com/iLVDRfjjjqd</a></p>
+<p>激活教程</p>
+<p>解压之后会得到如下文件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812130526.png" alt="image-20200812130526109"></p>
+<p>注册信息txt里面提供了一些激活码</p>
+<p>当现实未激活时，可以用这些激活码激活</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812131134.png" alt="image-20200812131134476"></p>
+<p>软件提供了很多功能</p>
+<p>其中 计划任务可以定时清理电脑垃圾</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812131358.png" alt="image-20200812131358115"></p>
+<h3 id="Ccleaner"><a href="#Ccleaner" class="headerlink" title="Ccleaner"></a><a href="#Ccleaner" title="Ccleaner"></a>Ccleaner</h3><p>官网：<a target="_blank" rel="noopener" href="https://www.ccleaner.com/ccleaner">https://www.ccleaner.com/ccleaner</a></p>
+<p>CCleaner pro 是由英国 Piriform 工作室开发的最著名，且广受好评的系统清理优化及隐私保护软件，也是该工作室的主打和首发产品，支持自定义清理规则，增强了应用程序清理范围和效果。可以有效清除各种系统垃圾文件及应用程序垃圾，同时具备系统优化功能，可以对临时文件夹、历史记录、注册表冗余条目等进行垃圾清理，附带启动项管理、软件卸载功能。不含任何间谍软件和垃圾程序。支持包括简体中文在内的31国语言界面!</p>
+<p>CCleaner pro 是一款免费的系统优化和隐私保护工具。主要用来清除Windows系统不再使用的垃圾文件，以腾出更多硬盘空间。它的另一大功能是清除使用者的上网记录。</p>
+<p>感谢th_sjy大神的修改和分享，特点如下：</p>
+<ul>
+<li>去除了无用文件、语言文件夹，去除了版本检测、自动更新，去除了许可证验证，集成了许可证文件无需注册运行即为专业版。不再卡顿、不再提示新版本更新、许可证永久有效。</li>
+<li>此破解版绿色原生便携，配置信息不写注册表！</li>
+<li>技术员增强版和专业增强版相比，技术员增强版清理功能更多，而且多了很多自定义选项。</li>
+<li>Professional 为专业版、Business 为商业版、Technician 为技术员版。</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://www.yxssp.com/download.php?author=%E5%B0%8F%E6%9D%B0&amp;btitle=%E5%BC%82%E6%98%9F%E8%BD%AF%E4%BB%B6%E7%A9%BA%E9%97%B4&amp;id=4267" title="%E5%BC%82%E6%98%9F%E8%BD%AF%E4%BB%B6%E7%A9%BA%E9%97%B4&amp;id=4267">网络资源</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812131737.png" alt="image-20200812131736956"></p>
+<h1 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a><a href="#%E6%B5%8F%E8%A7%88%E5%99%A8" title="浏览器"></a>浏览器</h1><p>这部分前面也提到了 推荐浏览器使用 电脑自带的  Microsoft Edge或者 <a target="_blank" rel="noopener" href="https://www.google.cn/chrome/index.html">谷歌浏览器（Chrome）</a>，<a target="_blank" rel="noopener" href="https://www.firefox.com.cn/">火狐浏览器（Firefox）</a></p>
+<h3 id="谷歌浏览器（Chrome）"><a href="#谷歌浏览器（Chrome）" class="headerlink" title="谷歌浏览器（Chrome）"></a><a href="#%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%88Chrome%EF%BC%89" title="谷歌浏览器（Chrome）"></a>谷歌浏览器（Chrome）</h3><p>下载：<a target="_blank" rel="noopener" href="https://www.google.cn/chrome/index.html">https://www.google.cn/chrome/index.html</a></p>
+<p>浏览器除了前面提到的游猴以外，还可以安装很多扩展程序，下载扩展程序可以到chrome网上应用店</p>
+<p>打开方法：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812193358.gif" alt="1"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193034.png" alt="image-20200812193034514"></p>
+<h4 id="chrome网上应用店"><a href="#chrome网上应用店" class="headerlink" title="chrome网上应用店"></a><a href="#chrome%E7%BD%91%E4%B8%8A%E5%BA%94%E7%94%A8%E5%BA%97" title="chrome网上应用店"></a>chrome网上应用店</h4><p>网址：<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">https://chrome.google.com/webstore/category/extensions?hl=zh-CN</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812192801.png" alt="image-20200812192801023"></p>
+<p>下面给大家推荐一些扩展程序：</p>
+<h5 id="1-AdGuard浏览器助手Beta-1-0-13计划"><a href="#1-AdGuard浏览器助手Beta-1-0-13计划" class="headerlink" title="1.AdGuard浏览器助手Beta 1.0.13计划"></a><a href="#1-AdGuard%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8BBeta-1-0-13%E8%AE%A1%E5%88%92" title="1.AdGuard浏览器助手Beta 1.0.13计划"></a>1.AdGuard浏览器助手Beta 1.0.13计划</h5><p>这个就是前面ADGUARD的插件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193516.png" alt="image-20200812193515945"></p>
+<h5 id="2-哔哩哔哩助手-bilibili-com-综合辅助扩展1-2-21"><a href="#2-哔哩哔哩助手-bilibili-com-综合辅助扩展1-2-21" class="headerlink" title="2.哔哩哔哩助手: bilibili.com 综合辅助扩展1.2.21"></a><a href="#2-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B-bilibili-com-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%951-2-21" title="2.哔哩哔哩助手: bilibili.com 综合辅助扩展1.2.21"></a>2.哔哩哔哩助手: bilibili.com 综合辅助扩展1.2.21</h5><p>下载：<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B%EF%BC%9Abilibilicom-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%95/kpbnombpnpcffllnianjibmpadjolanh">哔哩哔哩助手</a></p>
+<p>点击添加到Chrome即可</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812194033.png" alt="image-20200812194033854"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193643.png" alt="image-20200812193643110"></p>
+<p>功能：</p>
+<p>点击浏览器右上角图标即可设置</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812194124.png" alt="image-20200812194124053"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193926.png" alt="image-20200812193925943"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193941.png" alt="image-20200812193940941"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812193959.png" alt="image-20200812193959258"></p>
+<h5 id="3-Momentum-1-17-41"><a href="#3-Momentum-1-17-41" class="headerlink" title="3.Momentum 1.17. 41"></a><a href="#3-Momentum-1-17-41" title="3.Momentum 1.17. 41"></a>3.Momentum 1.17. 41</h5><p>下载：<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca">Momentum 1.17. 41</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812194247.png" alt="image-20200812194247559"></p>
+<p>功能：</p>
+<p>大家新标签页时显示更美观的标签页</p>
+<h1 id="音乐下载"><a href="#音乐下载" class="headerlink" title="音乐下载"></a><a href="#%E9%9F%B3%E4%B9%90%E4%B8%8B%E8%BD%BD" title="音乐下载"></a>音乐下载</h1><p>全网付费音乐免费下载软件，前排提醒，低调使用</p>
+<h3 id="MusicTools"><a href="#MusicTools" class="headerlink" title="MusicTools"></a><a href="#MusicTools" title="MusicTools"></a>MusicTools</h3><p><a target="_blank" rel="noopener" href="http://tool.yijingying.com/musictools/">下载地址</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812132125.png" alt="image-20200812132125682"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812132229.png" alt="image-20200812132229512"></p>
+<p>搜索后可免费下载</p>
+<p>软件设置里设置下载目录，下载的歌曲会存在目录下</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812132328.png" alt="image-20200812132328403"></p>
+<h1 id="护眼软件"><a href="#护眼软件" class="headerlink" title="护眼软件"></a><a href="#%E6%8A%A4%E7%9C%BC%E8%BD%AF%E4%BB%B6" title="护眼软件"></a>护眼软件</h1><h3 id="FluxPortable-4-118"><a href="#FluxPortable-4-118" class="headerlink" title="FluxPortable 4.118"></a><a href="#FluxPortable-4-118" title="FluxPortable 4.118"></a>FluxPortable 4.118</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812133238.png" alt="image-20200812133238084"></p>
+<p>f.lux是款功能简单实用的电脑护眼神器，这款软件非常的小巧，是您眼睛的健康专家，使您的眼睛受到的辐射减少，软件主要的功能就是为了帮助用户快速的调节您的电脑显示屏的亮度，而且换是根据室内的光线来进行快速的调节，使您的眼睛一直处于舒服的状态等，当然我还是推荐Iris护眼神器，大家可以在网站搜索获取这个软件</p>
+<p>网络资源：<a target="_blank" rel="noopener" href="https://wws.lanzous.com/iVus0fjlcxa">https://wws.lanzous.com/iVus0fjlcxa</a></p>
+<p>解压后会得到如下文件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812133431.png" alt="image-20200812133430931"></p>
+<p>双击打开FluxPortable.exe</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812133528.gif" alt="1"></p>
+<h1 id="PDF文件浏览器"><a href="#PDF文件浏览器" class="headerlink" title="PDF文件浏览器"></a><a href="#PDF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%99%A8" title="PDF文件浏览器"></a>PDF文件浏览器</h1><h3 id="PDFelement"><a href="#PDFelement" class="headerlink" title="PDFelement"></a><a href="#PDFelement" title="PDFelement"></a>PDFelement</h3><p>一款功能强大的pdf阅读器，解锁多种功能，方便电脑打开教材文件学习</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812134838.png" alt="image-20200812134837811"></p>
+<p>网络资源：<a target="_blank" rel="noopener" href="https://cloud.189.cn/t/iAnmQ3jI7nyu">https://cloud.189.cn/t/iAnmQ3jI7nyu</a></p>
+<p>免安装版本，下载之后打开exe文件即可</p>
+<h1 id="工具集"><a href="#工具集" class="headerlink" title="工具集"></a><a href="#%E5%B7%A5%E5%85%B7%E9%9B%86" title="工具集"></a>工具集</h1><h3 id="utools"><a href="#utools" class="headerlink" title="utools"></a><a href="#utools" title="utools"></a>utools</h3><p>强烈安利！！集成了好多工具，方便使用</p>
+<p>uTools是一个极简、插件化、跨平台的现代化桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
+<p>通过快捷键（默认<code>alt+space</code>）就可以快速呼出这个搜索框。它相当聪明，可以支持输入、拖拽、自动粘贴等作为输入源，相应的插件也早已准备就绪，统一的设计风格和操作方式，助你高效的得到结果。</p>
+<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://u.tools/">https://u.tools/</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812135803.png" alt="image-20200812135803101"></p>
+<p>使用方法：</p>
+<p>使用快捷键 ALT + 空格键快速打开，在输入框里输入小工具名 如“剪贴板” ，按enter打开</p>
+<p>点击右边图标可以打开主面板，可以安装插件工具</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812140008.gif" alt="utools"></p>
+<h1 id="本地文件搜索软件"><a href="#本地文件搜索软件" class="headerlink" title="本地文件搜索软件"></a><a href="#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E8%BD%AF%E4%BB%B6" title="本地文件搜索软件"></a>本地文件搜索软件</h1><h3 id="everthing"><a href="#everthing" class="headerlink" title="everthing"></a><a href="#everthing" title="everthing"></a>everthing</h3><p>下载链接：<a target="_blank" rel="noopener" href="https://www.voidtools.com/zh-cn/">https://www.voidtools.com/zh-cn/</a></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812181441.png" alt="image-20200812181441477"></p>
+<p>当我们要找某一个文件却忘记放到哪儿的时候，一般会使用自带的搜索工具（当然上个Utools也有搜索的功能，可以选择那个）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812152329.png" alt="image-20200812152329066"></p>
+<p>但这个方法搜索速度非常慢</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://gitee.com/wkkif/PicGoimg/raw/master/img/20200812170821.gif" alt="12"></p>
+<p>Everthing搜索：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812181237.gif" alt="1"></p>
+<p>明显速度快了好多。</p>
+<h1 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a><a href="#%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9" title="哔哩哔哩"></a>哔哩哔哩</h1><h3 id="哔哩uwp"><a href="#哔哩uwp" class="headerlink" title="哔哩uwp"></a><a href="#%E5%93%94%E5%93%A9uwp" title="哔哩uwp"></a>哔哩uwp</h3><p>是第三方开发者开发的哔哩哔哩玩的uwp应用，界面个人感觉很清新，功能也相对完整，之前一般都是在浏览器上看，现在用上这个uwp感觉还可以</p>
+<p>下载：<a target="_blank" rel="noopener" href="https://wws.lanzous.com/i5QcXeehm7e">https://wws.lanzous.com/i5QcXeehm7e</a></p>
+<p>使用：</p>
+<p>下载后会得到以下文件</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812144735.png" alt="image-20200812144735812"></p>
+<p>打开   60520B029E250.4264454043325_1.3.8.0_x64__5aa7k9th7aafp.appx    就可以开始安装</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812144819.png" alt="image-20200812144819801"></p>
+<p>设置里面可以切换模式，提供了两种模式</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812144932.png" alt="image-20200812144932676"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/wkif/ImageHosting/img/20200812144914.png" alt="桌面模式"></p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">kif</div><div class="post-copyright__author_desc">梅虽逊雪三分白，雪却输梅一段香</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://wkif.gitee.io/post/3a62.html">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://wkif.gitee.io/post/3a62.html')">Win好软推荐</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://wkif.gitee.io/post/3a62.html"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=Win好软推荐&amp;url=https://wkif.gitee.io/post/3a62.html&amp;pic=" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="rm.copyPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://wkif.gitee.io" target="_blank">Kifroom</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Win/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Win<span class="tagsPageCount">3</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/post/8bd5.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforhexo/20201202142824.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">个人博客搭建（3）:Typora+PicGo+Github/Gitee搭建免费稳定的图床</div></div></a></div><div class="next-post pull-right"><a href="/post/f393.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">个人博客搭建（5）：网页页尾鱼塘效果美化</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/post/c402.html" title="Win 上安装Git和node.js"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-06-18</div><div class="title">Win 上安装Git和node.js</div></div></a></div><div><a href="/post/74c4.html" title="win桌面美化教程"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-06-13</div><div class="title">win桌面美化教程</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/imgforteachingdemo/20201127203438.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" ait="status"/></div></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">kif</h1><div class="author-info__desc">梅虽逊雪三分白，雪却输梅一段香</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/wkif" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来看我的博客鸭~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E9%97%ADWin%E8%87%AA%E5%B8%A6definder"><span class="toc-number">1.</span> <span class="toc-text">关闭Win自带definder</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A7%A3%E5%8E%8B%E5%B7%A5%E5%85%B7"><span class="toc-number">2.</span> <span class="toc-text">解压工具</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Winrar"><span class="toc-number">2.0.1.</span> <span class="toc-text">Winrar</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8E%BB%E5%B9%BF%E5%91%8A"><span class="toc-number">3.</span> <span class="toc-text">去广告</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%B9%E7%AA%97%E5%B9%BF%E5%91%8A"><span class="toc-number">3.1.</span> <span class="toc-text">弹窗广告</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%81%AB%E7%BB%92"><span class="toc-number">3.1.1.</span> <span class="toc-text">火绒</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B9%BF%E5%91%8A"><span class="toc-number">3.2.</span> <span class="toc-text">浏览器广告</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ADGUARD"><span class="toc-number">3.2.1.</span> <span class="toc-text">ADGUARD</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%B5%E8%84%91%E7%AE%A1%E5%AE%B6"><span class="toc-number">4.</span> <span class="toc-text">电脑管家</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#wisecare-365"><span class="toc-number">4.0.1.</span> <span class="toc-text">wisecare 365</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ccleaner"><span class="toc-number">4.0.2.</span> <span class="toc-text">Ccleaner</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="toc-number">5.</span> <span class="toc-text">浏览器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%88Chrome%EF%BC%89"><span class="toc-number">5.0.1.</span> <span class="toc-text">谷歌浏览器（Chrome）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#chrome%E7%BD%91%E4%B8%8A%E5%BA%94%E7%94%A8%E5%BA%97"><span class="toc-number">5.0.1.1.</span> <span class="toc-text">chrome网上应用店</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-AdGuard%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8BBeta-1-0-13%E8%AE%A1%E5%88%92"><span class="toc-number">5.0.1.1.1.</span> <span class="toc-text">1.AdGuard浏览器助手Beta 1.0.13计划</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8A%A9%E6%89%8B-bilibili-com-%E7%BB%BC%E5%90%88%E8%BE%85%E5%8A%A9%E6%89%A9%E5%B1%951-2-21"><span class="toc-number">5.0.1.1.2.</span> <span class="toc-text">2.哔哩哔哩助手: bilibili.com 综合辅助扩展1.2.21</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-Momentum-1-17-41"><span class="toc-number">5.0.1.1.3.</span> <span class="toc-text">3.Momentum 1.17. 41</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9F%B3%E4%B9%90%E4%B8%8B%E8%BD%BD"><span class="toc-number">6.</span> <span class="toc-text">音乐下载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#MusicTools"><span class="toc-number">6.0.1.</span> <span class="toc-text">MusicTools</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8A%A4%E7%9C%BC%E8%BD%AF%E4%BB%B6"><span class="toc-number">7.</span> <span class="toc-text">护眼软件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#FluxPortable-4-118"><span class="toc-number">7.0.1.</span> <span class="toc-text">FluxPortable 4.118</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PDF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="toc-number">8.</span> <span class="toc-text">PDF文件浏览器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PDFelement"><span class="toc-number">8.0.1.</span> <span class="toc-text">PDFelement</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E9%9B%86"><span class="toc-number">9.</span> <span class="toc-text">工具集</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#utools"><span class="toc-number">9.0.1.</span> <span class="toc-text">utools</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E8%BD%AF%E4%BB%B6"><span class="toc-number">10.</span> <span class="toc-text">本地文件搜索软件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#everthing"><span class="toc-number">10.0.1.</span> <span class="toc-text">everthing</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9"><span class="toc-number">11.</span> <span class="toc-text">哔哩哔哩</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%94%E5%93%A9uwp"><span class="toc-number">11.0.1.</span> <span class="toc-text">哔哩uwp</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/kif1.html" title="Math.toFixed中的四舍五入问题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kiftravel.oss-cn-beijing.aliyuncs.com/img/202308280943672.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Math.toFixed中的四舍五入问题"/></a><div class="content"><a class="title" href="/post/kif1.html" title="Math.toFixed中的四舍五入问题">Math.toFixed中的四舍五入问题</a><time datetime="2023-08-28T03:09:00.000Z" title="发表于 2023-08-28 11:09:00">2023-08-28</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/post/8a59.html" title="React系列：Rematch">React系列：Rematch</a><time datetime="2023-08-05T03:31:00.000Z" title="发表于 2023-08-05 11:31:00">2023-08-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/9aee.html" title="kif的neovim设置"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202304191059908.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="kif的neovim设置"/></a><div class="content"><a class="title" href="/post/9aee.html" title="kif的neovim设置">kif的neovim设置</a><time datetime="2023-04-19T02:58:00.000Z" title="发表于 2023-04-19 10:58:00">2023-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/5fbb.html" title="win11中powershell设置v2ray代理"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202304191057671.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="win11中powershell设置v2ray代理"/></a><div class="content"><a class="title" href="/post/5fbb.html" title="win11中powershell设置v2ray代理">win11中powershell设置v2ray代理</a><time datetime="2023-04-19T02:54:00.000Z" title="发表于 2023-04-19 10:54:00">2023-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/f788.html" title="lerna+yarn workspace+monorepo项目的最佳实践"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifimg.oss-cn-beijing.aliyuncs.com/img/202301261903204.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="lerna+yarn workspace+monorepo项目的最佳实践"/></a><div class="content"><a class="title" href="/post/f788.html" title="lerna+yarn workspace+monorepo项目的最佳实践">lerna+yarn workspace+monorepo项目的最佳实践</a><time datetime="2023-01-26T11:01:00.000Z" title="发表于 2023-01-26 19:01:00">2023-01-26</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2023 By <a class="footer-bar-link" href="/" title="kif" target="_blank">kif</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">48</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">17</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.kifroom.icu/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ico.png" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://kifnav.kifroom.icu/" title="kifNav"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://kifnav.kifroom.icu/favicon.ico" alt="kifNav"/><span class="back-menu-item-text">kifNav</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/links/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/message-board/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Axios/" style="font-size: 0.88rem;">Axios<sup>3</sup></a><a href="/tags/C-S-N/" style="font-size: 0.88rem;">C.S.N<sup>1</sup></a><a href="/tags/Ckeditor4/" style="font-size: 0.88rem;">Ckeditor4<sup>1</sup></a><a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 0.88rem;">C语言<sup>3</sup></a><a href="/tags/Django/" style="font-size: 0.88rem;">Django<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 0.88rem;">Excel<sup>1</sup></a><a href="/tags/Oracle/" style="font-size: 0.88rem;">Oracle<sup>1</sup></a><a href="/tags/Python/" style="font-size: 0.88rem;">Python<sup>1</sup></a><a href="/tags/RSA/" style="font-size: 0.88rem;">RSA<sup>1</sup></a><a href="/tags/SQL/" style="font-size: 0.88rem;">SQL<sup>1</sup></a><a href="/tags/VS-code/" style="font-size: 0.88rem;">VS code<sup>1</sup></a><a href="/tags/Vue-js/" style="font-size: 0.88rem;">Vue.js<sup>2</sup></a><a href="/tags/Win/" style="font-size: 0.88rem;">Win<sup>3</sup></a><a href="/tags/dom-to-image/" style="font-size: 0.88rem;">dom-to-image<sup>1</sup></a><a href="/tags/express/" style="font-size: 0.88rem;">express<sup>1</sup></a><a href="/tags/git/" style="font-size: 0.88rem;">git<sup>1</sup></a><a href="/tags/hexo/" style="font-size: 0.88rem;">hexo<sup>5</sup></a><a href="/tags/javascript/" style="font-size: 0.88rem;">javascript<sup>7</sup></a><a href="/tags/kali/" style="font-size: 0.88rem;">kali<sup>1</sup></a><a href="/tags/leetcode/" style="font-size: 0.88rem;">leetcode<sup>1</sup></a><a href="/tags/lerna/" style="font-size: 0.88rem;">lerna<sup>1</sup></a><a href="/tags/linux/" style="font-size: 0.88rem;">linux<sup>1</sup></a><a href="/tags/matery/" style="font-size: 0.88rem;">matery<sup>2</sup></a><a href="/tags/monorepo/" style="font-size: 0.88rem;">monorepo<sup>1</sup></a><a href="/tags/node-js/" style="font-size: 0.88rem;">node.js<sup>2</sup></a><a href="/tags/pinia/" style="font-size: 0.88rem;">pinia<sup>1</sup></a><a href="/tags/pyqt/" style="font-size: 0.88rem;">pyqt<sup>1</sup></a><a href="/tags/this/" style="font-size: 0.88rem;">this<sup>1</sup></a><a href="/tags/vite/" style="font-size: 0.88rem;">vite<sup>2</sup></a><a href="/tags/vue3/" style="font-size: 0.88rem;">vue3<sup>3</sup></a><a href="/tags/webpack/" style="font-size: 0.88rem;">webpack<sup>1</sup></a><a href="/tags/workspace/" style="font-size: 0.88rem;">workspace<sup>1</sup></a><a href="/tags/%E5%85%BC%E5%AE%B9%E6%80%A7/" style="font-size: 0.88rem;">兼容性<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 0.88rem;">前端<sup>1</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" style="font-size: 0.88rem;">开发规范<sup>2</sup></a><a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 0.88rem;">微信小程序<sup>4</sup></a><a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 0.88rem;">操作系统<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 0.88rem;">数组<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%AB%99%E4%BE%BF%E7%AD%BE/" style="font-size: 0.88rem;">网站便签<sup>1</sup></a><a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 0.88rem;">面试<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.4/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.5",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 kif 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script>(() => {
+  const initValine = () => {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'b7AAVOuWhWIEQsQfviV12FRp-gzGzoHsz',
+      appKey: 'TYFSaiPIN5WAmTU3nv8wG8wb',
+      avatar: 'mp',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  const loadValine = async () => {
+    if (typeof Valine === 'function') initValine()
+    else {
+      await getScript('https://cdn.cbd.int/valine@1.5.1/dist/Valine.min.js')
+      initValine()
+    }
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script src="https://cdn.cbd.int/blueimp-md5@2.19.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getIcon = (icon, mail) => {
+    if (icon) return icon
+    let defaultIcon = '?d=mp'
+    let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const getComment = () => {
+    const serverURL = 'https://b7AAVOuW.api.lncldglobal.com'
+
+    var settings = {
+      "method": "GET",
+      "headers": {
+        "X-LC-Id": 'b7AAVOuWhWIEQsQfviV12FRp-gzGzoHsz',
+        "X-LC-Key": 'TYFSaiPIN5WAmTU3nv8wG8wb',
+        "Content-Type": "application/json"
+      },
+    }
+
+    fetch(`${serverURL}/1.1/classes/Comment?limit=6&order=-createdAt`,settings)
+      .then(response => response.json())
+      .then(data => {
+        const valineArray = data.results.map(function (e) {
+          return {
+            'avatar': getIcon(e.QQAvatar, e.mail),
+            'content': changeContent(e.comment),
+            'nick': e.nick,
+            'url': e.url + '#' + e.objectId,
+            'date': e.updatedAt,
+          }
+        })
+        saveToLocal.set('valine-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+        generateHtml(valineArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      }) 
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('valine-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "kif101001000@163.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
