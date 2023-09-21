@@ -88,3 +88,9 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: travel-index.md
+        label: travel
+        file: source\travel\index.md
+        editor:
+          preview: true
+        fields: *ref_0
